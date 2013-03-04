@@ -1,0 +1,53 @@
+--- 91 New Author 271 Balloux, Dr Francois Didier, period 1
+### NOT NEW AUTHOR
+--- 92 New Author 251 Balloux, Dr Francois Didier, period 2
+.   93 existing author 251 Dr Balloux, F.D., period 3
+
+
+--- 97 New Author 272 Barakat, Dr Maha Taysir, period 1
+### NOT NEW AUTHOR
+--- 98 New Author 252 Barakat, Dr Maha Taysir, period 2
+.   99 existing author 252 Dr Barakat, M.T., period 3
+
+--- 112 New Author 273 Barton, Dr Paul Jeremy Richard, period 1
+### NOT NEW AUTHOR
+--- 113 New Author 253 Barton, Dr Paul Jeremy Richard, period 2
+.   114 existing author 253 Dr Barton, P.J.R., period 3
+
+--- 115 New Author 274 Basanez, Dr Maria-Gloria, period 1
+### NOT NEW AUTHOR
+--- 116 New Author 254 Basanez, Dr Maria-Gloria, period 2
+.   117 existing author 254 Dr Basanez, M., period 3
+
+--- 154 New Author 275 Bishop, Dr Anne Elizabeth, period 1
+### NOT NEW AUTHOR
+--- 155 New Author 255 Bishop, Dr Anne Elizabeth, period 2
+.   156 existing author 255 Dr Bishop, A.E., period 3
+
+Blair, Dr Mitchel Eliot (Mitch)	251 duplicate id with Balloux
+.   160 existing author 251 Dr Balloux, F.D., period 1
+### NOT NEW AUTHOR
+--- 161 New Author 256 Blair, Dr Mitchel Eliot (Mitch), period 2
+.   162 existing author 256 Dr Blair, M.E., period 3
+
+
+--- 190 New Author 276 Bou-Gharios, Dr George, period 1
+### NOT NEW AUTHOR
+--- 191 New Author 257 Bou-Gharios, Dr George, period 2
+.   192 existing author 257 Dr Bou-Gharios, G., period 3
+
+
+--- 199 New Author 277 Braga, Dr Vania, period 1
+### NOT NEW AUTHOR
+--- 200 New Author 258 Braga, Dr Vania, period 2
+.   201 existing author 258 Dr Braga, V., period 3
+
+--- 223 New Author 278 Brown, Dr Susan Carol, period 1
+### NOT NEW AUTHOR
+--- 224 New Author 259 Brown, Dr Susan Carol, period 2
+.   225 existing author 259 Dr Brown, S.C., period 3
+
+--- 232 New Author 279 Buluwela, Dr Lakjaya (Laki), period 1
+### NOT NEW AUTHOR
+--- 233 New Author 260 Buluwela, Dr Lakjaya (Laki), period 2
+.   234 existing author 260 Dr Buluwela, L., period 3

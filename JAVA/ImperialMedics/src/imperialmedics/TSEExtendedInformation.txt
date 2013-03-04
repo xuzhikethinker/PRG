@@ -1,0 +1,54 @@
+Definitions of columns and terms in TSE Extended file
+
+Basically I group papers by each author, each time period.
+
+Period:-
+
+[defined in ProcessSinglePublicationCSVList#yearBoundary = {1999.5, 2002.5, 2005.5, 2008.5}
+Time periods 1,2,3 should be as defined by Vanash
+
+Time period 0 year<= 1999
+Time period 1 year = 2000, 2001, or 2002
+Time period 2 year = 2003, 2004, or 2005
+Time period 3 year = 2006, 2007, or 2008
+Time period 4 year>= 2009
+
+Extra data from Tim:-
+
+
+For each author and each time period I limit to data further using the following criteria, either separately or together:-
+
+a) All vs Solo paper vs Team paper.  A team paper is any where there are two or more authors.  Number of solo and team papers should equal the All 
+category.
+
+b) Any order vs Alpha vs NAlpha. Papers either have their authors in alphabetic (Alpha) order or not (NAlpha).  Clearly this may or may not be the reason 
+behind.  Note that when neither Alpha nor NAlpha is indicated I have kept papers regardless of the order of their authors.
+
+There are therefore 7 possible categories of paper (for solo author papers the author order is irrelevant. I have
+only given 5 with NAlphaAll and AlphaAll missing.
+
+Tim data starts from column U.
+
+First 12 Tim columns:-
+
+These are basic statistics for all papers and for team papers.  The mean is the mean number of authors on the set of papers (given author, given period, 
+all or team).  The next 5 numbers are the quartiles, so Q2 is the median.  It gives a crude sense of the distribution.
+
+Note that the only equivalent data for Solo papers is the total number of such papers, and it is given in column AS.  The column AT gives this as a 
+percentage of the author's total publications for that period.
+
+Most remaining columns (except for the two solo columns)
+
+These are grouped by different subsets of papers:- the three combinations of team paper (Any order, Alpha or NAlpha) and all papers (any order).
+In each case I give 6 columns for the absolute numbers followed by 6 for the percentages (the first 6 columns divided by the total number of papers for 
+the author that period).  The six columns are as follows:
+1) 1st - number of papers where author is first
+2) Last - number of papers where author is last and not 1st (so no.authors >=2)
+3) 2nd - number of papers where author is 2nd and not first or last (so no.authors >=3)
+4)  PenU - number of papers where author is penultimate and not 1st,2nd or last (so no.authors >=4)
+5) Other - number of papers where author is not 1st, 2nd, penultimate or last (so no.authors >=5)
+6) Total - all papers for that author in that period, should be sum of previous 5 numbers
+
+
+   No.Auth.Q3
+  No.Auth.Max

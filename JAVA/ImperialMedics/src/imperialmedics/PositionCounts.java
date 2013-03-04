@@ -33,18 +33,18 @@ class PositionCounts{
      }
      /**
       * Update counts with information from one additional paper.
-      * @param primaryAuthorPosition 1=first author, last author = numberAuthors
+      * @param primaryAuthorPosition 0=first author, last author = (numberAuthors-1)
       * @param numberAuthors number of authors on paper
       */
      public void addOnePaper(int primaryAuthorPosition, int numberAuthors){
          numberPapers++;
          if (primaryAuthorPosition==0) numberFirstAuthor++;
                     else {
-                        if (primaryAuthorPosition==numberAuthors) numberFinalAuthor++;
+                        if (primaryAuthorPosition==(numberAuthors-1)) numberFinalAuthor++;
                         else {
                             if (primaryAuthorPosition==1) numberSecondAuthor++;
                             else {
-                                if (primaryAuthorPosition==(numberAuthors-1)) numberPenultimateAuthor++;
+                                if (primaryAuthorPosition==(numberAuthors-2)) numberPenultimateAuthor++;
                                 else primaryAuthorPositionOther++;
                             }
                         }

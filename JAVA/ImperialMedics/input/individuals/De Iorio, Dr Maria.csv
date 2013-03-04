@@ -1,0 +1,28 @@
+,"Author: De Iorio, Maria",,,,,,,,,,,
+,,,,,,,,,,,,
+,"h index = 7 (Of the 21 documents considered for the h-Index, 7 have been cited at least 7 times.)",,,,,,,,,,,
+,Note: The h Index considers Scopus documents published after 1995.  ,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,<2007,2007,2008,subtotal,>2008,total
+Publication Year,Document Title,Authors,ISSN,Journal Title,Volume,Issue,37,22,68,90,68,195
+2008,"An evolutionary algorithm to find associations in dense genetic maps","Clark T.G., De Iorio M., Griffths R.C.",1089778X,"IEEE Transactions on Evolutionary Computation",12, 3,0,0,0,0,2,2
+2008,"Fregene: Simulation of realistic sequence-level data in populations and ascertained samples","Chadeau-Hyam M., Hoggart C.J., O'Reilly P.F., Whittaker J.C., De Iorio M., Balding D.J.",14712105,"BMC Bioinformatics",9, ,0,0,0,0,1,1
+2008,"Bayesian survival analysis in genetic association studies","Tachmazidou I., Andrew T., Verzilli C.J., Johnson M.R., De Iorio M.",13674803,"Bioinformatics",24, 18,0,0,0,0,0,0
+2008,"Simultaneous analysis of all SNPs in genome-wide and re-sequencing association studies","Hoggart C.J., Whittaker J.C., De Iorio M., Balding D.J.",15537390,"PLoS Genetics",4, 7,0,0,0,0,2,2
+2008,"Human metabolic phenotype diversity and its association with diet and blood pressure","Holmes E., Veselkov K.A., Daviglus M.L., Kesteloot H., Ueshima H., Zhao L., Nicholson J.K., Elliott P., Loo R.L., Stamler J., Bictash M., Yap I.K.S., Chan Q., Ebbels T., De Iorio M., Brown I.J.",00280836,"Nature",453, 7193,0,0,15,15,25,40
+2008,"Conserved mosquito/parasite interactions affect development of Plasmodium falciparum in Africa","Mendes A.M., Vlachou D., Schlegelmilch T., Cohuet A., Awono-Ambene P., De Iorio M., Fontenille D., Morlais I., Christophides G.K., Kafatos F.C.",15537366,"PLoS Pathogens",4, 5,0,0,3,3,1,4
+2008,"Genome-wide significance for dense SNP and resequencing data","Hoggart C.J., Clark T.G., De Iorio M., Whittaker J.C., Balding D.J.",07410395,"Genetic Epidemiology",32, 2,0,0,7,7,10,17
+2007,"Sequence-level population simulations over large genomic regions","Hoggart C.J., Chadeau-Hyam M., Clark T.G., Lampariello R., Whittaker J.C., De Iorio M., Balding D.J.",00166731,"Genetics",177, 3,0,0,10,10,6,16
+2007,"Genetic association mapping via evolution-based clustering of haplotypes.","Tachmazidou I., Verzilli C.J., De Iorio M.",15537404,"PLoS genetics",3, 7,0,0,2,2,0,2
+2007,"Genetic association mapping via evolution-based clustering of haplotypes","Tachmazidou I., Verzilli C.J., De Iorio M.",15537390,"PLoS Genetics",3, 7,0,0,3,3,0,3
+2007,"A spatial probit model for fine-scale mapping of disease genes","De Iorio M., Verzilli C.J.",07410395,"Genetic Epidemiology",31, 3,0,0,1,1,1,2
+2007,"Bayesian logistic regression using a perfect phylogeny","Clark T.G., De Iorio M., Griffiths R.C.",14654644,"Biostatistics",8, 1,0,1,2,3,2,5
+2005,"Finding associations in dense genetic maps: A genetic algorithm approach","Clark T.G., De Iorio M., Griffiths R.C., Farrall M.",00015652,"Human Heredity",60, 2,1,1,2,3,2,6
+2005,"Intrinsic autoregressions at multiple resolutions","De Iorio M., Lavine M.",03783758,"Journal of Statistical Planning and Inference",134, 1,0,0,0,0,0,0
+2005,"Recombination hotspots as a point process","De Iorio M., De Silva E., Stumpf M.P.H.",09628436,"Philosophical Transactions of the Royal Society B: Biological Sciences",360, 1460,1,0,0,0,1,2
+2005,"Stepwise mutation likelihood computation by sequential importance sampling in subdivided population models","De Iorio M., Griffiths R.C., Leblois R., Rousset F.",00405809,"Theoretical Population Biology",68, 1,2,4,0,4,1,7
+2005,"A nonparametric Bayesian model for inference in related longitudinal studies","Muller P., Rosner G.L., De Iorio M., MacEachern S.",00359254,"Journal of the Royal Statistical Society. Series C: Applied Statistics",54, 3,2,0,1,1,0,3
+2004,"Optimal bayesian design by inhomogeneous Markov chain simulation","Muller P., Sanso B., De Iorio M.",01621459,"Journal of the American Statistical Association",99, 467,5,3,5,8,6,19
+2004,"Importance sampling on coalescent histories. I","De Iorio M., Griffiths R.C.",00018678,"Advances in Applied Probability",36, 2,8,3,4,7,0,15
+2004,"Importance sampling on coalescent histories. II: Subdivided population models","De Iorio M., Griffiths R.C.",00018678,"Advances in Applied Probability",36, 2,9,1,4,5,0,14
+2004,"An ANOVA Model for Dependent Random Measures","De Iorio M., Muller P., Rosner G.L., MacEachern S.N.",01621459,"Journal of the American Statistical Association",99, 465,9,9,9,18,8,35

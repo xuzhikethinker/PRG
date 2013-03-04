@@ -1,0 +1,135 @@
+stata10
+-------
+
+lines 26,27,28
+Alberti, Professor George G M M A
+changed to
+Alberti, Professor K G M M A (George)
+Also changed name of individual file.
+Also added Authors entry to individual file
+
+INDIVIDUAL FILES
+----------------
+
+added line
+Authors: Allen-Mersh, Timothy G.;Allen Mersh, Timothy G.
+to
+Allen-Mersh, Professor Timothy G..csv
+
+Anstee, Dr Quentin Mark
+Name of individual file had no comma after surname, comma added
+
+
+Individual file added line as Becca name used in authorships (??? use bracketed name to provide alternative)
+Author: Asquith, Rebecca Emma; Asquith, Becca
+
+Individual file
+Atkin, Professor Wendy S.xlsx
+appears to be for
+Ashcroft F.M.
+Have renamed file, need Atkins's data
+
+
+Alton, E.W.
+row 156 Gene therapy: The case of cystic fibrosis
+added correct authors
+
+
+added line
+Authors: Bottle, Robert Alex; Bottle, Alex
+to bottle's file
+Bottle, Dr Robert Alex (Alex).csv
+
+
+added line
+Authors: Chung, Kian Fan; Chung, Fan; Fan Chung, K.
+to
+Chung, Professor Kian Fan (Fan).csv
+
+added line
+Authors: Brooks, David J.; Brooks, D. J.;Brooks David
+NOTE last one will be treated as multi part surname but some pubs listed exactly as this
+to
+Brooks, Professor David James MD, DSc, FRCP, FMedSci.csv
+
+added line
+Author: Basáñez, Maria Gloria; Basanez, Maria Gloria
+to
+Basanez, Dr Maria-Gloria.csv
+
+added line
+Author: Cook, H. T.; Cook, T.
+to
+Cook, Professor Herbert Terence (Terence).csv
+
+added line
+Author: De Silva, Dr Pettahandige Esalakumar Ranil; De Silva, R.
+to
+De Silva, Dr Pettahandige Esalakumar Ranil,csv
+
+added line
+Author: Durham, Professor Stephen Reginald;Durham, S.
+to
+Durham, Professor Stephen Reginald.csv
+
+
+added line
+Author: Dyson, Professor Peter Julian;Dyson, J.
+to
+Dyson, Professor Peter Julian.csv
+
+added line
+Author: Garralda Hualde, Professor Maria Elena;Garralda, Maria Elena;Garralda, Elena Maria;Garralda, Elena
+to
+Garralda Hualde, Professor Maria Elena
+
+added line
+Author: Gründling, Angelika;Grundling, A.
+to
+Grundling, Dr Angelika.csv
+
+
+Author: Hughes, Alun D.;Hughes Alun, D.
+
+Author: Itoh, Dr Yoshifumi; Itoh Yoshifumi
+
+
+added line
+Authors: Järvelin, Marjo Ritta; Jarvelin, Marjo Riitta
+to
+
+added line
+Author: Kelleher, Dr William Peter; Kelleher, Peter
+to
+Kelleher, Dr William Peter.csv
+
+changed line
+Author: Levicar, Dr Natasa
+to
+Levicar, Dr Natasa.csv
+
+added line
+Author: Marin Costa, Dr David;Marin, D.
+to
+Marin Costa, Dr David (David).csv
+
+added line
+Author: Meeran, Professor Mohammed Karim;Meeran, Karim
+to
+Meeran, Professor Mohammed Karim (Karim).csv
+
+
+added line
+Author: Newman Taylor, Anthony J.;Newman Taylor, A.;Newman-Taylor, A. J.
+to
+Newman Taylor, Professor Sir Anthony J CBE, FMedSci.csv
+
+added line
+Author: Swain, Professor Paul C; Swain, C. P.;Swain, P.
+to
+Swain, Professor Paul C.csv
+
+added line
+Author: Warner, Jill Amanda;
+to
+Warner, Dr Jill Amanda.csv

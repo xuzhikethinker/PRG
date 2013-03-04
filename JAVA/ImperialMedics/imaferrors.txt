@@ -1,0 +1,699 @@
+--- Repeated surnames Alberti found on following rows:-
+---  28 ---
+--- Repeated surnames Anand found on following rows:-
+---  10
+---  11
+---  12
+---  14
+---  20
+---  24
+---  30
+---  34
+---  44
+---  70
+---  79 ---
+!!! Excel Row 34, surname ends in first name found and dealt with for Ariff, B.B., title is Accuracy of three-dimensional ultrasound reconstruction in a clinical environment
+!!! Excel Row 35, surname ends in first name found and dealt with for Ariff, B.B., title is Quantitative measures of carotid disease from three-dimensional ultrasound images
+!!!
+!!! 2 warnings found for author Ariff, B.B.
+!!!
+!!! Individual file author Ashby, D. is not exactly equal to all file author Dr Ashby, D.R. (4)
+--- Repeated surnames Ashcroft found on following rows:-
+---  133
+---  157
+---  158
+---  168
+---  185
+---  198
+---  201
+---  206
+---  214
+---  215
+---  226
+---  228
+---  237
+---  238
+---  243
+---  244
+---  247
+---  250
+---  251
+---  253 ---
+### Individual file author Ashcroft, F.M. can not be found in all author file
+--- Repeated surnames Athanasiou found on following rows:-
+---  72 ---
+!!! Individual file author Aylin, P. is not exactly equal to all file author Dr Aylin, P.P. (248)
+!!! Excel Row 100, surname ends in first name found and dealt with for Dr Bain, P.G., title is Automotive glazing is still a contentious issue
+!!!
+!!! 1 warnings found for author Dr Bain, P.G.
+!!!
+--- Repeated surnames Bain found on following rows:-
+---  130 ---
+!!! Individual file author Balloux, F. is not exactly equal to all file author Dr Balloux, F.D. (271)
+!!! Excel Row 576, surname ends in first name found and dealt with for Professor Barnes, P.J., title is Towards a solid-state detector response function for AXAF calibration
+--- Repeated surnames Barnes found on following rows:-
+---  527
+---  547
+---  548
+---  551
+---  577
+---  580
+---  686
+---  694
+---  695
+---  697
+---  784
+---  1080 ---
+!!!
+!!! 1 warnings found for author Professor Barnes, P.J.
+!!!
+!!! Individual file author Professor Barnes, P.J. is not exactly equal to all file author Professor Barnes, P.J.F. (331)
+--- Repeated surnames Barnes found on following rows:-
+---  12 ---
+!!! Individual file author Bentley, P.A. is not exactly equal to all file author Dr Bentley, P. (121)
+--- Repeated surnames Blair found on following rows:-
+---  42 ---
+!!! Individual file author Blair, M. is not exactly equal to all file author Dr Blair, M.E. (251)
+!!! Individual file author Blane, D.B. is not exactly equal to all file author Professor Blane, D. (337)
+--- Repeated surnames Bloom found on following rows:-
+---  305
+---  394 ---
+!!! Individual file author Botto, M.B. is not exactly equal to all file author Professor Botto, M. (340)
+--- Repeated surnames Boyle found on following rows:-
+---  45 ---
+!!! Excel Row 73, surname ends in first name found and dealt with for Briggs, D.J., title is LOG BUCKING AND LUMBER MANUFACTURING USING DYNAMIC PROGRAMMING.
+!!!
+!!! 1 warnings found for author Briggs, D.J.
+!!!
+--- Repeated surnames Brosens found on following rows:-
+---  9
+---  10
+---  11
+---  13
+---  19
+---  25
+---  29
+---  37
+---  47
+---  49
+---  54
+---  56
+---  58
+---  60
+---  62
+---  64
+---  69
+---  71
+---  72
+---  73
+---  74 ---
+--- Repeated surnames Brown found on following rows:-
+---  28 ---
+--- Repeated surnames Car found on following rows:-
+---  13
+---  16 ---
+--- Repeated surnames Chambers found on following rows:-
+---  80 ---
+!!! Individual file author Clark, P.C. is not exactly equal to all file author Dr Clark, P. (137)
+--- Repeated surnames Collins found on following rows:-
+---  46 ---
+!!! Individual file author Collins, P.D. is not exactly equal to all file author Professor Collins, P. (353)
+!!! Individual file author Cook, S.A. is not exactly equal to all file author Dr Cook, S. (138)
+--- Repeated surnames Cook found on following rows:-
+---  54 ---
+--- Repeated surnames Cooke found on following rows:-
+---  23 ---
+!!! Individual file author Professor Cookson, W.O.C. is not exactly equal to all file author Professor Cookson, W.O.C.D. (355)
+--- Repeated surnames Coombes found on following rows:-
+---  122
+---  157 ---
+!!! Excel Row 90, surname ends in first name found and dealt with for Professor Cosgrove, D.O., title is Clinical applications of Levovist
+!!! Excel Row 95, surname ends in first name found and dealt with for Professor Cosgrove, D.O., title is Morphological analysis of colour Doppler in the diagnosis of breast lesions
+!!!
+!!! 2 warnings found for author Professor Cosgrove, D.O.
+!!!
+!!! Excel Row 124, surname ends in first name found and dealt with for Cullinan, P., title is Respiratory sensitisation by chemical agents
+!!!
+!!! 1 warnings found for author Cullinan, P.
+!!!
+--- Repeated surnames Davies found on following rows:-
+---  15
+---  53
+---  54
+---  57
+---  58
+---  68
+---  71
+---  73
+---  74
+---  84
+---  86 ---
+!!! Excel Row 81, surname ends in first name found and dealt with for Professor Davies, A.H., title is Accuracy of three-dimensional ultrasound reconstruction in a clinical environment
+!!! Excel Row 82, surname ends in first name found and dealt with for Professor Davies, A.H., title is Quantitative measures of carotid disease from three-dimensional ultrasound images
+--- Repeated surnames Davies found on following rows:-
+---  131 ---
+!!!
+!!! 2 warnings found for author Professor Davies, A.H.
+!!!
+--- Repeated surnames Davies found on following rows:-
+---  9 ---
+!!! Individual file author de Belleroche, J. is not exactly equal to all file author Professor de Belleroche, J.S. (367)
+!!! Individual file author Dickinson, R.J. is not exactly equal to all file author Dr Dickinson, R. (29)
+!!! Individual file author Edison, P.N. is not exactly equal to all file author Dr Edison, P. (146)
+!!! Excel Row 79, surname ends in first name found and dealt with for Dr Edwards, P.J., title is Intrinsic speckle noise in in-line particle holography due to poly-disperse and continuous particle sizes
+!!!
+!!! 1 warnings found for author Dr Edwards, P.J.
+!!!
+--- Repeated surnames Edwards found on following rows:-
+---  42
+---  70 ---
+--- Repeated surnames Elliott found on following rows:-
+---  17
+---  30 ---
+!!! Individual file author Elliott, P.M. is not exactly equal to all file author Professor Elliott, P. (374)
+!!! Individual file author Fenwick, A.J. is not exactly equal to all file author Professor Fenwick, A. (378)
+!!! Individual file author Ferenczi, M.A. is not exactly equal to all file author Professor Ferenczi, M.A.B.S. (379)
+!!! Individual file author Festenstein, R. is not exactly equal to all file author Professor Festenstein, R.J. (381)
+!!! Excel Row 94, surname ends in first name found and dealt with for Firmin, D.M., title is Flow pattern in distal aorta determined by flow from aortic arch
+!!!
+!!! 1 warnings found for author Firmin, D.M.
+!!!
+!!! Individual file author Fisher, B.A. is not exactly equal to all file author Dr Fisher, B.A.C. (38)
+!!! Individual file author Fisher, M.C. is not exactly equal to all file author Dr Fisher, M. (152)
+!!! Individual file author Frost, G.S. is not exactly equal to all file author Professor Frost, G. (387)
+!!! Individual file author Gabra, H.O.S. is not exactly equal to all file author Professor Gabra, H. (388)
+!!! Excel Row 23, surname ends in first name found and dealt with for Dr Game, D.S., title is Improvements for the next generation of FDDI
+!!! Excel Row 24, surname ends in first name found and dealt with for Dr Game, D.S., title is Performance analysis of high speed network protocols FDDI at GIGABIT SPEEDS
+!!!
+!!! 2 warnings found for author Dr Game, D.S.
+!!!
+--- Repeated surnames Ghaem Maghami found on following rows:-
+---  16 ---
+--- Repeated surnames Gibbs found on following rows:-
+---  37
+---  41
+---  45
+---  51
+---  56 ---
+!!! Individual file author Gilks, C. is not exactly equal to all file author Professor Gilks, C.F. (394)
+--- Repeated surnames Goldin found on following rows:-
+---  87 ---
+!!! Individual file author Goodfellow, I.G. is not exactly equal to all file author Dr Goodfellow, I. (161)
+!!! Individual file author Gorelik, J.V. is not exactly equal to all file author Dr Gorelik, J. (42)
+--- Repeated surnames Gregory Evans found on following rows:-
+---  10
+---  11
+---  12
+---  13
+---  15
+---  16
+---  17
+---  19
+---  20
+---  21
+---  22
+---  23
+---  24
+---  25
+---  28
+---  29
+---  31
+---  32
+---  33
+---  34
+---  35
+---  36
+---  39
+---  40 ---
+!!! Individual file author Gregson, S.A.J. is not exactly equal to all file author Professor Gregson, S. (399)
+!!! Individual file author Grimm, S. is not exactly equal to all file author Professor Grimm, S.W. (401)
+!!! Individual file author Groves, A.M.M. is not exactly equal to all file author Dr Groves, A. (165)
+!!! Individual file author Professor Habib, N.A. is not exactly equal to all file author Professor Habib, N.A.C. (402)
+--- Repeated surnames Hagberg found on following rows:-
+---  16
+---  104
+---  106
+---  198 ---
+!!! Individual file author Hagberg, H. is not exactly equal to all file author Professor Hagberg, H.E.G. (403)
+--- Repeated surnames Harding found on following rows:-
+---  96 ---
+!!! Individual file author Haynes, K.A. is not exactly equal to all file author Professor Haynes, K. (408)
+--- Repeated surnames Hodes found on following rows:-
+---  122
+---  128 ---
+!!! Individual file author Holden, D.W. is not exactly equal to all file author Professor Holden, D.W.F. (412)
+!!! Individual file author Holmes, E.C. is not exactly equal to all file author Professor Holmes, E. (413)
+!!! Individual file author Hooper, R.J.L. is not exactly equal to all file author Dr Hooper, R. (49)
+!!! Excel Row 130, surname ends in first name found and dealt with for Dr Itoh, Y., title is Photochemistry of amphiphilic copolymers: fluorescence spectra of copolymers of 1-(2-naphthyl)ethyl methacrylate and sodium 2-acrylamido-2-methylpropanesulfonate in solution
+!!! Excel Row 152, surname ends in first name found and dealt with for Dr Itoh, Y., title is POLYELECTROLYTES CONTAINING DIHYDRONICOTINAMIDE. III. FLUORESCENCE QUENCHING BY NICOTINAMIDE-CONTAINING POLYMERS IN AQUEOUS SOLUTION.
+!!! Excel Row 153, surname ends in first name found and dealt with for Dr Itoh, Y., title is POLYELECTROLYTE CONTAINING DIHYDRONICOTINAMIDE. II: INTERACTION OF POLYMER AND SUBSTRATE.
+!!! Excel Row 154, surname ends in first name found and dealt with for Dr Itoh, Y., title is POLYELECTROLYTES CONTAINING DIHYDRONICOTINAMIDE I. ELECTROSTATIC EFFECT ON THE REDUCTION IN AQUEOUS SOLUTION.
+!!! Excel Row 164, surname ends in first name found and dealt with for Dr Itoh, Y., title is AMPHIPHILIC COPOLYMERS CONSISTING OF VINYLPHENANTHRENE AND CATIONIC SEGMENTS. FLUORESCENCE QUENCHING BY AMPHIPHILIC QUENCHERS IN AQUEOUS MEDIA.
+!!! Excel Row 165, surname ends in first name found and dealt with for Dr Itoh, Y., title is AMPHIPHILIC BLOCK COPOLYMER OF 9-VINYLPHENANTHRENE AND METHACRYLIC ACID: FLUORESCENCE QUENCHING OF PHENANTHRENE RESIDUE IN AQUEOUS MEDIUM.
+!!! Excel Row 166, surname ends in first name found and dealt with for Dr Itoh, Y., title is SYNTHESES OF AMPHIPHILIC BLOCK COPOLYMERS - BLOCK COPOLYMERS OF METHACRYLIC ACID AND p-N,N-DIMETHYLAMINOSTYRENE.
+!!! Excel Row 167, surname ends in first name found and dealt with for Dr Itoh, Y., title is AMPHIPHILIC COPOLYMERS OF SOME AROMATIC VINYL COMPOUNDS AND AN ELECTROLYTIC MONOMER AS POTENTIAL MEDIA FOR PHOTOSENSITIZED ELECTRON TRANSFER: FLUORESCENCE QUENCHING BY AN AMPHIPHILIC ELECTRON ACCEPTOR IN AQUEOUS MEDIA.
+--- Repeated surnames Itoh found on following rows:-
+---  74 ---
+!!!
+!!! 8 warnings found for author Dr Itoh, Y.
+!!!
+!!! Individual file author Jarvis, D. is not exactly equal to all file author Dr Jarvis, D.L. (257)
+--- Repeated surnames Johnston found on following rows:-
+---  108
+---  124
+---  128
+---  136 ---
+--- Repeated surnames Johnston found on following rows:-
+---  52
+---  55
+---  75 ---
+!!! Individual file author Jones, M.D. is not exactly equal to all file author Dr Jones, M. (51)
+!!! Individual file author Keun, H.C. is not exactly equal to all file author Dr Keun, H. (52)
+--- Repeated surnames Kneebone found on following rows:-
+---  65
+---  68 ---
+--- Repeated surnames Kudo found on following rows:-
+---  8
+---  10 ---
+!!! Individual file author Lalvani, A. is not exactly equal to all file author Professor Lalvani, A.D. (426)
+!!! Individual file author Laruelle, M.A. is not exactly equal to all file author Professor Laruelle, M. (429)
+!!! Individual file author Professor Leen, E.L.S. is not exactly equal to all file author Professor Leen, E.L.S.B.F. (431)
+--- Repeated surnames Leff found on following rows:-
+---  37
+---  38
+---  39
+---  40
+---  41
+---  42
+---  43
+---  45 ---
+--- Repeated surnames Levin found on following rows:-
+---  301
+---  302 ---
+!!! Individual file author Levin, M.E. is not exactly equal to all file author Professor Levin, M. (432)
+--- Repeated surnames Li found on following rows:-
+---  9
+---  15
+---  17
+---  26
+---  28
+---  30
+---  33
+---  34
+---  35
+---  36
+---  37
+---  38
+---  42
+---  49
+---  55
+---  58
+---  63
+---  65
+---  66
+---  71
+---  74
+---  88
+---  91
+---  97
+---  98
+---  102
+---  105
+---  107
+---  108
+---  111
+---  115
+---  116
+---  117
+---  124
+---  126
+---  129
+---  133
+---  134
+---  136
+---  138
+---  139 ---
+!!! Individual file author Lingford Hughes, A. is not exactly equal to all file author Professor Lingford Hughes, A.R.B. (434)
+--- Repeated surnames Ma found on following rows:-
+---  16
+---  34
+---  40
+---  60
+---  91
+---  103 ---
+### Individual file author Majeed, A. can not be found in all author file
+!!! Individual file author Marston, S. is not exactly equal to all file author Professor Marston, S.B. (440)
+!!! Excel Row 355, surname ends in first name found and dealt with for Mathias, C.J., title is POSITRON TOMOGRAPHIC IMAGING OF THE LIVER WITH Ga-68 IRON HYDROXIDE COLLOID.
+!!!
+!!! 1 warnings found for author Mathias, C.J.
+!!!
+!!! Individual file author Mathias, C.J. is not exactly equal to all file author Professor Mathias, C.J.D. (442)
+!!! Individual file author Dr McGregor, A.H. is not exactly equal to all file author Dr McGregor, A.H.M.M. (299)
+--- Repeated surnames Molitor found on following rows:-
+---  8
+---  9
+---  11
+---  12 ---
+!!! Excel Row 146, surname ends in first name found and dealt with for Dr Moore, D.A., title is FIELD TEST AND EVALUATION OF RESIDENTIAL SPRINKLER SYSTEMS.
+!!! Excel Row 148, surname ends in first name found and dealt with for Dr Moore, D.A., title is REMOTE DETECTION AND ALARM FOR RESIDENCES: THE WOODLANDS SYSTEM.
+--- Repeated surnames Moore found on following rows:-
+---  100 ---
+!!!
+!!! 2 warnings found for author Dr Moore, D.A.
+!!!
+--- Repeated surnames Muller found on following rows:-
+---  28
+---  58 ---
+!!! Excel Row 375, surname ends in first name found and dealt with for Professor Nicholson, J.K., title is Measurement of internal acyl migration reaction kinetics using directly coupled HPLC-NMR: Applications for the positional isomers of synthetic (2-fluorobenzoyl)-D-glucopyranuronic acid
+!!!
+!!! 1 warnings found for author Professor Nicholson, J.K.
+!!!
+!!! Excel Row 126, surname ends in first name found and dealt with for Professor Parker, M.G., title is Improving the performance of a glass tube variable area flowmeter
+--- Repeated surnames Parker found on following rows:-
+---  61 ---
+!!!
+!!! 1 warnings found for author Professor Parker, M.G.
+!!!
+--- Repeated surnames Partridge found on following rows:-
+---  87 ---
+!!! Excel Row 140, surname ends in first name found and dealt with for Professor Peters, N.S., title is Confocal scanning laser microscopy applied to quantify gap junction expression and discriminate different connexin isoforms
+!!!
+!!! 1 warnings found for author Professor Peters, N.S.
+!!!
+--- Repeated surnames Poulter found on following rows:-
+---  195
+---  230 ---
+--- Repeated surnames Purkayastha found on following rows:-
+---  39 ---
+!!! Excel Row 117, surname ends in first name found and dealt with for Professor Richardson, S., title is ON THE VARIANCE OF THE SAMPLE CORRELATION BETWEEN TWO INDEPENDENT LATTICE PROCESSES.
+--- Repeated surnames Richardson found on following rows:-
+---  47 ---
+!!!
+!!! 1 warnings found for author Professor Richardson, S.
+!!!
+--- Repeated surnames Rogers found on following rows:-
+---  8 ---
+--- Repeated surnames Rose found on following rows:-
+---  34 ---
+--- Repeated surnames Rutter found on following rows:-
+---  36 ---
+--- Repeated surnames Seckl found on following rows:-
+---  85 ---
+!!! Excel Row 138, surname ends in first name found and dealt with for Severs, N.J., title is Confocal scanning laser microscopy applied to quantify gap junction expression and discriminate different connexin isoforms
+!!! Excel Row 139, surname ends in first name found and dealt with for Severs, N.J., title is Freeze-fracture cytochemistry: a goal set by Russell Steere in 1957
+!!!
+!!! 2 warnings found for author Severs, N.J.
+!!!
+--- Repeated surnames Sharma found on following rows:-
+---  40 ---
+!!! Individual file author Shovlin, C.L.L. is not exactly equal to all file author Dr Shovlin, C.L. (225)
+--- Repeated surnames Skinner found on following rows:-
+---  101 ---
+!!! Excel Row 20, surname ends in first name found and dealt with for Smith, S.F., title is Kinematic predictions in large shallow water waves
+--- Repeated surnames Smith found on following rows:-
+---  24
+---  25
+---  30 ---
+!!!
+!!! 1 warnings found for author Smith, S.F.
+!!!
+!!! Individual file author Smith, G.L. is not exactly equal to all file author Professor Smith, G.L.F.F. (491)
+--- Repeated surnames Smith found on following rows:-
+---  26 ---
+!!! Individual file author Spratt, B.G. is not exactly equal to all file author Professor Spratt, B.G.F. (493)
+!!! Individual file author Stamp, G.W.H. is not exactly equal to all file author Professor Stamp, G.W. (495)
+!!! Individual file author Stebbing, J.F. is not exactly equal to all file author Dr Stebbing, J. (230)
+--- Repeated surnames Sugden found on following rows:-
+---  108
+---  111
+---  113
+---  128
+---  131
+---  156
+---  163 ---
+--- Repeated surnames Taylor found on following rows:-
+---  41
+---  61
+---  67 ---
+--- Repeated surnames Taylor found on following rows:-
+---  24
+---  37 ---
+--- Repeated surnames Taylor Robinson found on following rows:-
+---  52 ---
+!!! Individual file author Terzidou, V. is not exactly equal to all file author Dr Terzidou, V.I. (93)
+!!! Excel Row 102, surname ends in first name found and dealt with for Thom, S.M.C.G., title is Accuracy of three-dimensional ultrasound reconstruction in a clinical environment
+!!! Excel Row 103, surname ends in first name found and dealt with for Thom, S.M.C.G., title is Quantitative measures of carotid disease from three-dimensional ultrasound images
+!!! Excel Row 104, surname ends in first name found and dealt with for Thom, S.M.C.G., title is Segmentation of retinal blood vessels based on the second directional derivative and region growing
+!!!
+!!! 3 warnings found for author Thom, S.M.C.G.
+!!!
+!!! Individual file author Thom, S.M.C.G. is not exactly equal to all file author Professor Thom, S.A.M. (503)
+!!! Individual file author Trapp, S.A.J. is not exactly equal to all file author Dr Trapp, S. (236)
+--- Repeated surnames Tyrer found on following rows:-
+---  249
+---  292
+---  321
+---  322
+---  462 ---
+!!! Individual file author Udalova, I.A. is not exactly equal to all file author Dr Udalova, I. (96)
+!!! Individual file author Venables, P.J.W. is not exactly equal to all file author Professor Venables, P.J. (510)
+!!! Individual file author Wang, J. is not exactly equal to all file author Dr Wang, J.E.H. (99)
+--- Repeated surnames Warner found on following rows:-
+---  8
+---  9
+---  10
+---  11
+---  12
+---  13
+---  14
+---  15
+---  17
+---  18
+---  19
+---  24
+---  25
+---  26
+---  27
+---  28
+---  29
+---  30
+---  31
+---  32
+---  33
+---  35
+---  36
+---  37
+---  38
+---  39
+---  41
+---  42
+---  43
+---  44
+---  46
+---  47
+---  48
+---  49
+---  50
+---  51
+---  52
+---  55
+---  56
+---  58
+---  59
+---  63
+---  64
+---  66
+---  67
+---  69
+---  70
+---  71
+---  72 ---
+--- Repeated surnames Warner found on following rows:-
+---  16
+---  21
+---  52
+---  67
+---  72
+---  76
+---  77
+---  79
+---  87
+---  101
+---  104
+---  105
+---  119
+---  121
+---  122
+---  124
+---  128
+---  129
+---  133
+---  135
+---  138
+---  139
+---  150
+---  154
+---  159
+---  161
+---  162
+---  169
+---  177
+---  180
+---  182
+---  190
+---  196
+---  197
+---  203
+---  204
+---  206
+---  207
+---  218
+---  221
+---  223
+---  224
+---  230
+---  233
+---  260
+---  261
+---  263
+---  270
+---  273
+---  275 ---
+!!! Individual file author Watt, F.M. is not exactly equal to all file author Dr Watt, F.E. (101)
+--- Repeated surnames Webster found on following rows:-
+---  9
+---  24 ---
+--- Repeated surnames Wells found on following rows:-
+---  20
+---  35
+---  44
+---  45
+---  48
+---  49
+---  53
+---  55
+---  61
+---  66
+---  71
+---  72
+---  75
+---  76
+---  78
+---  82
+---  87
+---  90 ---
+!!! Individual file author Wigneshweraraj, S.R. is not exactly equal to all file author Dr Wigneshweraraj, S. (103)
+--- Repeated surnames Wilkinson found on following rows:-
+---  9
+---  12
+---  14
+---  15
+---  17
+---  19
+---  28
+---  36
+---  37
+---  38
+---  39
+---  40
+---  42
+---  44
+---  48
+---  50
+---  51
+---  53
+---  55
+---  57
+---  60
+---  62
+---  63
+---  67
+---  72
+---  73
+---  76
+---  81
+---  84
+---  88 ---
+--- Repeated surnames Williams found on following rows:-
+---  69
+---  71
+---  75
+---  76
+---  77 ---
+!!! Excel Row 182, surname ends in first name found and dealt with for Professor Williams, G.R., title is INDUSTRY'S LINEAR SOLUTION.
+!!! Excel Row 183, surname ends in first name found and dealt with for Professor Williams, G.R., title is MOLECULAR DYNAMICS OF A SMECTIC LIQUID-CRYSTALLINE SIDE-CHAIN POLYMER. THE DIELECTRIC PROPERTIES OF ALIGNED AND NONALIGNED MATERIAL STUDIED OVER A WIDE RANGE OF FREQUENCY AND TEMPERATURE.
+--- Repeated surnames Williams found on following rows:-
+---  15
+---  19
+---  22
+---  28
+---  34
+---  36
+---  54
+---  58
+---  96
+---  114
+---  162 ---
+!!!
+!!! 2 warnings found for author Professor Williams, G.R.
+!!!
+!!! Excel Row 89, surname ends in first name found and dealt with for Professor Williams, T.J., title is Videonet and voicenet concepts help the realization of interactive video and audio on the internet
+!!! Excel Row 104, surname ends in first name found and dealt with for Professor Williams, T.J., title is What you need to know about NAS
+!!! Excel Row 251, surname ends in first name found and dealt with for Professor Williams, T.J., title is Electron channelling effect in an Al-Fe-Cu quasicrystal
+--- Repeated surnames Williams found on following rows:-
+---  27
+---  117
+---  128
+---  168
+---  171
+---  178
+---  185
+---  194
+---  209
+---  212
+---  226
+---  243 ---
+!!!
+!!! 3 warnings found for author Professor Williams, T.J.
+!!!
+--- Repeated surnames Wood found on following rows:-
+---  136 ---
+!!! Individual file author Ying, L.M. is not exactly equal to all file author Dr Ying, L. (109)
+--- Repeated surnames Young found on following rows:-
+---  17
+---  43
+---  140
+---  154
+---  178
+---  185
+---  188
+---  189
+---  200
+---  202 ---
+*** Excel Row 20, equal quality match to primary author Zacharakis, E., title is Surgical intervention for gastrointestinal foreign bodies in adults: A case series
+***                             matched author 1=Zacharakis, E.
+***                             matched author 3=Zacharakis, E.
+*** Excel Row 21, equal quality match to primary author Zacharakis, E., title is Surgical repair of idiopathic scrotal elephantiasis.
+***                             matched author 0=Zacharakis, E.
+***                             matched author 2=Zacharakis, E.
+*** Excel Row 23, equal quality match to primary author Zacharakis, E., title is Effect of IGF-I on Healing of Colonic Anastomoses in Rats Under 5-FU Treatment
+***                             matched author 0=Zacharakis, E.
+***                             matched author 4=Zacharakis, E.
+*** Excel Row 24, equal quality match to primary author Zacharakis, E., title is An unusual presentation of Meckel diverticulum as strangulated femoral hernia
+***                             matched author 0=Zacharakis, E.
+***                             matched author 4=Zacharakis, E.
+*** Excel Row 34, equal quality match to primary author Zacharakis, E., title is Incarcerated Spigelian hernia: A case report
+***                             matched author 0=Zacharakis, E.
+***                             matched author 3=Zacharakis, E.
+--- Repeated surnames Zacharakis found on following rows:-
+---  20
+---  21
+---  23
+---  24
+---  34 ---
+***
+*** 5 errors found for author (all variants):-
+*** Zacharakis, E.
+***
+--- Repeated surnames Zhao found on following rows:-
+---  18 ---

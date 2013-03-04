@@ -1,0 +1,1590 @@
+--- Running ImperialMedics.ProcessAllAuthorFile from runimallfiles.bat
+********************
+Processing all author data XLS file input\Stata10networkspreadsheetfinalsorted.xls
+Label row 0, full name column 0, id column 1, period column 2, number of data columns 18
+--- 1 New Author 313 Abel, Professor Paul David, period 1
+.   2 existing author 313 Professor Abel, P.D., period 2
+.   3 existing author 313 Professor Abel, P.D., period 3
+--- 4 New Author 314 Aboagye, Professor Eric Ofori, period 1
+.   5 existing author 314 Professor Aboagye, E.O., period 2
+.   6 existing author 314 Professor Aboagye, E.O., period 3
+--- 7 New Author 112 Abraham, Dr Sonya Marie, period 1
+.   8 existing author 112 Dr Abraham, S.M., period 2
+.   9 existing author 112 Dr Abraham, S.M., period 3
+--- 10 New Author 315 Adcock, Professor Ian Michael, period 1
+.   11 existing author 315 Professor Adcock, I.M., period 2
+.   12 existing author 315 Professor Adcock, I.M., period 3
+--- 13 New Author 113 Agarwal, Dr Roshan, period 1
+.   14 existing author 113 Dr Agarwal, R., period 2
+.   15 existing author 113 Dr Agarwal, R., period 3
+--- 16 New Author 1 Aggarwal, Mr Rajesh, period 1
+.   17 existing author 1 Mr Aggarwal, R., period 2
+.   18 existing author 1 Mr Aggarwal, R., period 3
+--- 19 New Author 114 Agranoff, Dr Daniel David, period 1
+.   20 existing author 114 Dr Agranoff, D.D., period 2
+.   21 existing author 114 Dr Agranoff, D.D., period 3
+--- 22 New Author 115 Ahmed, Mr Ahmed Rashid, period 1
+.   23 existing author 115 Mr Ahmed, A.R., period 2
+.   24 existing author 115 Mr Ahmed, A.R., period 3
+--- 25 New Author 316 Alberti, Professor George G M M A, period 1
+.   26 existing author 316 Professor Alberti, G.G.M.M.A., period 2
+.   27 existing author 316 Professor Alberti, G.G.M.M.A., period 3
+--- 28 New Author 317 Ali, Professor Simak, period 1
+.   29 existing author 317 Professor Ali, S., period 2
+.   30 existing author 317 Professor Ali, S., period 3
+--- 31 New Author 318 Allday, Professor Martin John, period 1
+.   32 existing author 318 Professor Allday, M.J., period 2
+.   33 existing author 318 Professor Allday, M.J., period 3
+--- 34 New Author 319 Allen-Mersh, Professor Timothy G., period 1
+.   35 existing author 319 Professor Allen-Mersh, T.G., period 2
+.   36 existing author 319 Professor Allen-Mersh, T.G., period 3
+--- 37 New Author 320 Altmann, Professor Daniel Martin (Danny), period 1
+.   38 existing author 320 Professor Altmann, D.M., period 2
+.   39 existing author 320 Professor Altmann, D.M., period 3
+--- 40 New Author 321 Alton, Professor Eric Walter Frederick Wolfgang FMedSci, period 1
+.   41 existing author 321 Professor Alton, E.W.F.W., period 2
+.   42 existing author 321 Professor Alton, E.W.F.W., period 3
+--- 43 New Author 322 Anand, Professor Praveen, period 1
+.   44 existing author 322 Professor Anand, P., period 2
+.   45 existing author 322 Professor Anand, P., period 3
+--- 46 New Author 2 Anstee, Dr Quentin Mark, period 1
+.   47 existing author 2 Dr Anstee, Q.M., period 2
+.   48 existing author 2 Dr Anstee, Q.M., period 3
+--- 49 New Author 323 Apperley, Professor Jane Felicity, period 1
+.   50 existing author 323 Professor Apperley, J.F., period 2
+.   51 existing author 323 Professor Apperley, J.F., period 3
+--- 52 New Author 3 Ariff, Dr Ben Bahemia, period 1
+.   53 existing author 3 Dr Ariff, B.B., period 2
+.   54 existing author 3 Dr Ariff, B.B., period 3
+--- 55 New Author 4 Ashby, Dr Damien Raphel, period 1
+.   56 existing author 4 Dr Ashby, D.R., period 2
+.   57 existing author 4 Dr Ashby, D.R., period 3
+--- 58 New Author 324 Ashby, Professor Deborah, period 1
+.   59 existing author 4 Dr Ashby, D.R., period 2
+.   60 existing author 4 Dr Ashby, D.R., period 3
+--- 61 New Author 325 Ashton-Rickardt, Professor Philip George (Philip), period 1
+.   62 existing author 325 Professor Ashton-Rickardt, P.G., period 2
+.   63 existing author 325 Professor Ashton-Rickardt, P.G., period 3
+--- 64 New Author 5 Asquith, Dr Rebecca Emma (Becca), period 1
+.   65 existing author 5 Dr Asquith, R.E., period 2
+.   66 existing author 5 Dr Asquith, R.E., period 3
+--- 67 New Author 247 Athanasiou, Mr Thanos, period 1
+.   68 existing author 247 Mr Athanasiou, T., period 2
+.   69 existing author 247 Mr Athanasiou, T., period 3
+--- 70 New Author 326 Atkin, Professor Wendy S, period 1
+.   71 existing author 326 Professor Atkin, W.S., period 2
+.   72 existing author 326 Professor Atkin, W.S., period 3
+--- 73 New Author 248 Aylin, Dr Paul Philip, period 1
+.   74 existing author 248 Dr Aylin, P.P., period 2
+.   75 existing author 248 Dr Aylin, P.P., period 3
+--- 76 New Author 6 Azuara, Dr Veronique, period 1
+.   77 existing author 6 Dr Azuara, V., period 2
+.   78 existing author 6 Dr Azuara, V., period 3
+--- 79 New Author 249 Azzopardi, Dr Denis Victor, period 1
+.   80 existing author 249 Dr Azzopardi, D.V., period 2
+.   81 existing author 249 Dr Azzopardi, D.V., period 3
+--- 82 New Author 250 Bain, Dr Peter George, period 1
+.   83 existing author 250 Dr Bain, P.G., period 2
+.   84 existing author 250 Dr Bain, P.G., period 3
+--- 85 New Author 327 Bain, Professor Barbara Jane, period 1
+.   86 existing author 327 Professor Bain, B.J., period 2
+.   87 existing author 327 Professor Bain, B.J., period 3
+--- 88 New Author 328 Balding, Professor David Joseph, period 1
+.   89 existing author 328 Professor Balding, D.J., period 2
+.   90 existing author 328 Professor Balding, D.J., period 3
+--- 91 New Author 271 Balloux, Dr Francois Didier, period 1
+.   92 existing author 271 Dr Balloux, F.D., period 2
+.   93 existing author 271 Dr Balloux, F.D., period 3
+--- 94 New Author 329 Bangham, Professor Charles Richard Mark ScD FMedSci, period 1
+.   95 existing author 329 Professor Bangham, C.R.M., period 2
+.   96 existing author 329 Professor Bangham, C.R.M., period 3
+--- 97 New Author 272 Barakat, Dr Maha Taysir, period 1
+.   98 existing author 272 Dr Barakat, M.T., period 2
+.   99 existing author 272 Dr Barakat, M.T., period 3
+--- 100 New Author 330 Barclay, Professor Wendy Sue, period 1
+.   101 existing author 330 Professor Barclay, W.S., period 2
+.   102 existing author 330 Professor Barclay, W.S., period 3
+--- 103 New Author 331 Barnes, Professor Peter John FMedSci, FRS, period 1
+.   104 existing author 331 Professor Barnes, P.J.F., period 2
+.   105 existing author 331 Professor Barnes, P.J.F., period 3
+--- 106 New Author 332 Barnes, Professor Thomas Richard Edward, period 1
+.   107 existing author 332 Professor Barnes, T.R.E., period 2
+.   108 existing author 332 Professor Barnes, T.R.E., period 3
+--- 109 New Author 116 Barrett, Dr Michael Christopher, period 1
+.   110 existing author 116 Dr Barrett, M.C., period 2
+.   111 existing author 116 Dr Barrett, M.C., period 3
+--- 112 New Author 273 Barton, Dr Paul Jeremy Richard, period 1
+.   113 existing author 273 Dr Barton, P.J.R., period 2
+.   114 existing author 273 Dr Barton, P.J.R., period 3
+--- 115 New Author 274 Basanez, Dr Maria-Gloria, period 1
+.   116 existing author 274 Dr Basanez, M., period 2
+.   117 existing author 274 Dr Basanez, M., period 3
+--- 118 New Author 117 Bassett, Dr John Howard Duncan (Duncan), period 1
+.   119 existing author 117 Dr Bassett, J.H.D., period 2
+.   120 existing author 117 Dr Bassett, J.H.D., period 3
+--- 121 New Author 118 Beckett, Dr Nigel Stanley, period 1
+.   122 existing author 118 Dr Beckett, N.S., period 2
+.   123 existing author 118 Dr Beckett, N.S., period 3
+--- 124 New Author 119 Beckmann, Dr Christian Friedrich, period 1
+.   125 existing author 119 Dr Beckmann, C.F., period 2
+.   126 existing author 119 Dr Beckmann, C.F., period 3
+--- 127 New Author 333 Bell, Professor Derek, period 1
+.   128 existing author 333 Professor Bell, D., period 2
+.   129 existing author 333 Professor Bell, D., period 3
+--- 130 New Author 120 Bello, Dr Fernando, period 1
+.   131 existing author 120 Dr Bello, F., period 2
+.   132 existing author 120 Dr Bello, F., period 3
+--- 133 New Author 334 Belvisi, Professor Maria Gabriela, period 1
+.   134 existing author 334 Professor Belvisi, M.G., period 2
+.   135 existing author 334 Professor Belvisi, M.G., period 3
+--- 136 New Author 335 Bennett, Professor Phillip Robert, period 1
+.   137 existing author 335 Professor Bennett, P.R., period 2
+.   138 existing author 335 Professor Bennett, P.R., period 3
+--- 139 New Author 121 Bentley, Dr Paul, period 1
+.   140 existing author 121 Dr Bentley, P., period 2
+.   141 existing author 121 Dr Bentley, P., period 3
+--- 142 New Author 336 Best, Professor Nicola Grace (Nicky), period 1
+.   143 existing author 336 Professor Best, N.G., period 2
+.   144 existing author 336 Professor Best, N.G., period 3
+--- 145 New Author 122 Bevan, Dr Charlotte Lynne (Charlotte), period 1
+.   146 existing author 122 Dr Bevan, C.L., period 2
+.   147 existing author 122 Dr Bevan, C.L., period 3
+--- 148 New Author 7 Bewick, Dr Gavin Alexander, period 1
+.   149 existing author 7 Dr Bewick, G.A., period 2
+.   150 existing author 7 Dr Bewick, G.A., period 3
+--- 151 New Author 8 Bignell, Dr Elaine Mary, period 1
+.   152 existing author 8 Dr Bignell, E.M., period 2
+.   153 existing author 8 Dr Bignell, E.M., period 3
+--- 154 New Author 275 Bishop, Dr Anne Elizabeth, period 1
+.   155 existing author 275 Dr Bishop, A.E., period 2
+.   156 existing author 275 Dr Bishop, A.E., period 3
+--- 157 New Author 123 Blagden, Dr Sarah Patricia, period 1
+.   158 existing author 123 Dr Blagden, S.P., period 2
+.   159 existing author 123 Dr Blagden, S.P., period 3
+--- 160 New Author 251 Blair, Dr Mitchel Eliot (Mitch), period 1
+.   161 existing author 251 Dr Blair, M.E., period 2
+.   162 existing author 251 Dr Blair, M.E., period 3
+--- 163 New Author 124 Blakemore, Dr Alexandra Ida Francesca (Alex), period 1
+.   164 existing author 124 Dr Blakemore, A.I.F., period 2
+.   165 existing author 124 Dr Blakemore, A.I.F., period 3
+--- 166 New Author 337 Blane, Professor David, period 1
+.   167 existing author 337 Professor Blane, D., period 2
+.   168 existing author 337 Professor Blane, D., period 3
+--- 169 New Author 338 Bloom, Professor Stephen Robert FMedSci (Steve), period 1
+.   170 existing author 338 Professor Bloom, S.R., period 2
+.   171 existing author 338 Professor Bloom, S.R., period 3
+--- 172 New Author 125 Boardman, Dr James Peter, period 1
+.   173 existing author 125 Dr Boardman, J.P., period 2
+.   174 existing author 125 Dr Boardman, J.P., period 3
+--- 175 New Author 126 Boily, Dr Marie-Claude, period 1
+.   176 existing author 126 Dr Boily, M., period 2
+.   177 existing author 126 Dr Boily, M., period 3
+--- 178 New Author 339 Boobis, Professor Alan Raymond OBE, period 1
+.   179 existing author 339 Professor Boobis, A.R., period 2
+.   180 existing author 339 Professor Boobis, A.R., period 3
+--- 181 New Author 127 Booton, Dr Paul, period 1
+.   182 existing author 127 Dr Booton, P., period 2
+.   183 existing author 127 Dr Booton, P., period 3
+--- 184 New Author 9 Bottle, Dr Robert Alex (Alex), period 1
+.   185 existing author 9 Dr Bottle, R.A., period 2
+.   186 existing author 9 Dr Bottle, R.A., period 3
+--- 187 New Author 340 Botto, Professor Marina, period 1
+.   188 existing author 340 Professor Botto, M., period 2
+.   189 existing author 340 Professor Botto, M., period 3
+--- 190 New Author 276 Bou-Gharios, Dr George, period 1
+.   191 existing author 276 Dr Bou-Gharios, G., period 2
+.   192 existing author 276 Dr Bou-Gharios, G., period 3
+--- 193 New Author 128 Boyle, Dr Robert John, period 1
+.   194 existing author 128 Dr Boyle, R.J., period 2
+.   195 existing author 128 Dr Boyle, R.J., period 3
+--- 196 New Author 129 Boyton, Dr Rosemary Jane, period 1
+.   197 existing author 129 Dr Boyton, R.J., period 2
+.   198 existing author 129 Dr Boyton, R.J., period 3
+--- 199 New Author 277 Braga, Dr Vania, period 1
+.   200 existing author 277 Dr Braga, V., period 2
+.   201 existing author 277 Dr Braga, V., period 3
+--- 202 New Author 130 Brand, Dr Nigel John, period 1
+.   203 existing author 130 Dr Brand, N.J., period 2
+.   204 existing author 130 Dr Brand, N.J., period 3
+--- 205 New Author 341 Brennan, Professor Fionula Mary, period 1
+.   206 existing author 341 Professor Brennan, F.M., period 2
+.   207 existing author 341 Professor Brennan, F.M., period 3
+--- 208 New Author 342 Briggs, Professor David John, period 1
+.   209 existing author 342 Professor Briggs, D.J., period 2
+.   210 existing author 342 Professor Briggs, D.J., period 3
+--- 211 New Author 131 Brogan, Dr Catherine Mary O'Connell, period 1
+.   212 existing author 131 Dr Brogan, C.M.O., period 2
+.   213 existing author 131 Dr Brogan, C.M.O., period 3
+--- 214 New Author 343 Bronstein, Professor Adolfo Miguel, period 1
+.   215 existing author 343 Professor Bronstein, A.M., period 2
+.   216 existing author 343 Professor Bronstein, A.M., period 3
+--- 217 New Author 344 Brooks, Professor David James MD, DSc, FRCP, FMedSci, period 1
+.   218 existing author 344 Professor Brooks, D.J., period 2
+.   219 existing author 344 Professor Brooks, D.J., period 3
+--- 220 New Author 345 Brosens, Professor Jan Jonis, period 1
+.   221 existing author 345 Professor Brosens, J.J., period 2
+.   222 existing author 345 Professor Brosens, J.J., period 3
+--- 223 New Author 278 Brown, Dr Susan Carol, period 1
+.   224 existing author 278 Dr Brown, S.C., period 2
+.   225 existing author 278 Dr Brown, S.C., period 3
+--- 226 New Author 346 Brown, Professor Robert BSc PhD, period 1
+.   227 existing author 346 Professor Brown, R., period 2
+.   228 existing author 346 Professor Brown, R., period 3
+--- 229 New Author 10 Bubici, Dr Concetta, period 1
+.   230 existing author 10 Dr Bubici, C., period 2
+.   231 existing author 10 Dr Bubici, C., period 3
+--- 232 New Author 279 Buluwela, Dr Lakjaya (Laki), period 1
+.   233 existing author 279 Dr Buluwela, L., period 2
+.   234 existing author 279 Dr Buluwela, L., period 3
+--- 235 New Author 11 Bundy, Dr Jacob Guy (Jake), period 1
+.   236 existing author 11 Dr Bundy, J.G., period 2
+.   237 existing author 11 Dr Bundy, J.G., period 3
+--- 238 New Author 347 Burney, Professor Peter Gordon James MA MD FRCP FFPHM FMedSci, period 1
+.   239 existing author 347 Professor Burney, P.G.J., period 2
+.   240 existing author 347 Professor Burney, P.G.J., period 3
+--- 241 New Author 348 Bush, Professor Andrew, period 1
+.   242 existing author 348 Professor Bush, A., period 2
+.   243 existing author 348 Professor Bush, A., period 3
+--- 244 New Author 12 Butt, Dr Simon Julian Bevan, period 1
+.   245 existing author 12 Dr Butt, S.J.B., period 2
+.   246 existing author 12 Dr Butt, S.J.B., period 3
+--- 247 New Author 132 Car, Dr Josip, period 1
+.   248 existing author 132 Dr Car, J., period 2
+.   249 existing author 132 Dr Car, J., period 3
+--- 250 New Author 133 Chai, Dr Jian Guo, period 1
+.   251 existing author 133 Dr Chai, J.G., period 2
+.   252 existing author 133 Dr Chai, J.G., period 3
+--- 253 New Author 134 Chambers, Dr John Campbell, period 1
+.   254 existing author 134 Dr Chambers, J.C., period 2
+.   255 existing author 134 Dr Chambers, J.C., period 3
+--- 256 New Author 13 Chan, Dr Sau Fong (Vera), period 1
+.   257 existing author 13 Dr Chan, S.F., period 2
+.   258 existing author 13 Dr Chan, S.F., period 3
+--- 259 New Author 349 Chaturvedi, Professor Nishi, period 1
+.   260 existing author 349 Professor Chaturvedi, N., period 2
+.   261 existing author 349 Professor Chaturvedi, N., period 3
+--- 262 New Author 14 Chaudhri, Dr Owais Bashir, period 1
+.   263 existing author 14 Dr Chaudhri, O.B., period 2
+.   264 existing author 14 Dr Chaudhri, O.B., period 3
+--- 265 New Author 350 Chayen, Professor Naomi, period 1
+.   266 existing author 350 Professor Chayen, N., period 2
+.   267 existing author 350 Professor Chayen, N., period 3
+--- 268 New Author 280 Cherepanov, Dr Peter P, period 1
+.   269 existing author 280 Dr Cherepanov, P.P., period 2
+.   270 existing author 280 Dr Cherepanov, P.P., period 3
+--- 271 New Author 135 Chester, Dr Adrian Harold, period 1
+.   272 existing author 135 Dr Chester, A.H., period 2
+.   273 existing author 135 Dr Chester, A.H., period 3
+--- 274 New Author 15 Christian, Dr Mark, period 1
+.   275 existing author 15 Dr Christian, M., period 2
+.   276 existing author 15 Dr Christian, M., period 3
+--- 277 New Author 16 Chung, Dr Adrian James, period 1
+.   278 existing author 16 Dr Chung, A.J., period 2
+.   279 existing author 16 Dr Chung, A.J., period 3
+--- 280 New Author 351 Chung, Professor Kian Fan (Fan), period 1
+.   281 existing author 351 Professor Chung, K.F., period 2
+.   282 existing author 351 Professor Chung, K.F., period 3
+--- 283 New Author 136 Clark, Dr Andrew Richard (Andy), period 1
+.   284 existing author 136 Dr Clark, A.R., period 2
+.   285 existing author 136 Dr Clark, A.R., period 3
+--- 286 New Author 137 Clark, Dr Peter, period 1
+.   287 existing author 137 Dr Clark, P., period 2
+.   288 existing author 137 Dr Clark, P., period 3
+--- 289 New Author 281 Clerk, Dr Angela, period 1
+.   290 existing author 281 Dr Clerk, A., period 2
+.   291 existing author 281 Dr Clerk, A., period 3
+--- 292 New Author 352 Cobb, Professor Justin Peter BMBCh FRCS MCh (Justin), period 1
+.   293 existing author 352 Professor Cobb, J.P., period 2
+.   294 existing author 352 Professor Cobb, J.P., period 3
+--- 295 New Author 17 Coen, Dr Muireann, period 1
+.   296 existing author 17 Dr Coen, M., period 2
+.   297 existing author 17 Dr Coen, M., period 3
+--- 298 New Author 353 Collins, Professor Peter, period 1
+.   299 existing author 353 Professor Collins, P., period 2
+.   300 existing author 353 Professor Collins, P., period 3
+--- 301 New Author 138 Cook, Dr Stuart, period 1
+.   302 existing author 138 Dr Cook, S., period 2
+.   303 existing author 138 Dr Cook, S., period 3
+--- 304 New Author 354 Cook, Professor Herbert Terence (Terence), period 1
+.   305 existing author 354 Professor Cook, H.T., period 2
+.   306 existing author 354 Professor Cook, H.T., period 3
+--- 307 New Author 139 Cooke, Dr Graham Stephen, period 1
+.   308 existing author 139 Dr Cooke, G.S., period 2
+.   309 existing author 139 Dr Cooke, G.S., period 3
+--- 310 New Author 355 Cookson, Professor William Osmond Charles MA, MD, DPhil, FRCP, FMedSci (Bill), period 1
+.   311 existing author 355 Professor Cookson, W.O.C.D., period 2
+.   312 existing author 355 Professor Cookson, W.O.C.D., period 3
+--- 313 New Author 356 Coombes, Professor Raoul Charles FMedSci (Charles), period 1
+.   314 existing author 356 Professor Coombes, R.C., period 2
+.   315 existing author 356 Professor Coombes, R.C., period 3
+--- 316 New Author 357 Cosgrove, Professor David Owen, period 1
+.   317 existing author 357 Professor Cosgrove, D.O., period 2
+.   318 existing author 357 Professor Cosgrove, D.O., period 3
+--- 319 New Author 18 Costa-Pereira, Dr Ana Paula, period 1
+.   320 existing author 18 Dr Costa-Pereira, A.P., period 2
+.   321 existing author 18 Dr Costa-Pereira, A.P., period 3
+--- 322 New Author 358 Coutelle, Professor Charles C, period 1
+.   323 existing author 358 Professor Coutelle, C.C., period 2
+.   324 existing author 358 Professor Coutelle, C.C., period 3
+--- 325 New Author 140 Cowan, Dr Frances Mary, period 1
+.   326 existing author 140 Dr Cowan, F.M., period 2
+.   327 existing author 140 Dr Cowan, F.M., period 3
+--- 328 New Author 359 Cowie, Professor Martin Richard, period 1
+.   329 existing author 359 Professor Cowie, M.R., period 2
+.   330 existing author 359 Professor Cowie, M.R., period 3
+--- 331 New Author 19 Cox, Dr Isobel Jane (Jane), period 1
+.   332 existing author 19 Dr Cox, I.J., period 2
+.   333 existing author 19 Dr Cox, I.J., period 3
+--- 334 New Author 252 Crawford, Dr Michael Joseph (Mike), period 1
+.   335 existing author 252 Dr Crawford, M.J., period 2
+.   336 existing author 252 Dr Crawford, M.J., period 3
+--- 337 New Author 20 Crawley, Dr James Thomas Blick (Jim), period 1
+.   338 existing author 20 Dr Crawley, J.T.B., period 2
+.   339 existing author 20 Dr Crawley, J.T.B., period 3
+--- 340 New Author 141 Croucher, Dr Martin James, period 1
+.   341 existing author 141 Dr Croucher, M.J., period 2
+.   342 existing author 141 Dr Croucher, M.J., period 3
+--- 343 New Author 21 Cui, Dr Wei, period 1
+.   344 existing author 21 Dr Cui, W., period 2
+.   345 existing author 21 Dr Cui, W., period 3
+--- 346 New Author 22 Culley, Dr Fiona Jane, period 1
+.   347 existing author 22 Dr Culley, F.J., period 2
+.   348 existing author 22 Dr Culley, F.J., period 3
+--- 349 New Author 360 Cullinan, Professor Paul, period 1
+.   350 existing author 360 Professor Cullinan, P., period 2
+.   351 existing author 360 Professor Cullinan, P., period 3
+--- 352 New Author 23 Cunninghame Graham, Dr Deborah Shirley, period 1
+.   353 existing author 23 Dr Cunninghame Graham, D.S., period 2
+.   354 existing author 23 Dr Cunninghame Graham, D.S., period 3
+--- 355 New Author 361 Curtin, Professor Nancy Ann, period 1
+.   356 existing author 361 Professor Curtin, N.A., period 2
+.   357 existing author 361 Professor Curtin, N.A., period 3
+--- 358 New Author 24 Da Silva Xavier, Dr Gabriela, period 1
+.   359 existing author 24 Dr Da Silva Xavier, G., period 2
+.   360 existing author 24 Dr Da Silva Xavier, G., period 3
+--- 361 New Author 362 Dalakas, Professor Marinos C, period 1
+.   362 existing author 362 Professor Dalakas, M.C., period 2
+.   363 existing author 362 Professor Dalakas, M.C., period 3
+--- 364 New Author 363 Darzi, Ara W, period 1
+.   365 existing author 363 Darzi, A.W., period 2
+.   366 existing author 363 Darzi, A.W., period 3
+--- 367 New Author 142 Davies, Dr Jane Carolyn, period 1
+.   368 existing author 142 Dr Davies, J.C., period 2
+.   369 existing author 142 Dr Davies, J.C., period 3
+--- 370 New Author 25 Davies, Dr Justin Edgar Rees, period 1
+.   371 existing author 25 Dr Davies, J.E.R., period 2
+.   372 existing author 25 Dr Davies, J.E.R., period 3
+--- 373 New Author 364 Davies, Professor Alun Huw, period 1
+.   374 existing author 364 Professor Davies, A.H., period 2
+.   375 existing author 364 Professor Davies, A.H., period 3
+--- 376 New Author 365 Davies, Professor David Ceri, period 1
+.   377 existing author 365 Professor Davies, D.C., period 2
+.   378 existing author 365 Professor Davies, D.C., period 3
+--- 379 New Author 366 Dazzi, Professor Francesco, period 1
+.   380 existing author 366 Professor Dazzi, F., period 2
+.   381 existing author 366 Professor Dazzi, F., period 3
+--- 382 New Author 367 de Belleroche, Professor Jacqueline S (Jackie), period 1
+.   383 existing author 367 Professor de Belleroche, J.S., period 2
+.   384 existing author 367 Professor de Belleroche, J.S., period 3
+--- 385 New Author 26 De Iorio, Dr Maria, period 1
+.   386 existing author 26 Dr De Iorio, M., period 2
+.   387 existing author 26 Dr De Iorio, M., period 3
+--- 388 New Author 27 De Paola, Dr Vincenzo, period 1
+.   389 existing author 27 Dr De Paola, V., period 2
+.   390 existing author 27 Dr De Paola, V., period 3
+--- 391 New Author 143 De Silva, Dr Pettahandige Esalakumar Ranil (Ranil), period 1
+.   392 existing author 143 Dr De Silva, P.E.R., period 2
+.   393 existing author 143 Dr De Silva, P.E.R., period 3
+--- 394 New Author 368 De Wolf, Professor Frank, period 1
+.   395 existing author 368 Professor De Wolf, F., period 2
+.   396 existing author 368 Professor De Wolf, F., period 3
+--- 397 New Author 28 Dean, Dr Jonathan Lewis Edward, period 1
+.   398 existing author 28 Dr Dean, J.L.E., period 2
+.   399 existing author 28 Dr Dean, J.L.E., period 3
+--- 400 New Author 282 Dexter, Dr David Trevor, period 1
+.   401 existing author 282 Dr Dexter, D.T., period 2
+.   402 existing author 282 Dr Dexter, D.T., period 3
+--- 403 New Author 144 Dhillo, Dr Waljit Singh, period 1
+.   404 existing author 144 Dr Dhillo, W.S., period 2
+.   405 existing author 144 Dr Dhillo, W.S., period 3
+--- 406 New Author 29 Dickinson, Dr Robert, period 1
+.   407 existing author 29 Dr Dickinson, R., period 2
+.   408 existing author 29 Dr Dickinson, R., period 3
+--- 409 New Author 283 Dilworth, Dr Stephen Michael (Steve), period 1
+.   410 existing author 283 Dr Dilworth, S.M., period 2
+.   411 existing author 283 Dr Dilworth, S.M., period 3
+--- 412 New Author 284 Domin, Dr Jan, period 1
+.   413 existing author 284 Dr Domin, J., period 2
+.   414 existing author 284 Dr Domin, J., period 3
+--- 415 New Author 145 Donnelly, Dr Louise Elizabeth, period 1
+.   416 existing author 145 Dr Donnelly, L.E., period 2
+.   417 existing author 145 Dr Donnelly, L.E., period 3
+--- 418 New Author 369 Donnelly, Professor Christl Ann, period 1
+.   419 existing author 369 Professor Donnelly, C.A., period 2
+.   420 existing author 369 Professor Donnelly, C.A., period 3
+--- 421 New Author 253 Dorling, Dr Anthony, period 1
+.   422 existing author 253 Dr Dorling, A., period 2
+.   423 existing author 253 Dr Dorling, A., period 3
+--- 424 New Author 30 Dumas, Dr Marc Emmanuel, period 1
+.   425 existing author 30 Dr Dumas, M.E., period 2
+.   426 existing author 30 Dr Dumas, M.E., period 3
+--- 427 New Author 370 Durham, Professor Stephen Reginald, period 1
+.   428 existing author 370 Professor Durham, S.R., period 2
+.   429 existing author 370 Professor Durham, S.R., period 3
+--- 430 New Author 371 Dyson, Professor Peter Julian (Julian), period 1
+.   431 existing author 371 Professor Dyson, P.J., period 2
+.   432 existing author 371 Professor Dyson, P.J., period 3
+--- 433 New Author 31 Ebbels, Dr Timothy Mark David, period 1
+.   434 existing author 31 Dr Ebbels, T.M.D., period 2
+.   435 existing author 31 Dr Ebbels, T.M.D., period 3
+--- 436 New Author 32 Eckersley, Dr Robert John, period 1
+.   437 existing author 32 Dr Eckersley, R.J., period 2
+.   438 existing author 32 Dr Eckersley, R.J., period 3
+--- 439 New Author 146 Edison, Dr Paul, period 1
+.   440 existing author 146 Dr Edison, P., period 2
+.   441 existing author 146 Dr Edison, P., period 3
+--- 442 New Author 33 Edwards, Dr Michael Robert, period 1
+.   443 existing author 33 Dr Edwards, M.R., period 2
+.   444 existing author 33 Dr Edwards, M.R., period 3
+--- 445 New Author 34 Edwards, Dr Philip John (Eddie), period 1
+.   446 existing author 34 Dr Edwards, P.J., period 2
+.   447 existing author 34 Dr Edwards, P.J., period 3
+--- 448 New Author 372 Edwards, Professor Alexander David, period 1
+.   449 existing author 372 Professor Edwards, A.D., period 2
+.   450 existing author 372 Professor Edwards, A.D., period 3
+--- 451 New Author 373 Edwards, Professor Christopher R W, period 1
+.   452 existing author 373 Professor Edwards, C.R.W., period 2
+.   453 existing author 373 Professor Edwards, C.R.W., period 3
+--- 454 New Author 147 Elkington, Dr Paul Timothy George, period 1
+.   455 existing author 147 Dr Elkington, P.T.G., period 2
+.   456 existing author 147 Dr Elkington, P.T.G., period 3
+--- 457 New Author 148 Elliott, Dr Gillian Daphne, period 1
+.   458 existing author 148 Dr Elliott, G.D., period 2
+.   459 existing author 148 Dr Elliott, G.D., period 3
+--- 460 New Author 374 Elliott, Professor Paul FMedSci, period 1
+.   461 existing author 374 Professor Elliott, P., period 2
+.   462 existing author 374 Professor Elliott, P., period 3
+--- 463 New Author 35 Emerson, Dr Michael, period 1
+.   464 existing author 35 Dr Emerson, M., period 2
+.   465 existing author 35 Dr Emerson, M., period 3
+--- 466 New Author 375 Enright, Professor Mark Charles, period 1
+.   467 existing author 375 Professor Enright, M.C., period 2
+.   468 existing author 375 Professor Enright, M.C., period 3
+--- 469 New Author 149 Evans, Dr Paul Charles, period 1
+.   470 existing author 149 Dr Evans, P.C., period 2
+.   471 existing author 149 Dr Evans, P.C., period 3
+--- 472 New Author 150 Faiz, Mr Omar Darius, period 1
+.   473 existing author 150 Mr Faiz, O.D., period 2
+.   474 existing author 150 Mr Faiz, O.D., period 3
+--- 475 New Author 36 Falchi, Dr Mario, period 1
+.   476 existing author 36 Dr Falchi, M., period 2
+.   477 existing author 36 Dr Falchi, M., period 3
+--- 478 New Author 376 Farrell, Professor Paul James FMedSci, period 1
+.   479 existing author 376 Professor Farrell, P.J., period 2
+.   480 existing author 376 Professor Farrell, P.J., period 3
+--- 481 New Author 377 Feldmann, Professor Marc FMedSci,FAA,FRS, period 1
+.   482 existing author 377 Professor Feldmann, M., period 2
+.   483 existing author 377 Professor Feldmann, M., period 3
+--- 484 New Author 378 Fenwick, Professor Alan OBE, period 1
+.   485 existing author 378 Professor Fenwick, A., period 2
+.   486 existing author 378 Professor Fenwick, A., period 3
+--- 487 New Author 379 Ferenczi, Professor Michael A B.Sc., Ph.D. (Mike), period 1
+.   488 existing author 379 Professor Ferenczi, M.A.B.S., period 2
+.   489 existing author 379 Professor Ferenczi, M.A.B.S., period 3
+--- 490 New Author 380 Ferguson, Professor Neil Morris, period 1
+.   491 existing author 380 Professor Ferguson, N.M., period 2
+.   492 existing author 380 Professor Ferguson, N.M., period 3
+--- 493 New Author 381 Festenstein, Professor Richard John, period 1
+.   494 existing author 381 Professor Festenstein, R.J., period 2
+.   495 existing author 381 Professor Festenstein, R.J., period 3
+--- 496 New Author 151 Fidler, Dr Sarah Jane, period 1
+.   497 existing author 151 Dr Fidler, S.J., period 2
+.   498 existing author 151 Dr Fidler, S.J., period 3
+--- 499 New Author 37 Field, Dr Benjamin Christopher Thomas, period 1
+.   500 existing author 37 Dr Field, B.C.T., period 2
+.   501 existing author 37 Dr Field, B.C.T., period 3
+--- 502 New Author 382 Firmin, Professor David Nigel, period 1
+.   503 existing author 382 Professor Firmin, D.N., period 2
+.   504 existing author 382 Professor Firmin, D.N., period 3
+--- 505 New Author 38 Fisher, Dr Benjamin Alexis Charles, period 1
+.   506 existing author 38 Dr Fisher, B.A.C., period 2
+.   507 existing author 38 Dr Fisher, B.A.C., period 3
+--- 508 New Author 152 Fisher, Dr Matthew, period 1
+.   509 existing author 152 Dr Fisher, M., period 2
+.   510 existing author 152 Dr Fisher, M., period 3
+--- 511 New Author 153 Francis, Dr Darrel Parthipan, period 1
+.   512 existing author 153 Dr Francis, D.P., period 2
+.   513 existing author 153 Dr Francis, D.P., period 3
+--- 514 New Author 383 Franks, Professor Stephen FMedSci, period 1
+.   515 existing author 383 Professor Franks, S., period 2
+.   516 existing author 383 Professor Franks, S., period 3
+--- 517 New Author 384 Franzoso, Professor Guido, period 1
+.   518 existing author 384 Professor Franzoso, G., period 2
+.   519 existing author 384 Professor Franzoso, G., period 3
+--- 520 New Author 285 Fraser, Dr Christophe, period 1
+.   521 existing author 285 Dr Fraser, C., period 2
+.   522 existing author 285 Dr Fraser, C., period 3
+--- 523 New Author 385 Friedland, Professor Jonathan Samuel (Jon), period 1
+.   524 existing author 385 Professor Friedland, J.S., period 2
+.   525 existing author 385 Professor Friedland, J.S., period 3
+--- 526 New Author 386 Froguel, Professor Philippe, period 1
+.   527 existing author 386 Professor Froguel, P., period 2
+.   528 existing author 386 Professor Froguel, P., period 3
+--- 529 New Author 387 Frost, Professor Gary, period 1
+.   530 existing author 387 Professor Frost, G., period 2
+.   531 existing author 387 Professor Frost, G., period 3
+--- 532 New Author 154 Fusi, Dr Luca, period 1
+.   533 existing author 154 Dr Fusi, L., period 2
+.   534 existing author 154 Dr Fusi, L., period 3
+--- 535 New Author 388 Gabra, Professor Hani, period 1
+.   536 existing author 388 Professor Gabra, H., period 2
+.   537 existing author 388 Professor Gabra, H., period 3
+--- 538 New Author 39 Game, Dr David Stanley, period 1
+.   539 existing author 39 Dr Game, D.S., period 2
+.   540 existing author 39 Dr Game, D.S., period 3
+--- 541 New Author 155 Gardiner, Dr Helena Maria, period 1
+.   542 existing author 155 Dr Gardiner, H.M., period 2
+.   543 existing author 155 Dr Gardiner, H.M., period 3
+--- 544 New Author 156 Gardiner, Dr James Victor, period 1
+.   545 existing author 156 Dr Gardiner, J.V., period 2
+.   546 existing author 156 Dr Gardiner, J.V., period 3
+--- 547 New Author 389 Garnett, Professor Geoffrey P, period 1
+.   548 existing author 389 Professor Garnett, G.P., period 2
+.   549 existing author 389 Professor Garnett, G.P., period 3
+--- 550 New Author 390 Garralda Hualde, Professor Maria Elena (Elena), period 1
+.   551 existing author 390 Professor Garralda Hualde, M.E., period 2
+.   552 existing author 390 Professor Garralda Hualde, M.E., period 3
+--- 553 New Author 40 Gavins, Dr Felicity Nicola Emma, period 1
+.   554 existing author 40 Dr Gavins, F.N.E., period 2
+.   555 existing author 40 Dr Gavins, F.N.E., period 3
+--- 556 New Author 286 Gentleman, Dr Stephen Michael (Steve), period 1
+.   557 existing author 286 Dr Gentleman, S.M., period 2
+.   558 existing author 286 Dr Gentleman, S.M., period 3
+--- 559 New Author 391 George, Professor Andrew John Timothy (Andrew), period 1
+.   560 existing author 391 Professor George, A.J.T., period 2
+.   561 existing author 391 Professor George, A.J.T., period 3
+--- 562 New Author 157 Geroulakos, Mr George, period 1
+.   563 existing author 157 Mr Geroulakos, G., period 2
+.   564 existing author 157 Mr Geroulakos, G., period 3
+--- 565 New Author 158 Ghaem-Maghami, Dr Sadaf, period 1
+.   566 existing author 158 Dr Ghaem-Maghami, S., period 2
+.   567 existing author 158 Dr Ghaem-Maghami, S., period 3
+--- 568 New Author 392 Ghani, Professor Azra Catherine Hilary, period 1
+.   569 existing author 392 Professor Ghani, A.C.H., period 2
+.   570 existing author 392 Professor Ghani, A.C.H., period 3
+--- 571 New Author 393 Ghatei, Professor Mohammad Ali, period 1
+.   572 existing author 393 Professor Ghatei, M.A., period 2
+.   573 existing author 393 Professor Ghatei, M.A., period 3
+--- 574 New Author 159 Gibbs, Dr John Simon R (J Simon), period 1
+.   575 existing author 159 Dr Gibbs, J.S.R., period 2
+.   576 existing author 159 Dr Gibbs, J.S.R., period 3
+--- 577 New Author 394 Gilks, Professor Charles Franklin FRCP, period 1
+.   578 existing author 394 Professor Gilks, C.F., period 2
+.   579 existing author 394 Professor Gilks, C.F., period 3
+--- 580 New Author 287 Gillies, Dr Glenda Elaine, period 1
+.   581 existing author 287 Dr Gillies, G.E., period 2
+.   582 existing author 287 Dr Gillies, G.E., period 3
+--- 583 New Author 395 Glover, Professor Vivette Ann Susan, period 1
+.   584 existing author 395 Professor Glover, V.A.S., period 2
+.   585 existing author 395 Professor Glover, V.A.S., period 3
+--- 586 New Author 160 Gnani, Dr Shamini, period 1
+.   587 existing author 160 Dr Gnani, S., period 2
+.   588 existing author 160 Dr Gnani, S., period 3
+--- 589 New Author 288 Godsland, Dr Ian Francis, period 1
+.   590 existing author 288 Dr Godsland, I.F., period 2
+.   591 existing author 288 Dr Godsland, I.F., period 3
+--- 592 New Author 254 Goldin, Dr Robert David, period 1
+.   593 existing author 254 Dr Goldin, R.D., period 2
+.   594 existing author 254 Dr Goldin, R.D., period 3
+--- 595 New Author 396 Gooderham, Professor Nigel John, period 1
+.   596 existing author 396 Professor Gooderham, N.J., period 2
+.   597 existing author 396 Professor Gooderham, N.J., period 3
+--- 598 New Author 161 Goodfellow, Dr Ian, period 1
+.   599 existing author 161 Dr Goodfellow, I., period 2
+.   600 existing author 161 Dr Goodfellow, I., period 3
+--- 601 New Author 41 Goodier, Dr Martin Rhys, period 1
+.   602 existing author 41 Dr Goodier, M.R., period 2
+.   603 existing author 41 Dr Goodier, M.R., period 3
+--- 604 New Author 397 Gordon, Professor Myrtle Y A, period 1
+.   605 existing author 397 Professor Gordon, M.Y.A., period 2
+.   606 existing author 397 Professor Gordon, M.Y.A., period 3
+--- 607 New Author 42 Gorelik, Dr Julia, period 1
+.   608 existing author 42 Dr Gorelik, J., period 2
+.   609 existing author 42 Dr Gorelik, J., period 3
+--- 610 New Author 398 Gotch, Professor Frances Margaret, period 1
+.   611 existing author 398 Professor Gotch, F.M., period 2
+.   612 existing author 398 Professor Gotch, F.M., period 3
+--- 613 New Author 162 Gould, Dr Keith Geoffrey, period 1
+.   614 existing author 162 Dr Gould, K.G., period 2
+.   615 existing author 162 Dr Gould, K.G., period 3
+--- 616 New Author 289 Grassly, Dr Nicholas Charles, period 1
+.   617 existing author 289 Dr Grassly, N.C., period 2
+.   618 existing author 289 Dr Grassly, N.C., period 3
+--- 619 New Author 163 Gregory-Evans, Dr Cheryl Yvonne PhD, period 1
+.   620 existing author 163 Dr Gregory-Evans, C.Y., period 2
+.   621 existing author 163 Dr Gregory-Evans, C.Y., period 3
+--- 622 New Author 399 Gregson, Professor Simon, period 1
+.   623 existing author 399 Professor Gregson, S., period 2
+.   624 existing author 399 Professor Gregson, S., period 3
+--- 625 New Author 400 Gressens, Professor Pierre, period 1
+.   626 existing author 400 Professor Gressens, P., period 2
+.   627 existing author 400 Professor Gressens, P., period 3
+--- 628 New Author 164 Griesenbach, Dr Uta, period 1
+.   629 existing author 164 Dr Griesenbach, U., period 2
+.   630 existing author 164 Dr Griesenbach, U., period 3
+--- 631 New Author 401 Grimm, Professor Stefan Wolfgang, period 1
+.   632 existing author 401 Professor Grimm, S.W., period 2
+.   633 existing author 401 Professor Grimm, S.W., period 3
+--- 634 New Author 165 Groves, Dr Alan, period 1
+.   635 existing author 165 Dr Groves, A., period 2
+.   636 existing author 165 Dr Groves, A., period 3
+--- 637 New Author 43 Grundling, Dr Angelika, period 1
+.   638 existing author 43 Dr Grundling, A., period 2
+.   639 existing author 43 Dr Grundling, A., period 3
+--- 640 New Author 44 Guillot, Dr Pascale Valerie, period 1
+.   641 existing author 44 Dr Guillot, P.V., period 2
+.   642 existing author 44 Dr Guillot, P.V., period 3
+--- 643 New Author 402 Habib, Professor Nagy Adly ChM FRCS, period 1
+.   644 existing author 402 Professor Habib, N.A.C., period 2
+.   645 existing author 402 Professor Habib, N.A.C., period 3
+--- 646 New Author 255 Habibi, Dr Parviz, period 1
+.   647 existing author 255 Dr Habibi, P., period 2
+.   648 existing author 255 Dr Habibi, P., period 3
+--- 649 New Author 403 Hagberg, Professor Henrik Erik Gustaf, period 1
+.   650 existing author 403 Professor Hagberg, H.E.G., period 2
+.   651 existing author 403 Professor Hagberg, H.E.G., period 3
+--- 652 New Author 45 Hajitou, Dr Amin, period 1
+.   653 existing author 45 Dr Hajitou, A., period 2
+.   654 existing author 45 Dr Hajitou, A., period 3
+--- 655 New Author 46 Hajji, Dr Nabil, period 1
+.   656 existing author 46 Dr Hajji, N., period 2
+.   657 existing author 46 Dr Hajji, N., period 3
+--- 658 New Author 404 Hajnal, Professor Joseph Vilmos (Jo), period 1
+.   659 existing author 404 Professor Hajnal, J.V., period 2
+.   660 existing author 404 Professor Hajnal, J.V., period 3
+--- 661 New Author 405 Hanna, Professor George Bushra, period 1
+.   662 existing author 405 Professor Hanna, G.B., period 2
+.   663 existing author 405 Professor Hanna, G.B., period 3
+--- 664 New Author 256 Hansel, Dr Trevor, period 1
+.   665 existing author 256 Dr Hansel, T., period 2
+.   666 existing author 256 Dr Hansel, T., period 3
+--- 667 New Author 166 Hansell, Dr Anna Louise, period 1
+.   668 existing author 166 Dr Hansell, A.L., period 2
+.   669 existing author 166 Dr Hansell, A.L., period 3
+--- 670 New Author 47 Hanyaloglu, Dr Aylin Carla, period 1
+.   671 existing author 47 Dr Hanyaloglu, A.C., period 2
+.   672 existing author 47 Dr Hanyaloglu, A.C., period 3
+--- 673 New Author 406 Harding, Professor Sian Elizabeth, period 1
+.   674 existing author 406 Professor Harding, S.E., period 2
+.   675 existing author 406 Professor Harding, S.E., period 3
+--- 676 New Author 290 Hardy, Dr Katharine (Kate), period 1
+.   677 existing author 290 Dr Hardy, K., period 2
+.   678 existing author 290 Dr Hardy, K., period 3
+--- 679 New Author 48 Harris, Ms Jessica Mary, period 1
+.   680 existing author 48 Ms Harris, J.M., period 2
+.   681 existing author 48 Ms Harris, J.M., period 3
+--- 682 New Author 167 Hart, Dr Ailsa Louise, period 1
+.   683 existing author 167 Dr Hart, A.L., period 2
+.   684 existing author 167 Dr Hart, A.L., period 3
+--- 685 New Author 168 Hart, Mr Alister James, period 1
+.   686 existing author 168 Mr Hart, A.J., period 2
+.   687 existing author 168 Mr Hart, A.J., period 3
+--- 688 New Author 407 Haskard, Professor Dorian Oliver FMedSci, period 1
+.   689 existing author 407 Professor Haskard, D.O., period 2
+.   690 existing author 407 Professor Haskard, D.O., period 3
+--- 691 New Author 408 Haynes, Professor Kenneth (Ken), period 1
+.   692 existing author 408 Professor Haynes, K., period 2
+.   693 existing author 408 Professor Haynes, K., period 3
+--- 694 New Author 409 Higham, Professor Jennifer M (Jenny), period 1
+.   695 existing author 409 Professor Higham, J.M., period 2
+.   696 existing author 409 Professor Higham, J.M., period 3
+--- 697 New Author 410 Ho, Professor Siew Yen (Yen), period 1
+.   698 existing author 410 Professor Ho, S.Y., period 2
+.   699 existing author 410 Professor Ho, S.Y., period 3
+--- 700 New Author 169 Hodes, Dr Matthew, period 1
+.   701 existing author 169 Dr Hodes, M., period 2
+.   702 existing author 169 Dr Hodes, M., period 3
+--- 703 New Author 411 Hodson, Professor Margaret Ellen, period 1
+.   704 existing author 411 Professor Hodson, M.E., period 2
+.   705 existing author 411 Professor Hodson, M.E., period 3
+--- 706 New Author 412 Holden, Professor David William FRS, FMedSci, period 1
+.   707 existing author 412 Professor Holden, D.W.F., period 2
+.   708 existing author 412 Professor Holden, D.W.F., period 3
+--- 709 New Author 170 Holmes, Dr Alison H, period 1
+.   710 existing author 170 Dr Holmes, A.H., period 2
+.   711 existing author 170 Dr Holmes, A.H., period 3
+--- 712 New Author 413 Holmes, Professor Elaine, period 1
+.   713 existing author 413 Professor Holmes, E., period 2
+.   714 existing author 413 Professor Holmes, E., period 3
+--- 715 New Author 49 Hooper, Dr Richard, period 1
+.   716 existing author 49 Dr Hooper, R., period 2
+.   717 existing author 49 Dr Hooper, R., period 3
+--- 718 New Author 171 Hopkinson, Dr Nicholas Shaun (Nick), period 1
+.   719 existing author 171 Dr Hopkinson, N.S., period 2
+.   720 existing author 171 Dr Hopkinson, N.S., period 3
+--- 721 New Author 50 Horwood, Dr Nicole (Nikki), period 1
+.   722 existing author 50 Dr Horwood, N., period 2
+.   723 existing author 50 Dr Horwood, N., period 3
+--- 724 New Author 172 Huang, Dr Fang-Ping, period 1
+.   725 existing author 172 Dr Huang, F., period 2
+.   726 existing author 172 Dr Huang, F., period 3
+--- 727 New Author 414 Hughes, Professor Alun David, period 1
+.   728 existing author 414 Professor Hughes, A.D., period 2
+.   729 existing author 414 Professor Hughes, A.D., period 3
+--- 730 New Author 415 Huhtaniemi, Professor Ilpo Tapani FMedSci, period 1
+.   731 existing author 415 Professor Huhtaniemi, I.T., period 2
+.   732 existing author 415 Professor Huhtaniemi, I.T., period 3
+--- 733 New Author 416 Hussell, Professor Tracy, period 1
+.   734 existing author 416 Professor Hussell, T., period 2
+.   735 existing author 416 Professor Hussell, T., period 3
+--- 736 New Author 291 Imami, Dr Nesrina, period 1
+.   737 existing author 291 Dr Imami, N., period 2
+.   738 existing author 291 Dr Imami, N., period 3
+--- 739 New Author 173 Inwald, Dr David Philip, period 1
+.   740 existing author 173 Dr Inwald, D.P., period 2
+.   741 existing author 173 Dr Inwald, D.P., period 3
+--- 742 New Author 174 Itoh, Dr Yoshifumi, period 1
+.   743 existing author 174 Dr Itoh, Y., period 2
+.   744 existing author 174 Dr Itoh, Y., period 3
+--- 745 New Author 417 Jarvelin, Professor Marjo-Riitta, period 1
+.   746 existing author 417 Professor Jarvelin, M., period 2
+.   747 existing author 417 Professor Jarvelin, M., period 3
+--- 748 New Author 257 Jarvis, Dr Deborah Louise (Debbie), period 1
+.   749 existing author 257 Dr Jarvis, D.L., period 2
+.   750 existing author 257 Dr Jarvis, D.L., period 3
+--- 751 New Author 418 Jeffery, Professor Peter K, period 1
+.   752 existing author 418 Professor Jeffery, P.K., period 2
+.   753 existing author 418 Professor Jeffery, P.K., period 3
+--- 754 New Author 258 Jiao, Mr Long R, period 1
+.   755 existing author 258 Mr Jiao, L.R., period 2
+.   756 existing author 258 Mr Jiao, L.R., period 3
+--- 757 New Author 419 Johnson, Professor Mark Richard, period 1
+.   758 existing author 419 Professor Johnson, M.R., period 2
+.   759 existing author 419 Professor Johnson, M.R., period 3
+--- 760 New Author 420 Johnston, Professor Desmond Geoffrey FMedSci, period 1
+.   761 existing author 420 Professor Johnston, D.G., period 2
+.   762 existing author 420 Professor Johnston, D.G., period 3
+--- 763 New Author 421 Johnston, Professor Sebastian Lennox, period 1
+.   764 existing author 421 Professor Johnston, S.L., period 2
+.   765 existing author 421 Professor Johnston, S.L., period 3
+--- 766 New Author 51 Jones, Dr Meinir, period 1
+.   767 existing author 51 Dr Jones, M., period 2
+.   768 existing author 51 Dr Jones, M., period 3
+--- 769 New Author 175 Jones, Dr Michael David, period 1
+.   770 existing author 51 Dr Jones, M., period 2
+.   771 existing author 51 Dr Jones, M., period 3
+--- 772 New Author 176 Kampmann, Dr Beate, period 1
+.   773 existing author 176 Dr Kampmann, B., period 2
+.   774 existing author 176 Dr Kampmann, B., period 3
+--- 775 New Author 259 Karadimitris, Dr Anastasios, period 1
+.   776 existing author 259 Dr Karadimitris, A., period 2
+.   777 existing author 259 Dr Karadimitris, A., period 3
+--- 778 New Author 292 Karayiannis, Dr Peter, period 1
+.   779 existing author 292 Dr Karayiannis, P., period 2
+.   780 existing author 292 Dr Karayiannis, P., period 3
+--- 781 New Author 177 Kaur, Dr Balvinder, period 1
+.   782 existing author 177 Dr Kaur, B., period 2
+.   783 existing author 177 Dr Kaur, B., period 3
+--- 784 New Author 178 Kelleher, Dr William Peter, period 1
+.   785 existing author 178 Dr Kelleher, W.P., period 2
+.   786 existing author 178 Dr Kelleher, W.P., period 3
+--- 787 New Author 179 Kemp, Dr Paul, period 1
+.   788 existing author 179 Dr Kemp, P., period 2
+.   789 existing author 179 Dr Kemp, P., period 3
+--- 790 New Author 52 Keun, Dr Hector, period 1
+.   791 existing author 52 Dr Keun, H., period 2
+.   792 existing author 52 Dr Keun, H., period 3
+--- 793 New Author 422 Khakoo, Professor Salim Iqbal BSc MD MBBS MRCP, period 1
+.   794 existing author 422 Professor Khakoo, S.I., period 2
+.   795 existing author 422 Professor Khakoo, S.I., period 3
+--- 796 New Author 180 Khan, Dr Shahid Aziz, period 1
+.   797 existing author 180 Dr Khan, S.A., period 2
+.   798 existing author 180 Dr Khan, S.A., period 3
+--- 799 New Author 260 Kneebone, Dr Roger Lister, period 1
+.   800 existing author 260 Dr Kneebone, R.L., period 2
+.   801 existing author 260 Dr Kneebone, R.L., period 3
+--- 802 New Author 423 Korchev, Professor Yuri Evgenyevich, period 1
+.   803 existing author 423 Professor Korchev, Y.E., period 2
+.   804 existing author 423 Professor Korchev, Y.E., period 3
+--- 805 New Author 424 Kroll, Professor John Simon FMedSci, period 1
+.   806 existing author 424 Professor Kroll, J.S., period 2
+.   807 existing author 424 Professor Kroll, J.S., period 3
+--- 808 New Author 53 Kudo, Dr Nobuaki, period 1
+.   809 existing author 53 Dr Kudo, N., period 2
+.   810 existing author 53 Dr Kudo, N., period 3
+--- 811 New Author 181 Kumar, Dr Sailesh, period 1
+.   812 existing author 181 Dr Kumar, S., period 2
+.   813 existing author 181 Dr Kumar, S., period 3
+--- 814 New Author 54 Kypta, Dr Robert Martin, period 1
+.   815 existing author 54 Dr Kypta, R.M., period 2
+.   816 existing author 54 Dr Kypta, R.M., period 3
+--- 817 New Author 425 Laffan, Professor Michael Arthur (Mike), period 1
+.   818 existing author 425 Professor Laffan, M.A., period 2
+.   819 existing author 425 Professor Laffan, M.A., period 3
+--- 820 New Author 426 Lalvani, Professor Ajit MA MBBS DM FRCP, period 1
+.   821 existing author 426 Professor Lalvani, A.D., period 2
+.   822 existing author 426 Professor Lalvani, A.D., period 3
+--- 823 New Author 427 Lam, Professor Eric Wing-Fai, period 1
+.   824 existing author 427 Professor Lam, E.W., period 2
+.   825 existing author 427 Professor Lam, E.W., period 3
+--- 826 New Author 428 Lane, Professor David Anthony, period 1
+.   827 existing author 428 Professor Lane, D.A., period 2
+.   828 existing author 428 Professor Lane, D.A., period 3
+--- 829 New Author 293 Langford, Dr Paul Richard, period 1
+.   830 existing author 293 Dr Langford, P.R., period 2
+.   831 existing author 293 Dr Langford, P.R., period 3
+--- 832 New Author 182 Larkman, Dr David James, period 1
+.   833 existing author 182 Dr Larkman, D.J., period 2
+.   834 existing author 182 Dr Larkman, D.J., period 3
+--- 835 New Author 429 Laruelle, Professor Marc, period 1
+.   836 existing author 429 Professor Laruelle, M., period 2
+.   837 existing author 429 Professor Laruelle, M., period 3
+--- 838 New Author 430 Laycock, Professor John Francis, period 1
+.   839 existing author 430 Professor Laycock, J.F., period 2
+.   840 existing author 430 Professor Laycock, J.F., period 3
+--- 841 New Author 183 Le Roux, Dr Carel Wynand, period 1
+.   842 existing author 183 Dr Le Roux, C.W., period 2
+.   843 existing author 183 Dr Le Roux, C.W., period 3
+--- 844 New Author 184 Leclerc, Dr Isabelle, period 1
+.   845 existing author 184 Dr Leclerc, I., period 2
+.   846 existing author 184 Dr Leclerc, I., period 3
+--- 847 New Author 431 Leen, Professor Edward Lam Shang MB BCh, BAO, MD, FRCR, period 1
+.   848 existing author 431 Professor Leen, E.L.S.B.F., period 2
+.   849 existing author 431 Professor Leen, E.L.S.B.F., period 3
+--- 850 New Author 55 Leff, Mr Daniel R, period 1
+.   851 existing author 55 Mr Leff, D.R., period 2
+.   852 existing author 55 Mr Leff, D.R., period 3
+--- 853 New Author 56 Leitinger, Dr Birgit, period 1
+.   854 existing author 56 Dr Leitinger, B., period 2
+.   855 existing author 56 Dr Leitinger, B., period 3
+--- 856 New Author 57 Levicar, Dr Natasa, period 1
+.   857 existing author 57 Dr Levicar, N., period 2
+.   858 existing author 57 Dr Levicar, N., period 3
+--- 859 New Author 432 Levin, Professor Michael FMedSci, period 1
+.   860 existing author 432 Professor Levin, M., period 2
+.   861 existing author 432 Professor Levin, M., period 3
+--- 862 New Author 294 Li, Dr Meng, period 1
+.   863 existing author 294 Dr Li, M., period 2
+.   864 existing author 294 Dr Li, M., period 3
+--- 865 New Author 185 Libri, Dr Vincenzo, period 1
+.   866 existing author 185 Dr Libri, V., period 2
+.   867 existing author 185 Dr Libri, V., period 3
+--- 868 New Author 186 Lightstone, Dr Elizabeth Beatrice (Liz), period 1
+.   869 existing author 186 Dr Lightstone, E.B., period 2
+.   870 existing author 186 Dr Lightstone, E.B., period 3
+--- 871 New Author 433 Lin, Professor Chen-Lung Steve MD FRCS DPhil (Steve), period 1
+.   872 existing author 433 Professor Lin, C.S.D., period 2
+.   873 existing author 433 Professor Lin, C.S.D., period 3
+--- 874 New Author 434 Lingford-Hughes, Professor Anne Rosemary PhD BMBCH MRCPsych, period 1
+.   875 existing author 434 Professor Lingford-Hughes, A.R.B., period 2
+.   876 existing author 434 Professor Lingford-Hughes, A.R.B., period 3
+--- 877 New Author 295 Little, Dr Mark Peter, period 1
+.   878 existing author 295 Dr Little, M.P., period 2
+.   879 existing author 295 Dr Little, M.P., period 3
+--- 880 New Author 435 Lloyd, Professor Clare Margaret, period 1
+.   881 existing author 435 Professor Lloyd, C.M., period 2
+.   882 existing author 435 Professor Lloyd, C.M., period 3
+--- 883 New Author 58 Low-Beer, Dr Naomi, period 1
+.   884 existing author 58 Dr Low-Beer, N., period 2
+.   885 existing author 58 Dr Low-Beer, N., period 3
+--- 886 New Author 187 Lowrie, Dr Margaret Brenda (Maggie), period 1
+.   887 existing author 187 Dr Lowrie, M.B., period 2
+.   888 existing author 187 Dr Lowrie, M.B., period 3
+--- 889 New Author 59 Lyon, Dr Alexander, period 1
+.   890 existing author 59 Dr Lyon, A., period 2
+.   891 existing author 59 Dr Lyon, A., period 3
+--- 892 New Author 188 Ma, Dr Daqing, period 1
+.   893 existing author 188 Dr Ma, D., period 2
+.   894 existing author 188 Dr Ma, D., period 3
+--- 895 New Author 296 MacLeod, Dr Kenneth Taylor (Ken), period 1
+.   896 existing author 296 Dr MacLeod, K.T., period 2
+.   897 existing author 296 Dr MacLeod, K.T., period 3
+--- 898 New Author 436 Maden, Professor Anthony (Tony), period 1
+.   899 existing author 436 Professor Maden, A., period 2
+.   900 existing author 436 Professor Maden, A., period 3
+--- 901 New Author 437 Magee, Professor Anthony Ian (Tony), period 1
+.   902 existing author 437 Professor Magee, A.I., period 2
+.   903 existing author 437 Professor Magee, A.I., period 3
+--- 904 New Author 189 Main, Dr Janice, period 1
+.   905 existing author 189 Dr Main, J., period 2
+.   906 existing author 189 Dr Main, J., period 3
+--- 907 New Author 438 Maini, Emeritus Professor Ravinder Nath FMedSci, period 1
+.   908 existing author 438 Professor Maini, R.N., period 2
+.   909 existing author 438 Professor Maini, R.N., period 3
+--- 910 New Author 190 Maitland, Dr Kathryn, period 1
+.   911 existing author 190 Dr Maitland, K., period 2
+.   912 existing author 190 Dr Maitland, K., period 3
+--- 913 New Author 439 Majeed, Professor Farrukh Azeem (Azeem), period 1
+.   914 existing author 439 Professor Majeed, F.A., period 2
+.   915 existing author 439 Professor Majeed, F.A., period 3
+--- 916 New Author 60 Malhotra, Dr Paresh Arjun, period 1
+.   917 existing author 60 Dr Malhotra, P.A., period 2
+.   918 existing author 60 Dr Malhotra, P.A., period 3
+--- 919 New Author 61 Mallia, Dr Patrick, period 1
+.   920 existing author 61 Dr Mallia, P., period 2
+.   921 existing author 61 Dr Mallia, P., period 3
+--- 922 New Author 191 Marczin, Dr Nandor, period 1
+.   923 existing author 191 Dr Marczin, N., period 2
+.   924 existing author 191 Dr Marczin, N., period 3
+--- 925 New Author 297 Marelli-Berg, Dr Federica Maria, period 1
+.   926 existing author 297 Dr Marelli-Berg, F.M., period 2
+.   927 existing author 297 Dr Marelli-Berg, F.M., period 3
+--- 928 New Author 192 Marin Costa, Dr David (David), period 1
+.   929 existing author 192 Dr Marin Costa, D., period 2
+.   930 existing author 192 Dr Marin Costa, D., period 3
+--- 931 New Author 440 Marston, Professor Steven Baxter (Steve), period 1
+.   932 existing author 440 Professor Marston, S.B., period 2
+.   933 existing author 440 Professor Marston, S.B., period 3
+--- 934 New Author 193 Martin, Dr Niamh Maria, period 1
+.   935 existing author 193 Dr Martin, N.M., period 2
+.   936 existing author 193 Dr Martin, N.M., period 3
+--- 937 New Author 261 Mason, Dr Justin Charles, period 1
+.   938 existing author 261 Dr Mason, J.C., period 2
+.   939 existing author 261 Dr Mason, J.C., period 3
+--- 940 New Author 441 Mason, Roger M N, period 1
+.   941 existing author 441 Mason, R.M.N., period 2
+.   942 existing author 441 Mason, R.M.N., period 3
+--- 943 New Author 442 Mathias, Professor Christopher Joseph DPhil DSci FRCP FMedSci, period 1
+.   944 existing author 442 Professor Mathias, C.J.D., period 2
+.   945 existing author 442 Professor Mathias, C.J.D., period 3
+--- 946 New Author 443 Matthews, Professor Paul McMahan (Paul), period 1
+.   947 existing author 443 Professor Matthews, P.M., period 2
+.   948 existing author 443 Professor Matthews, P.M., period 3
+--- 949 New Author 62 Mayer, Mr Erik K, period 1
+.   950 existing author 62 Mr Mayer, E.K., period 2
+.   951 existing author 62 Mr Mayer, E.K., period 3
+--- 952 New Author 444 Mazarakis, Professor Nicholas Dionysios, period 1
+.   953 existing author 444 Professor Mazarakis, N.D., period 2
+.   954 existing author 444 Professor Mazarakis, N.D., period 3
+--- 955 New Author 445 McClure, Professor Myra Olga, period 1
+.   956 existing author 445 Professor McClure, M.O., period 2
+.   957 existing author 445 Professor McClure, M.O., period 3
+--- 958 New Author 298 McGarvey, Dr Michael Joseph, period 1
+.   959 existing author 298 Dr McGarvey, M.J., period 2
+.   960 existing author 298 Dr McGarvey, M.J., period 3
+--- 961 New Author 299 McGregor, Dr Alison Hazel PhD MSc MCSP, period 1
+.   962 existing author 299 Dr McGregor, A.H.M.M., period 2
+.   963 existing author 299 Dr McGregor, A.H.M.M., period 3
+--- 964 New Author 446 Meeran, Professor Mohammed Karim (Karim), period 1
+.   965 existing author 446 Professor Meeran, M.K., period 2
+.   966 existing author 446 Professor Meeran, M.K., period 3
+--- 967 New Author 194 Michael, Dr Edwin, period 1
+.   968 existing author 194 Dr Michael, E., period 2
+.   969 existing author 194 Dr Michael, E., period 3
+--- 970 New Author 300 Michaud, Dr Dominique Sandrine, period 1
+.   971 existing author 300 Dr Michaud, D.S., period 2
+.   972 existing author 300 Dr Michaud, D.S., period 3
+--- 973 New Author 447 Middleton, Professor Lefkos MD, period 1
+.   974 existing author 447 Professor Middleton, L., period 2
+.   975 existing author 447 Professor Middleton, L., period 3
+--- 976 New Author 63 Midwood, Dr Kim, period 1
+.   977 existing author 63 Dr Midwood, K., period 2
+.   978 existing author 63 Dr Midwood, K., period 3
+--- 979 New Author 195 Millar, Dr Carolyn, period 1
+.   980 existing author 195 Dr Millar, C., period 2
+.   981 existing author 195 Dr Millar, C., period 3
+--- 982 New Author 196 Mintz, Dr Paul Jerry, period 1
+.   983 existing author 196 Dr Mintz, P.J., period 2
+.   984 existing author 196 Dr Mintz, P.J., period 3
+--- 985 New Author 448 Mitchell, Professor Jane Alison, period 1
+.   986 existing author 448 Professor Mitchell, J.A., period 2
+.   987 existing author 448 Professor Mitchell, J.A., period 3
+--- 988 New Author 449 Modi, Professor Neena, period 1
+.   989 existing author 449 Professor Modi, N., period 2
+.   990 existing author 449 Professor Modi, N., period 3
+--- 991 New Author 450 Moffatt, Professor Miriam Fleur, period 1
+.   992 existing author 450 Professor Moffatt, M.F., period 2
+.   993 existing author 450 Professor Moffatt, M.F., period 3
+--- 994 New Author 64 Molitor, Dr John Thomas, period 1
+.   995 existing author 64 Dr Molitor, J.T., period 2
+.   996 existing author 64 Dr Molitor, J.T., period 3
+--- 997 New Author 197 Monaco, Dr Claudia, period 1
+.   998 existing author 197 Dr Monaco, C., period 2
+.   999 existing author 197 Dr Monaco, C., period 3
+--- 1000 New Author 65 Mongkolsapaya, Dr Juthathip, period 1
+.   1001 existing author 65 Dr Mongkolsapaya, J., period 2
+.   1002 existing author 65 Dr Mongkolsapaya, J., period 3
+--- 1003 New Author 262 Moore, Dr David AJ, period 1
+.   1004 existing author 262 Dr Moore, D.A., period 2
+.   1005 existing author 262 Dr Moore, D.A., period 3
+--- 1006 New Author 198 Moorthy, Mr Krishna, period 1
+.   1007 existing author 198 Mr Moorthy, K., period 2
+.   1008 existing author 198 Mr Moorthy, K., period 3
+--- 1009 New Author 66 Moosavi, Dr Syed-Shakeeb Hassan (Shakeeb), period 1
+.   1010 existing author 66 Dr Moosavi, S.H., period 2
+.   1011 existing author 66 Dr Moosavi, S.H., period 3
+--- 1012 New Author 451 Morley, Professor Bernard John, period 1
+.   1013 existing author 451 Professor Morley, B.J., period 2
+.   1014 existing author 451 Professor Morley, B.J., period 3
+--- 1015 New Author 301 Morrell, Dr Mary Jennifer, period 1
+.   1016 existing author 301 Dr Morrell, M.J., period 2
+.   1017 existing author 301 Dr Morrell, M.J., period 3
+--- 1018 New Author 199 Muir, Dr Elizabeth Hilary, period 1
+.   1019 existing author 199 Dr Muir, E.H., period 2
+.   1020 existing author 199 Dr Muir, E.H., period 3
+--- 1021 New Author 302 Muller, Dr Ingrid, period 1
+.   1022 existing author 302 Dr Muller, I., period 2
+.   1023 existing author 302 Dr Muller, I., period 3
+--- 1024 New Author 263 Muraro, Dr Paolo Antonio, period 1
+.   1025 existing author 263 Dr Muraro, P.A., period 2
+.   1026 existing author 263 Dr Muraro, P.A., period 3
+--- 1027 New Author 67 Murphy, Dr Chris Luke, period 1
+.   1028 existing author 67 Dr Murphy, C.L., period 2
+.   1029 existing author 67 Dr Murphy, C.L., period 3
+--- 1030 New Author 200 Murphy, Dr Kevin Graeme, period 1
+.   1031 existing author 200 Dr Murphy, K.G., period 2
+.   1032 existing author 200 Dr Murphy, K.G., period 3
+--- 1033 New Author 452 Nagase, Professor Hideaki, period 1
+.   1034 existing author 452 Professor Nagase, H., period 2
+.   1035 existing author 452 Professor Nagase, H., period 3
+--- 1036 New Author 201 Nagy, Dr Istvan, period 1
+.   1037 existing author 201 Dr Nagy, I., period 2
+.   1038 existing author 201 Dr Nagy, I., period 3
+--- 1039 New Author 453 Nanchahal, Professor Jagdeep, period 1
+.   1040 existing author 453 Professor Nanchahal, J., period 2
+.   1041 existing author 453 Professor Nanchahal, J., period 3
+--- 1042 New Author 454 Newman Taylor, Professor Sir Anthony J CBE, FMedSci, period 1
+.   1043 existing author 454 Professor Sir Newman Taylor, A.J., period 2
+.   1044 existing author 454 Professor Sir Newman Taylor, A.J., period 3
+--- 1045 New Author 68 Newsom-Davis, Dr Thomas Edmund, period 1
+.   1046 existing author 68 Dr Newsom-Davis, T.E., period 2
+.   1047 existing author 68 Dr Newsom-Davis, T.E., period 3
+--- 1048 New Author 69 Newson, Dr Roger Benedict, period 1
+.   1049 existing author 69 Dr Newson, R.B., period 2
+.   1050 existing author 69 Dr Newson, R.B., period 3
+--- 1051 New Author 202 Newton, Dr Douglas Edward Falconer, period 1
+.   1052 existing author 202 Dr Newton, D.E.F., period 2
+.   1053 existing author 202 Dr Newton, D.E.F., period 3
+--- 1054 New Author 70 Newton, Dr Sandra Maria, period 1
+.   1055 existing author 70 Dr Newton, S.M., period 2
+.   1056 existing author 70 Dr Newton, S.M., period 3
+--- 1057 New Author 455 Nicholson, Professor Jeremy Kirk, period 1
+.   1058 existing author 455 Professor Nicholson, J.K., period 2
+.   1059 existing author 455 Professor Nicholson, J.K., period 3
+--- 1060 New Author 456 Nihoyannopoulos, Professor Petros, period 1
+.   1061 existing author 456 Professor Nihoyannopoulos, P., period 2
+.   1062 existing author 456 Professor Nihoyannopoulos, P., period 3
+--- 1063 New Author 71 Nikolic, Dr Margareta, period 1
+.   1064 existing author 71 Dr Nikolic, M., period 2
+.   1065 existing author 71 Dr Nikolic, M., period 3
+--- 1066 New Author 457 Nutt, Professor David John MRCP MRCPsych FRCPsych FMedSci, period 1
+.   1067 existing author 457 Professor Nutt, D.J., period 2
+.   1068 existing author 457 Professor Nutt, D.J., period 3
+--- 1069 New Author 458 Openshaw, Professor Peter John Morland MB BS PhD FMedSci, period 1
+.   1070 existing author 458 Professor Openshaw, P.J.M., period 2
+.   1071 existing author 458 Professor Openshaw, P.J.M., period 3
+--- 1072 New Author 72 Paige, Dr Adam John William, period 1
+.   1073 existing author 72 Dr Paige, A.J.W., period 2
+.   1074 existing author 72 Dr Paige, A.J.W., period 3
+--- 1075 New Author 203 Paleolog, Dr Ewa, period 1
+.   1076 existing author 203 Dr Paleolog, E., period 2
+.   1077 existing author 203 Dr Paleolog, E., period 3
+--- 1078 New Author 204 Palmieri, Dr Carlo, period 1
+.   1079 existing author 204 Dr Palmieri, C., period 2
+.   1080 existing author 204 Dr Palmieri, C., period 3
+--- 1081 New Author 205 Panoskaltsis, Dr Nicki, period 1
+.   1082 existing author 205 Dr Panoskaltsis, N., period 2
+.   1083 existing author 205 Dr Panoskaltsis, N., period 3
+--- 1084 New Author 303 Paraskeva, Mr Paraskevas Antonios, period 1
+.   1085 existing author 303 Mr Paraskeva, P.A., period 2
+.   1086 existing author 303 Mr Paraskeva, P.A., period 3
+--- 1087 New Author 73 Pardo, Dr Olivier E, period 1
+.   1088 existing author 73 Dr Pardo, O.E., period 2
+.   1089 existing author 73 Dr Pardo, O.E., period 3
+--- 1090 New Author 459 Parker, Professor Malcolm George FMedSci, period 1
+.   1091 existing author 459 Professor Parker, M.G., period 2
+.   1092 existing author 459 Professor Parker, M.G., period 3
+--- 1093 New Author 74 Parkes Ratanshi, Dr Rosalind Margaret, period 1
+.   1094 existing author 74 Dr Parkes Ratanshi, R.M., period 2
+.   1095 existing author 74 Dr Parkes Ratanshi, R.M., period 3
+--- 1096 New Author 460 Partridge, Professor Martyn Richard, period 1
+.   1097 existing author 460 Professor Partridge, M.R., period 2
+.   1098 existing author 460 Professor Partridge, M.R., period 3
+--- 1099 New Author 461 Pasvol, Professor Geoffrey, period 1
+.   1100 existing author 461 Professor Pasvol, G., period 2
+.   1101 existing author 461 Professor Pasvol, G., period 3
+--- 1102 New Author 206 Pathan, Dr Nazima, period 1
+.   1103 existing author 206 Dr Pathan, N., period 2
+.   1104 existing author 206 Dr Pathan, N., period 3
+--- 1105 New Author 75 Paul-Clark, Dr Mark John, period 1
+.   1106 existing author 75 Dr Paul-Clark, M.J., period 2
+.   1107 existing author 75 Dr Paul-Clark, M.J., period 3
+--- 1108 New Author 207 Pearse, Mr Michael, period 1
+.   1109 existing author 207 Mr Pearse, M., period 2
+.   1110 existing author 207 Mr Pearse, M., period 3
+--- 1111 New Author 304 Pease, Dr James Edward, period 1
+.   1112 existing author 304 Dr Pease, J.E., period 2
+.   1113 existing author 304 Dr Pease, J.E., period 3
+--- 1114 New Author 462 Peeters, Professor Petra H M, period 1
+.   1115 existing author 462 Professor Peeters, P.H.M., period 2
+.   1116 existing author 462 Professor Peeters, P.H.M., period 3
+--- 1117 New Author 76 Pelicic, Dr Vladimir, period 1
+.   1118 existing author 76 Dr Pelicic, V., period 2
+.   1119 existing author 76 Dr Pelicic, V., period 3
+--- 1120 New Author 463 Pennell, Professor Dudley John, period 1
+.   1121 existing author 463 Professor Pennell, D.J., period 2
+.   1122 existing author 463 Professor Pennell, D.J., period 3
+--- 1123 New Author 464 Pepper, Professor John, period 1
+.   1124 existing author 464 Professor Pepper, J., period 2
+.   1125 existing author 464 Professor Pepper, J., period 3
+--- 1126 New Author 465 Peters, Professor Nicholas Simon, period 1
+.   1127 existing author 465 Professor Peters, N.S., period 2
+.   1128 existing author 465 Professor Peters, N.S., period 3
+--- 1129 New Author 77 Petretto, Dr Enrico Giuseppe, period 1
+.   1130 existing author 77 Dr Petretto, E.G., period 2
+.   1131 existing author 77 Dr Petretto, E.G., period 3
+--- 1132 New Author 466 Phillips, Professor Robin K, period 1
+.   1133 existing author 466 Professor Phillips, R.K., period 2
+.   1134 existing author 466 Professor Phillips, R.K., period 3
+--- 1135 New Author 467 Piccini, Professor Paola MD, PhD, period 1
+.   1136 existing author 467 Professor Piccini, P., period 2
+.   1137 existing author 467 Professor Piccini, P., period 3
+--- 1138 New Author 208 Pickering, Dr Matthew Caleb, period 1
+.   1139 existing author 208 Dr Pickering, M.C., period 2
+.   1140 existing author 208 Dr Pickering, M.C., period 3
+--- 1141 New Author 468 Piot, Professor Lord Peter Karel MD, PhD, FRCP, period 1
+.   1142 existing author 468 Professor Lord Piot, P.K., period 2
+.   1143 existing author 468 Professor Lord Piot, P.K., period 3
+--- 1144 New Author 209 Popat, Dr Sanjaykumar (Sanjay), period 1
+.   1145 existing author 209 Dr Popat, S., period 2
+.   1146 existing author 209 Dr Popat, S., period 3
+--- 1147 New Author 305 Porter, Dr Andrew C G (Andy), period 1
+.   1148 existing author 305 Dr Porter, A.C.G., period 2
+.   1149 existing author 305 Dr Porter, A.C.G., period 3
+--- 1150 New Author 469 Poulter, Professor Neil Reginald, period 1
+.   1151 existing author 469 Professor Poulter, N.R., period 2
+.   1152 existing author 469 Professor Poulter, N.R., period 3
+--- 1153 New Author 78 Purbhoo, Dr Marco, period 1
+.   1154 existing author 78 Dr Purbhoo, M., period 2
+.   1155 existing author 78 Dr Purbhoo, M., period 3
+--- 1156 New Author 79 Purkayastha, Mr Sanjay, period 1
+.   1157 existing author 79 Mr Purkayastha, S., period 2
+.   1158 existing author 79 Mr Purkayastha, S., period 3
+--- 1159 New Author 306 Purohit, Dr Atul, period 1
+.   1160 existing author 306 Dr Purohit, A., period 2
+.   1161 existing author 306 Dr Purohit, A., period 3
+--- 1162 New Author 470 Pusey, Professor Charles Dickson FMedSci, period 1
+.   1163 existing author 470 Professor Pusey, C.D., period 2
+.   1164 existing author 470 Professor Pusey, C.D., period 3
+--- 1165 New Author 210 Raby, Dr Adrian Mark, period 1
+.   1166 existing author 210 Dr Raby, A.M., period 2
+.   1167 existing author 210 Dr Raby, A.M., period 3
+--- 1168 New Author 211 Rai, Mr Rajendra Singh (Raj), period 1
+.   1169 existing author 211 Mr Rai, R.S., period 2
+.   1170 existing author 211 Mr Rai, R.S., period 3
+--- 1171 New Author 212 Randi, Dr Anna M, period 1
+.   1172 existing author 212 Dr Randi, A.M., period 2
+.   1173 existing author 212 Dr Randi, A.M., period 3
+--- 1174 New Author 307 Rankin, Dr Sara Margaret, period 1
+.   1175 existing author 307 Dr Rankin, S.M., period 2
+.   1176 existing author 307 Dr Rankin, S.M., period 3
+--- 1177 New Author 471 Regan, Professor Lesley, period 1
+.   1178 existing author 471 Professor Regan, L., period 2
+.   1179 existing author 471 Professor Regan, L., period 3
+--- 1180 New Author 472 Reynolds, Professor Richard, period 1
+.   1181 existing author 472 Professor Reynolds, R., period 2
+.   1182 existing author 472 Professor Reynolds, R., period 3
+--- 1183 New Author 80 Rezek, Dr Iead, period 1
+.   1184 existing author 80 Dr Rezek, I., period 2
+.   1185 existing author 80 Dr Rezek, I., period 3
+--- 1186 New Author 213 Rezvani, Dr Katayoun (Katy), period 1
+.   1187 existing author 213 Dr Rezvani, K., period 2
+.   1188 existing author 213 Dr Rezvani, K., period 3
+--- 1189 New Author 473 Riboli, Professor Elio BSc MD MSc, period 1
+.   1190 existing author 473 Professor Riboli, E.M., period 2
+.   1191 existing author 473 Professor Riboli, E.M., period 3
+--- 1192 New Author 474 Richardson, Professor Sylvia, period 1
+.   1193 existing author 474 Professor Richardson, S., period 2
+.   1194 existing author 474 Professor Richardson, S., period 3
+--- 1195 New Author 81 Roberts, Dr Nicola Jane, period 1
+.   1196 existing author 81 Dr Roberts, N.J., period 2
+.   1197 existing author 81 Dr Roberts, N.J., period 3
+--- 1198 New Author 475 Roberts, Professor Irene, period 1
+.   1199 existing author 475 Professor Roberts, I., period 2
+.   1200 existing author 475 Professor Roberts, I., period 3
+--- 1201 New Author 214 Robertson, Dr Brian Douglas, period 1
+.   1202 existing author 214 Dr Robertson, B.D., period 2
+.   1203 existing author 214 Dr Robertson, B.D., period 3
+--- 1204 New Author 476 Robinson, Professor Douglas S F, period 1
+.   1205 existing author 476 Professor Robinson, D.S.F., period 2
+.   1206 existing author 476 Professor Robinson, D.S.F., period 3
+--- 1207 New Author 308 Rogers, Dr Duncan Fraser, period 1
+.   1208 existing author 308 Dr Rogers, D.F., period 2
+.   1209 existing author 308 Dr Rogers, D.F., period 3
+--- 1210 New Author 215 Rogers, Dr Nicola Jane, period 1
+.   1211 existing author 215 Dr Rogers, N.J., period 2
+.   1212 existing author 215 Dr Rogers, N.J., period 3
+--- 1213 New Author 264 Roncaroli, Dr Federico, period 1
+.   1214 existing author 264 Dr Roncaroli, F., period 2
+.   1215 existing author 264 Dr Roncaroli, F., period 3
+--- 1216 New Author 477 Rose, Professor Marlene Lydia, period 1
+.   1217 existing author 477 Professor Rose, M.L., period 2
+.   1218 existing author 477 Professor Rose, M.L., period 3
+--- 1219 New Author 478 Rosenthal, Professor Nadia Alicia, period 1
+.   1220 existing author 478 Professor Rosenthal, N.A., period 2
+.   1221 existing author 478 Professor Rosenthal, N.A., period 3
+--- 1222 New Author 82 Rutschmann, Dr Sophie, period 1
+.   1223 existing author 82 Dr Rutschmann, S., period 2
+.   1224 existing author 82 Dr Rutschmann, S., period 3
+--- 1225 New Author 479 Rutter, Professor Guy Allen PhD, period 1
+.   1226 existing author 479 Professor Rutter, G.A., period 2
+.   1227 existing author 479 Professor Rutter, G.A., period 3
+--- 1228 New Author 216 Saglani, Dr Sejal, period 1
+.   1229 existing author 216 Dr Saglani, S., period 2
+.   1230 existing author 216 Dr Saglani, S., period 3
+--- 1231 New Author 480 Saklatvala, Professor Jeremy FMedSci, period 1
+.   1232 existing author 480 Professor Saklatvala, J., period 2
+.   1233 existing author 480 Professor Saklatvala, J., period 3
+--- 1234 New Author 217 Salama, Dr Alan, period 1
+.   1235 existing author 217 Dr Salama, A., period 2
+.   1236 existing author 217 Dr Salama, A., period 3
+--- 1237 New Author 83 Sastre, Dr Magdalena, period 1
+.   1238 existing author 83 Dr Sastre, M., period 2
+.   1239 existing author 83 Dr Sastre, M., period 3
+--- 1240 New Author 218 Saxena, Dr Sonia Krishna, period 1
+.   1241 existing author 218 Dr Saxena, S.K., period 2
+.   1242 existing author 218 Dr Saxena, S.K., period 3
+--- 1243 New Author 219 Schachter, Dr Michael, period 1
+.   1244 existing author 219 Dr Schachter, M., period 2
+.   1245 existing author 219 Dr Schachter, M., period 3
+--- 1246 New Author 481 Schatzkin, Professor Arthur, period 1
+.   1247 existing author 481 Professor Schatzkin, A., period 2
+.   1248 existing author 481 Professor Schatzkin, A., period 3
+--- 1249 New Author 220 Schmid, Dr Peter, period 1
+.   1250 existing author 220 Dr Schmid, P., period 2
+.   1251 existing author 220 Dr Schmid, P., period 3
+--- 1252 New Author 309 Schmidt-Weber, Dr Carsten B, period 1
+.   1253 existing author 309 Dr Schmidt-Weber, C.B., period 2
+.   1254 existing author 309 Dr Schmidt-Weber, C.B., period 3
+--- 1255 New Author 482 Schneider, Professor Michael David, period 1
+.   1256 existing author 482 Professor Schneider, M.D., period 2
+.   1257 existing author 482 Professor Schneider, M.D., period 3
+--- 1258 New Author 221 Scott, Dr Diane M, period 1
+.   1259 existing author 221 Dr Scott, D.M., period 2
+.   1260 existing author 221 Dr Scott, D.M., period 3
+--- 1261 New Author 483 Scott, Professor James FRS, FMedSci, period 1
+.   1262 existing author 483 Professor Scott, J.F., period 2
+.   1263 existing author 483 Professor Scott, J.F., period 3
+--- 1264 New Author 484 Screaton, Professor Gavin Robert FMedSci, period 1
+.   1265 existing author 484 Professor Screaton, G.R., period 2
+.   1266 existing author 484 Professor Screaton, G.R., period 3
+--- 1267 New Author 485 Seabra, Professor Miguel C, period 1
+.   1268 existing author 485 Professor Seabra, M.C., period 2
+.   1269 existing author 485 Professor Seabra, M.C., period 3
+--- 1270 New Author 486 Seckl, Professor Michael, period 1
+.   1271 existing author 486 Professor Seckl, M., period 2
+.   1272 existing author 486 Professor Seckl, M., period 3
+--- 1273 New Author 222 Seemungal, Dr Barry Mitra, period 1
+.   1274 existing author 222 Dr Seemungal, B.M., period 2
+.   1275 existing author 222 Dr Seemungal, B.M., period 3
+--- 1276 New Author 84 Sen-Chowdhry, Dr Srijita, period 1
+.   1277 existing author 84 Dr Sen-Chowdhry, S., period 2
+.   1278 existing author 84 Dr Sen-Chowdhry, S., period 3
+--- 1279 New Author 487 Sensky, Professor Thomas (Tom), period 1
+.   1280 existing author 487 Professor Sensky, T., period 2
+.   1281 existing author 487 Professor Sensky, T., period 3
+--- 1282 New Author 85 Sevdalis, Dr Nick, period 1
+.   1283 existing author 85 Dr Sevdalis, N., period 2
+.   1284 existing author 85 Dr Sevdalis, N., period 3
+--- 1285 New Author 488 Sever, Professor Peter Sedgwick, period 1
+.   1286 existing author 488 Professor Sever, P.S., period 2
+.   1287 existing author 488 Professor Sever, P.S., period 3
+--- 1288 New Author 489 Severs, Professor Nicholas John, period 1
+.   1289 existing author 489 Professor Severs, N.J., period 2
+.   1290 existing author 489 Professor Severs, N.J., period 3
+--- 1291 New Author 223 Shaheen, Dr Seif Omar, period 1
+.   1292 existing author 223 Dr Shaheen, S.O., period 2
+.   1293 existing author 223 Dr Shaheen, S.O., period 3
+--- 1294 New Author 265 Sharma, Dr Pankaj, period 1
+.   1295 existing author 265 Dr Sharma, P., period 2
+.   1296 existing author 265 Dr Sharma, P., period 3
+--- 1297 New Author 224 Sharp, Dr David James, period 1
+.   1298 existing author 224 Dr Sharp, D.J., period 2
+.   1299 existing author 224 Dr Sharp, D.J., period 3
+--- 1300 New Author 490 Shaunak, Professor Sunil, period 1
+.   1301 existing author 490 Professor Shaunak, S., period 2
+.   1302 existing author 490 Professor Shaunak, S., period 3
+--- 1303 New Author 225 Shovlin, Dr Claire Louise, period 1
+.   1304 existing author 225 Dr Shovlin, C.L., period 2
+.   1305 existing author 225 Dr Shovlin, C.L., period 3
+--- 1306 New Author 226 Skinner, Dr Michael Anthony (Mike), period 1
+.   1307 existing author 226 Dr Skinner, M.A., period 2
+.   1308 existing author 226 Dr Skinner, M.A., period 3
+--- 1309 New Author 86 Smith, Dr Kirsty Louise, period 1
+.   1310 existing author 86 Dr Smith, K.L., period 2
+.   1311 existing author 86 Dr Smith, K.L., period 3
+--- 1312 New Author 310 Smith, Dr Susan Frances (Sue F), period 1
+.   1313 existing author 310 Dr Smith, S.F., period 2
+.   1314 existing author 310 Dr Smith, S.F., period 3
+--- 1315 New Author 491 Smith, Professor Geoffrey Lilley FRS, FMedSci, FIBiol, period 1
+.   1316 existing author 491 Professor Smith, G.L.F.F., period 2
+.   1317 existing author 491 Professor Smith, G.L.F.F., period 3
+--- 1318 New Author 492 Smith, Professor Stephen Kevin FMedSci, period 1
+.   1319 existing author 492 Professor Smith, S.K., period 2
+.   1320 existing author 492 Professor Smith, S.K., period 3
+--- 1321 New Author 227 Solito, Dr Egle, period 1
+.   1322 existing author 227 Dr Solito, E., period 2
+.   1323 existing author 227 Dr Solito, E., period 3
+--- 1324 New Author 228 Spalding, Mr Duncan R C, period 1
+.   1325 existing author 228 Mr Spalding, D.R.C., period 2
+.   1326 existing author 228 Mr Spalding, D.R.C., period 3
+--- 1327 New Author 87 Spencer-Dene, Dr Bradley, period 1
+.   1328 existing author 87 Dr Spencer-Dene, B., period 2
+.   1329 existing author 87 Dr Spencer-Dene, B., period 3
+--- 1330 New Author 493 Spratt, Professor Brian Geoffrey CBE FRS FMedSci, period 1
+.   1331 existing author 493 Professor Spratt, B.G.F., period 2
+.   1332 existing author 493 Professor Spratt, B.G.F., period 3
+--- 1333 New Author 494 Sriskandan, Professor Shiranee, period 1
+.   1334 existing author 494 Professor Sriskandan, S., period 2
+.   1335 existing author 494 Professor Sriskandan, S., period 3
+--- 1336 New Author 495 Stamp, Professor Gordon William, period 1
+.   1337 existing author 495 Professor Stamp, G.W., period 2
+.   1338 existing author 495 Professor Stamp, G.W., period 3
+--- 1339 New Author 229 Stanley, Dr Sarah Amy, period 1
+.   1340 existing author 229 Dr Stanley, S.A., period 2
+.   1341 existing author 229 Dr Stanley, S.A., period 3
+--- 1342 New Author 230 Stebbing, Dr Justin, period 1
+.   1343 existing author 230 Dr Stebbing, J., period 2
+.   1344 existing author 230 Dr Stebbing, J., period 3
+--- 1345 New Author 88 Stevenson, Dr Christopher Scott, period 1
+.   1346 existing author 88 Dr Stevenson, C.S., period 2
+.   1347 existing author 88 Dr Stevenson, C.S., period 3
+--- 1348 New Author 89 Strutton, Dr Paul Henry, period 1
+.   1349 existing author 89 Dr Strutton, P.H., period 2
+.   1350 existing author 89 Dr Strutton, P.H., period 3
+--- 1351 New Author 90 Sturge, Dr Justin, period 1
+.   1352 existing author 90 Dr Sturge, J., period 2
+.   1353 existing author 90 Dr Sturge, J., period 3
+--- 1354 New Author 496 Sugden, Professor Peter Howard, period 1
+.   1355 existing author 496 Professor Sugden, P.H., period 2
+.   1356 existing author 496 Professor Sugden, P.H., period 3
+--- 1357 New Author 231 Sullivan, Dr Mark Hubbard Fitzmaurice, period 1
+.   1358 existing author 231 Dr Sullivan, M.H.F., period 2
+.   1359 existing author 231 Dr Sullivan, M.H.F., period 3
+--- 1360 New Author 497 Swain, Professor Paul C, period 1
+.   1361 existing author 497 Professor Swain, P.C., period 2
+.   1362 existing author 497 Professor Swain, P.C., period 3
+--- 1363 New Author 498 Takata, Professor Masao, period 1
+.   1364 existing author 498 Professor Takata, M., period 2
+.   1365 existing author 498 Professor Takata, M., period 3
+--- 1366 New Author 232 Tam, Dr Frederick, period 1
+.   1367 existing author 232 Dr Tam, F., period 2
+.   1368 existing author 232 Dr Tam, F., period 3
+--- 1369 New Author 499 Tang, Professor Christoph Marcel, period 1
+.   1370 existing author 499 Professor Tang, C.M., period 2
+.   1371 existing author 499 Professor Tang, C.M., period 3
+--- 1372 New Author 233 Tarzi, Dr Ruth Margaret, period 1
+.   1373 existing author 233 Dr Tarzi, R.M., period 2
+.   1374 existing author 233 Dr Tarzi, R.M., period 3
+--- 1375 New Author 91 Taylor, Dr Deanna Lesley, period 1
+.   1376 existing author 91 Dr Taylor, D.L., period 2
+.   1377 existing author 91 Dr Taylor, D.L., period 3
+--- 1378 New Author 266 Taylor, Dr Graham Philip, period 1
+.   1379 existing author 266 Dr Taylor, G.P., period 2
+.   1380 existing author 266 Dr Taylor, G.P., period 3
+--- 1381 New Author 92 Taylor, Dr Patricia Mary, period 1
+.   1382 existing author 92 Dr Taylor, P.M., period 2
+.   1383 existing author 92 Dr Taylor, P.M., period 3
+--- 1384 New Author 500 Taylor, Professor Peter Charles, period 1
+.   1385 existing author 500 Professor Taylor, P.C., period 2
+.   1386 existing author 500 Professor Taylor, P.C., period 3
+--- 1387 New Author 501 Taylor-Robinson, Professor Simon David, period 1
+.   1388 existing author 501 Professor Taylor-Robinson, S.D., period 2
+.   1389 existing author 501 Professor Taylor-Robinson, S.D., period 3
+--- 1390 New Author 267 Tekkis, Mr Paris Procopiou, period 1
+.   1391 existing author 267 Mr Tekkis, P.P., period 2
+.   1392 existing author 267 Mr Tekkis, P.P., period 3
+--- 1393 New Author 234 Terracciano, Dr Cesare Maria Nicola, period 1
+.   1394 existing author 234 Dr Terracciano, C.M.N., period 2
+.   1395 existing author 234 Dr Terracciano, C.M.N., period 3
+--- 1396 New Author 93 Terzidou, Dr Vasiliki Ioannou (Vasso), period 1
+.   1397 existing author 93 Dr Terzidou, V.I., period 2
+.   1398 existing author 93 Dr Terzidou, V.I., period 3
+--- 1399 New Author 502 Tetley, Professor Teresa Dorothy (Terry), period 1
+.   1400 existing author 502 Professor Tetley, T.D., period 2
+.   1401 existing author 502 Professor Tetley, T.D., period 3
+--- 1402 New Author 503 Thom, Professor Simon Alasdair McG MD FRCP, period 1
+.   1403 existing author 503 Professor Thom, S.A.M., period 2
+.   1404 existing author 503 Professor Thom, S.A.M., period 3
+--- 1405 New Author 504 Thomas, Professor Geraldine Anne (Gerry), period 1
+.   1406 existing author 504 Professor Thomas, G.A., period 2
+.   1407 existing author 504 Professor Thomas, G.A., period 3
+--- 1408 New Author 505 Thomas, Professor Howard Christopher FMedSci, period 1
+.   1409 existing author 505 Professor Thomas, H.C., period 2
+.   1410 existing author 505 Professor Thomas, H.C., period 3
+--- 1411 New Author 506 Thomas, Professor Huw Jeremy, period 1
+.   1412 existing author 506 Professor Thomas, H.J., period 2
+.   1413 existing author 506 Professor Thomas, H.J., period 3
+--- 1414 New Author 507 Thursz, Professor Mark Richard, period 1
+.   1415 existing author 507 Professor Thursz, M.R., period 2
+.   1416 existing author 507 Professor Thursz, M.R., period 3
+--- 1417 New Author 235 Toledano, Dr Mireille Beracha, period 1
+.   1418 existing author 235 Dr Toledano, M.B., period 2
+.   1419 existing author 235 Dr Toledano, M.B., period 3
+--- 1420 New Author 236 Trapp, Dr Stefan, period 1
+.   1421 existing author 236 Dr Trapp, S., period 2
+.   1422 existing author 236 Dr Trapp, S., period 3
+--- 1423 New Author 268 Tudor-Williams, Dr Gareth, period 1
+.   1424 existing author 268 Dr Tudor-Williams, G., period 2
+.   1425 existing author 268 Dr Tudor-Williams, G., period 3
+--- 1426 New Author 508 Tyrer, Professor Peter Julian FMedSci, period 1
+.   1427 existing author 508 Professor Tyrer, P.J., period 2
+.   1428 existing author 508 Professor Tyrer, P.J., period 3
+--- 1429 New Author 94 Tyrrell-Price, Dr Jonathan, period 1
+.   1430 existing author 94 Dr Tyrrell-Price, J., period 2
+.   1431 existing author 94 Dr Tyrrell-Price, J., period 3
+--- 1432 New Author 95 Tzoulaki, Dr Ioanna, period 1
+.   1433 existing author 95 Dr Tzoulaki, I., period 2
+.   1434 existing author 95 Dr Tzoulaki, I., period 3
+--- 1435 New Author 96 Udalova, Dr Irina, period 1
+.   1436 existing author 96 Dr Udalova, I., period 2
+.   1437 existing author 96 Dr Udalova, I., period 3
+--- 1438 New Author 509 Underwood, Professor Stephen Richard (Richard), period 1
+.   1439 existing author 509 Professor Underwood, S.R., period 2
+.   1440 existing author 509 Professor Underwood, S.R., period 3
+--- 1441 New Author 97 Uprichard, Dr James, period 1
+.   1442 existing author 97 Dr Uprichard, J., period 2
+.   1443 existing author 97 Dr Uprichard, J., period 3
+--- 1444 New Author 237 Usmani, Dr Omar Sharif, period 1
+.   1445 existing author 237 Dr Usmani, O.S., period 2
+.   1446 existing author 237 Dr Usmani, O.S., period 3
+--- 1447 New Author 510 Venables, Professor Patrick J, period 1
+.   1448 existing author 510 Professor Venables, P.J., period 2
+.   1449 existing author 510 Professor Venables, P.J., period 3
+--- 1450 New Author 238 Vincent, Dr Tonia, period 1
+.   1451 existing author 238 Dr Vincent, T., period 2
+.   1452 existing author 238 Dr Vincent, T., period 3
+--- 1453 New Author 511 Vincent, Professor Charles Anthony, period 1
+.   1454 existing author 511 Professor Vincent, C.A., period 2
+.   1455 existing author 511 Professor Vincent, C.A., period 3
+--- 1456 New Author 512 Vineis, Professor Paolo, period 1
+.   1457 existing author 512 Professor Vineis, P., period 2
+.   1458 existing author 512 Professor Vineis, P., period 3
+--- 1459 New Author 513 Vyse, Professor Timothy James (Tim), period 1
+.   1460 existing author 513 Professor Vyse, T.J., period 2
+.   1461 existing author 513 Professor Vyse, T.J., period 3
+--- 1462 New Author 239 Wait, Dr Robin, period 1
+.   1463 existing author 239 Dr Wait, R., period 2
+.   1464 existing author 239 Dr Wait, R., period 3
+--- 1465 New Author 514 Walczak, Professor Henning, period 1
+.   1466 existing author 514 Professor Walczak, H., period 2
+.   1467 existing author 514 Professor Walczak, H., period 3
+--- 1468 New Author 269 Walker, Dr Marjorie Mary, period 1
+.   1469 existing author 269 Dr Walker, M.M., period 2
+.   1470 existing author 269 Dr Walker, M.M., period 3
+--- 1471 New Author 98 Walley, Dr Andrew John, period 1
+.   1472 existing author 98 Dr Walley, A.J., period 2
+.   1473 existing author 98 Dr Walley, A.J., period 3
+--- 1474 New Author 99 Wang, Dr Jayson Ee Hur, period 1
+.   1475 existing author 99 Dr Wang, J.E.H., period 2
+.   1476 existing author 99 Dr Wang, J.E.H., period 3
+--- 1477 New Author 100 Want, Dr Elizabeth Joy, period 1
+.   1478 existing author 100 Dr Want, E.J., period 2
+.   1479 existing author 100 Dr Want, E.J., period 3
+--- 1480 New Author 270 Ward, Dr Helen, period 1
+.   1481 existing author 270 Dr Ward, H., period 2
+.   1482 existing author 270 Dr Ward, H., period 3
+--- 1483 New Author 311 Warner, Dr Jill Amanda, period 1
+.   1484 existing author 311 Dr Warner, J.A., period 2
+.   1485 existing author 311 Dr Warner, J.A., period 3
+--- 1486 New Author 515 Warner, Professor John Oliver FMedSci, period 1
+.   1487 existing author 515 Professor Warner, J.O., period 2
+.   1488 existing author 515 Professor Warner, J.O., period 3
+--- 1489 New Author 516 Warrens, Professor Anthony Nigel, period 1
+.   1490 existing author 516 Professor Warrens, A.N., period 2
+.   1491 existing author 516 Professor Warrens, A.N., period 3
+--- 1492 New Author 312 Watson, Dr Roger John, period 1
+.   1493 existing author 312 Dr Watson, R.J., period 2
+.   1494 existing author 312 Dr Watson, R.J., period 3
+--- 1495 New Author 101 Watt, Dr Fiona Elizabeth, period 1
+.   1496 existing author 101 Dr Watt, F.E., period 2
+.   1497 existing author 101 Dr Watt, F.E., period 3
+--- 1498 New Author 517 Waxman, Professor Jonathan, period 1
+.   1499 existing author 517 Professor Waxman, J., period 2
+.   1500 existing author 517 Professor Waxman, J., period 3
+--- 1501 New Author 240 Weaver, Dr Timothy David (Tim), period 1
+.   1502 existing author 240 Dr Weaver, T.D., period 2
+.   1503 existing author 240 Dr Weaver, T.D., period 3
+--- 1504 New Author 518 Weber, Professor Jonathan Norden FMedSci, FRCP, FRCPath, period 1
+.   1505 existing author 518 Professor Weber, J.N., period 2
+.   1506 existing author 518 Professor Weber, J.N., period 3
+--- 1507 New Author 519 Webster, Professor Joanne P, period 1
+.   1508 existing author 519 Professor Webster, J.P., period 2
+.   1509 existing author 519 Professor Webster, J.P., period 3
+--- 1510 New Author 520 Wells, Professor Dominic John, period 1
+.   1511 existing author 520 Professor Wells, D.J., period 2
+.   1512 existing author 520 Professor Wells, D.J., period 3
+--- 1513 New Author 241 Wharton, Dr John, period 1
+.   1514 existing author 241 Dr Wharton, J., period 2
+.   1515 existing author 241 Dr Wharton, J., period 3
+--- 1516 New Author 102 White, Dr Peter John, period 1
+.   1517 existing author 102 Dr White, P.J., period 2
+.   1518 existing author 102 Dr White, P.J., period 3
+--- 1519 New Author 103 Wigneshweraraj, Dr Sivaramesh, period 1
+.   1520 existing author 103 Dr Wigneshweraraj, S., period 2
+.   1521 existing author 103 Dr Wigneshweraraj, S., period 3
+--- 1522 New Author 521 Wilkins, Professor Martin Russell, period 1
+.   1523 existing author 521 Professor Wilkins, M.R., period 2
+.   1524 existing author 521 Professor Wilkins, M.R., period 3
+--- 1525 New Author 522 Wilkinson, Professor Robert John, period 1
+.   1526 existing author 522 Professor Wilkinson, R.J., period 2
+.   1527 existing author 522 Professor Wilkinson, R.J., period 3
+--- 1528 New Author 242 Williams, Dr Richard Owen, period 1
+.   1529 existing author 242 Dr Williams, R.O., period 2
+.   1530 existing author 242 Dr Williams, R.O., period 3
+--- 1531 New Author 523 Williams, Professor Graham Richard, period 1
+.   1532 existing author 523 Professor Williams, G.R., period 2
+.   1533 existing author 523 Professor Williams, G.R., period 3
+--- 1534 New Author 524 Williams, Professor Timothy John FMedSci, period 1
+.   1535 existing author 524 Professor Williams, T.J., period 2
+.   1536 existing author 524 Professor Williams, T.J., period 3
+--- 1537 New Author 525 Williamson, Professor Catherine, period 1
+.   1538 existing author 525 Professor Williamson, C., period 2
+.   1539 existing author 525 Professor Williamson, C., period 3
+--- 1540 New Author 104 Wilson, Dr Michael Robert, period 1
+.   1541 existing author 104 Dr Wilson, M.R., period 2
+.   1542 existing author 104 Dr Wilson, M.R., period 3
+--- 1543 New Author 243 Winston, Dr Alan, period 1
+.   1544 existing author 243 Dr Winston, A., period 2
+.   1545 existing author 243 Dr Winston, A., period 3
+--- 1546 New Author 526 Wise, Professor Richard James S, period 1
+.   1547 existing author 526 Professor Wise, R.J.S., period 2
+.   1548 existing author 526 Professor Wise, R.J.S., period 3
+--- 1549 New Author 105 Wojciak-Stothard, Dr Beata, period 1
+.   1550 existing author 105 Dr Wojciak-Stothard, B., period 2
+.   1551 existing author 105 Dr Wojciak-Stothard, B., period 3
+--- 1552 New Author 106 Woloshynowych, Dr Maria, period 1
+.   1553 existing author 106 Dr Woloshynowych, M., period 2
+.   1554 existing author 106 Dr Woloshynowych, M., period 3
+--- 1555 New Author 527 Wood, Professor David Allan, period 1
+.   1556 existing author 527 Professor Wood, D.A., period 2
+.   1557 existing author 527 Professor Wood, D.A., period 3
+--- 1558 New Author 244 Wort, Dr Stephen John, period 1
+.   1559 existing author 244 Dr Wort, S.J., period 2
+.   1560 existing author 244 Dr Wort, S.J., period 3
+--- 1561 New Author 107 Wynne, Dr Katie-Jane, period 1
+.   1562 existing author 107 Dr Wynne, K., period 2
+.   1563 existing author 107 Dr Wynne, K., period 3
+--- 1564 New Author 108 Yague, Dr Ernesto, period 1
+.   1565 existing author 108 Dr Yague, E., period 2
+.   1566 existing author 108 Dr Yague, E., period 3
+--- 1567 New Author 109 Ying, Dr Liming, period 1
+.   1568 existing author 109 Dr Ying, L., period 2
+.   1569 existing author 109 Dr Ying, L., period 3
+--- 1570 New Author 528 Young, Professor Douglas Brownlie FMedSci, period 1
+.   1571 existing author 528 Professor Young, D.B., period 2
+.   1572 existing author 528 Professor Young, D.B., period 3
+--- 1573 New Author 110 Yu, Dr Veronica, period 1
+.   1574 existing author 110 Dr Yu, V., period 2
+.   1575 existing author 110 Dr Yu, V., period 3
+--- 1576 New Author 245 Zacharakis, Mr Emmanouil, period 1
+.   1577 existing author 245 Mr Zacharakis, E., period 2
+.   1578 existing author 245 Mr Zacharakis, E., period 3
+--- 1579 New Author 111 Zhao, Dr Lan, period 1
+.   1580 existing author 111 Dr Zhao, L., period 2
+.   1581 existing author 111 Dr Zhao, L., period 3
+--- 1582 New Author 246 Ziprin, Dr Paul, period 1
+.   1583 existing author 246 Dr Ziprin, P., period 2
+.   1584 existing author 246 Dr Ziprin, P., period 3
+*** Number of data rows was 1584, of which 1584 were correct
+No errors found

@@ -417,6 +417,41 @@ public class ProcessAllAuthorFile {
         return columnIndex;
     }
 
+    /**
+     * Tests all author names to see if distinct.
+     * @param positiveResultOn true if want positives to be printed out.
+     * @return number of problems found 
+     */
+    public int testAuthorSet(boolean positiveResultOn){
+        Author a2;
+        int problem=0;
+        for (Author a1: authorSet){
+                a2 = authorSet.floor(a1);
+                if ((a2==null) || (!a2.equalUptoFirstInitial(a1))) {
+                    problem++;
+                    System.out.println("### All author "
+                        +a1.toStringWithTitlesAndID()+" can not be found in all author file");
+                    System.err.println("### All file author "
+                        +a1.toStringWithTitlesAndID()+" can not be found in all author file");
+                    continue;
+                }
+                if (!a2.equalsByID(a1)){
+                    problem++;
+                    System.out.println("### All author file author confuses "
+                        +a1.toStringWithTitlesAndID()+" with "
+                        +a2.toStringWithTitlesAndID());
+                    System.err.println("### All author file author confuses "
+                        +a1.toStringWithTitlesAndID()+" with "
+                        +a2.toStringWithTitlesAndID());
+                    continue;
+                }
+                if (positiveResultOn) {System.out.println("All file author "
+                        +a1.toStringWithTitlesAndID()
+                        +" identified clearly"); }
+                
+            } //eo for a1
+        return problem;
+    }
 
  // ***************************************************************************
         /**

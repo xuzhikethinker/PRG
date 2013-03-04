@@ -45,7 +45,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
     }
 
     /**
-     * Process Vanesh type file of publications by one authorOnPaper
+     * Process Vanash type file of publications by one authorOnPaper
      * @param infoOn true if want info on screen
      */
     public void processXLSFile(boolean infoOn){

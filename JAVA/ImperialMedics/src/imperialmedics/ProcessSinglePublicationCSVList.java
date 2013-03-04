@@ -53,7 +53,7 @@ public class ProcessSinglePublicationCSVList {
      * Period 0 is year &lt; yearBoundary[0],
      * Period L=yearBoundary.length is year &gt; yearBoundary[L-1],
      * Otherwise Period P is yearBoundary[P-1] &lt; year &lt; yearBoundary[P].
-     * Vanesh requires 2001-2003, 2004-2006, 2007-2009
+     * Vanash requires 2001-2003, 2004-2006, 2007-2009
      */
     static double [] yearBoundary = {2000.5, 2003.5, 2006.5, 2009.5};
 
@@ -141,8 +141,17 @@ public class ProcessSinglePublicationCSVList {
 
     List dataHolderCSV;
 
+    /**
+     * Holds all versions of name of primary author.
+     * The primary authorList should be listed as a separate cell of the type
+     * <tt>Authors: Aggarwal, R.; Aggarwal, Rajesh K.</tt>
+     * This is processed by a specific routine and this stores them in an 
+     * ArrayList with each version of the name,
+     * e.g. here [0]=Aggarwal, R. and [1] Aggarwal, Rajesh K.
+     * @see #setPrimaryAuthorCSV(java.util.List) 
+     */
     ArrayList<Author> primaryAuthorList;
-
+    
     int numberPapers=IUNSET;
 //    int numberFirstAuthor=IUNSET;
 //    int numberSecondAuthor=IUNSET;
@@ -191,7 +200,7 @@ public class ProcessSinglePublicationCSVList {
 
 
     /**
-     * Process Vanesh type file of publications to add to set of publications.
+     * Process Vanash type file of publications to add to set of publications.
      * NOT FINISHED
      * @param infoOn true if want info on screen
      */
@@ -250,7 +259,7 @@ public class ProcessSinglePublicationCSVList {
 
 
     /**
-     * Process Vanesh type file of publications by one author to provide info on that author.
+     * Process Vanash type file of publications by one author to provide info on that author.
      * @param cg coauthorship graph data structure if want these, null if want period stats
      * @param infoOn true if want info on screen
      */
@@ -691,33 +700,15 @@ public class ProcessSinglePublicationCSVList {
     }
 
     /**
-     * Returns primary authorList.
+     * Returns name of first primary in authorList.
      * @return string using first primary authorList representation, empty string if none
      */
     public String getPrimaryAuthor(){
         if (primaryAuthorList==null || primaryAuthorList.isEmpty()) return "";
-        return primaryAuthorList.get(0).toString();
+        return primaryAuthorList.get(0).toStringWithTitlesAndID();
     }
 
-//    /**
-//     * Finds primary authors in given list.
-//     * Tests using first surname only.
-//     * @param authorList ArrayList of authors
-//     * @return list of positions in list of primary authorList.  More than one indicates a problem.
-//     * @see Author#equalUptoFirstInitial(java.lang.Object)
-//     */
-//    public ArrayList<Integer> findPrimaryAuthorListBySurname(ArrayList<Author> author){
-//        ArrayList<Integer> pos=new ArrayList();
-//        for (int a=0; a<author.size(); a++){
-//            for (int v=0; v<this.coAuthor.size(); v++){ // version v of author a
-//              if (author.get(a).equalsSurnamesOnly(coAuthor.get(v))) {
-//                  pos.add(a);
-//                  break; // check no more versions of this name, check next name
-//              } // eo if
-//            } // eo for v
-//        } // eo for a
-//        return pos;
-//    }
+
 
     /**
      * Finds an author in given list.
@@ -726,7 +717,7 @@ public class ProcessSinglePublicationCSVList {
      * All matches between two lists are returned.
      * @param findThisAuthor list of alternative version of same author to be found.
      * @param authorList ArrayList of authors
-     * @return list of positions in list of primary authorList.  More than one indicates a problem.
+     * @return list of positions (counting from 0) in list of primary authorList.  More than one indicates a problem.
      * @see Author#equalUptoFirstInitial(java.lang.Object)
      */
     static public ArrayList<Integer> findAuthorListBySurname(ArrayList<Author> findThisAuthor, ArrayList<Author> author){

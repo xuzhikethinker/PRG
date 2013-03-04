@@ -414,6 +414,32 @@ public class Author implements Comparable<Author> {
         return s;
     }
     /**
+     * Returns surname then initials, with titles and ID if present.
+     * If no initials it is just title (if requested) surname.
+     * Otherwise it is surname comma then
+     * a list of initials separated by . but no spaces
+     * Also with ID number
+     * @return standard form of name and initials.
+     */
+    public String toStringWithTitlesAndID(){
+        return toString(hasTitles()) +(hasID()?" ("+getID()+")":"");
+    }
+    /**
+     * Returns surname then initials.
+     * If no initials it is just title (if requested) surname.
+     * Otherwise it is surname comma then
+     * a list of initials separated by . but no spaces
+     * @param includeTitles true if want titles
+     * @param includeID if want ID number if exists
+     * @return standard form of name and initials.
+     */
+    public String toString(boolean includeTitles, boolean includeID){
+        String s=(includeTitles?getTitles(" ")+" ":"")+getSurnames();
+        if(hasInitials()) {s=s+", "+getInitials(".");}
+        if(hasID()) {s=s+" ("+getID()+")";}
+        return s;
+    }
+    /**
      * Returns surname, initials form.
      * If no initials it is just surname.
      * Otherwise it is surname comma then
@@ -614,6 +640,21 @@ public class Author implements Comparable<Author> {
     }
 
     /**
+     * Matches as closely as possible.
+     * First test ID number if exists for both.
+     * If one or both has no ID then surname and initials must
+     * match exactly including the number of initials.
+     * @param otherAuthor
+     * @return tests surname and as many initials as possible.
+     */
+    public boolean equalsExactly(Object otherAuthor){
+        Author a2 = (Author)otherAuthor;
+        if (hasID() && a2.hasID()) return equalsByID(otherAuthor);
+        if (this.numberInitials() != a2.numberInitials()) return false;
+        return equalsAllPossibleInitials(otherAuthor);
+    }
+
+    /**
      * Matches only surnames.
      * Each part of surname must exist and must be identical.
      * Thus Powell and Powell Smith are not the same.
@@ -676,7 +717,7 @@ public class Author implements Comparable<Author> {
     }
 
     /**
-     * Compares two authors using all initials possible.
+     * Compares two authors using ID if both exist, otherwise uses as many initials as possible.
      * @param otherAuthor
      * @return tests surname and all initials.
      * @see #compareToFirstInitial(imperialmedics.Author)

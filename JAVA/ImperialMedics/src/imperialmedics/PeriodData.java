@@ -106,8 +106,8 @@ class PeriodData{
 
      /**
       * Update statistics with one additional paper.
-      * @param primaryAuthorPosition
-      * @param numberAuthors
+      * @param primaryAuthorPosition counting from 0 so (numberAuthors-1) is last?
+      * @param numberAuthors number of authors
       * @param alphabeticalOrder true if authors on paper were in alphabetical order
       */
      public void addOnePaper(int primaryAuthorPosition, int numberAuthors, boolean alphabeticalOrder){

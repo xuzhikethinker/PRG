@@ -17,7 +17,7 @@ import java.util.TreeSet;
  * Process all files.
  * First process the Stata10... file with existing data by author and period.
  * Next process the individual publication files.
- * Finally merge the stats on each individual and period with the dexisting data.
+ * Finally merge the stats on each individual and period with the existing data.
  * @author time
  */
 public class ProcessAllFiles {
@@ -56,6 +56,15 @@ public class ProcessAllFiles {
         //System.out.println("Periods "+pa.periodStats.length);
         //writePeriodStatsData(outputFullFileName,  pa.periodStats, infoOn);
 
+        // test author comparison, only problems printed out.    
+        int nProblems=paaf.testAuthorSet(false);
+        if (nProblems==0) { 
+            System.out.println("All author set are all distinct");
+        }
+        else {
+            System.out.println("### All author set are not all distinct, found "+nProblems+" problems");
+        } 
+
         // now process the publications of individual authors
         FindFile ff= new FindFile();
         String ext=".csv";
@@ -75,7 +84,6 @@ public class ProcessAllFiles {
         } catch (FileNotFoundException e) {
             throw new RuntimeException("*** Error opening output file "+allAuthorOutputFullFileName+" "+e.getMessage());
         }
-
         for (int f=0; f<ff.getNumberFiles(); f++){
             //if (f>0) break;
             System.out.println("$$$\n$$$ file "+f+"\n$$$");
@@ -95,15 +103,32 @@ public class ProcessAllFiles {
             Author allFileAuthor=null;
             boolean foundAuthor=false;
             for (Author indAuthor: pspl.primaryAuthorList){
+                if (indAuthor.getSurnames().startsWith("Jones") ) throw new RuntimeException("!!!HELP JONES");
                 allFileAuthor = paaf.authorSet.floor(indAuthor);
                 if ((allFileAuthor==null) || (!allFileAuthor.equalUptoFirstInitial(indAuthor))) continue;
+                if (!allFileAuthor.equalsExactly(indAuthor)){
+                    System.out.println("!!! Individual file author "
+                        +indAuthor.toStringWithTitlesAndID()
+                        +" is not exactly equal to all file author "
+                        +allFileAuthor.toStringWithTitlesAndID());
+                    System.err.println("!!! Individual file author "
+                        +indAuthor.toStringWithTitlesAndID()
+                        +" is not exactly equal to all file author "
+                        +allFileAuthor.toStringWithTitlesAndID());
+                }
                 foundAuthor=true;
-                System.out.println("Individual file author "+indAuthor+" is equal to all file author "+allFileAuthor);
+                System.out.println("Individual file author "
+                        +indAuthor.toStringWithTitlesAndID()
+                        +" is equal to all file author "
+                        +allFileAuthor.toStringWithTitlesAndID());
                 break;
             }
             if (!foundAuthor){
 //                throw new RuntimeException("Individual file author "+pspl.getPrimaryAuthor()+" can not be found in all author file");
-                System.err.println("### Individual file author "+pspl.getPrimaryAuthor()+" can not be found in all author file");
+                System.out.println("### Individual file author "
+                        +pspl.getPrimaryAuthor()+" can not be found in all author file");
+                System.err.println("### Individual file author "
+                        +pspl.getPrimaryAuthor()+" can not be found in all author file");
             }
 
             AuthorWithData awd = (AuthorWithData) allFileAuthor;

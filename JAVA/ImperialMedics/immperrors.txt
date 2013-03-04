@@ -1,0 +1,303 @@
+!!! Excel Row 34, surname ends in first name found and dealt with for Ariff, B.B., title is Accuracy of three-dimensional ultrasound reconstruction in a clinical environment
+!!! Excel Row 35, surname ends in first name found and dealt with for Ariff, B.B., title is Quantitative measures of carotid disease from three-dimensional ultrasound images
+!!!
+!!! 2 warnings found for author Ariff, B.B.
+!!!
+*** Excel Row 18, equal quality match to primary author Ashby, D., title is Managing Injuries of the Neck Trial (MINT): Design of a randomised controlled trial of treatments for whiplash associated disorders
+***                             matched author 5=Ashby, D.
+***                             matched author 31=Ashby, D.
+***                             matched author 37=Ashby, D.
+***
+*** 1 errors found for author (all variants):-
+*** Ashby, D.
+***
+*** Excel Row 126, can not find surname of primary author Ashcroft, F.M. in list, title is New windows on the mechanism of action of K(ATP) channel openers
+***
+*** 1 errors found for author (all variants):-
+*** Ashcroft, F.M.
+***
+!!! Excel Row 100, surname ends in first name found and dealt with for Dr Bain, P.G., title is Automotive glazing is still a contentious issue
+!!!
+!!! 1 warnings found for author Dr Bain, P.G.
+!!!
+!!! Excel Row 576, surname ends in first name found and dealt with for Professor Barnes, P.J., title is Towards a solid-state detector response function for AXAF calibration
+!!!
+!!! 1 warnings found for author Professor Barnes, P.J.
+!!!
+!!! Excel Row 63, surname ends in first name found and dealt with for Bottle, R.A., title is Productivity of British, American and Nigerian chemists compared
+*** Excel Row 63, equal quality match to primary author Bottle, R.A., title is Productivity of British, American and Nigerian chemists compared
+***                             matched author 0=Bottle, R.
+***                             matched author 2=Bottle, A.
+--- Repeated surnames Bottle found on following rows:-
+---  63 ---
+***
+*** 1 errors found for author (all variants):-
+*** Bottle, R.A.
+*** Bottle, A.
+!!! 1 warnings found for author
+***
+*** Excel Row 126, can not find surname of primary author Brennan, F.M. in list, title is Immunoregulatory role of interleukin 10 in rheumatoid arthritis
+***
+*** 1 errors found for author (all variants):-
+*** Brennan, F.M.
+***
+!!! Excel Row 73, surname ends in first name found and dealt with for Briggs, D.J., title is LOG BUCKING AND LUMBER MANUFACTURING USING DYNAMIC PROGRAMMING.
+!!!
+!!! 1 warnings found for author Briggs, D.J.
+!!!
+*** Excel Row 67, equal quality match to primary author Brooks, D.J., title is Development of dyskinesias in a 5-year trial and ropinirole and L-dopa
+***                             matched author 11=Brooks, D.J.
+***                             matched author 19=Brooks, D.J.
+***                             matched author 19=Brooks, D.J.
+***
+*** 1 errors found for author (all variants):-
+*** Brooks, D.J.
+*** Brooks, D.J.
+*** Brooks David
+***
+*** Excel Row 69, can not find surname of primary author Cook, H.T. in list, title is Spontaneous autoimmunity in 129 and C57BL/6 mice-implications for autoimmunity described in gene-targeted mice
+***
+*** 1 errors found for author (all variants):-
+*** Cook, H.T.
+*** Cook, T.
+***
+!!! Excel Row 90, surname ends in first name found and dealt with for Professor Cosgrove, D.O., title is Clinical applications of Levovist
+!!! Excel Row 95, surname ends in first name found and dealt with for Professor Cosgrove, D.O., title is Morphological analysis of colour Doppler in the diagnosis of breast lesions
+!!!
+!!! 2 warnings found for author Professor Cosgrove, D.O.
+!!!
+!!! Excel Row 124, surname ends in first name found and dealt with for Cullinan, P., title is Respiratory sensitisation by chemical agents
+!!!
+!!! 1 warnings found for author Cullinan, P.
+!!!
+*** Excel Row 158, can not find surname of primary author Dalakas, M.C. in list, title is Molecular immunology and genetics of inflammatory muscle diseases
+***
+*** 1 errors found for author (all variants):-
+*** Dalakas, M.C.
+***
+*** Excel Row 346, can not find surname of primary author Darzi, A.W. in list, title is Evaluating operative risk in colorectal cancer surgery: ASA and POSSUM-based predictive models
+***
+*** 1 errors found for author (all variants):-
+*** Darzi, A.W.
+***
+!!! Excel Row 81, surname ends in first name found and dealt with for Professor Davies, A.H., title is Accuracy of three-dimensional ultrasound reconstruction in a clinical environment
+!!! Excel Row 82, surname ends in first name found and dealt with for Professor Davies, A.H., title is Quantitative measures of carotid disease from three-dimensional ultrasound images
+!!!
+!!! 2 warnings found for author Professor Davies, A.H.
+!!!
+*** Excel Row 20, can not find surname of primary author Davies, D.C. in list, title is Deficits of neuronal density in CA1 and synaptic density in the dentate gyrus, CA3 and CA1, in a mouse model of Down syndrome
+*** Excel Row 41, can not find surname of primary author Davies, D.C. in list, title is Synaptic deficit in the temporal cortex of partial trisomy 16 (Ts65Dn) mice
+***
+*** 2 errors found for author (all variants):-
+*** Davies, D.C.
+***
+!!! Excel Row 79, surname ends in first name found and dealt with for Dr Edwards, P.J., title is Intrinsic speckle noise in in-line particle holography due to poly-disperse and continuous particle sizes
+!!!
+!!! 1 warnings found for author Dr Edwards, P.J.
+!!!
+*** Excel Row 122, can not find surname of primary author Professor Edwards, A.D. in list, title is Expression of amyloid precursor protein (?-APP) in the neonatal brain following hypoxic ischaemic injury
+***
+*** 1 errors found for author (all variants):-
+*** Professor Edwards, A.D.
+***
+!!! Excel Row 94, surname ends in first name found and dealt with for Firmin, D.M., title is Flow pattern in distal aorta determined by flow from aortic arch
+!!!
+!!! 1 warnings found for author Firmin, D.M.
+!!!
+!!! Excel Row 23, surname ends in first name found and dealt with for Dr Game, D.S., title is Improvements for the next generation of FDDI
+!!! Excel Row 24, surname ends in first name found and dealt with for Dr Game, D.S., title is Performance analysis of high speed network protocols FDDI at GIGABIT SPEEDS
+!!!
+!!! 2 warnings found for author Dr Game, D.S.
+!!!
+*** Excel Row 14, equal quality match to primary author Professor Huhtaniemi, I.T., title is Association between 25-hydroxyvitamin D levels and cognitive performance in middle-aged and older European men
+***                             matched author 6=Huhtaniemi, I.T.
+***                             matched author 19=Huhtaniemi, I.
+*** Excel Row 17, equal quality match to primary author Professor Huhtaniemi, I.T., title is Investigating the determinants of international differences in the prevalence of chronic widespread pain: Evidence from the European Male Ageing Study
+***                             matched author 3=Huhtaniemi, I.T.
+***                             matched author 16=Huhtaniemi, I.
+*** Excel Row 20, equal quality match to primary author Professor Huhtaniemi, I.T., title is Genetic variation in sex hormone genes influences heel ultrasound parameters in middle-aged and elderly men: Results from the European Male Aging Study (EMAS)
+***                             matched author 24=Huhtaniemi, I.
+***                             matched author 41=Huhtaniemi, I.T.
+***
+*** 3 errors found for author (all variants):-
+*** Professor Huhtaniemi, I.T.
+***
+*** Excel Row 74, equal quality match to primary author Dr Itoh, Y., title is Functional analysis of the chitin-binding domain of a family 19 chitinase from Streptomyces griseus HUT6037: Substrate-binding affinity and cis-dominant increase of antifungal function
+***                             matched author 0=Itoh, Y.
+***                             matched author 6=Itoh, Y.
+!!! Excel Row 130, surname ends in first name found and dealt with for Dr Itoh, Y., title is Photochemistry of amphiphilic copolymers: fluorescence spectra of copolymers of 1-(2-naphthyl)ethyl methacrylate and sodium 2-acrylamido-2-methylpropanesulfonate in solution
+!!! Excel Row 152, surname ends in first name found and dealt with for Dr Itoh, Y., title is POLYELECTROLYTES CONTAINING DIHYDRONICOTINAMIDE. III. FLUORESCENCE QUENCHING BY NICOTINAMIDE-CONTAINING POLYMERS IN AQUEOUS SOLUTION.
+!!! Excel Row 153, surname ends in first name found and dealt with for Dr Itoh, Y., title is POLYELECTROLYTE CONTAINING DIHYDRONICOTINAMIDE. II: INTERACTION OF POLYMER AND SUBSTRATE.
+!!! Excel Row 154, surname ends in first name found and dealt with for Dr Itoh, Y., title is POLYELECTROLYTES CONTAINING DIHYDRONICOTINAMIDE I. ELECTROSTATIC EFFECT ON THE REDUCTION IN AQUEOUS SOLUTION.
+!!! Excel Row 164, surname ends in first name found and dealt with for Dr Itoh, Y., title is AMPHIPHILIC COPOLYMERS CONSISTING OF VINYLPHENANTHRENE AND CATIONIC SEGMENTS. FLUORESCENCE QUENCHING BY AMPHIPHILIC QUENCHERS IN AQUEOUS MEDIA.
+!!! Excel Row 165, surname ends in first name found and dealt with for Dr Itoh, Y., title is AMPHIPHILIC BLOCK COPOLYMER OF 9-VINYLPHENANTHRENE AND METHACRYLIC ACID: FLUORESCENCE QUENCHING OF PHENANTHRENE RESIDUE IN AQUEOUS MEDIUM.
+!!! Excel Row 166, surname ends in first name found and dealt with for Dr Itoh, Y., title is SYNTHESES OF AMPHIPHILIC BLOCK COPOLYMERS - BLOCK COPOLYMERS OF METHACRYLIC ACID AND p-N,N-DIMETHYLAMINOSTYRENE.
+!!! Excel Row 167, surname ends in first name found and dealt with for Dr Itoh, Y., title is AMPHIPHILIC COPOLYMERS OF SOME AROMATIC VINYL COMPOUNDS AND AN ELECTROLYTIC MONOMER AS POTENTIAL MEDIA FOR PHOTOSENSITIZED ELECTRON TRANSFER: FLUORESCENCE QUENCHING BY AN AMPHIPHILIC ELECTRON ACCEPTOR IN AQUEOUS MEDIA.
+***
+*** 1 errors found for author (all variants):-
+*** Dr Itoh, Y.
+*** Itoh Yoshifumi
+!!! 8 warnings found for author
+***
+*** Excel Row 23, equal quality match to primary author Dr Kelleher, W.P., title is Effect of cotrimoxazole on causes of death, hospital admissions and antibiotic use in HIV-infected children
+***                             matched author 22=Kelleher, P.
+***                             matched author 23=Kelleher, P.
+***
+*** 1 errors found for author (all variants):-
+*** Dr Kelleher, W.P.
+*** Kelleher, P.
+***
+--- Repeated surnames Leff found on following rows:-
+---  45 ---
+--- Repeated surnames Levin found on following rows:-
+---  302 ---
+--- Repeated surnames Ma found on following rows:-
+---  103 ---
+!!! Excel Row 355, surname ends in first name found and dealt with for Mathias, C.J., title is POSITRON TOMOGRAPHIC IMAGING OF THE LIVER WITH Ga-68 IRON HYDROXIDE COLLOID.
+!!!
+!!! 1 warnings found for author Mathias, C.J.
+!!!
+*** Excel Row 8, equal quality match to primary author Dr Molitor, J.T., title is Genetic determinants of height growth assessed longitudinally from infancy to adulthood in the northern finland birth cohort 1966
+***                             matched author 3=Molitor, J.
+***                             matched author 11=Molitor, J.
+***
+*** 1 errors found for author (all variants):-
+*** Dr Molitor, J.T.
+***
+*** Excel Row 21, equal quality match to primary author Dr Monaco, C., title is Erectile dysfunction: A marker for myocardial perfusion impairment?
+***                             matched author 2=Monaco, C.G.
+***                             matched author 5=Monaco, C.A.F.
+***
+*** 1 errors found for author (all variants):-
+*** Dr Monaco, C.
+***
+!!! Excel Row 146, surname ends in first name found and dealt with for Dr Moore, D.A., title is FIELD TEST AND EVALUATION OF RESIDENTIAL SPRINKLER SYSTEMS.
+!!! Excel Row 148, surname ends in first name found and dealt with for Dr Moore, D.A., title is REMOTE DETECTION AND ALARM FOR RESIDENCES: THE WOODLANDS SYSTEM.
+!!!
+!!! 2 warnings found for author Dr Moore, D.A.
+!!!
+*** Excel Row 14, equal quality match to primary author Dr Murphy, C.L., title is Chondrogenic differentiation of murine embryonic stem cells: Effects of culture conditions and dexamethasone
+***                             matched author 1=Murphy, C.L.
+***                             matched author 2=Murphy, C.
+***
+*** 1 errors found for author (all variants):-
+*** Dr Murphy, C.L.
+***
+!!! Excel Row 375, surname ends in first name found and dealt with for Professor Nicholson, J.K., title is Measurement of internal acyl migration reaction kinetics using directly coupled HPLC-NMR: Applications for the positional isomers of synthetic (2-fluorobenzoyl)-D-glucopyranuronic acid
+!!!
+!!! 1 warnings found for author Professor Nicholson, J.K.
+!!!
+*** Excel Row 21, can not find surname of primary author Mr Paraskeva, P.A. in list, title is Meta-analysis of colonic reservoirs versus straight coloanal anastomosis after anterior resection
+***
+*** 1 errors found for author (all variants):-
+*** Mr Paraskeva, P.A.
+***
+!!! Excel Row 126, surname ends in first name found and dealt with for Professor Parker, M.G., title is Improving the performance of a glass tube variable area flowmeter
+!!!
+!!! 1 warnings found for author Professor Parker, M.G.
+!!!
+!!! Excel Row 140, surname ends in first name found and dealt with for Professor Peters, N.S., title is Confocal scanning laser microscopy applied to quantify gap junction expression and discriminate different connexin isoforms
+!!!
+!!! 1 warnings found for author Professor Peters, N.S.
+!!!
+*** Excel Row 82, equal quality match to primary author Professor Phillips, R.K., title is Experimental model of anorectal transplantation
+***                             matched author 1=Phillips, R.K.S.
+***                             matched author 4=Phillips, R.K.S.
+***
+*** 1 errors found for author (all variants):-
+*** Professor Phillips, R.K.
+***
+*** Excel Row 39, equal quality match to primary author Purkayastha, S., title is Weighing up risks and benefits of investigations and treatments [3]
+***                             matched author 0=Purkayastha, S.
+***                             matched author 1=Purkayastha, S.
+***
+*** 1 errors found for author (all variants):-
+*** Purkayastha, S.
+***
+!!! Excel Row 117, surname ends in first name found and dealt with for Professor Richardson, S., title is ON THE VARIANCE OF THE SAMPLE CORRELATION BETWEEN TWO INDEPENDENT LATTICE PROCESSES.
+!!!
+!!! 1 warnings found for author Professor Richardson, S.
+!!!
+!!! Excel Row 138, surname ends in first name found and dealt with for Severs, N.J., title is Confocal scanning laser microscopy applied to quantify gap junction expression and discriminate different connexin isoforms
+!!! Excel Row 139, surname ends in first name found and dealt with for Severs, N.J., title is Freeze-fracture cytochemistry: a goal set by Russell Steere in 1957
+!!!
+!!! 2 warnings found for author Severs, N.J.
+!!!
+*** Excel Row 9, equal quality match to primary author Sharma, P.K., title is Far-infrared study of amorphous Ge0.17Se0.83-xSbx chalcogenide glasses
+***                             matched author 0=Sharma, P.
+***                             matched author 2=Sharma, P.
+*** Excel Row 37, equal quality match to primary author Sharma, P.K., title is Effect of antimony addition on the optical behaviour of germanium selenide thin films
+***                             matched author 0=Sharma, P.
+***                             matched author 2=Sharma, P.
+*** Excel Row 92, equal quality match to primary author Sharma, P.K., title is Studies on the crystallographic changes in an analogue of aluminosilicate mineral Muscovite on sorption of UO22+, Th4+ & Ru3+
+***                             matched author 1=Sharma, P.
+***                             matched author 2=Sharma, P.
+*** Excel Row 93, equal quality match to primary author Sharma, P.K., title is Sorption and desorption of UO22+, Th4+ and Ru3+ on the synthetic analogue of muscovite
+***                             matched author 0=Sharma, P.
+***                             matched author 2=Sharma, P.
+***
+*** 4 errors found for author (all variants):-
+*** Sharma, P.K.
+***
+!!! Excel Row 20, surname ends in first name found and dealt with for Smith, S.F., title is Kinematic predictions in large shallow water waves
+!!!
+!!! 1 warnings found for author Smith, S.F.
+!!!
+*** Excel Row 156, can not find surname of primary author Mr Tekkis, P.P. in list, title is Evaluating operative risk in colorectal cancer surgery: ASA and POSSUM-based predictive models
+***
+*** 1 errors found for author (all variants):-
+*** Mr Tekkis, P.P.
+***
+!!! Excel Row 102, surname ends in first name found and dealt with for Thom, S.M.C.G., title is Accuracy of three-dimensional ultrasound reconstruction in a clinical environment
+!!! Excel Row 103, surname ends in first name found and dealt with for Thom, S.M.C.G., title is Quantitative measures of carotid disease from three-dimensional ultrasound images
+!!! Excel Row 104, surname ends in first name found and dealt with for Thom, S.M.C.G., title is Segmentation of retinal blood vessels based on the second directional derivative and region growing
+!!!
+!!! 3 warnings found for author Thom, S.M.C.G.
+!!!
+*** Excel Row 228, can not find surname of primary author Professor Thomas, H.C. in list, title is A recombinant vaccinia virus expressing hepatitis A virus structural polypeptides: Characterization and demonstration of protective immunogenicity
+***
+*** 1 errors found for author (all variants):-
+*** Professor Thomas, H.C.
+***
+*** Excel Row 82, can not find surname of primary author Professor Warner, J.O. in list, title is Requirements for medications commonly used in the treatment of allergic rhinitis | Conditions à remplir par les médicaments d'utilisation courante dans le traitement des rhinites allergiques
+!!! Excel Row 214, surname ends in first name found and dealt with for Professor Warner, J.O., title is Peanut allergy: an overview
+***
+*** 1 errors found for author (all variants):-
+*** Professor Warner, J.O.
+!!! 1 warnings found for author
+***
+!!! Excel Row 142, surname ends in first name found and dealt with for Professor Williams, G.R., title is Dielectric studies of liquid crystal side-chain polymers
+!!! Excel Row 167, surname ends in first name found and dealt with for Professor Williams, G.R., title is Dipolar relaxation behavior in poly(methyl methacrylate)/4-nitroaniline solid solutions
+!!! Excel Row 172, surname ends in first name found and dealt with for Professor Williams, G.R., title is Switched multi-megabit data service - the first step in high-speed data communications
+!!! Excel Row 219, surname ends in first name found and dealt with for Professor Williams, G.R., title is INDUSTRY'S LINEAR SOLUTION.
+!!! Excel Row 220, surname ends in first name found and dealt with for Professor Williams, G.R., title is MOLECULAR DYNAMICS OF A SMECTIC LIQUID-CRYSTALLINE SIDE-CHAIN POLYMER. THE DIELECTRIC PROPERTIES OF ALIGNED AND NONALIGNED MATERIAL STUDIED OVER A WIDE RANGE OF FREQUENCY AND TEMPERATURE.
+!!! Excel Row 222, surname ends in first name found and dealt with for Professor Williams, G.R., title is SIMPLE APPROACH TO THE DIELECTRIC RELAXATION BEHAVIOUR OF A LIQUID CRYSTALLINE POLYMER AND ITS APPLICATION TO THE DETERMINATION OF THE DIRECTOR ORDER PARAMETER FOR PARTIALLY ALIGNED MATERIALS.
+!!!
+!!! 6 warnings found for author Professor Williams, G.R.
+!!!
+!!! Excel Row 102, surname ends in first name found and dealt with for Professor Williams, T.J., title is Videonet and voicenet concepts help the realization of interactive video and audio on the internet
+!!! Excel Row 117, surname ends in first name found and dealt with for Professor Williams, T.J., title is What you need to know about NAS
+!!! Excel Row 162, surname ends in first name found and dealt with for Professor Williams, T.J., title is Experiments to support the development of techniques for hyperspectral mine detection
+!!! Excel Row 267, surname ends in first name found and dealt with for Professor Williams, T.J., title is Electron channelling effect in an Al-Fe-Cu quasicrystal
+!!!
+!!! 4 warnings found for author Professor Williams, T.J.
+!!!
+*** Excel Row 20, equal quality match to primary author Zacharakis, E., title is Surgical intervention for gastrointestinal foreign bodies in adults: A case series
+***                             matched author 1=Zacharakis, E.
+***                             matched author 3=Zacharakis, E.
+*** Excel Row 21, equal quality match to primary author Zacharakis, E., title is Surgical repair of idiopathic scrotal elephantiasis.
+***                             matched author 0=Zacharakis, E.
+***                             matched author 2=Zacharakis, E.
+*** Excel Row 23, equal quality match to primary author Zacharakis, E., title is Effect of IGF-I on Healing of Colonic Anastomoses in Rats Under 5-FU Treatment
+***                             matched author 0=Zacharakis, E.
+***                             matched author 4=Zacharakis, E.
+*** Excel Row 24, equal quality match to primary author Zacharakis, E., title is An unusual presentation of Meckel diverticulum as strangulated femoral hernia
+***                             matched author 0=Zacharakis, E.
+***                             matched author 4=Zacharakis, E.
+*** Excel Row 34, equal quality match to primary author Zacharakis, E., title is Incarcerated Spigelian hernia: A case report
+***                             matched author 0=Zacharakis, E.
+***                             matched author 3=Zacharakis, E.
+***
+*** 5 errors found for author (all variants):-
+*** Zacharakis, E.
+***

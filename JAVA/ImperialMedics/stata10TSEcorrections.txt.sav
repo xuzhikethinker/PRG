@@ -1,0 +1,79 @@
+stata10
+-------
+
+lines 26,27,28
+Alberti, Professor George G M M A
+changed to
+Alberti, Professor K G M M A (George)
+Also changed name of individual file.
+Also added Authors entry to individual file
+
+INDIVIDUAL FILES
+----------------
+
+Anstee, Dr Quentin Mark
+Name of individual file had no comma after surname, comma added
+
+
+Individual file added line as Becca name used in authorships (??? use bracketed name to provide alternative)
+Author: Asquith, Rebecca Emma; Asquith, Becca
+
+Individual file
+Atkin, Professor Wendy S.xlsx
+appears to be for
+Ashcroft F.M.
+Have renamed file, need Atkins's data
+
+
+added line
+Authors: Bottle, Robert Alex; Bottle, Alex
+to bottle's file
+Bottle, Dr Robert Alex (Alex).csv
+
+
+added line
+Authors: Chung, Kian Fan; Chung, Fan; Fan Chung, K.
+to
+Chung, Professor Kian Fan (Fan).csv
+
+added line
+Authors: Brooks, David J.; Brooks, D. J.;Brooks David
+NOTE last one will be treated as multi part surname but some pubs listed exactly as this
+to
+Brooks, Professor David James MD, DSc, FRCP, FMedSci.csv
+
+added line
+Author: Basáñez, Maria Gloria; Basanez, Maria Gloria
+to
+Basanez, Dr Maria-Gloria.csv
+
+added line
+Author: Cook, H. T.; Cook, T.
+to
+Cook, Professor Herbert Terence (Terence).csv
+
+added line
+Author: De Silva, Dr Pettahandige Esalakumar Ranil; De Silva, R.
+to
+De Silva, Dr Pettahandige Esalakumar Ranil,csv
+
+added line
+Author: Durham, Professor Stephen Reginald;Durham, S.
+to
+Durham, Professor Stephen Reginald.csv
+
+
+added line
+Author: Dyson, Professor Peter Julian;Dyson, J.
+to
+Dyson, Professor Peter Julian.csv
+
+added line
+Author: Garralda Hualde, Professor Maria Elena;Garralda, Maria Elena
+to
+Garralda Hualde, Professor Maria Elena
+
+added line
+Author: Gründling, Angelika;Grundling, A.
+to
+Grundling, Dr Angelika.csv

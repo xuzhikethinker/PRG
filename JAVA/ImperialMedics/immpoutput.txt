@@ -1,0 +1,2830 @@
+--- Running ImperialMedics.ProcessMultiplePublicationLists from runimProcessMultiplePub.bat
+
+.....................................
+Processing CSV file input\individuals\Abel, Professor Paul David.csv
+... no primary author cell found in file, using file name Abel, Professor Paul David
+... Number of papers were 100, of which 99 processed
+... No errors found for author Professor Abel, P.D.
+
+.....................................
+Processing CSV file input\individuals\Aboagye, Professor Eric Ofori.csv
+... no primary author cell found in file, using file name Aboagye, Professor Eric Ofori
+... Number of papers were 87, of which 86 processed
+... No errors found for author Professor Aboagye, E.O.
+
+.....................................
+Processing CSV file input\individuals\Abraham, Dr Sonya Marie.csv
+... no primary author cell found in file, using file name Abraham, Dr Sonya Marie
+... Number of papers were 8, of which 7 processed
+... No errors found for author Dr Abraham, S.M.
+
+.....................................
+Processing CSV file input\individuals\Adcock, Professor Ian Michael.csv
+... Number of papers were 250, of which 249 processed
+... No errors found for author Adcock, I.M.
+
+.....................................
+Processing CSV file input\individuals\Agarwal, Dr Roshan.csv
+... Number of papers were 19, of which 18 processed
+... No errors found for author Agarwal, R.
+
+.....................................
+Processing CSV file input\individuals\Aggarwal, Mr Rajesh.csv
+... Number of papers were 127, of which 126 processed
+... No errors found for author Aggarwal, R.
+
+.....................................
+Processing CSV file input\individuals\Agranoff, Dr Daniel David.csv
+... no primary author cell found in file, using file name Agranoff, Dr Daniel David
+... Number of papers were 22, of which 21 processed
+... No errors found for author Dr Agranoff, D.D.
+
+.....................................
+Processing CSV file input\individuals\Alberti, Professor K G M M A (George).csv
+... Number of papers were 733, of which 732 processed
+... No errors found for author Alberti, K.G.M.M.A.
+
+.....................................
+Processing CSV file input\individuals\Ali, Professor Simak.csv
+... no primary author cell found in file, using file name Ali, Professor Simak
+... Number of papers were 40, of which 39 processed
+... No errors found for author Professor Ali, S.
+
+.....................................
+Processing CSV file input\individuals\Allday, Professor Martin John.csv
+... Number of papers were 55, of which 54 processed
+... No errors found for author Allday, M.J.
+
+.....................................
+Processing CSV file input\individuals\Allen-Mersh, Professor Timothy G..csv
+... Number of papers were 128, of which 127 processed
+... No errors found for author Allen Mersh, T.G.
+
+.....................................
+Processing CSV file input\individuals\Altmann, Professor Daniel Martin (Danny).csv
+... no primary author cell found in file, using file name Altmann, Professor Daniel Martin (Danny)
+... Number of papers were 94, of which 93 processed
+... No errors found for author Professor Altmann, D.M.
+
+.....................................
+Processing CSV file input\individuals\Alton, Professor Eric Walter Frederick Wolfgang.csv
+... no primary author cell found in file, using file name Alton, Professor Eric Walter Frederick Wolfgang
+... Number of papers were 229, of which 228 processed
+... No errors found for author Professor Alton, E.W.F.W.
+
+.....................................
+Processing CSV file input\individuals\Anand, Professor Praveen.csv
+... no primary author cell found in file, using file name Anand, Professor Praveen
+... Number of papers were 159, of which 158 processed
+... No errors found for author Professor Anand, P.
+
+.....................................
+Processing CSV file input\individuals\Anstee, Dr Quentin Mark.csv
+... no primary author cell found in file, using file name Anstee, Dr Quentin Mark
+... Number of papers were 10, of which 9 processed
+... No errors found for author Dr Anstee, Q.M.
+
+.....................................
+Processing CSV file input\individuals\Apperley, Professor Jane Felicity.csv
+... no primary author cell found in file, using file name Apperley, Professor Jane Felicity
+... Number of papers were 299, of which 298 processed
+... No errors found for author Professor Apperley, J.F.
+
+.....................................
+Processing CSV file input\individuals\Ariff, Dr Ben Bahemia.csv
+!!! 2 warnings found for author
+... Number of papers were 29, of which 28 processed
+... No errors found for author Ariff, B.B.
+
+.....................................
+Processing CSV file input\individuals\Ashby, Dr Damien Raphel.csv
+... Number of papers were 8, of which 7 processed
+... No errors found for author Ashby, D.R.
+
+.....................................
+Processing CSV file input\individuals\Ashby, Professor Deborah.csv
+*** Number of papers were 79, of which 78 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Ashcroft, F M.csv
+... no primary author cell found in file, using file name Ashcroft, F M
+*** Number of papers were 257, of which 255 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Ashton-Rickardt, Professor Philip George (Philip).csv
+... Number of papers were 45, of which 44 processed
+... No errors found for author Ashton Rickardt, P.G.
+
+.....................................
+Processing CSV file input\individuals\Asquith, Dr Rebecca Emma (Becca).csv
+... Number of papers were 40, of which 39 processed
+... No errors found for author Asquith, R.E.
+
+.....................................
+Processing CSV file input\individuals\Athanasiou, Mr Thanos.csv
+... no primary author cell found in file, using file name Athanasiou, Mr Thanos
+... Number of papers were 185, of which 184 processed
+... No errors found for author Mr Athanasiou, T.
+
+.....................................
+Processing CSV file input\individuals\Aylin, Dr Paul Philip.csv
+... Number of papers were 72, of which 71 processed
+... No errors found for author Aylin, P.
+
+.....................................
+Processing CSV file input\individuals\Azuara, Dr Veronique.csv
+... no primary author cell found in file, using file name Azuara, Dr Veronique
+... Number of papers were 17, of which 16 processed
+... No errors found for author Dr Azuara, V.
+
+.....................................
+Processing CSV file input\individuals\Azzopardi, Dr Denis Victor.csv
+... no primary author cell found in file, using file name Azzopardi, Dr Denis Victor
+... Number of papers were 63, of which 62 processed
+... No errors found for author Dr Azzopardi, D.V.
+
+.....................................
+Processing CSV file input\individuals\Bain, Dr Peter George.csv
+... no primary author cell found in file, using file name Bain, Dr Peter George
+!!! 1 warnings found for author
+... Number of papers were 110, of which 109 processed
+... No errors found for author Dr Bain, P.G.
+
+.....................................
+Processing CSV file input\individuals\Bain, Professor Barbara Jane.csv
+... Number of papers were 248, of which 247 processed
+... No errors found for author Bain, B.J.
+
+.....................................
+Processing CSV file input\individuals\Balding, Professor David Joseph.csv
+... Number of papers were 78, of which 77 processed
+... No errors found for author Balding, D.J.
+
+.....................................
+Processing CSV file input\individuals\Balloux, Dr Francois Didier.csv
+... Number of papers were 56, of which 55 processed
+... No errors found for author Balloux, F.
+
+.....................................
+Processing CSV file input\individuals\Bangham, Professor Charles Richard Mark ScD FMedSci.csv
+... Number of papers were 131, of which 130 processed
+... No errors found for author Bangham, C.R.M.
+
+.....................................
+Processing CSV file input\individuals\Barakat, Dr Maha Taysir.csv
+... no primary author cell found in file, using file name Barakat, Dr Maha Taysir
+... Number of papers were 6, of which 5 processed
+... No errors found for author Dr Barakat, M.T.
+
+.....................................
+Processing CSV file input\individuals\Barclay, Professor Wendy Sue.csv
+... Number of papers were 44, of which 43 processed
+... No errors found for author Barclay, W.S.
+
+.....................................
+Processing CSV file input\individuals\Barnes, Professor Peter John.csv
+... no primary author cell found in file, using file name Barnes, Professor Peter John
+!!! 1 warnings found for author
+... Number of papers were 1431, of which 1430 processed
+... No errors found for author Professor Barnes, P.J.
+
+.....................................
+Processing CSV file input\individuals\Barnes, Professor Thomas Richard Edward.csv
+... no primary author cell found in file, using file name Barnes, Professor Thomas Richard Edward
+... Number of papers were 179, of which 178 processed
+... No errors found for author Professor Barnes, T.R.E.
+
+.....................................
+Processing CSV file input\individuals\Barrett, Dr Michael Christopher.csv
+... no primary author cell found in file, using file name Barrett, Dr Michael Christopher
+... Number of papers were 14, of which 13 processed
+... No errors found for author Dr Barrett, M.C.
+
+.....................................
+Processing CSV file input\individuals\Barton, Dr Paul Jeremy Richard.csv
+... Number of papers were 91, of which 90 processed
+... No errors found for author Barton, P.J.R.
+
+.....................................
+Processing CSV file input\individuals\Basanez, Dr Maria-Gloria.csv
+... Number of papers were 64, of which 63 processed
+... No errors found for author Basanez, M.G.
+
+.....................................
+Processing CSV file input\individuals\Bassett, Dr John Howard Duncan (Duncan).csv
+... no primary author cell found in file, using file name Bassett, Dr John Howard Duncan (Duncan)
+... Number of papers were 28, of which 27 processed
+... No errors found for author Dr Bassett, J.H.D.
+
+.....................................
+Processing CSV file input\individuals\Beckett, Dr Nigel Stanley.csv
+... no primary author cell found in file, using file name Beckett, Dr Nigel Stanley
+... Number of papers were 27, of which 26 processed
+... No errors found for author Dr Beckett, N.S.
+
+.....................................
+Processing CSV file input\individuals\Beckmann, Dr Christian Friedrich.csv
+... Number of papers were 48, of which 47 processed
+... No errors found for author Beckmann, C.F.
+
+.....................................
+Processing CSV file input\individuals\Bell, Professor Derek.csv
+... no primary author cell found in file, using file name Bell, Professor Derek
+... Number of papers were 30, of which 29 processed
+... No errors found for author Professor Bell, D.
+
+.....................................
+Processing CSV file input\individuals\Bello, Dr Fernando.csv
+... Number of papers were 59, of which 58 processed
+... No errors found for author Bello, F.
+
+.....................................
+Processing CSV file input\individuals\Belvisi, Professor Maria Gabriela.csv
+... no primary author cell found in file, using file name Belvisi, Professor Maria Gabriela
+... Number of papers were 154, of which 153 processed
+... No errors found for author Professor Belvisi, M.G.
+
+.....................................
+Processing CSV file input\individuals\Bennett, Professor Phillip Robert.csv
+... no primary author cell found in file, using file name Bennett, Professor Phillip Robert
+... Number of papers were 142, of which 141 processed
+... No errors found for author Professor Bennett, P.R.
+
+.....................................
+Processing CSV file input\individuals\Bentley, Dr Paul.csv
+... Number of papers were 54, of which 53 processed
+... No errors found for author Bentley, P.A.
+
+.....................................
+Processing CSV file input\individuals\Best, Professor Nicola Grace (Nicky).csv
+... Number of papers were 60, of which 59 processed
+... No errors found for author Best, N.G.
+
+.....................................
+Processing CSV file input\individuals\Bevan, Dr Charlotte Lynne (Charlotte).csv
+... Number of papers were 20, of which 19 processed
+... No errors found for author Bevan, C.L.
+
+.....................................
+Processing CSV file input\individuals\Bewick, Dr Gavin Alexander.csv
+... no primary author cell found in file, using file name Bewick, Dr Gavin Alexander
+... Number of papers were 11, of which 10 processed
+... No errors found for author Dr Bewick, G.A.
+
+.....................................
+Processing CSV file input\individuals\Bishop, Dr Anne Elizabeth.csv
+... Number of papers were 149, of which 148 processed
+... No errors found for author Bishop, A.E.
+
+.....................................
+Processing CSV file input\individuals\Blagden, Dr Sarah Patricia.csv
+... Number of papers were 18, of which 17 processed
+... No errors found for author Blagden, S.P.
+
+.....................................
+Processing CSV file input\individuals\Blair, Dr Mitchel Eliot (Mitch).csv
+... Number of papers were 51, of which 50 processed
+... No errors found for author Blair, M.
+
+.....................................
+Processing CSV file input\individuals\Blakemore, Dr Alexandra Ida Francesca (Alex).csv
+... no primary author cell found in file, using file name Blakemore, Dr Alexandra Ida Francesca (Alex)
+... Number of papers were 52, of which 51 processed
+... No errors found for author Dr Blakemore, A.I.F.
+
+.....................................
+Processing CSV file input\individuals\Blane, Professor David.csv
+... Number of papers were 90, of which 89 processed
+... No errors found for author Blane, D.B.
+
+.....................................
+Processing CSV file input\individuals\Bloom, Professor Stephen Robert.csv
+... no primary author cell found in file, using file name Bloom, Professor Stephen Robert
+... Number of papers were 1169, of which 1168 processed
+... No errors found for author Professor Bloom, S.R.
+
+.....................................
+Processing CSV file input\individuals\Boardman, Dr James Peter.csv
+... no primary author cell found in file, using file name Boardman, Dr James Peter
+... Number of papers were 32, of which 31 processed
+... No errors found for author Dr Boardman, J.P.
+
+.....................................
+Processing CSV file input\individuals\Boily, Dr Marie-Claude.csv
+... Number of papers were 52, of which 51 processed
+... No errors found for author Boily, M.C.
+
+.....................................
+Processing CSV file input\individuals\Boobis, Professor Alan Raymond OBE.csv
+... no primary author cell found in file, using file name Boobis, Professor Alan Raymond OBE
+... Number of papers were 325, of which 324 processed
+... No errors found for author Professor Boobis, A.R.
+
+.....................................
+Processing CSV file input\individuals\Booton, Dr Paul.csv
+... Number of papers were 7, of which 6 processed
+... No errors found for author Booton, P.
+
+.....................................
+Processing CSV file input\individuals\Bottle, Dr Robert Alex (Alex).csv
+*** Number of papers were 55, of which 54 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Botto, Professor Marina.csv
+... Number of papers were 128, of which 127 processed
+... No errors found for author Botto, M.B.
+
+.....................................
+Processing CSV file input\individuals\Bou-Gharios, Dr George.csv
+... no primary author cell found in file, using file name Bou-Gharios, Dr George
+... Number of papers were 59, of which 58 processed
+... No errors found for author Dr Bou Gharios, G.
+
+.....................................
+Processing CSV file input\individuals\Boyle, Dr Robert John.csv
+... Number of papers were 42, of which 41 processed
+... No errors found for author Boyle, R.J.
+
+.....................................
+Processing CSV file input\individuals\Boyton, Dr Rosemary Jane.csv
+... no primary author cell found in file, using file name Boyton, Dr Rosemary Jane
+... Number of papers were 32, of which 31 processed
+... No errors found for author Dr Boyton, R.J.
+
+.....................................
+Processing CSV file input\individuals\Braga, Dr Vania.csv
+... no primary author cell found in file, using file name Braga, Dr Vania
+... Number of papers were 44, of which 43 processed
+... No errors found for author Dr Braga, V.
+
+.....................................
+Processing CSV file input\individuals\Brand, Dr Nigel John.csv
+... Number of papers were 39, of which 38 processed
+... No errors found for author Brand, N.J.
+
+.....................................
+Processing CSV file input\individuals\Brennan, Professor Fionula Mary.csv
+*** Number of papers were 170, of which 168 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Briggs, Professor David John.csv
+!!! 1 warnings found for author
+... Number of papers were 70, of which 69 processed
+... No errors found for author Briggs, D.J.
+
+.....................................
+Processing CSV file input\individuals\Brogan, Dr Catherine Mary O'Connell.csv
+... no primary author cell found in file, using file name Brogan, Dr Catherine Mary O'Connell
+... Number of papers were 7, of which 6 processed
+... No errors found for author Dr Brogan, C.M.O.
+
+.....................................
+Processing CSV file input\individuals\Bronstein, Professor Adolfo Miguel.csv
+... Number of papers were 247, of which 246 processed
+... No errors found for author Bronstein, A.M.
+
+.....................................
+Processing CSV file input\individuals\Brooks, Professor David James MD, DSc, FRCP, FMedSci.csv
+*** Number of papers were 466, of which 465 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Brosens, Professor Jan Jonis.csv
+... no primary author cell found in file, using file name Brosens, Professor Jan Jonis
+... Number of papers were 81, of which 80 processed
+... No errors found for author Professor Brosens, J.J.
+
+.....................................
+Processing CSV file input\individuals\Brown, Dr Susan Carol.csv
+... Number of papers were 80, of which 79 processed
+... No errors found for author Brown, S.C.
+
+.....................................
+Processing CSV file input\individuals\Bubici, Dr Concetta.csv
+... Number of papers were 18, of which 17 processed
+... No errors found for author Bubici, C.
+
+.....................................
+Processing CSV file input\individuals\Buluwela, Dr Lakjaya (Laki).csv
+... Number of papers were 32, of which 31 processed
+... No errors found for author Buluwela, L.
+
+.....................................
+Processing CSV file input\individuals\Bundy, Dr Jacob Guy (Jake).csv
+... Number of papers were 33, of which 32 processed
+... No errors found for author Bundy, J.G.
+
+.....................................
+Processing CSV file input\individuals\Burney, Professor Peter Gordon James MA MD FRCP FFPHM FMedSci.csv
+... Number of papers were 221, of which 220 processed
+... No errors found for author Burney, P.G.J.
+
+.....................................
+Processing CSV file input\individuals\Bush, Professor Andrew.csv
+... no primary author cell found in file, using file name Bush, Professor Andrew
+... Number of papers were 371, of which 370 processed
+... No errors found for author Professor Bush, A.
+
+.....................................
+Processing CSV file input\individuals\Butt, Dr Simon Julian Bevan.csv
+... no primary author cell found in file, using file name Butt, Dr Simon Julian Bevan
+... Number of papers were 16, of which 15 processed
+... No errors found for author Dr Butt, S.J.B.
+
+.....................................
+Processing CSV file input\individuals\Car, Dr Josip.csv
+... Number of papers were 54, of which 53 processed
+... No errors found for author Car, J.
+
+.....................................
+Processing CSV file input\individuals\Chai, Dr Jian Guo.csv
+... Number of papers were 25, of which 24 processed
+... No errors found for author Chai, J.G.
+
+.....................................
+Processing CSV file input\individuals\Chambers, Dr John Campbell.csv
+... Number of papers were 91, of which 90 processed
+... No errors found for author Chambers, J.C.
+
+.....................................
+Processing CSV file input\individuals\Chaturvedi, Professor Nishi.csv
+... no primary author cell found in file, using file name Chaturvedi, Professor Nishi
+... Number of papers were 168, of which 167 processed
+... No errors found for author Professor Chaturvedi, N.
+
+.....................................
+Processing CSV file input\individuals\Chaudhri, Dr Owais Bashir.csv
+... Number of papers were 18, of which 17 processed
+... No errors found for author Chaudhri, O.B.
+
+.....................................
+Processing CSV file input\individuals\Chayen, Professor Naomi.csv
+... Number of papers were 70, of which 69 processed
+... No errors found for author Chayen, N.
+
+.....................................
+Processing CSV file input\individuals\Cherepanov, Dr Peter P.csv
+... Number of papers were 44, of which 43 processed
+... No errors found for author Cherepanov, P.P.
+
+.....................................
+Processing CSV file input\individuals\Chester, Dr Adrian Harold.csv
+... Number of papers were 130, of which 129 processed
+... No errors found for author Chester, A.H.
+
+.....................................
+Processing CSV file input\individuals\Christian, Dr Mark.csv
+... no primary author cell found in file, using file name Christian, Dr Mark
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr Christian, M.
+
+.....................................
+Processing CSV file input\individuals\Chung, Dr Adrian James.csv
+... Number of papers were 31, of which 30 processed
+... No errors found for author Chung, A.J.
+
+.....................................
+Processing CSV file input\individuals\Chung, Professor Kian Fan (Fan).csv
+... Number of papers were 498, of which 497 processed
+... No errors found for author Chung, K.F.
+
+.....................................
+Processing CSV file input\individuals\Clark, Dr Andrew Richard (Andy).csv
+... Number of papers were 64, of which 63 processed
+... No errors found for author Clark, A.R.
+
+.....................................
+Processing CSV file input\individuals\Clark, Dr Peter.csv
+... Number of papers were 13, of which 12 processed
+... No errors found for author Clark, P.C.
+
+.....................................
+Processing CSV file input\individuals\Clerk, Dr Angela.csv
+... Number of papers were 84, of which 83 processed
+... No errors found for author Clerk, A.
+
+.....................................
+Processing CSV file input\individuals\Cobb, Professor Justin Peter.csv
+... no primary author cell found in file, using file name Cobb, Professor Justin Peter
+... Number of papers were 30, of which 29 processed
+... No errors found for author Professor Cobb, J.P.
+
+.....................................
+Processing CSV file input\individuals\Coen, Dr Muireann.csv
+... Number of papers were 19, of which 18 processed
+... No errors found for author Coen, M.
+
+.....................................
+Processing CSV file input\individuals\Collins, Professor Peter.csv
+... Number of papers were 125, of which 124 processed
+... No errors found for author Collins, P.D.
+
+.....................................
+Processing CSV file input\individuals\Cook, Dr Stuart.csv
+... Number of papers were 26, of which 25 processed
+... No errors found for author Cook, S.A.
+
+.....................................
+Processing CSV file input\individuals\Cook, Professor Herbert Terence (Terence).csv
+*** Number of papers were 142, of which 140 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Cooke, Dr Graham Stephen.csv
+... Number of papers were 25, of which 24 processed
+... No errors found for author Cooke, G.S.
+
+.....................................
+Processing CSV file input\individuals\Cookson, Professor William Osmond Charles.csv
+... no primary author cell found in file, using file name Cookson, Professor William Osmond Charles
+... Number of papers were 185, of which 184 processed
+... No errors found for author Professor Cookson, W.O.C.
+
+.....................................
+Processing CSV file input\individuals\Coombes, Professor Raoul Charles FMedSci (Charles).csv
+... Number of papers were 385, of which 384 processed
+... No errors found for author Coombes, R.C.
+
+.....................................
+Processing CSV file input\individuals\Cosgrove, Professor David Owen.csv
+... no primary author cell found in file, using file name Cosgrove, Professor David Owen
+!!! 2 warnings found for author
+... Number of papers were 156, of which 155 processed
+... No errors found for author Professor Cosgrove, D.O.
+
+.....................................
+Processing CSV file input\individuals\Costa-Pereira, Dr Ana Paula.csv
+... Number of papers were 15, of which 14 processed
+... No errors found for author Costa Pereira, A.P.
+
+.....................................
+Processing CSV file input\individuals\Coutelle, Professor Charles C.csv
+... no primary author cell found in file, using file name Coutelle, Professor Charles C
+... Number of papers were 110, of which 109 processed
+... No errors found for author Professor Coutelle, C.C.
+
+.....................................
+Processing CSV file input\individuals\Cowan, Dr Frances Mary.csv
+... no primary author cell found in file, using file name Cowan, Dr Frances Mary
+... Number of papers were 205, of which 204 processed
+... No errors found for author Dr Cowan, F.M.
+
+.....................................
+Processing CSV file input\individuals\Cowie, Professor Martin Richard.csv
+... Number of papers were 230, of which 229 processed
+... No errors found for author Cowie, M.R.
+
+.....................................
+Processing CSV file input\individuals\Crawford, Dr Michael Joseph (Mike).csv
+... Number of papers were 67, of which 66 processed
+... No errors found for author Crawford, M.J.
+
+.....................................
+Processing CSV file input\individuals\Crawley, Dr James Thomas Blick (Jim).csv
+... Number of papers were 30, of which 29 processed
+... No errors found for author Crawley, J.B.
+
+.....................................
+Processing CSV file input\individuals\Croucher, Dr Martin James.csv
+... Number of papers were 52, of which 51 processed
+... No errors found for author Croucher, M.J.
+
+.....................................
+Processing CSV file input\individuals\Culley, Dr Fiona Jane.csv
+... Number of papers were 34, of which 33 processed
+... No errors found for author Culley, F.J.
+
+.....................................
+Processing CSV file input\individuals\Cullinan, Professor Paul.csv
+!!! 1 warnings found for author
+... Number of papers were 132, of which 131 processed
+... No errors found for author Cullinan, P.
+
+.....................................
+Processing CSV file input\individuals\Cunninghame Graham, Dr Deborah Shirley.csv
+... Number of papers were 9, of which 8 processed
+... No errors found for author Cunninghame Graham, D.S.
+
+.....................................
+Processing CSV file input\individuals\Curtin, Professor Nancy Ann.csv
+... Number of papers were 74, of which 73 processed
+... No errors found for author Curtin, N.A.
+
+.....................................
+Processing CSV file input\individuals\Da Silva Xavier, Dr Gabriela.csv
+... no primary author cell found in file, using file name Da Silva Xavier, Dr Gabriela
+... Number of papers were 21, of which 20 processed
+... No errors found for author Dr Da Silva Xavier, G.
+
+.....................................
+Processing CSV file input\individuals\Dalakas, Professor Marinos C.csv
+*** Number of papers were 373, of which 371 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Darzi, Ara W.csv
+... no primary author cell found in file, using file name Darzi, Ara W
+*** Number of papers were 559, of which 557 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Davies, Dr Jane Carolyn.csv
+... no primary author cell found in file, using file name Davies, Dr Jane Carolyn
+... Number of papers were 97, of which 96 processed
+... No errors found for author Dr Davies, J.C.
+
+.....................................
+Processing CSV file input\individuals\Davies, Professor Alun Huw.csv
+... no primary author cell found in file, using file name Davies, Professor Alun Huw
+!!! 2 warnings found for author
+... Number of papers were 195, of which 194 processed
+... No errors found for author Professor Davies, A.H.
+
+.....................................
+Processing CSV file input\individuals\Davies, Professor David Ceri.csv
+*** Number of papers were 82, of which 79 processed
+*** Number of errors were 2
+
+.....................................
+Processing CSV file input\individuals\Dazzi, Professor Francesco.csv
+... Number of papers were 154, of which 153 processed
+... No errors found for author Dazzi, F.
+
+.....................................
+Processing CSV file input\individuals\de Belleroche, Professor Jacqueline S (Jackie).csv
+... Number of papers were 186, of which 185 processed
+... No errors found for author de Belleroche, J.
+
+.....................................
+Processing CSV file input\individuals\De Iorio, Dr Maria.csv
+... Number of papers were 22, of which 21 processed
+... No errors found for author De Iorio, M.
+
+.....................................
+Processing CSV file input\individuals\De Paola, Dr Vincenzo.csv
+... Number of papers were 29, of which 28 processed
+... No errors found for author De Paola, V.
+
+.....................................
+Processing CSV file input\individuals\De Silva, Dr Pettahandige Esalakumar Ranil.csv
+... Number of papers were 37, of which 36 processed
+... No errors found for author Dr De Silva, P.E.R.
+
+.....................................
+Processing CSV file input\individuals\De Wolf, Professor Frank.csv
+... Number of papers were 162, of which 161 processed
+... No errors found for author De Wolf, F.
+
+.....................................
+Processing CSV file input\individuals\Dean, Dr Jonathan Lewis Edward.csv
+... Number of papers were 28, of which 27 processed
+... No errors found for author Dean, J.L.E.
+
+.....................................
+Processing CSV file input\individuals\Dexter, Dr David Trevor.csv
+... Number of papers were 61, of which 60 processed
+... No errors found for author Dexter, D.T.
+
+.....................................
+Processing CSV file input\individuals\Dhillo, Dr Waljit Singh.csv
+... no primary author cell found in file, using file name Dhillo, Dr Waljit Singh
+... Number of papers were 60, of which 59 processed
+... No errors found for author Dr Dhillo, W.S.
+
+.....................................
+Processing CSV file input\individuals\Dickinson, Dr Robert.csv
+... Number of papers were 34, of which 33 processed
+... No errors found for author Dickinson, R.J.
+
+.....................................
+Processing CSV file input\individuals\Dilworth, Dr Stephen Michael (Steve).csv
+... Number of papers were 59, of which 58 processed
+... No errors found for author Dilworth, S.M.
+
+.....................................
+Processing CSV file input\individuals\Domin, Dr Jan.csv
+... no primary author cell found in file, using file name Domin, Dr Jan
+... Number of papers were 59, of which 58 processed
+... No errors found for author Dr Domin, J.
+
+.....................................
+Processing CSV file input\individuals\Donnelly, Dr Louise Elizabeth.csv
+... no primary author cell found in file, using file name Donnelly, Dr Louise Elizabeth
+... Number of papers were 65, of which 64 processed
+... No errors found for author Dr Donnelly, L.E.
+
+.....................................
+Processing CSV file input\individuals\Donnelly, Professor Christl Ann.csv
+... Number of papers were 150, of which 149 processed
+... No errors found for author Donnelly, C.A.
+
+.....................................
+Processing CSV file input\individuals\Dorling, Dr Anthony.csv
+... no primary author cell found in file, using file name Dorling, Dr Anthony
+... Number of papers were 69, of which 68 processed
+... No errors found for author Dr Dorling, A.
+
+.....................................
+Processing CSV file input\individuals\Dumas, Dr Marc Emmanuel.csv
+... Number of papers were 41, of which 40 processed
+... No errors found for author Dumas, M.E.
+
+.....................................
+Processing CSV file input\individuals\Durham, Professor Stephen Reginald.csv
+... Number of papers were 375, of which 374 processed
+... No errors found for author Professor Durham, S.R.
+
+.....................................
+Processing CSV file input\individuals\Dyson, Professor Peter Julian.csv
+... Number of papers were 69, of which 68 processed
+... No errors found for author Professor Dyson, P.J.
+
+.....................................
+Processing CSV file input\individuals\Ebbels, Dr Timothy Mark David.csv
+... Number of papers were 38, of which 37 processed
+... No errors found for author Ebbels, T.M.D.
+
+.....................................
+Processing CSV file input\individuals\Eckersley, Dr Robert John.csv
+... no primary author cell found in file, using file name Eckersley, Dr Robert John
+... Number of papers were 58, of which 57 processed
+... No errors found for author Dr Eckersley, R.J.
+
+.....................................
+Processing CSV file input\individuals\Edison, Dr Paul.csv
+... Number of papers were 14, of which 13 processed
+... No errors found for author Edison, P.N.
+
+.....................................
+Processing CSV file input\individuals\Edwards, Dr Michael Robert.csv
+... Number of papers were 20, of which 19 processed
+... No errors found for author Edwards, M.R.
+
+.....................................
+Processing CSV file input\individuals\Edwards, Dr Philip John (Eddie).csv
+... no primary author cell found in file, using file name Edwards, Dr Philip John (Eddie)
+!!! 1 warnings found for author
+... Number of papers were 82, of which 81 processed
+... No errors found for author Dr Edwards, P.J.
+
+.....................................
+Processing CSV file input\individuals\Edwards, Professor Alexander David.csv
+... no primary author cell found in file, using file name Edwards, Professor Alexander David
+*** Number of papers were 205, of which 203 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Edwards, Professor Christopher R W.csv
+... no primary author cell found in file, using file name Edwards, Professor Christopher R W
+... Number of papers were 220, of which 219 processed
+... No errors found for author Professor Edwards, C.R.W.
+
+.....................................
+Processing CSV file input\individuals\Elkington, Dr Paul Timothy George.csv
+... Number of papers were 15, of which 14 processed
+... No errors found for author Elkington, P.T.G.
+
+.....................................
+Processing CSV file input\individuals\Elliott, Dr Gillian Daphne.csv
+... Number of papers were 25, of which 24 processed
+... No errors found for author Elliott, G.D.
+
+.....................................
+Processing CSV file input\individuals\Elliott, Professor Paul FMedSci.csv
+... Number of papers were 232, of which 231 processed
+... No errors found for author Elliott, P.M.
+
+.....................................
+Processing CSV file input\individuals\Emerson, Dr Michael.csv
+... Number of papers were 9, of which 8 processed
+... No errors found for author Emerson, M.
+
+.....................................
+Processing CSV file input\individuals\Enright, Professor Mark Charles.csv
+... Number of papers were 69, of which 68 processed
+... No errors found for author Enright, M.C.
+
+.....................................
+Processing CSV file input\individuals\Evans, Dr Paul Charles.csv
+... no primary author cell found in file, using file name Evans, Dr Paul Charles
+... Number of papers were 42, of which 41 processed
+... No errors found for author Dr Evans, P.C.
+
+.....................................
+Processing CSV file input\individuals\Faiz, Mr Omar Darius.csv
+... no primary author cell found in file, using file name Faiz, Mr Omar Darius
+... Number of papers were 15, of which 14 processed
+... No errors found for author Mr Faiz, O.D.
+
+.....................................
+Processing CSV file input\individuals\Falchi, Dr Mario.csv
+... Number of papers were 122, of which 121 processed
+... No errors found for author Falchi, M.
+
+.....................................
+Processing CSV file input\individuals\Farrell, Professor Paul James FMedSci.csv
+... Number of papers were 124, of which 123 processed
+... No errors found for author Farrell, P.J.
+
+.....................................
+Processing CSV file input\individuals\Feldmann, Professor Marc.csv
+... Number of papers were 474, of which 473 processed
+... No errors found for author Feldmann, M.
+
+.....................................
+Processing CSV file input\individuals\Fenwick, Professor Alan OBE.csv
+... Number of papers were 99, of which 98 processed
+... No errors found for author Fenwick, A.J.
+
+.....................................
+Processing CSV file input\individuals\Ferenczi, Professor Michael A B.Sc., Ph.D. (Mike).csv
+... Number of papers were 68, of which 67 processed
+... No errors found for author Ferenczi, M.A.
+
+.....................................
+Processing CSV file input\individuals\Ferguson, Professor Neil Morris.csv
+... Number of papers were 108, of which 107 processed
+... No errors found for author Ferguson, N.M.
+
+.....................................
+Processing CSV file input\individuals\Festenstein, Professor Richard John.csv
+... Number of papers were 21, of which 20 processed
+... No errors found for author Festenstein, R.
+
+.....................................
+Processing CSV file input\individuals\Fidler, Dr Sarah Jane.csv
+... Number of papers were 36, of which 35 processed
+... No errors found for author Fidler, S.J.
+
+.....................................
+Processing CSV file input\individuals\Field, Dr Benjamin Christopher Thomas.csv
+... Number of papers were 6, of which 5 processed
+... No errors found for author Field, B.C.T.
+
+.....................................
+Processing CSV file input\individuals\Firmin, Professor David Nigel.csv
+!!! 1 warnings found for author
+... Number of papers were 185, of which 184 processed
+... No errors found for author Firmin, D.M.
+
+.....................................
+Processing CSV file input\individuals\Fisher, Dr Benjamin Alexis Charles.csv
+... Number of papers were 3, of which 2 processed
+... No errors found for author Fisher, B.A.
+
+.....................................
+Processing CSV file input\individuals\Fisher, Dr Matthew.csv
+... Number of papers were 46, of which 45 processed
+... No errors found for author Fisher, M.C.
+
+.....................................
+Processing CSV file input\individuals\Francis, Dr Darrel Parthipan.csv
+... Number of papers were 164, of which 163 processed
+... No errors found for author Francis, D.P.
+
+.....................................
+Processing CSV file input\individuals\Franks, Professor Stephen.csv
+... no primary author cell found in file, using file name Franks, Professor Stephen
+... Number of papers were 273, of which 272 processed
+... No errors found for author Professor Franks, S.
+
+.....................................
+Processing CSV file input\individuals\Franzoso, Professor Guido.csv
+... Number of papers were 67, of which 66 processed
+... No errors found for author Franzoso, G.
+
+.....................................
+Processing CSV file input\individuals\Fraser, Dr Christophe.csv
+... Number of papers were 59, of which 58 processed
+... No errors found for author Fraser, C.
+
+.....................................
+Processing CSV file input\individuals\Friedland, Professor Jonathan Samuel (Jon).csv
+... Number of papers were 139, of which 138 processed
+... No errors found for author Friedland, J.S.
+
+.....................................
+Processing CSV file input\individuals\Froguel, Professor Philippe.csv
+... no primary author cell found in file, using file name Froguel, Professor Philippe
+... Number of papers were 406, of which 405 processed
+... No errors found for author Professor Froguel, P.
+
+.....................................
+Processing CSV file input\individuals\Frost, Professor Gary.csv
+... Number of papers were 129, of which 128 processed
+... No errors found for author Frost, G.S.
+
+.....................................
+Processing CSV file input\individuals\Fusi, Dr Luca.csv
+... no primary author cell found in file, using file name Fusi, Dr Luca
+... Number of papers were 38, of which 37 processed
+... No errors found for author Dr Fusi, L.
+
+.....................................
+Processing CSV file input\individuals\Gabra, Professor Hani.csv
+... Number of papers were 56, of which 55 processed
+... No errors found for author Gabra, H.O.S.
+
+.....................................
+Processing CSV file input\individuals\Game, Dr David Stanley.csv
+... no primary author cell found in file, using file name Game, Dr David Stanley
+!!! 2 warnings found for author
+... Number of papers were 19, of which 18 processed
+... No errors found for author Dr Game, D.S.
+
+.....................................
+Processing CSV file input\individuals\Gardiner, Dr Helena Maria.csv
+... no primary author cell found in file, using file name Gardiner, Dr Helena Maria
+... Number of papers were 63, of which 62 processed
+... No errors found for author Dr Gardiner, H.M.
+
+.....................................
+Processing CSV file input\individuals\Gardiner, Dr James Victor.csv
+... no primary author cell found in file, using file name Gardiner, Dr James Victor
+... Number of papers were 42, of which 41 processed
+... No errors found for author Dr Gardiner, J.V.
+
+.....................................
+Processing CSV file input\individuals\Garnett, Professor Geoffrey P.csv
+... Number of papers were 187, of which 186 processed
+... No errors found for author Garnett, G.P.
+
+.....................................
+Processing CSV file input\individuals\Garralda Hualde, Professor Maria Elena.csv
+... Number of papers were 125, of which 124 processed
+... No errors found for author Professor Garralda Hualde, M.E.
+
+.....................................
+Processing CSV file input\individuals\Gavins, Dr Felicity Nicola Emma.csv
+... Number of papers were 19, of which 18 processed
+... No errors found for author Gavins, F.N.E.
+
+.....................................
+Processing CSV file input\individuals\Gentleman, Dr Stephen Michael (Steve).csv
+... Number of papers were 77, of which 76 processed
+... No errors found for author Gentleman, S.M.
+
+.....................................
+Processing CSV file input\individuals\George, Professor Andrew John Timothy (Andrew).csv
+... no primary author cell found in file, using file name George, Professor Andrew John Timothy (Andrew)
+... Number of papers were 160, of which 159 processed
+... No errors found for author Professor George, A.J.T.
+
+.....................................
+Processing CSV file input\individuals\Geroulakos, Mr George.csv
+... no primary author cell found in file, using file name Geroulakos, Mr George
+... Number of papers were 125, of which 124 processed
+... No errors found for author Mr Geroulakos, G.
+
+.....................................
+Processing CSV file input\individuals\Ghaem-Maghami, Dr Sadaf.csv
+... Number of papers were 16, of which 15 processed
+... No errors found for author Ghaem Maghami, S.
+
+.....................................
+Processing CSV file input\individuals\Ghani, Professor Azra Catherine Hilary.csv
+... Number of papers were 95, of which 94 processed
+... No errors found for author Ghani, A.C.H.
+
+.....................................
+Processing CSV file input\individuals\Ghatei, Professor Mohammad Ali.csv
+... no primary author cell found in file, using file name Ghatei, Professor Mohammad Ali
+... Number of papers were 457, of which 456 processed
+... No errors found for author Professor Ghatei, M.A.
+
+.....................................
+Processing CSV file input\individuals\Gibbs, Dr John Simon R (J Simon).csv
+... Number of papers were 73, of which 72 processed
+... No errors found for author Gibbs, J.S.R.
+
+.....................................
+Processing CSV file input\individuals\Gilks, Professor Charles Franklin FRCP.csv
+... Number of papers were 161, of which 160 processed
+... No errors found for author Gilks, C.
+
+.....................................
+Processing CSV file input\individuals\Gillies, Dr Glenda Elaine.csv
+... Number of papers were 51, of which 50 processed
+... No errors found for author Gillies, G.E.
+
+.....................................
+Processing CSV file input\individuals\Glover, Professor Vivette Ann Susan.csv
+... no primary author cell found in file, using file name Glover, Professor Vivette Ann Susan
+... Number of papers were 253, of which 252 processed
+... No errors found for author Professor Glover, V.A.S.
+
+.....................................
+Processing CSV file input\individuals\Gnani, Dr Shamini.csv
+... Number of papers were 8, of which 7 processed
+... No errors found for author Gnani, S.
+
+.....................................
+Processing CSV file input\individuals\Godsland, Dr Ian Francis.csv
+... no primary author cell found in file, using file name Godsland, Dr Ian Francis
+... Number of papers were 160, of which 159 processed
+... No errors found for author Dr Godsland, I.F.
+
+.....................................
+Processing CSV file input\individuals\Goldin, Dr Robert David.csv
+... no primary author cell found in file, using file name Goldin, Dr Robert David
+... Number of papers were 143, of which 142 processed
+... No errors found for author Dr Goldin, R.D.
+
+.....................................
+Processing CSV file input\individuals\Gooderham, Professor Nigel John.csv
+... Number of papers were 92, of which 91 processed
+... No errors found for author Gooderham, N.J.
+
+.....................................
+Processing CSV file input\individuals\Goodfellow, Dr Ian.csv
+... Number of papers were 33, of which 32 processed
+... No errors found for author Goodfellow, I.G.
+
+.....................................
+Processing CSV file input\individuals\Goodier, Dr Martin Rhys.csv
+... Number of papers were 25, of which 24 processed
+... No errors found for author Goodier, M.R.
+
+.....................................
+Processing CSV file input\individuals\Gordon, Professor Myrtle Y A.csv
+... Number of papers were 190, of which 189 processed
+... No errors found for author Gordon, M.Y.A.
+
+.....................................
+Processing CSV file input\individuals\Gorelik, Dr Julia.csv
+... Number of papers were 32, of which 31 processed
+... No errors found for author Gorelik, J.V.
+
+.....................................
+Processing CSV file input\individuals\Gotch, Professor Frances Margaret.csv
+... Number of papers were 5, of which 4 processed
+... No errors found for author Gotch, F.M.
+
+.....................................
+Processing CSV file input\individuals\Gould, Dr Keith Geoffrey.csv
+... Number of papers were 31, of which 30 processed
+... No errors found for author Gould, K.G.
+
+.....................................
+Processing CSV file input\individuals\Grassly, Dr Nicholas Charles.csv
+... Number of papers were 39, of which 38 processed
+... No errors found for author Grassly, N.C.
+
+.....................................
+Processing CSV file input\individuals\Gregory-Evans, Dr Cheryl Yvonne PhD.csv
+... Number of papers were 35, of which 34 processed
+... No errors found for author Gregory Evans, C.Y.
+
+.....................................
+Processing CSV file input\individuals\Gregson, Professor Simon.csv
+... Number of papers were 81, of which 80 processed
+... No errors found for author Gregson, S.A.J.
+
+.....................................
+Processing CSV file input\individuals\Gressens, Professor Pierre.csv
+... Number of papers were 216, of which 215 processed
+... No errors found for author Gressens, P.
+
+.....................................
+Processing CSV file input\individuals\Griesenbach, Dr Uta.csv
+... no primary author cell found in file, using file name Griesenbach, Dr Uta
+... Number of papers were 60, of which 59 processed
+... No errors found for author Dr Griesenbach, U.
+
+.....................................
+Processing CSV file input\individuals\Grimm, Professor Stefan Wolfgang.csv
+... Number of papers were 32, of which 31 processed
+... No errors found for author Grimm, S.
+
+.....................................
+Processing CSV file input\individuals\Groves, Dr Alan.csv
+... Number of papers were 15, of which 14 processed
+... No errors found for author Groves, A.M.M.
+
+.....................................
+Processing CSV file input\individuals\Grundling, Dr Angelika.csv
+... Number of papers were 14, of which 13 processed
+... No errors found for author Grundling, A.
+
+.....................................
+Processing CSV file input\individuals\Guillot, Dr Pascale Valerie.csv
+... Number of papers were 52, of which 51 processed
+... No errors found for author Guillot, P.V.
+
+.....................................
+Processing CSV file input\individuals\Habib, Professor Nagy Adly.csv
+... no primary author cell found in file, using file name Habib, Professor Nagy Adly
+... Number of papers were 235, of which 234 processed
+... No errors found for author Professor Habib, N.A.
+
+.....................................
+Processing CSV file input\individuals\Habibi, Dr Parviz.csv
+... no primary author cell found in file, using file name Habibi, Dr Parviz
+... Number of papers were 42, of which 41 processed
+... No errors found for author Dr Habibi, P.
+
+.....................................
+Processing CSV file input\individuals\Hagberg, Professor Henrik Erik Gustaf.csv
+... Number of papers were 228, of which 227 processed
+... No errors found for author Hagberg, H.
+
+.....................................
+Processing CSV file input\individuals\Hajitou, Dr Amin.csv
+... Number of papers were 24, of which 23 processed
+... No errors found for author Hajitou, A.
+
+.....................................
+Processing CSV file input\individuals\Hajji, Dr Nabil.csv
+... Number of papers were 5, of which 4 processed
+... No errors found for author Hajji, N.
+
+.....................................
+Processing CSV file input\individuals\Hajnal, Professor Joseph Vilmos (Jo).csv
+... Number of papers were 203, of which 202 processed
+... No errors found for author Hajnal, J.V.
+
+.....................................
+Processing CSV file input\individuals\Hanna, Professor George Bushra.csv
+... no primary author cell found in file, using file name Hanna, Professor George Bushra
+... Number of papers were 88, of which 87 processed
+... No errors found for author Professor Hanna, G.B.
+
+.....................................
+Processing CSV file input\individuals\Hansel, Dr Trevor.csv
+... no primary author cell found in file, using file name Hansel, Dr Trevor
+... Number of papers were 83, of which 82 processed
+... No errors found for author Dr Hansel, T.
+
+.....................................
+Processing CSV file input\individuals\Hansell, Dr Anna Louise.csv
+... no primary author cell found in file, using file name Hansell, Dr Anna Louise
+... Number of papers were 33, of which 32 processed
+... No errors found for author Dr Hansell, A.L.
+
+.....................................
+Processing CSV file input\individuals\Harding, Professor Sian Elizabeth.csv
+... Number of papers were 129, of which 128 processed
+... No errors found for author Harding, S.E.
+
+.....................................
+Processing CSV file input\individuals\Hardy, Dr Katharine (Kate).csv
+... no primary author cell found in file, using file name Hardy, Dr Katharine (Kate)
+... Number of papers were 76, of which 75 processed
+... No errors found for author Dr Hardy, K.
+
+.....................................
+Processing CSV file input\individuals\Harris, Ms Jessica Mary.csv
+... no primary author cell found in file, using file name Harris, Ms Jessica Mary
+... Number of papers were 53, of which 52 processed
+... No errors found for author Ms Harris, J.M.
+
+.....................................
+Processing CSV file input\individuals\Hart, Dr Ailsa Louise.csv
+... Number of papers were 16, of which 15 processed
+... No errors found for author Hart, A.L.
+
+.....................................
+Processing CSV file input\individuals\Hart, Mr Alister James.csv
+... no primary author cell found in file, using file name Hart, Mr Alister James
+... Number of papers were 32, of which 31 processed
+... No errors found for author Mr Hart, A.J.
+
+.....................................
+Processing CSV file input\individuals\Haskard, Professor Dorian Oliver FMedSci.csv
+... Number of papers were 254, of which 253 processed
+... No errors found for author Haskard, D.O.
+
+.....................................
+Processing CSV file input\individuals\Haynes, Professor Kenneth (Ken).csv
+... Number of papers were 39, of which 38 processed
+... No errors found for author Haynes, K.A.
+
+.....................................
+Processing CSV file input\individuals\Higham, Professor Jennifer M.csv
+... no primary author cell found in file, using file name Higham, Professor Jennifer M
+... Number of papers were 17, of which 16 processed
+... No errors found for author Professor Higham, J.M.
+
+.....................................
+Processing CSV file input\individuals\Ho, Professor Siew Yen (Yen).csv
+... Number of papers were 315, of which 314 processed
+... No errors found for author Ho, S.Y.
+
+.....................................
+Processing CSV file input\individuals\Hodes, Dr Matthew.csv
+... Number of papers were 182, of which 181 processed
+... No errors found for author Hodes, M.
+
+.....................................
+Processing CSV file input\individuals\Hodson, Professor Margaret Ellen.csv
+... no primary author cell found in file, using file name Hodson, Professor Margaret Ellen
+... Number of papers were 334, of which 333 processed
+... No errors found for author Professor Hodson, M.E.
+
+.....................................
+Processing CSV file input\individuals\Holden, Professor David William FRS, FMedSci.csv
+... Number of papers were 6, of which 5 processed
+... No errors found for author Holden, D.W.
+
+.....................................
+Processing CSV file input\individuals\Holmes, Dr Alison H.csv
+... Number of papers were 44, of which 43 processed
+... No errors found for author Holmes, A.H.
+
+.....................................
+Processing CSV file input\individuals\Holmes, Professor Elaine.csv
+... Number of papers were 202, of which 201 processed
+... No errors found for author Holmes, E.C.
+
+.....................................
+Processing CSV file input\individuals\Hooper, Dr Richard.csv
+... Number of papers were 46, of which 45 processed
+... No errors found for author Hooper, R.J.L.
+
+.....................................
+Processing CSV file input\individuals\Hopkinson, Dr Nicholas Shaun (Nick).csv
+... no primary author cell found in file, using file name Hopkinson, Dr Nicholas Shaun (Nick)
+... Number of papers were 55, of which 54 processed
+... No errors found for author Dr Hopkinson, N.S.
+
+.....................................
+Processing CSV file input\individuals\Horwood, Dr Nicole (Nikki).csv
+... no primary author cell found in file, using file name Horwood, Dr Nicole (Nikki)
+... Number of papers were 25, of which 24 processed
+... No errors found for author Dr Horwood, N.
+
+.....................................
+Processing CSV file input\individuals\Hughes, Professor Alun David.csv
+... Number of papers were 277, of which 276 processed
+... No errors found for author Hughes, A.D.
+
+.....................................
+Processing CSV file input\individuals\Huhtaniemi, Professor Ilpo Tapani.csv
+... no primary author cell found in file, using file name Huhtaniemi, Professor Ilpo Tapani
+*** Number of papers were 547, of which 546 processed
+*** Number of errors were 3
+
+.....................................
+Processing CSV file input\individuals\Hussell, Professor Tracy.csv
+... Number of papers were 79, of which 78 processed
+... No errors found for author Hussell, T.
+
+.....................................
+Processing CSV file input\individuals\Imami, Dr Nesrina.csv
+... Number of papers were 83, of which 82 processed
+... No errors found for author Imami, N.
+
+.....................................
+Processing CSV file input\individuals\Inwald, Dr David Philip.csv
+... Number of papers were 28, of which 27 processed
+... No errors found for author Inwald, D.P.
+
+.....................................
+Processing CSV file input\individuals\Itoh, Dr Yoshifumi.csv
+*** Number of papers were 161, of which 160 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Jarvelin, Professor Marjo-Riitta.csv
+... Number of papers were 249, of which 248 processed
+... No errors found for author Jarvelin, M.R.
+
+.....................................
+Processing CSV file input\individuals\Jarvis, Dr Deborah Louise (Debbie).csv
+... Number of papers were 118, of which 117 processed
+... No errors found for author Jarvis, D.
+
+.....................................
+Processing CSV file input\individuals\Jeffery, Professor Peter K.csv
+... no primary author cell found in file, using file name Jeffery, Professor Peter K
+... Number of papers were 196, of which 195 processed
+... No errors found for author Professor Jeffery, P.K.
+
+.....................................
+Processing CSV file input\individuals\Jiao, Mr Long R.csv
+... no primary author cell found in file, using file name Jiao, Mr Long R
+... Number of papers were 66, of which 65 processed
+... No errors found for author Mr Jiao, L.R.
+
+.....................................
+Processing CSV file input\individuals\Johnston, Professor Desmond Geoffrey.csv
+... no primary author cell found in file, using file name Johnston, Professor Desmond Geoffrey
+... Number of papers were 224, of which 223 processed
+... No errors found for author Professor Johnston, D.G.
+
+.....................................
+Processing CSV file input\individuals\Johnston, Professor Sebastian Lennox.csv
+... Number of papers were 161, of which 160 processed
+... No errors found for author Johnston, S.L.
+
+.....................................
+Processing CSV file input\individuals\Jones, Dr Meinir.csv
+... no primary author cell found in file, using file name Jones, Dr Meinir
+... Number of papers were 46, of which 45 processed
+... No errors found for author Dr Jones, M.
+
+.....................................
+Processing CSV file input\individuals\Jones, Dr Michael David.csv
+... Number of papers were 29, of which 28 processed
+... No errors found for author Jones, M.
+
+.....................................
+Processing CSV file input\individuals\Kampmann, Dr Beate.csv
+... Number of papers were 29, of which 28 processed
+... No errors found for author Kampmann, B.
+
+.....................................
+Processing CSV file input\individuals\Karadimitris, Dr Anastasios.csv
+... Number of papers were 24, of which 23 processed
+... No errors found for author Karadimitris, A.
+
+.....................................
+Processing CSV file input\individuals\Karayiannis, Dr Peter.csv
+... no primary author cell found in file, using file name Karayiannis, Dr Peter
+... Number of papers were 149, of which 148 processed
+... No errors found for author Dr Karayiannis, P.
+
+.....................................
+Processing CSV file input\individuals\Kaur, Dr Balvinder.csv
+... no primary author cell found in file, using file name Kaur, Dr Balvinder
+... Number of papers were 16, of which 15 processed
+... No errors found for author Dr Kaur, B.
+
+.....................................
+Processing CSV file input\individuals\Kelleher, Dr William Peter.csv
+*** Number of papers were 46, of which 45 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Kemp, Dr Paul.csv
+... no primary author cell found in file, using file name Kemp, Dr Paul
+... Number of papers were 48, of which 47 processed
+... No errors found for author Dr Kemp, P.
+
+.....................................
+Processing CSV file input\individuals\Keun, Dr Hector.csv
+... Number of papers were 41, of which 40 processed
+... No errors found for author Keun, H.C.
+
+.....................................
+Processing CSV file input\individuals\Khakoo, Professor Salim Iqbal.csv
+... no primary author cell found in file, using file name Khakoo, Professor Salim Iqbal
+... Number of papers were 25, of which 24 processed
+... No errors found for author Professor Khakoo, S.I.
+
+.....................................
+Processing CSV file input\individuals\Khan, Dr Shahid Aziz.csv
+... Number of papers were 2, of which 1 processed
+... No errors found for author Khan, S.A.
+
+.....................................
+Processing CSV file input\individuals\Kneebone, Dr Roger Lister.csv
+... no primary author cell found in file, using file name Kneebone, Dr Roger Lister
+... Number of papers were 63, of which 62 processed
+... No errors found for author Dr Kneebone, R.L.
+
+.....................................
+Processing CSV file input\individuals\Korchev, Professor Yuri Evgenyevich.csv
+... Number of papers were 70, of which 69 processed
+... No errors found for author Korchev, Y.E.
+
+.....................................
+Processing CSV file input\individuals\Kroll, Professor John Simon FMedSci.csv
+... Number of papers were 90, of which 89 processed
+... No errors found for author Kroll, J.S.
+
+.....................................
+Processing CSV file input\individuals\Kudo, Dr Nobuaki.csv
+... no primary author cell found in file, using file name Kudo, Dr Nobuaki
+... Number of papers were 19, of which 18 processed
+... No errors found for author Dr Kudo, N.
+
+.....................................
+Processing CSV file input\individuals\Kumar, Dr Sailesh.csv
+... Number of papers were 25, of which 24 processed
+... No errors found for author Kumar, S.
+
+.....................................
+Processing CSV file input\individuals\Kypta, Dr Robert Martin.csv
+... Number of papers were 24, of which 23 processed
+... No errors found for author Kypta, R.M.
+
+.....................................
+Processing CSV file input\individuals\Laffan, Professor Michael Arthur (Mike).csv
+... Number of papers were 75, of which 74 processed
+... No errors found for author Laffan, M.A.
+
+.....................................
+Processing CSV file input\individuals\Lalvani, Professor Ajit MA MBBS DM FRCP.csv
+... Number of papers were 82, of which 81 processed
+... No errors found for author Lalvani, A.
+
+.....................................
+Processing CSV file input\individuals\Lam, Professor Eric Wing-Fai.csv
+... no primary author cell found in file, using file name Lam, Professor Eric Wing-Fai
+... Number of papers were 110, of which 109 processed
+... No errors found for author Professor Lam, E.W.F.
+
+.....................................
+Processing CSV file input\individuals\Lane, Professor David Anthony.csv
+... Number of papers were 318, of which 317 processed
+... No errors found for author Lane, D.A.
+
+.....................................
+Processing CSV file input\individuals\Langford, Dr Paul Richard.csv
+... Number of papers were 75, of which 74 processed
+... No errors found for author Langford, P.R.
+
+.....................................
+Processing CSV file input\individuals\Larkman, Dr David James.csv
+... Number of papers were 39, of which 38 processed
+... No errors found for author Larkman, D.J.
+
+.....................................
+Processing CSV file input\individuals\Laruelle, Professor Marc.csv
+... Number of papers were 179, of which 178 processed
+... No errors found for author Laruelle, M.A.
+
+.....................................
+Processing CSV file input\individuals\Laycock, Professor John Francis.csv
+... Number of papers were 50, of which 49 processed
+... No errors found for author Laycock, J.F.
+
+.....................................
+Processing CSV file input\individuals\Le Roux, Dr Carel Wynand.csv
+... no primary author cell found in file, using file name Le Roux, Dr Carel Wynand
+... Number of papers were 47, of which 46 processed
+... No errors found for author Dr Le Roux, C.W.
+
+.....................................
+Processing CSV file input\individuals\Leclerc, Dr Isabelle.csv
+... no primary author cell found in file, using file name Leclerc, Dr Isabelle
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr Leclerc, I.
+
+.....................................
+Processing CSV file input\individuals\Leen, Professor Edward Lam Shang.csv
+... no primary author cell found in file, using file name Leen, Professor Edward Lam Shang
+... Number of papers were 76, of which 75 processed
+... No errors found for author Professor Leen, E.L.S.
+
+.....................................
+Processing CSV file input\individuals\Leff, Mr Daniel R.csv
+... Number of papers were 39, of which 38 processed
+... No errors found for author Leff, D.R.
+
+.....................................
+Processing CSV file input\individuals\Leitinger, Dr Birgit.csv
+... no primary author cell found in file, using file name Leitinger, Dr Birgit
+... Number of papers were 23, of which 22 processed
+... No errors found for author Dr Leitinger, B.
+
+.....................................
+Processing CSV file input\individuals\Levicar, Dr Natasa.csv
+... Number of papers were 17, of which 16 processed
+... No errors found for author Dr Levicar, N.
+
+.....................................
+Processing CSV file input\individuals\Levin, Professor Michael FMedSci.csv
+... Number of papers were 296, of which 295 processed
+... No errors found for author Levin, M.E.
+
+.....................................
+Processing CSV file input\individuals\Li, Dr Meng.csv
+... no primary author cell found in file, using file name Li, Dr Meng
+... Number of papers were 141, of which 140 processed
+... No errors found for author Dr Li, M.
+
+.....................................
+Processing CSV file input\individuals\Libri, Dr Vincenzo.csv
+... Number of papers were 44, of which 43 processed
+... No errors found for author Libri, V.
+
+.....................................
+Processing CSV file input\individuals\Lightstone, Dr Elizabeth Beatrice (Liz).csv
+... Number of papers were 50, of which 49 processed
+... No errors found for author Lightstone, E.B.
+
+.....................................
+Processing CSV file input\individuals\Lingford-Hughes, Professor Anne Rosemary PhD BMBCH MRCPsych.csv
+... Number of papers were 60, of which 59 processed
+... No errors found for author Lingford Hughes, A.
+
+.....................................
+Processing CSV file input\individuals\Little, Dr Mark Peter.csv
+... Number of papers were 119, of which 118 processed
+... No errors found for author Little, M.P.
+
+.....................................
+Processing CSV file input\individuals\Lloyd, Professor Clare Margaret.csv
+... no primary author cell found in file, using file name Lloyd, Professor Clare Margaret
+... Number of papers were 67, of which 66 processed
+... No errors found for author Professor Lloyd, C.M.
+
+.....................................
+Processing CSV file input\individuals\Low-Beer, Dr Naomi.csv
+... Number of papers were 8, of which 7 processed
+... No errors found for author Low Beer, N.
+
+.....................................
+Processing CSV file input\individuals\Lowrie, Dr Margaret Brenda (Maggie).csv
+... Number of papers were 47, of which 46 processed
+... No errors found for author Lowrie, M.B.
+
+.....................................
+Processing CSV file input\individuals\Lyon, Dr Alexander.csv
+... no primary author cell found in file, using file name Lyon, Dr Alexander
+... Number of papers were 13, of which 12 processed
+... No errors found for author Dr Lyon, A.
+
+.....................................
+Processing CSV file input\individuals\Ma, Dr Daqing.csv
+... no primary author cell found in file, using file name Ma, Dr Daqing
+... Number of papers were 97, of which 96 processed
+... No errors found for author Dr Ma, D.
+
+.....................................
+Processing CSV file input\individuals\MacLeod, Dr Kenneth Taylor (Ken).csv
+... Number of papers were 62, of which 61 processed
+... No errors found for author Macleod, K.T.
+
+.....................................
+Processing CSV file input\individuals\Maden, Professor Anthony (Tony).csv
+... Number of papers were 59, of which 58 processed
+... No errors found for author Maden, A.
+
+.....................................
+Processing CSV file input\individuals\Magee, Professor Anthony Ian (Tony).csv
+... Number of papers were 124, of which 123 processed
+... No errors found for author Magee, T.
+
+.....................................
+Processing CSV file input\individuals\Main, Dr Janice.csv
+... no primary author cell found in file, using file name Main, Dr Janice
+... Number of papers were 86, of which 85 processed
+... No errors found for author Dr Main, J.
+
+.....................................
+Processing CSV file input\individuals\Maini, Emeritus Professor Ravinder Nath.csv
+... no primary author cell found in file, using file name Maini, Emeritus Professor Ravinder Nath
+... Number of papers were 373, of which 372 processed
+... No errors found for author Professor Maini, R.N.
+
+.....................................
+Processing CSV file input\individuals\Maitland, Dr Kathryn.csv
+... no primary author cell found in file, using file name Maitland, Dr Kathryn
+... Number of papers were 76, of which 75 processed
+... No errors found for author Dr Maitland, K.
+
+.....................................
+Processing CSV file input\individuals\Majeed, Professor Farrukh Azeem (Azeem).csv
+... Number of papers were 186, of which 185 processed
+... No errors found for author Majeed, A.
+
+.....................................
+Processing CSV file input\individuals\Malhotra, Dr Paresh Arjun.csv
+... no primary author cell found in file, using file name Malhotra, Dr Paresh Arjun
+... Number of papers were 15, of which 14 processed
+... No errors found for author Dr Malhotra, P.A.
+
+.....................................
+Processing CSV file input\individuals\Mallia, Dr Patrick.csv
+... no primary author cell found in file, using file name Mallia, Dr Patrick
+... Number of papers were 17, of which 16 processed
+... No errors found for author Dr Mallia, P.
+
+.....................................
+Processing CSV file input\individuals\Marczin, Dr Nandor.csv
+... no primary author cell found in file, using file name Marczin, Dr Nandor
+... Number of papers were 45, of which 44 processed
+... No errors found for author Dr Marczin, N.
+
+.....................................
+Processing CSV file input\individuals\Marelli-Berg, Dr Federica Maria.csv
+... no primary author cell found in file, using file name Marelli-Berg, Dr Federica Maria
+... Number of papers were 45, of which 44 processed
+... No errors found for author Dr Marelli Berg, F.M.
+
+.....................................
+Processing CSV file input\individuals\Marin Costa, Dr David (David).csv
+... Number of papers were 48, of which 47 processed
+... No errors found for author Dr Marin Costa, D.
+
+.....................................
+Processing CSV file input\individuals\Marston, Professor Steven Baxter (Steve).csv
+... Number of papers were 143, of which 142 processed
+... No errors found for author Marston, S.
+
+.....................................
+Processing CSV file input\individuals\Martin, Dr Niamh Maria.csv
+... no primary author cell found in file, using file name Martin, Dr Niamh Maria
+... Number of papers were 23, of which 22 processed
+... No errors found for author Dr Martin, N.M.
+
+.....................................
+Processing CSV file input\individuals\Mason, Dr Justin Charles.csv
+... no primary author cell found in file, using file name Mason, Dr Justin Charles
+... Number of papers were 78, of which 77 processed
+... No errors found for author Dr Mason, J.C.
+
+.....................................
+Processing CSV file input\individuals\Mason, Roger M N.csv
+... no primary author cell found in file, using file name Mason, Roger M N
+... Number of papers were 168, of which 167 processed
+... No errors found for author Mason, R.M.N.
+
+.....................................
+Processing CSV file input\individuals\Mathias, Professor Christopher Joseph DPhil DSci FRCP FMedSci.csv
+!!! 1 warnings found for author
+... Number of papers were 373, of which 372 processed
+... No errors found for author Mathias, C.J.
+
+.....................................
+Processing CSV file input\individuals\Matthews, Professor Paul McMahan (Paul).csv
+... no primary author cell found in file, using file name Matthews, Professor Paul McMahan (Paul)
+... Number of papers were 259, of which 258 processed
+... No errors found for author Professor Matthews, P.M.
+
+.....................................
+Processing CSV file input\individuals\Mayer, Mr Erik K.csv
+... Number of papers were 18, of which 17 processed
+... No errors found for author Mayer, E.K.
+
+.....................................
+Processing CSV file input\individuals\Mazarakis, Professor Nicholas Dionysios.csv
+... no primary author cell found in file, using file name Mazarakis, Professor Nicholas Dionysios
+... Number of papers were 38, of which 37 processed
+... No errors found for author Professor Mazarakis, N.D.
+
+.....................................
+Processing CSV file input\individuals\McClure, Professor Myra Olga.csv
+... no primary author cell found in file, using file name McClure, Professor Myra Olga
+... Number of papers were 97, of which 96 processed
+... No errors found for author Professor McClure, M.O.
+
+.....................................
+Processing CSV file input\individuals\McGarvey, Dr Michael Joseph.csv
+... no primary author cell found in file, using file name McGarvey, Dr Michael Joseph
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr McGarvey, M.J.
+
+.....................................
+Processing CSV file input\individuals\McGregor, Dr Alison Hazel.csv
+... no primary author cell found in file, using file name McGregor, Dr Alison Hazel
+... Number of papers were 85, of which 84 processed
+... No errors found for author Dr McGregor, A.H.
+
+.....................................
+Processing CSV file input\individuals\Meeran, Professor Mohammed Karim (Karim).csv
+... Number of papers were 68, of which 67 processed
+... No errors found for author Professor Meeran, M.K.
+
+.....................................
+Processing CSV file input\individuals\Michael, Dr Edwin.csv
+... no primary author cell found in file, using file name Michael, Dr Edwin
+... Number of papers were 67, of which 66 processed
+... No errors found for author Dr Michael, E.
+
+.....................................
+Processing CSV file input\individuals\Michaud, Dr Dominique Sandrine.csv
+... no primary author cell found in file, using file name Michaud, Dr Dominique Sandrine
+... Number of papers were 84, of which 83 processed
+... No errors found for author Dr Michaud, D.S.
+
+.....................................
+Processing CSV file input\individuals\Middleton, Professor Lefkos MD.csv
+... no primary author cell found in file, using file name Middleton, Professor Lefkos MD
+... Number of papers were 95, of which 94 processed
+... No errors found for author Professor Middleton, L.
+
+.....................................
+Processing CSV file input\individuals\Midwood, Dr Kim.csv
+... no primary author cell found in file, using file name Midwood, Dr Kim
+... Number of papers were 18, of which 17 processed
+... No errors found for author Dr Midwood, K.
+
+.....................................
+Processing CSV file input\individuals\Millar, Dr Carolyn.csv
+... no primary author cell found in file, using file name Millar, Dr Carolyn
+... Number of papers were 8, of which 7 processed
+... No errors found for author Dr Millar, C.
+
+.....................................
+Processing CSV file input\individuals\Mintz, Dr Paul Jerry.csv
+... no primary author cell found in file, using file name Mintz, Dr Paul Jerry
+... Number of papers were 8, of which 7 processed
+... No errors found for author Dr Mintz, P.J.
+
+.....................................
+Processing CSV file input\individuals\Mitchell, Professor Jane Alison.csv
+... no primary author cell found in file, using file name Mitchell, Professor Jane Alison
+... Number of papers were 194, of which 193 processed
+... No errors found for author Professor Mitchell, J.A.
+
+.....................................
+Processing CSV file input\individuals\Modi, Professor Neena.csv
+... no primary author cell found in file, using file name Modi, Professor Neena
+... Number of papers were 91, of which 90 processed
+... No errors found for author Professor Modi, N.
+
+.....................................
+Processing CSV file input\individuals\Moffatt, Professor Miriam Fleur.csv
+... no primary author cell found in file, using file name Moffatt, Professor Miriam Fleur
+... Number of papers were 63, of which 62 processed
+... No errors found for author Professor Moffatt, M.F.
+
+.....................................
+Processing CSV file input\individuals\Molitor, Dr John Thomas.csv
+... no primary author cell found in file, using file name Molitor, Dr John Thomas
+*** Number of papers were 19, of which 18 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Monaco, Dr Claudia.csv
+... no primary author cell found in file, using file name Monaco, Dr Claudia
+*** Number of papers were 48, of which 47 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Mongkolsapaya, Dr Juthathip.csv
+... no primary author cell found in file, using file name Mongkolsapaya, Dr Juthathip
+... Number of papers were 19, of which 18 processed
+... No errors found for author Dr Mongkolsapaya, J.
+
+.....................................
+Processing CSV file input\individuals\Moore, Dr David AJ.csv
+... no primary author cell found in file, using file name Moore, Dr David AJ
+!!! 2 warnings found for author
+... Number of papers were 149, of which 148 processed
+... No errors found for author Dr Moore, D.A.
+
+.....................................
+Processing CSV file input\individuals\Moorthy, Mr Krishna.csv
+... no primary author cell found in file, using file name Moorthy, Mr Krishna
+... Number of papers were 54, of which 53 processed
+... No errors found for author Mr Moorthy, K.
+
+.....................................
+Processing CSV file input\individuals\Moosavi, Dr Syed-Shakeeb Hassan.csv
+... no primary author cell found in file, using file name Moosavi, Dr Syed-Shakeeb Hassan
+... Number of papers were 15, of which 14 processed
+... No errors found for author Dr Moosavi, S.S.H.
+
+.....................................
+Processing CSV file input\individuals\Morley, Professor Bernard John.csv
+... no primary author cell found in file, using file name Morley, Professor Bernard John
+... Number of papers were 42, of which 41 processed
+... No errors found for author Professor Morley, B.J.
+
+.....................................
+Processing CSV file input\individuals\Morrell, Dr Mary Jennifer.csv
+... no primary author cell found in file, using file name Morrell, Dr Mary Jennifer
+... Number of papers were 64, of which 63 processed
+... No errors found for author Dr Morrell, M.J.
+
+.....................................
+Processing CSV file input\individuals\Muir, Dr Elizabeth Hilary.csv
+... no primary author cell found in file, using file name Muir, Dr Elizabeth Hilary
+... Number of papers were 6, of which 5 processed
+... No errors found for author Dr Muir, E.H.
+
+.....................................
+Processing CSV file input\individuals\Muller, Dr Ingrid.csv
+... no primary author cell found in file, using file name Muller, Dr Ingrid
+... Number of papers were 63, of which 62 processed
+... No errors found for author Dr Muller, I.
+
+.....................................
+Processing CSV file input\individuals\Muraro, Dr Paolo Antonio.csv
+... no primary author cell found in file, using file name Muraro, Dr Paolo Antonio
+... Number of papers were 45, of which 44 processed
+... No errors found for author Dr Muraro, P.A.
+
+.....................................
+Processing CSV file input\individuals\Murphy, Dr Chris Luke.csv
+... no primary author cell found in file, using file name Murphy, Dr Chris Luke
+*** Number of papers were 17, of which 16 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Murphy, Dr Kevin Graeme.csv
+... no primary author cell found in file, using file name Murphy, Dr Kevin Graeme
+... Number of papers were 156, of which 155 processed
+... No errors found for author Dr Murphy, K.G.
+
+.....................................
+Processing CSV file input\individuals\Nagase, Professor Hideaki.csv
+... no primary author cell found in file, using file name Nagase, Professor Hideaki
+... Number of papers were 220, of which 219 processed
+... No errors found for author Professor Nagase, H.
+
+.....................................
+Processing CSV file input\individuals\Nagy, Dr Istvan.csv
+... no primary author cell found in file, using file name Nagy, Dr Istvan
+... Number of papers were 3, of which 2 processed
+... No errors found for author Dr Nagy, I.
+
+.....................................
+Processing CSV file input\individuals\Nanchahal, Professor Jagdeep.csv
+... no primary author cell found in file, using file name Nanchahal, Professor Jagdeep
+... Number of papers were 51, of which 50 processed
+... No errors found for author Professor Nanchahal, J.
+
+.....................................
+Processing CSV file input\individuals\Newman Taylor, Professor Sir Anthony J CBE, FMedSci.csv
+... Number of papers were 155, of which 154 processed
+... No errors found for author Newman Taylor, A.J.
+
+.....................................
+Processing CSV file input\individuals\Newsom-Davis, Dr Thomas Edmund.csv
+... no primary author cell found in file, using file name Newsom-Davis, Dr Thomas Edmund
+... Number of papers were 18, of which 17 processed
+... No errors found for author Dr Newsom Davis, T.E.
+
+.....................................
+Processing CSV file input\individuals\Newson, Dr Roger Benedict.csv
+... no primary author cell found in file, using file name Newson, Dr Roger Benedict
+... Number of papers were 50, of which 49 processed
+... No errors found for author Dr Newson, R.B.
+
+.....................................
+Processing CSV file input\individuals\Newton, Dr Douglas Edward Falconer.csv
+... no primary author cell found in file, using file name Newton, Dr Douglas Edward Falconer
+... Number of papers were 43, of which 42 processed
+... No errors found for author Dr Newton, D.E.F.
+
+.....................................
+Processing CSV file input\individuals\Newton, Dr Sandra Maria.csv
+... no primary author cell found in file, using file name Newton, Dr Sandra Maria
+... Number of papers were 21, of which 20 processed
+... No errors found for author Dr Newton, S.M.
+
+.....................................
+Processing CSV file input\individuals\Nicholson, Professor Jeremy Kirk.csv
+... no primary author cell found in file, using file name Nicholson, Professor Jeremy Kirk
+!!! 1 warnings found for author
+... Number of papers were 493, of which 492 processed
+... No errors found for author Professor Nicholson, J.K.
+
+.....................................
+Processing CSV file input\individuals\Nihoyannopoulos, Professor Petros.csv
+... no primary author cell found in file, using file name Nihoyannopoulos, Professor Petros
+... Number of papers were 241, of which 240 processed
+... No errors found for author Professor Nihoyannopoulos, P.
+
+.....................................
+Processing CSV file input\individuals\Nikolic, Dr Margareta.csv
+... no primary author cell found in file, using file name Nikolic, Dr Margareta
+... Number of papers were 32, of which 31 processed
+... No errors found for author Dr Nikolic, M.
+
+.....................................
+Processing CSV file input\individuals\Nutt, Professor David John MRCP MRCPsych FRCPsych FMedSci.csv
+... no primary author cell found in file, using file name Nutt, Professor David John MRCP MRCPsych FRCPsych FMedSci
+... Number of papers were 662, of which 661 processed
+... No errors found for author Professor Nutt, D.J.
+
+.....................................
+Processing CSV file input\individuals\Openshaw, Professor Peter John Morland MB BS PhD FMedSci.csv
+... no primary author cell found in file, using file name Openshaw, Professor Peter John Morland MB BS PhD FMedSci
+... Number of papers were 115, of which 114 processed
+... No errors found for author Professor Openshaw, P.J.M.
+
+.....................................
+Processing CSV file input\individuals\Paige, Dr Adam John William.csv
+... no primary author cell found in file, using file name Paige, Dr Adam John William
+... Number of papers were 15, of which 14 processed
+... No errors found for author Dr Paige, A.J.W.
+
+.....................................
+Processing CSV file input\individuals\Paleolog, Dr Ewa.csv
+... no primary author cell found in file, using file name Paleolog, Dr Ewa
+... Number of papers were 92, of which 91 processed
+... No errors found for author Dr Paleolog, E.
+
+.....................................
+Processing CSV file input\individuals\Palmieri, Dr Carlo.csv
+... no primary author cell found in file, using file name Palmieri, Dr Carlo
+... Number of papers were 62, of which 61 processed
+... No errors found for author Dr Palmieri, C.
+
+.....................................
+Processing CSV file input\individuals\Panoskaltsis, Dr Nicki.csv
+... no primary author cell found in file, using file name Panoskaltsis, Dr Nicki
+... Number of papers were 22, of which 21 processed
+... No errors found for author Dr Panoskaltsis, N.
+
+.....................................
+Processing CSV file input\individuals\Paraskeva, Mr Paraskevas Antonios.csv
+... no primary author cell found in file, using file name Paraskeva, Mr Paraskevas Antonios
+*** Number of papers were 36, of which 34 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Pardo, Dr Olivier E.csv
+... no primary author cell found in file, using file name Pardo, Dr Olivier E
+... Number of papers were 20, of which 19 processed
+... No errors found for author Dr Pardo, O.E.
+
+.....................................
+Processing CSV file input\individuals\Parker, Professor Malcolm George.csv
+... no primary author cell found in file, using file name Parker, Professor Malcolm George
+!!! 1 warnings found for author
+... Number of papers were 172, of which 171 processed
+... No errors found for author Professor Parker, M.G.
+
+.....................................
+Processing CSV file input\individuals\Partridge, Professor Martyn Richard.csv
+... no primary author cell found in file, using file name Partridge, Professor Martyn Richard
+... Number of papers were 161, of which 160 processed
+... No errors found for author Professor Partridge, M.R.
+
+.....................................
+Processing CSV file input\individuals\Pasvol, Professor Geoffrey.csv
+... no primary author cell found in file, using file name Pasvol, Professor Geoffrey
+... Number of papers were 147, of which 146 processed
+... No errors found for author Professor Pasvol, G.
+
+.....................................
+Processing CSV file input\individuals\Pathan, Dr Nazima.csv
+... no primary author cell found in file, using file name Pathan, Dr Nazima
+... Number of papers were 12, of which 11 processed
+... No errors found for author Dr Pathan, N.
+
+.....................................
+Processing CSV file input\individuals\Paul-Clark, Dr Mark John.csv
+... no primary author cell found in file, using file name Paul-Clark, Dr Mark John
+... Number of papers were 35, of which 34 processed
+... No errors found for author Dr Paul Clark, M.J.
+
+.....................................
+Processing CSV file input\individuals\Pearse, Mr Michael.csv
+... no primary author cell found in file, using file name Pearse, Mr Michael
+... Number of papers were 44, of which 43 processed
+... No errors found for author Mr Pearse, M.
+
+.....................................
+Processing CSV file input\individuals\Pease, Dr James Edward.csv
+... no primary author cell found in file, using file name Pease, Dr James Edward
+... Number of papers were 66, of which 65 processed
+... No errors found for author Dr Pease, J.E.
+
+.....................................
+Processing CSV file input\individuals\Peeters, Professor Petra H M.csv
+... no primary author cell found in file, using file name Peeters, Professor Petra H M
+... Number of papers were 322, of which 321 processed
+... No errors found for author Professor Peeters, P.H.M.
+
+.....................................
+Processing CSV file input\individuals\Pelicic, Dr Vladimir.csv
+... no primary author cell found in file, using file name Pelicic, Dr Vladimir
+... Number of papers were 34, of which 33 processed
+... No errors found for author Dr Pelicic, V.
+
+.....................................
+Processing CSV file input\individuals\Pennell, Professor Dudley John.csv
+... no primary author cell found in file, using file name Pennell, Professor Dudley John
+... Number of papers were 352, of which 351 processed
+... No errors found for author Professor Pennell, D.J.
+
+.....................................
+Processing CSV file input\individuals\Pepper, Professor John.csv
+... no primary author cell found in file, using file name Pepper, Professor John
+... Number of papers were 283, of which 282 processed
+... No errors found for author Professor Pepper, J.
+
+.....................................
+Processing CSV file input\individuals\Peters, Professor Nicholas Simon.csv
+... no primary author cell found in file, using file name Peters, Professor Nicholas Simon
+!!! 1 warnings found for author
+... Number of papers were 140, of which 139 processed
+... No errors found for author Professor Peters, N.S.
+
+.....................................
+Processing CSV file input\individuals\Petretto, Dr Enrico Giuseppe.csv
+... no primary author cell found in file, using file name Petretto, Dr Enrico Giuseppe
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr Petretto, E.G.
+
+.....................................
+Processing CSV file input\individuals\Phillips, Professor Robin K.csv
+... no primary author cell found in file, using file name Phillips, Professor Robin K
+*** Number of papers were 287, of which 286 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Piccini, Professor Paola MD, PhD.csv
+... no primary author cell found in file, using file name Piccini, Professor Paola MD, PhD
+... Number of papers were 93, of which 92 processed
+... No errors found for author Professor Piccini, P.
+
+.....................................
+Processing CSV file input\individuals\Pickering, Dr Matthew Caleb.csv
+... no primary author cell found in file, using file name Pickering, Dr Matthew Caleb
+... Number of papers were 34, of which 33 processed
+... No errors found for author Dr Pickering, M.C.
+
+.....................................
+Processing CSV file input\individuals\Piot, Professor Lord Peter Karel MD, PhD, FRCP.csv
+... no primary author cell found in file, using file name Piot, Professor Lord Peter Karel MD, PhD, FRCP
+... Number of papers were 359, of which 358 processed
+... No errors found for author Professor Lord Piot, P.K.
+
+.....................................
+Processing CSV file input\individuals\Popat, Dr Sanjaykumar (Sanjay).csv
+... no primary author cell found in file, using file name Popat, Dr Sanjaykumar (Sanjay)
+... Number of papers were 43, of which 42 processed
+... No errors found for author Dr Popat, S.
+
+.....................................
+Processing CSV file input\individuals\Porter, Dr Andrew C G (Andy).csv
+... no primary author cell found in file, using file name Porter, Dr Andrew C G (Andy)
+... Number of papers were 46, of which 45 processed
+... No errors found for author Dr Porter, A.C.G.
+
+.....................................
+Processing CSV file input\individuals\Poulter, Professor Neil Reginald.csv
+... no primary author cell found in file, using file name Poulter, Professor Neil Reginald
+... Number of papers were 227, of which 226 processed
+... No errors found for author Professor Poulter, N.R.
+
+.....................................
+Processing CSV file input\individuals\Purbhoo, Dr Marco.csv
+... no primary author cell found in file, using file name Purbhoo, Dr Marco
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr Purbhoo, M.
+
+.....................................
+Processing CSV file input\individuals\Purkayastha, Mr Sanjay.csv
+*** Number of papers were 61, of which 60 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Purohit, Dr Atul.csv
+... no primary author cell found in file, using file name Purohit, Dr Atul
+... Number of papers were 154, of which 153 processed
+... No errors found for author Dr Purohit, A.
+
+.....................................
+Processing CSV file input\individuals\Pusey, Professor Charles Dickson.csv
+... no primary author cell found in file, using file name Pusey, Professor Charles Dickson
+... Number of papers were 264, of which 263 processed
+... No errors found for author Professor Pusey, C.D.
+
+.....................................
+Processing CSV file input\individuals\Raby, Dr Adrian Mark.csv
+... no primary author cell found in file, using file name Raby, Dr Adrian Mark
+... Number of papers were 3, of which 2 processed
+... No errors found for author Dr Raby, A.M.
+
+.....................................
+Processing CSV file input\individuals\Rai, Mr Rajendra Singh (Raj).csv
+... no primary author cell found in file, using file name Rai, Mr Rajendra Singh (Raj)
+... Number of papers were 50, of which 49 processed
+... No errors found for author Mr Rai, R.S.
+
+.....................................
+Processing CSV file input\individuals\Randi, Dr Anna M.csv
+... no primary author cell found in file, using file name Randi, Dr Anna M
+... Number of papers were 35, of which 34 processed
+... No errors found for author Dr Randi, A.M.
+
+.....................................
+Processing CSV file input\individuals\Rankin, Dr Sara Margaret.csv
+... no primary author cell found in file, using file name Rankin, Dr Sara Margaret
+... Number of papers were 11, of which 10 processed
+... No errors found for author Dr Rankin, S.M.
+
+.....................................
+Processing CSV file input\individuals\Regan, Professor Lesley.csv
+... no primary author cell found in file, using file name Regan, Professor Lesley
+... Number of papers were 121, of which 120 processed
+... No errors found for author Professor Regan, L.
+
+.....................................
+Processing CSV file input\individuals\Rezek, Dr Iead.csv
+... Number of papers were 26, of which 25 processed
+... No errors found for author Dr Rezek, I.
+
+.....................................
+Processing CSV file input\individuals\Rezvani, Dr Katayoun (Katy).csv
+... no primary author cell found in file, using file name Rezvani, Dr Katayoun (Katy)
+... Number of papers were 51, of which 50 processed
+... No errors found for author Dr Rezvani, K.
+
+.....................................
+Processing CSV file input\individuals\Riboli, Professor Elio BSc MD MSc.csv
+... no primary author cell found in file, using file name Riboli, Professor Elio BSc MD MSc
+... Number of papers were 400, of which 399 processed
+... No errors found for author Professor Riboli, E.M.
+
+.....................................
+Processing CSV file input\individuals\Richardson, Professor Sylvia.csv
+... no primary author cell found in file, using file name Richardson, Professor Sylvia
+!!! 1 warnings found for author
+... Number of papers were 111, of which 110 processed
+... No errors found for author Professor Richardson, S.
+
+.....................................
+Processing CSV file input\individuals\Roberts, Dr Nicola Jane.csv
+... no primary author cell found in file, using file name Roberts, Dr Nicola Jane
+... Number of papers were 23, of which 22 processed
+... No errors found for author Dr Roberts, N.J.
+
+.....................................
+Processing CSV file input\individuals\Roberts, Professor Irene.csv
+... no primary author cell found in file, using file name Roberts, Professor Irene
+... Number of papers were 134, of which 133 processed
+... No errors found for author Professor Roberts, I.
+
+.....................................
+Processing CSV file input\individuals\Robertson, Dr Brian Douglas.csv
+... no primary author cell found in file, using file name Robertson, Dr Brian Douglas
+... Number of papers were 89, of which 88 processed
+... No errors found for author Dr Robertson, B.D.
+
+.....................................
+Processing CSV file input\individuals\Robinson, Professor Douglas S F.csv
+... no primary author cell found in file, using file name Robinson, Professor Douglas S F
+... Number of papers were 176, of which 175 processed
+... No errors found for author Professor Robinson, D.S.F.
+
+.....................................
+Processing CSV file input\individuals\Rogers, Dr Duncan Fraser.csv
+... no primary author cell found in file, using file name Rogers, Dr Duncan Fraser
+... Number of papers were 121, of which 120 processed
+... No errors found for author Dr Rogers, D.F.
+
+.....................................
+Processing CSV file input\individuals\Rogers, Dr Nicola Jane.csv
+... no primary author cell found in file, using file name Rogers, Dr Nicola Jane
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr Rogers, N.J.
+
+.....................................
+Processing CSV file input\individuals\Roncaroli, Dr Federico.csv
+... no primary author cell found in file, using file name Roncaroli, Dr Federico
+... Number of papers were 94, of which 93 processed
+... No errors found for author Dr Roncaroli, F.
+
+.....................................
+Processing CSV file input\individuals\Rose, Professor Marlene Lydia.csv
+... no primary author cell found in file, using file name Rose, Professor Marlene Lydia
+... Number of papers were 194, of which 193 processed
+... No errors found for author Professor Rose, M.L.
+
+.....................................
+Processing CSV file input\individuals\Rosenthal, Professor Nadia Alicia.csv
+... no primary author cell found in file, using file name Rosenthal, Professor Nadia Alicia
+... Number of papers were 116, of which 115 processed
+... No errors found for author Professor Rosenthal, N.A.
+
+.....................................
+Processing CSV file input\individuals\Rutschmann, Dr Sophie.csv
+... no primary author cell found in file, using file name Rutschmann, Dr Sophie
+... Number of papers were 20, of which 19 processed
+... No errors found for author Dr Rutschmann, S.
+
+.....................................
+Processing CSV file input\individuals\Rutter, Professor Guy Allen.csv
+... no primary author cell found in file, using file name Rutter, Professor Guy Allen
+... Number of papers were 151, of which 150 processed
+... No errors found for author Professor Rutter, G.A.
+
+.....................................
+Processing CSV file input\individuals\Saglani, Dr Sejal.csv
+... no primary author cell found in file, using file name Saglani, Dr Sejal
+... Number of papers were 28, of which 27 processed
+... No errors found for author Dr Saglani, S.
+
+.....................................
+Processing CSV file input\individuals\Saklatvala, Professor Jeremy.csv
+... no primary author cell found in file, using file name Saklatvala, Professor Jeremy
+... Number of papers were 117, of which 116 processed
+... No errors found for author Professor Saklatvala, J.
+
+.....................................
+Processing CSV file input\individuals\Salama, Dr Alan.csv
+... no primary author cell found in file, using file name Salama, Dr Alan
+... Number of papers were 64, of which 63 processed
+... No errors found for author Dr Salama, A.
+
+.....................................
+Processing CSV file input\individuals\Sastre, Dr Magdalena.csv
+... no primary author cell found in file, using file name Sastre, Dr Magdalena
+... Number of papers were 50, of which 49 processed
+... No errors found for author Dr Sastre, M.
+
+.....................................
+Processing CSV file input\individuals\Saxena, Dr Sonia Krishna.csv
+... no primary author cell found in file, using file name Saxena, Dr Sonia Krishna
+... Number of papers were 39, of which 38 processed
+... No errors found for author Dr Saxena, S.K.
+
+.....................................
+Processing CSV file input\individuals\Schachter, Dr Michael.csv
+... no primary author cell found in file, using file name Schachter, Dr Michael
+... Number of papers were 166, of which 165 processed
+... No errors found for author Dr Schachter, M.
+
+.....................................
+Processing CSV file input\individuals\Schatzkin, Professor Arthur.csv
+... no primary author cell found in file, using file name Schatzkin, Professor Arthur
+... Number of papers were 380, of which 379 processed
+... No errors found for author Professor Schatzkin, A.
+
+.....................................
+Processing CSV file input\individuals\Schmid, Dr Peter.csv
+... no primary author cell found in file, using file name Schmid, Dr Peter
+... Number of papers were 81, of which 80 processed
+... No errors found for author Dr Schmid, P.
+
+.....................................
+Processing CSV file input\individuals\Schmidt-Weber, Dr Carsten B.csv
+... no primary author cell found in file, using file name Schmidt-Weber, Dr Carsten B
+... Number of papers were 53, of which 52 processed
+... No errors found for author Dr Schmidt Weber, C.B.
+
+.....................................
+Processing CSV file input\individuals\Schneider, Professor Michael David.csv
+... no primary author cell found in file, using file name Schneider, Professor Michael David
+... Number of papers were 157, of which 156 processed
+... No errors found for author Professor Schneider, M.D.
+
+.....................................
+Processing CSV file input\individuals\Scott, Dr Diane M.csv
+... no primary author cell found in file, using file name Scott, Dr Diane M
+... Number of papers were 53, of which 52 processed
+... No errors found for author Dr Scott, D.M.
+
+.....................................
+Processing CSV file input\individuals\Scott, Professor James FRS, FMedSci.csv
+... no primary author cell found in file, using file name Scott, Professor James FRS, FMedSci
+... Number of papers were 178, of which 177 processed
+... No errors found for author Professor Scott, J.F.
+
+.....................................
+Processing CSV file input\individuals\Screaton, Professor Gavin Robert FMedSci.csv
+... no primary author cell found in file, using file name Screaton, Professor Gavin Robert FMedSci
+... Number of papers were 70, of which 69 processed
+... No errors found for author Professor Screaton, G.R.
+
+.....................................
+Processing CSV file input\individuals\Seabra, Professor Miguel C.csv
+... no primary author cell found in file, using file name Seabra, Professor Miguel C
+... Number of papers were 97, of which 96 processed
+... No errors found for author Professor Seabra, M.C.
+
+.....................................
+Processing CSV file input\individuals\Seckl, Professor Michael.csv
+... no primary author cell found in file, using file name Seckl, Professor Michael
+... Number of papers were 99, of which 98 processed
+... No errors found for author Professor Seckl, M.
+
+.....................................
+Processing CSV file input\individuals\Seemungal, Dr Barry Mitra.csv
+... no primary author cell found in file, using file name Seemungal, Dr Barry Mitra
+... Number of papers were 14, of which 13 processed
+... No errors found for author Dr Seemungal, B.M.
+
+.....................................
+Processing CSV file input\individuals\Sen-Chowdhry, Dr Srijita.csv
+... no primary author cell found in file, using file name Sen-Chowdhry, Dr Srijita
+... Number of papers were 24, of which 23 processed
+... No errors found for author Dr Sen Chowdhry, S.
+
+.....................................
+Processing CSV file input\individuals\Sensky, Professor Thomas (Tom).csv
+... no primary author cell found in file, using file name Sensky, Professor Thomas (Tom)
+... Number of papers were 93, of which 92 processed
+... No errors found for author Professor Sensky, T.
+
+.....................................
+Processing CSV file input\individuals\Sevdalis, Dr Nick.csv
+... no primary author cell found in file, using file name Sevdalis, Dr Nick
+... Number of papers were 34, of which 33 processed
+... No errors found for author Dr Sevdalis, N.
+
+.....................................
+Processing CSV file input\individuals\Sever, Professor Peter Sedgwick.csv
+... no primary author cell found in file, using file name Sever, Professor Peter Sedgwick
+... Number of papers were 317, of which 316 processed
+... No errors found for author Professor Sever, P.S.
+
+.....................................
+Processing CSV file input\individuals\Severs, Professor Nicholas John.csv
+!!! 2 warnings found for author
+... Number of papers were 211, of which 210 processed
+... No errors found for author Severs, N.J.
+
+.....................................
+Processing CSV file input\individuals\Shaheen, Dr Seif Omar.csv
+... Number of papers were 39, of which 38 processed
+... No errors found for author Shaheen, S.O.
+
+.....................................
+Processing CSV file input\individuals\Sharma, Dr Pankaj.csv
+*** Number of papers were 345, of which 344 processed
+*** Number of errors were 4
+
+.....................................
+Processing CSV file input\individuals\Sharp, Dr David James.csv
+... Number of papers were 103, of which 102 processed
+... No errors found for author Sharp, D.J.
+
+.....................................
+Processing CSV file input\individuals\Shaunak, Professor Sunil.csv
+... Number of papers were 66, of which 65 processed
+... No errors found for author Shaunak, S.
+
+.....................................
+Processing CSV file input\individuals\Shovlin, Dr Claire Louise.csv
+... Number of papers were 45, of which 44 processed
+... No errors found for author Shovlin, C.L.L.
+
+.....................................
+Processing CSV file input\individuals\Skinner, Dr Michael Anthony (Mike).csv
+... Number of papers were 117, of which 116 processed
+... No errors found for author Skinner, M.A.
+
+.....................................
+Processing CSV file input\individuals\Smith, Dr Kirsty Louise.csv
+... no primary author cell found in file, using file name Smith, Dr Kirsty Louise
+... Number of papers were 16, of which 15 processed
+... No errors found for author Dr Smith, K.L.
+
+.....................................
+Processing CSV file input\individuals\Smith, Dr Susan Frances (Sue F).csv
+!!! 1 warnings found for author
+... Number of papers were 36, of which 35 processed
+... No errors found for author Smith, S.F.
+
+.....................................
+Processing CSV file input\individuals\Smith, Professor Geoffrey Lilley FRS, FMedSci, FIBiol.csv
+... Number of papers were 225, of which 224 processed
+... No errors found for author Smith, G.L.
+
+.....................................
+Processing CSV file input\individuals\Smith, Professor Stephen Kevin.csv
+... no primary author cell found in file, using file name Smith, Professor Stephen Kevin
+... Number of papers were 100, of which 99 processed
+... No errors found for author Professor Smith, S.K.
+
+.....................................
+Processing CSV file input\individuals\Solito, Dr Egle.csv
+... no primary author cell found in file, using file name Solito, Dr Egle
+... Number of papers were 76, of which 75 processed
+... No errors found for author Dr Solito, E.
+
+.....................................
+Processing CSV file input\individuals\Spalding, Mr Duncan R C.csv
+... no primary author cell found in file, using file name Spalding, Mr Duncan R C
+... Number of papers were 13, of which 12 processed
+... No errors found for author Mr Spalding, D.R.C.
+
+.....................................
+Processing CSV file input\individuals\Spencer-Dene, Dr Bradley.csv
+... Number of papers were 32, of which 31 processed
+... No errors found for author Spencer Dene, B.
+
+.....................................
+Processing CSV file input\individuals\Spratt, Professor Brian Geoffrey CBE FRS FMedSci.csv
+... Number of papers were 216, of which 215 processed
+... No errors found for author Spratt, B.G.
+
+.....................................
+Processing CSV file input\individuals\Sriskandan, Professor Shiranee.csv
+... Number of papers were 63, of which 62 processed
+... No errors found for author Sriskandan, S.
+
+.....................................
+Processing CSV file input\individuals\Stamp, Professor Gordon William.csv
+... Number of papers were 183, of which 182 processed
+... No errors found for author Stamp, G.W.H.
+
+.....................................
+Processing CSV file input\individuals\Stanley, Dr Sarah Amy.csv
+... no primary author cell found in file, using file name Stanley, Dr Sarah Amy
+... Number of papers were 39, of which 38 processed
+... No errors found for author Dr Stanley, S.A.
+
+.....................................
+Processing CSV file input\individuals\Stebbing, Dr Justin.csv
+... Number of papers were 221, of which 220 processed
+... No errors found for author Stebbing, J.F.
+
+.....................................
+Processing CSV file input\individuals\Stevenson, Dr Christopher Scott.csv
+... no primary author cell found in file, using file name Stevenson, Dr Christopher Scott
+... Number of papers were 43, of which 42 processed
+... No errors found for author Dr Stevenson, C.S.
+
+.....................................
+Processing CSV file input\individuals\Strutton, Dr Paul Henry.csv
+... no primary author cell found in file, using file name Strutton, Dr Paul Henry
+... Number of papers were 26, of which 25 processed
+... No errors found for author Dr Strutton, P.H.
+
+.....................................
+Processing CSV file input\individuals\Sturge, Dr Justin.csv
+... Number of papers were 11, of which 10 processed
+... No errors found for author Sturge, J.
+
+.....................................
+Processing CSV file input\individuals\Sugden, Professor Peter Howard.csv
+... Number of papers were 172, of which 171 processed
+... No errors found for author Sugden, P.H.
+
+.....................................
+Processing CSV file input\individuals\Sullivan, Dr Mark Hubbard Fitzmaurice.csv
+... no primary author cell found in file, using file name Sullivan, Dr Mark Hubbard Fitzmaurice
+... Number of papers were 136, of which 135 processed
+... No errors found for author Dr Sullivan, M.H.F.
+
+.....................................
+Processing CSV file input\individuals\Swain, Professor Paul C.csv
+... Number of papers were 161, of which 160 processed
+... No errors found for author Professor Swain, P.C.
+
+.....................................
+Processing CSV file input\individuals\Takata, Professor Masao.csv
+... no primary author cell found in file, using file name Takata, Professor Masao
+... Number of papers were 43, of which 42 processed
+... No errors found for author Professor Takata, M.
+
+.....................................
+Processing CSV file input\individuals\Tam, Dr Frederick.csv
+... no primary author cell found in file, using file name Tam, Dr Frederick
+... Number of papers were 48, of which 47 processed
+... No errors found for author Dr Tam, F.
+
+.....................................
+Processing CSV file input\individuals\Tang, Professor Christoph Marcel.csv
+... Number of papers were 63, of which 62 processed
+... No errors found for author Tang, C.M.
+
+.....................................
+Processing CSV file input\individuals\Tarzi, Dr Ruth Margaret.csv
+... no primary author cell found in file, using file name Tarzi, Dr Ruth Margaret
+... Number of papers were 8, of which 7 processed
+... No errors found for author Dr Tarzi, R.M.
+
+.....................................
+Processing CSV file input\individuals\Taylor, Dr Deanna Lesley.csv
+... Number of papers were 19, of which 18 processed
+... No errors found for author Taylor, D.L.
+
+.....................................
+Processing CSV file input\individuals\Taylor, Dr Graham Philip.csv
+... Number of papers were 192, of which 191 processed
+... No errors found for author Taylor, G.P.
+
+.....................................
+Processing CSV file input\individuals\Taylor, Dr Patricia Mary.csv
+... Number of papers were 63, of which 62 processed
+... No errors found for author Taylor, P.M.
+
+.....................................
+Processing CSV file input\individuals\Taylor, Professor Peter Charles.csv
+... no primary author cell found in file, using file name Taylor, Professor Peter Charles
+... Number of papers were 113, of which 112 processed
+... No errors found for author Professor Taylor, P.C.
+
+.....................................
+Processing CSV file input\individuals\Taylor-Robinson, Professor Simon David.csv
+... no primary author cell found in file, using file name Taylor-Robinson, Professor Simon David
+... Number of papers were 153, of which 152 processed
+... No errors found for author Professor Taylor Robinson, S.D.
+
+.....................................
+Processing CSV file input\individuals\Tekkis, Mr Paris Procopiou.csv
+... no primary author cell found in file, using file name Tekkis, Mr Paris Procopiou
+*** Number of papers were 177, of which 175 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Terracciano, Dr Cesare Maria Nicola.csv
+... Number of papers were 51, of which 50 processed
+... No errors found for author Terracciano, C.M.N.
+
+.....................................
+Processing CSV file input\individuals\Terzidou, Dr Vasiliki Ioannou (Vasso).csv
+... Number of papers were 11, of which 10 processed
+... No errors found for author Terzidou, V.
+
+.....................................
+Processing CSV file input\individuals\Tetley, Professor Teresa Dorothy.csv
+... no primary author cell found in file, using file name Tetley, Professor Teresa Dorothy
+... Number of papers were 80, of which 79 processed
+... No errors found for author Professor Tetley, T.D.
+
+.....................................
+Processing CSV file input\individuals\Thom, Professor Simon Alasdair McG MD FRCP.csv
+!!! 3 warnings found for author
+... Number of papers were 147, of which 146 processed
+... No errors found for author Thom, S.M.C.G.
+
+.....................................
+Processing CSV file input\individuals\Thomas, Professor Howard Christopher.csv
+... no primary author cell found in file, using file name Thomas, Professor Howard Christopher
+*** Number of papers were 392, of which 390 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Thursz, Professor Mark Richard.csv
+... no primary author cell found in file, using file name Thursz, Professor Mark Richard
+... Number of papers were 76, of which 75 processed
+... No errors found for author Professor Thursz, M.R.
+
+.....................................
+Processing CSV file input\individuals\Toledano, Dr Mireille Beracha.csv
+... Number of papers were 20, of which 19 processed
+... No errors found for author Toledano, M.B.
+
+.....................................
+Processing CSV file input\individuals\Trapp, Dr Stefan.csv
+... Number of papers were 96, of which 95 processed
+... No errors found for author Trapp, S.A.J.
+
+.....................................
+Processing CSV file input\individuals\Tyrer, Professor Peter Julian FMedSci.csv
+... Number of papers were 464, of which 463 processed
+... No errors found for author Tyrer, P.J.
+
+.....................................
+Processing CSV file input\individuals\Tyrrell-Price, Dr Jonathan.csv
+... Number of papers were 3, of which 2 processed
+... No errors found for author Tyrrell Price, J.
+
+.....................................
+Processing CSV file input\individuals\Tzoulaki, Dr Ioanna.csv
+... Number of papers were 21, of which 20 processed
+... No errors found for author Tzoulaki, I.
+
+.....................................
+Processing CSV file input\individuals\Udalova, Dr Irina.csv
+... Number of papers were 55, of which 54 processed
+... No errors found for author Udalova, I.A.
+
+.....................................
+Processing CSV file input\individuals\Underwood, Professor Stephen Richard (Richard).csv
+... Number of papers were 159, of which 158 processed
+... No errors found for author Underwood, S.R.
+
+.....................................
+Processing CSV file input\individuals\Uprichard, Dr James.csv
+... Number of papers were 6, of which 5 processed
+... No errors found for author Uprichard, J.
+
+.....................................
+Processing CSV file input\individuals\Usmani, Dr Omar Sharif.csv
+... no primary author cell found in file, using file name Usmani, Dr Omar Sharif
+... Number of papers were 18, of which 17 processed
+... No errors found for author Dr Usmani, O.S.
+
+.....................................
+Processing CSV file input\individuals\Venables, Professor Patrick J.csv
+... Number of papers were 106, of which 105 processed
+... No errors found for author Venables, P.J.W.
+
+.....................................
+Processing CSV file input\individuals\Vincent, Dr Tonia.csv
+... no primary author cell found in file, using file name Vincent, Dr Tonia
+... Number of papers were 13, of which 12 processed
+... No errors found for author Dr Vincent, T.
+
+.....................................
+Processing CSV file input\individuals\Vincent, Professor Charles Anthony.csv
+... no primary author cell found in file, using file name Vincent, Professor Charles Anthony
+... Number of papers were 224, of which 223 processed
+... No errors found for author Professor Vincent, C.A.
+
+.....................................
+Processing CSV file input\individuals\Vineis, Professor Paolo.csv
+... Number of papers were 413, of which 412 processed
+... No errors found for author Vineis, P.
+
+.....................................
+Processing CSV file input\individuals\Vyse, Professor Timothy James (Tim).csv
+... Number of papers were 109, of which 108 processed
+... No errors found for author Vyse, T.J.
+
+.....................................
+Processing CSV file input\individuals\Wait, Dr Robin.csv
+... no primary author cell found in file, using file name Wait, Dr Robin
+... Number of papers were 70, of which 69 processed
+... No errors found for author Dr Wait, R.
+
+.....................................
+Processing CSV file input\individuals\Walczak, Professor Henning.csv
+... Number of papers were 112, of which 111 processed
+... No errors found for author Walczak, H.
+
+.....................................
+Processing CSV file input\individuals\Walker, Dr Marjorie Mary.csv
+... no primary author cell found in file, using file name Walker, Dr Marjorie Mary
+... Number of papers were 100, of which 99 processed
+... No errors found for author Dr Walker, M.M.
+
+.....................................
+Processing CSV file input\individuals\Walley, Dr Andrew John.csv
+... no primary author cell found in file, using file name Walley, Dr Andrew John
+... Number of papers were 39, of which 38 processed
+... No errors found for author Dr Walley, A.J.
+
+.....................................
+Processing CSV file input\individuals\Wang, Dr Jayson Ee Hur.csv
+... Number of papers were 5, of which 4 processed
+... No errors found for author Wang, J.
+
+.....................................
+Processing CSV file input\individuals\Want, Dr Elizabeth Joy.csv
+... Number of papers were 18, of which 17 processed
+... No errors found for author Want, E.J.
+
+.....................................
+Processing CSV file input\individuals\Ward, Dr Helen.csv
+... no primary author cell found in file, using file name Ward, Dr Helen
+... Number of papers were 94, of which 93 processed
+... No errors found for author Dr Ward, H.
+
+.....................................
+Processing CSV file input\individuals\Warner, Dr Jill Amanda.csv
+... no primary author cell found in file, using file name Warner, Dr Jill Amanda
+... Number of papers were 68, of which 67 processed
+... No errors found for author Dr Warner, J.A.
+
+.....................................
+Processing CSV file input\individuals\Warner, Professor John Oliver.csv
+... no primary author cell found in file, using file name Warner, Professor John Oliver
+*** Number of papers were 353, of which 351 processed
+*** Number of errors were 1
+
+.....................................
+Processing CSV file input\individuals\Warrens, Professor Anthony Nigel.csv
+... no primary author cell found in file, using file name Warrens, Professor Anthony Nigel
+... Number of papers were 62, of which 61 processed
+... No errors found for author Professor Warrens, A.N.
+
+.....................................
+Processing CSV file input\individuals\Watson, Dr Roger John.csv
+... Number of papers were 37, of which 36 processed
+... No errors found for author Watson, R.J.
+
+.....................................
+Processing CSV file input\individuals\Watt, Dr Fiona Elizabeth.csv
+... Number of papers were 210, of which 209 processed
+... No errors found for author Watt, F.M.
+
+.....................................
+Processing CSV file input\individuals\Waxman, Professor Jonathan.csv
+... Number of papers were 175, of which 174 processed
+... No errors found for author Waxman, J.
+
+.....................................
+Processing CSV file input\individuals\Weaver, Dr Timothy David.csv
+... no primary author cell found in file, using file name Weaver, Dr Timothy David
+... Number of papers were 46, of which 45 processed
+... No errors found for author Dr Weaver, T.D.
+
+.....................................
+Processing CSV file input\individuals\Weber, Professor Jonathan Norden FMedSci, FRCP, FRCPath.csv
+... Number of papers were 231, of which 230 processed
+... No errors found for author Weber, J.N.
+
+.....................................
+Processing CSV file input\individuals\Webster, Professor Joanne P.csv
+... Number of papers were 76, of which 75 processed
+... No errors found for author Webster, J.P.
+
+.....................................
+Processing CSV file input\individuals\Wells, Professor Dominic John.csv
+... Number of papers were 98, of which 97 processed
+... No errors found for author Wells, D.J.
+
+.....................................
+Processing CSV file input\individuals\Wharton, Dr John.csv
+... Number of papers were 110, of which 109 processed
+... No errors found for author Wharton, J.
+
+.....................................
+Processing CSV file input\individuals\White, Dr Peter John.csv
+... Number of papers were 18, of which 17 processed
+... No errors found for author White, P.J.
+
+.....................................
+Processing CSV file input\individuals\Wigneshweraraj, Dr Sivaramesh.csv
+... Number of papers were 35, of which 34 processed
+... No errors found for author Wigneshweraraj, S.R.
+
+.....................................
+Processing CSV file input\individuals\Wilkins, Professor Martin Russell.csv
+... Number of papers were 80, of which 79 processed
+... No errors found for author Wilkins, M.R.
+
+.....................................
+Processing CSV file input\individuals\Wilkinson, Professor Robert John.csv
+... Number of papers were 99, of which 98 processed
+... No errors found for author Wilkinson, R.J.
+
+.....................................
+Processing CSV file input\individuals\Williams, Dr Richard Owen.csv
+... Number of papers were 74, of which 73 processed
+... No errors found for author Williams, R.O.
+
+.....................................
+Processing CSV file input\individuals\Williams, Professor Graham Richard.csv
+... no primary author cell found in file, using file name Williams, Professor Graham Richard
+!!! 6 warnings found for author
+... Number of papers were 331, of which 330 processed
+... No errors found for author Professor Williams, G.R.
+
+.....................................
+Processing CSV file input\individuals\Williams, Professor Timothy John.csv
+... no primary author cell found in file, using file name Williams, Professor Timothy John
+!!! 4 warnings found for author
+... Number of papers were 329, of which 328 processed
+... No errors found for author Professor Williams, T.J.
+
+.....................................
+Processing CSV file input\individuals\Williamson, Professor Catherine.csv
+... no primary author cell found in file, using file name Williamson, Professor Catherine
+... Number of papers were 41, of which 40 processed
+... No errors found for author Professor Williamson, C.
+
+.....................................
+Processing CSV file input\individuals\Winston, Dr Alan.csv
+... Number of papers were 42, of which 41 processed
+... No errors found for author Winston, A.
+
+.....................................
+Processing CSV file input\individuals\Wise, Professor Richard James S.csv
+... Number of papers were 119, of which 118 processed
+... No errors found for author Wise, R.J.S.
+
+.....................................
+Processing CSV file input\individuals\Wojciak-Stothard, Dr Beata.csv
+... Number of papers were 21, of which 20 processed
+... No errors found for author Wojciak Stothard, B.
+
+.....................................
+Processing CSV file input\individuals\Woloshynowych, Dr Maria.csv
+... no primary author cell found in file, using file name Woloshynowych, Dr Maria
+... Number of papers were 18, of which 17 processed
+... No errors found for author Dr Woloshynowych, M.
+
+.....................................
+Processing CSV file input\individuals\Wood, Professor David Allan.csv
+... Number of papers were 261, of which 260 processed
+... No errors found for author Wood, D.A.
+
+.....................................
+Processing CSV file input\individuals\Wort, Dr Stephen John.csv
+... Number of papers were 25, of which 24 processed
+... No errors found for author Wort, S.J.
+
+.....................................
+Processing CSV file input\individuals\Wynne, Dr Katie-Jane.csv
+... Number of papers were 16, of which 15 processed
+... No errors found for author Wynne, K.J.
+
+.....................................
+Processing CSV file input\individuals\Yague, Dr Ernesto.csv
+... Number of papers were 17, of which 16 processed
+... No errors found for author Yague, E.
+
+.....................................
+Processing CSV file input\individuals\Ying, Dr Liming.csv
+... Number of papers were 62, of which 61 processed
+... No errors found for author Ying, L.M.
+
+.....................................
+Processing CSV file input\individuals\Young, Professor Douglas Brownlie FMedSci.csv
+... Number of papers were 213, of which 212 processed
+... No errors found for author Young, D.B.
+
+.....................................
+Processing CSV file input\individuals\Yu, Dr Veronica.csv
+... Number of papers were 2, of which 1 processed
+... No errors found for author Yu, V.
+
+.....................................
+Processing CSV file input\individuals\Zacharakis, Mr Emmanouil.csv
+*** Number of papers were 42, of which 41 processed
+*** Number of errors were 5
+
+.....................................
+Processing CSV file input\individuals\Zhao, Dr Lan.csv
+... no primary author cell found in file, using file name Zhao, Dr Lan
+... Number of papers were 32, of which 31 processed
+... No errors found for author Dr Zhao, L.
+
+.....................................
+Processing CSV file input\individuals\Ziprin, Dr Paul.csv
+... no primary author cell found in file, using file name Ziprin, Dr Paul
+... Number of papers were 46, of which 45 processed
+... No errors found for author Dr Ziprin, P.

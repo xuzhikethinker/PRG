@@ -1,0 +1,6 @@
+Period	  All1st	 AllLast	  All2nd	 AllPenU	AllOther	AllTotal	     All1st%	     AllLast%	     All2nd%	     AllPenU%	     AllOther%	     AllTotal%	 No.Auth.Mean	  No.Auth.Min	   No.Auth.Q1	   No.Auth.Q2	   No.Auth.Q3	  No.Auth.Max
+     0	      11	      11	       7	       0	      14	      43	        0.26	         0.26	        0.16	         0.00	          0.33	          1.00	         6.07	            1	            4	            6	            8	           13
+     1	       2	       7	       4	       4	      11	      28	        0.07	         0.25	        0.14	         0.14	          0.39	          1.00	         7.14	            1	            5	            7	            9	           20
+     2	       1	      10	       3	       7	       7	      28	        0.04	         0.36	        0.11	         0.25	          0.25	          1.00	         6.32	            1	            5	            7	            8	           13
+     3	       1	       8	       2	       7	      10	      28	        0.04	         0.29	        0.07	         0.25	          0.36	          1.00	         8.36	            4	            6	            8	           10	           28
+     4	       0	       0	       0	       0	       0	       0	            	             	            	             	              	              	             	             	             	             	             	             
