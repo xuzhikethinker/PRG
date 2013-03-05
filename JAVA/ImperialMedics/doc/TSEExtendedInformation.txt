@@ -6,7 +6,7 @@ Basically I group papers by each author, each time period.
 
 Period:-
 
-[defined in ProcessSinglePublicationCSVList#yearBoundary = {2000.5, 2003.5, 2006.5, 2009.5};
+[defined in PeriodBoundary#yearBoundary = {2000.5, 2003.5, 2006.5, 2009.5};
 Time periods 1,2,3 are as defined by Vanesh (email 6/8/12): 2001-2003, 2004-2006, 2007-2009
 
 Time period 0 year<= 2000

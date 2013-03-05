@@ -30,6 +30,8 @@ public class ProcessAllFiles {
 
        public static void main(String[] args) {
 
+        System.out.println("=== Processing for periods:- "+PeriodBoundary.description());
+        System.out.println("===========================================================");
         //Produce list of medical journals
         ProcessScopusJournalLists psjl = new ProcessScopusJournalLists();
         String rootFileName = "SCOPUS_Journal_Classification_title_list_Simple.txt";
@@ -85,8 +87,10 @@ public class ProcessAllFiles {
             throw new RuntimeException("*** Error opening output file "+allAuthorOutputFullFileName+" "+e.getMessage());
         }
         for (int f=0; f<ff.getNumberFiles(); f++){
-            //if (f>0) break;
-            System.out.println("$$$\n$$$ file "+f+"\n$$$");
+//            if (f==245 || f==246) {
+//                    System.out.println("### file "+f+" ###");
+//                }
+            System.out.println("\n$$$$$$$$$$$$$$$$$\n$$$ file "+String.format("%4s", f)+" $$$");
             ProcessSinglePublicationCSVList pspl = new ProcessSinglePublicationCSVList();
             pspl.rootFileName = ff.getFileNameRoot(f);
             pspl.inputDirectory = inputSinglePublicationDirectory;
@@ -103,8 +107,10 @@ public class ProcessAllFiles {
             Author allFileAuthor=null;
             boolean foundAuthor=false;
             for (Author indAuthor: pspl.primaryAuthorList){
-                if (indAuthor.getSurnames().startsWith("Jones") ) throw new RuntimeException("!!!HELP JONES");
-                allFileAuthor = paaf.authorSet.floor(indAuthor);
+//                if (indAuthor.getSurnames().startsWith("Jones") ) {
+//                    System.out.println("### JONES ###");
+//                }
+                allFileAuthor = paaf.findNearestAuthor(indAuthor);
                 if ((allFileAuthor==null) || (!allFileAuthor.equalUptoFirstInitial(indAuthor))) continue;
                 if (!allFileAuthor.equalsExactly(indAuthor)){
                     System.out.println("!!! Individual file author "
@@ -122,13 +128,15 @@ public class ProcessAllFiles {
                         +" is equal to all file author "
                         +allFileAuthor.toStringWithTitlesAndID());
                 break;
-            }
+                
+            } // eo for indAuthor
             if (!foundAuthor){
 //                throw new RuntimeException("Individual file author "+pspl.getPrimaryAuthor()+" can not be found in all author file");
                 System.out.println("### Individual file author "
                         +pspl.getPrimaryAuthor()+" can not be found in all author file");
                 System.err.println("### Individual file author "
                         +pspl.getPrimaryAuthor()+" can not be found in all author file");
+                continue;
             }
 
             AuthorWithData awd = (AuthorWithData) allFileAuthor;

@@ -20,7 +20,7 @@ public class MakeNetwork {
         boolean infoOn=true;
         int maxVertices=5000;
         int maxStubs=maxVertices*10;
-        int numberPeriods=ProcessSinglePublicationCSVList.yearBoundary.length+1;
+        int numberPeriods=PeriodBoundary.yearBoundary.length+1;
         
         cg = new CoauthorshipGraphs (maxVertices, maxStubs,numberPeriods);
 

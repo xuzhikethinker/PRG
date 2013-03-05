@@ -48,15 +48,17 @@ public class ProcessSinglePublicationCSVList {
 //     * Label of column with journal ISSN string
 //     */
 //    static final String ISSNLABEL="ISSN";
-    /**
-     * Array to specify boundaries between cells.
-     * Period 0 is year &lt; yearBoundary[0],
-     * Period L=yearBoundary.length is year &gt; yearBoundary[L-1],
-     * Otherwise Period P is yearBoundary[P-1] &lt; year &lt; yearBoundary[P].
-     * Vanash requires 2001-2003, 2004-2006, 2007-2009
-     */
-    static double [] yearBoundary = {2000.5, 2003.5, 2006.5, 2009.5};
 
+//    /**
+//     * Array to specify boundaries between cells.
+//     * Period 0 is year &lt; PeriodBoundary.yearBoundary[0],
+//     * Period L=PeriodBoundary.yearBoundary.length is year &gt; PeriodBoundary.yearBoundary[L-1],
+//     * Otherwise Period P is PeriodBoundary.yearBoundary[P-1] &lt; year &lt; PeriodBoundary.yearBoundary[P].
+//     * Vanash requires 2001-2003, 2004-2006, 2007-2009
+//     * @deprecated use PeriodBoundary class
+//     */
+//    static double [] yearBoundaryOLD = {2000.5, 2003.5, 2006.5, 2009.5};
+//
 
 
     /**
@@ -216,20 +218,28 @@ public class ProcessSinglePublicationCSVList {
             Logger.getLogger(ProcessSinglePublicationCSVList.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        // find any authorID
+        int authorID = setPrimaryAuthorID(dataHolderCSV);
         // find the primary authorList names
-        setPrimaryAuthorCSV(dataHolderCSV);
+        setPrimaryAuthorCSV(dataHolderCSV,authorID);
         if (primaryAuthorList==null) {
             System.out.println("... no primary author cell found in file, using file name "+rootFileName);
             primaryAuthorList = new ArrayList();
             Author frn = new Author(rootFileName,',');
+            if (authorID>=0) frn.setID(authorID);
             primaryAuthorList.add(frn);
         }
-
+        for (int v=0; v<primaryAuthorList.size(); v++) {
+                primaryAuthorList.get(v).setID(authorID);
+            }
+        
         if (infoOn) {
-            System.out.print("Primary Author:- ");
-            for (int v=0; v<primaryAuthorList.size(); v++) System.out.print(primaryAuthorList.get(v)+"; ");
-            System.out.println();
+           System.out.print("Primary Author:- "+(authorID<0?"":"(ID="+authorID+")"));
+           for (int v=0; v<primaryAuthorList.size(); v++) System.out.print(primaryAuthorList.get(v)+"; ");
+           System.out.println();
         }
+        
+        
 
         String [] labelList = ProcessSinglePublicationCSVList.ALLLABELLIST;
         int [] labelRowInfo = findLabelRow(dataHolderCSV, labelList);
@@ -265,7 +275,7 @@ public class ProcessSinglePublicationCSVList {
      */
     public void processCSVFileForAuthorData(boolean infoOn){
         String inputFullFileName = inputDirectory+rootFileName+".csv";
-        System.out.println("\n.....................................\nProcessing CSV file "+inputFullFileName);
+        System.out.println("........................................\nProcessing CSV file "+inputFullFileName);
 
         CSVReader reader;
         try {
@@ -275,18 +285,30 @@ public class ProcessSinglePublicationCSVList {
             Logger.getLogger(ProcessSinglePublicationCSVList.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        // find any authorID
+        int authorID = setPrimaryAuthorID(dataHolderCSV);
+//        if (authorID>=0) {
+//            System.out.print("(ID="+authorID+")");
+//        }
         // find the primary authorList names
-        setPrimaryAuthorCSV(dataHolderCSV);
+        setPrimaryAuthorCSV(dataHolderCSV, authorID);
         if (primaryAuthorList==null) {
             System.out.println("... no primary author cell found in file, using file name "+rootFileName);
             primaryAuthorList = new ArrayList();
             Author frn = new Author(rootFileName,',');
+            frn.setID(authorID);
             primaryAuthorList.add(frn);
         }
 
+//        if (authorID>=0) for (int v=0; v<primaryAuthorList.size(); v++) {
+//                            Author a = primaryAuthorList.get(v);
+//                            a.setID(authorID);
+//                          }
         if (infoOn) {
-            System.out.print("Primary Author:- ");
-            for (int v=0; v<primaryAuthorList.size(); v++) System.out.print(primaryAuthorList.get(v)+"; ");
+            System.out.print("Primary Author:- "+(authorID<0?"":"(ID="+authorID+")"));
+            for (int v=0; v<primaryAuthorList.size(); v++) {
+                System.out.print(primaryAuthorList.get(v)+"; ");
+            }
             System.out.println();
         }
 
@@ -356,7 +378,7 @@ public class ProcessSinglePublicationCSVList {
          */
     public void authorshipStatisticsCSV_NEW(boolean infoOn){
             //ArrayList<Integer> numberAuthors= new ArrayList();
-            int numberPeriods=yearBoundary.length+1;
+            int numberPeriods=PeriodBoundary.yearBoundary.length+1;
             periodStats= new PeriodData[numberPeriods];
             for (int p=0; p<numberPeriods; p++) periodStats[p] = new PeriodData();
             Integer numberErrors=0;
@@ -628,14 +650,14 @@ public class ProcessSinglePublicationCSVList {
 //                    if (period==0) {
 //                        if (infoOn) System.out.println("*** Row "+rowNumber+
 //                                " has year "+year+
-//                                " which is below lower boundary "+yearBoundary[0]+", , title is "+shortTitle);
+//                                " which is below lower boundary "+PeriodBoundary.yearBoundary[0]+", , title is "+shortTitle);
 //                        //continue;
 //                    }
-//                    if (period==yearBoundary.length) {
+//                    if (period==PeriodBoundary.yearBoundary.length) {
 //                        if (infoOn) System.out.println("*** Row "+rowNumber+
 //                                " has year "+year+
 //                                " which is above upper boundary "+
-//                                yearBoundary[yearBoundary.length-1]
+//                                PeriodBoundary.yearBoundary[PeriodBoundary.yearBoundary.length-1]
 //                                +", , title is "+shortTitle);
 //                        //continue;
 //                    }
@@ -673,7 +695,7 @@ public class ProcessSinglePublicationCSVList {
      * @param dataHolderXLS vector of vectors of cells
      * @return array of different versions of primary authorList names, null if non found
      */
-    public void setPrimaryAuthorCSV(List dataHolder){
+    public void setPrimaryAuthorCSV(List dataHolder, int authorID){
         final String authorLabel1 = "Author:";
         final String authorLabel2 = "Authors:";
         String separatorNames=";";
@@ -692,11 +714,49 @@ public class ProcessSinglePublicationCSVList {
             if (column< cellLineVector.length) {
                 int nameListStart = authorCellValue.indexOf(':')+1;
                 String allVersionsAuthor= authorCellValue.substring(nameListStart);
-                primaryAuthorList = Author.authorList(allVersionsAuthor,separatorNames, separatorSurnameInitials);
+                primaryAuthorList = Author.authorList(allVersionsAuthor,separatorNames, separatorSurnameInitials, authorID);
                 return;
             }
         }
         return;
+    }
+
+    /**
+     * Finds ID number.
+     * The author ID should be listed as a separate cell of the type
+     * <tt>ID: 51</tt>
+     * The routine should then return with the integer
+     * @param dataHolderXLS vector of vectors of cells
+     * @return ID number of author as listed in file, IUNSET if not found
+     */
+    static public int setPrimaryAuthorID(List dataHolder){
+        final String idLabel = "ID:";
+        
+        for (int rowNumber = 0; rowNumber< dataHolder.size(); rowNumber++)
+        {
+            String [] cellLineVector = (String []) dataHolder.get(rowNumber);
+            
+            // find cell with common authorList name for this sheet
+            String idCellValue=SUNSET;
+            int column=0;
+            for (column = 0; column < cellLineVector.length; column++) {
+                idCellValue = cellLineVector[column];
+                if (idCellValue.startsWith(idLabel)  ) break;
+                }
+            if (column< cellLineVector.length) {
+                int id = IUNSET;
+                String idValueString=idCellValue.substring(idLabel.length()).trim();
+                System.out.println("... Found ID="+idValueString+"...");
+                try { 
+                    id=Integer.parseInt(idValueString);
+                }
+                catch (RuntimeException e){
+                    id = IUNSET;
+                }
+                return id;
+            }
+        }
+        return IUNSET;
     }
 
     /**
@@ -897,17 +957,17 @@ public class ProcessSinglePublicationCSVList {
 
         /**
          * Finds which period year falls into.
-         * Period boundaries defined by yearBoundary array.
+         * Period boundaries defined by PeriodBoundary.yearBoundary array.
          * Period p means year satisfies
-         * <tt>yearBoundary[p+1] > year >= yearBoundary[p]</tt>.
+         * <tt>PeriodBoundary.yearBoundary[p+1] > year >= PeriodBoundary.yearBoundary[p]</tt>.
          * @param year input year
-         * @return period number, 0 if too early, (yearBoundary.length) if beyond top end
+         * @return period number, 0 if too early, (PeriodBoundary.yearBoundary.length) if beyond top end
          */
     public static int getPeriod(double year){
-        if (year<yearBoundary[0]) return 0;
-        for (int b=1; b< yearBoundary.length; b++) if ((year<yearBoundary[b]) && (year>=yearBoundary[b-1]) )
+        if (year<PeriodBoundary.yearBoundary[0]) return 0;
+        for (int b=1; b< PeriodBoundary.yearBoundary.length; b++) if ((year<PeriodBoundary.yearBoundary[b]) && (year>=PeriodBoundary.yearBoundary[b-1]) )
             return b;
-        return yearBoundary.length;
+        return PeriodBoundary.yearBoundary.length;
     }
 
     public void writeAuthorData(String outputFileName,
@@ -1036,7 +1096,7 @@ public static void writePeriodStatsData(String outputFileName, PeriodData [] per
          */
     public void authorshipStatisticsCSV(boolean infoOn){
             //ArrayList<Integer> numberAuthors= new ArrayList();
-            int numberPeriods=yearBoundary.length+1;
+            int numberPeriods=PeriodBoundary.yearBoundary.length+1;
             periodStats= new PeriodData[numberPeriods];
             for (int p=0; p<numberPeriods; p++) periodStats[p] = new PeriodData();
             int numberErrors=0;
@@ -1194,14 +1254,14 @@ public static void writePeriodStatsData(String outputFileName, PeriodData [] per
 //                    if (period==0) {
 //                        if (infoOn) System.out.println("*** Row "+rowNumber+
 //                                " has year "+year+
-//                                " which is below lower boundary "+yearBoundary[0]+", , title is "+shortTitle);
+//                                " which is below lower boundary "+PeriodBoundary.yearBoundary[0]+", , title is "+shortTitle);
 //                        //continue;
 //                    }
-//                    if (period==yearBoundary.length) {
+//                    if (period==PeriodBoundary.yearBoundary.length) {
 //                        if (infoOn) System.out.println("*** Row "+rowNumber+
 //                                " has year "+year+
 //                                " which is above upper boundary "+
-//                                yearBoundary[yearBoundary.length-1]
+//                                PeriodBoundary.yearBoundary[PeriodBoundary.yearBoundary.length-1]
 //                                +", , title is "+shortTitle);
 //                        //continue;
 //                    }

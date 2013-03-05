@@ -53,12 +53,20 @@ public class ProcessAllAuthorFile {
 
     /**
      * Complete set of authors.
-     * Uses the equals comparison which uses only some of the information
+     * Uses the equals comparison of Author which uses only some of the information
      * in the author.  Thus we can link a record in a new file to the
      * existing fundamental name and id of an author even if way given is not
      * exactly the same.
      */
     TreeSet<Author> authorSet;
+
+    /**
+     * Complete set of authors.
+     * Uses the ID of Authors to test equality and comparison.  
+     * Thus we can only use the ordering in this set if id of an author 
+     * is known.
+     */
+    TreeSet<Author> authorSetByID;
 
     /**
      * Start of name of file
@@ -101,7 +109,10 @@ public class ProcessAllAuthorFile {
         System.out.println("********************\nProcessing all author simple data file "+inputFullFileName);
 
         int infoLevel=(infoOn?2:0);
-        authorSet= readSimpleImperialAuthorList(inputFullFileName, infoLevel);
+        authorSetByID= readSimpleImperialAuthorList(inputFullFileName, infoLevel);
+        authorSet = new TreeSet(); // uses default Author comparator
+        for (Author aaa:authorSetByID) {authorSet.add(aaa);}
+        
     }
 
 
@@ -140,10 +151,13 @@ public class ProcessAllAuthorFile {
     }
 
     public void processAuthorPeriodData(boolean infoOn){
-            int numberPeriods=ProcessSinglePublicationCSVList.yearBoundary.length-1;
+            int numberPeriods=PeriodBoundary.yearBoundary.length-1;
             //authorSet = new TreeSet(new AuthorComparatorByID());
             authorSet = new TreeSet();
             //TreeMap<Author,Author> AuthorToAuthor= new TreeMap();
+            Comparator compareID = new AuthorComparatorByID();
+            authorSetByID = new TreeSet(compareID);
+
 
             int warningNumber=20;
             int numberErrors=0;
@@ -178,8 +192,8 @@ public class ProcessAllAuthorFile {
                         continue;
                     }
 
-                    // period: these can not be 0 or ProcessSinglePublicationCSVList.yearBoundary.length which are used
-                    // to store stats outside range specified by ProcessSinglePublicationCSVList.yearBoundary.length
+                    // period: these can not be 0 or PeriodBoundary.yearBoundary.length which are used
+                    // to store stats outside range specified by PeriodBoundary.yearBoundary.length
                     HSSFCell periodCell = (HSSFCell) cellLineVector.elementAt(periodColumn);
                     int period = ReadExcelXLSFile.cellToInteger(periodCell);
                     if (period<1 || period >numberPeriods) {
@@ -197,7 +211,7 @@ public class ProcessAllAuthorFile {
                     // find out if author already exists
                     Author author = new Author(fullNameCellValue, ',');
                     author.setID(id);
-                    Author allFileAuthor = authorSet.floor(author); // nearest existing author
+                    Author allFileAuthor = authorSetByID.floor(author); // nearest existing author
                     boolean newAuthor=false;
 //                    if (allFileAuthor==null ||  (allFileAuthor.getID()!=id)){  newAuthor=true;}
 //                    else {newAuthor=false;}
@@ -207,6 +221,7 @@ public class ProcessAllAuthorFile {
                         AuthorWithData awd = new AuthorWithData(author,numberPeriods+1); // copies author name
                         awd.setID(id);
                         awd.addExcelRow(period,cellLineVector);
+                        authorSetByID.add(awd);
                         authorSet.add(awd);
                         if ((numberDataRows%3)!=1) {
                             System.err.println("### row="+numberDataRows+", id="+id+", "+fullNameCellValue+", period "+period+", id conflict with "+allFileAuthor.getID());
@@ -230,8 +245,6 @@ public class ProcessAllAuthorFile {
             System.out.println("*** Number of data rows was "+(dataHolderXLS.size()-labelRow-1)+", of which "+numberDataRows+" were correct");
             if (numberErrors>0) System.out.println("*** Number of errors were "+numberErrors);
             else  System.out.println("No errors found");
-
-
         }
 
     /**
@@ -269,7 +282,7 @@ public class ProcessAllAuthorFile {
      */
     public void writeDataTable(PrintStream PS, String sep, String noEntry){
         PS.println("Author"+sep+"Period"+sep+textFileHeader(sep, noEntry));
-        for (Author a: authorSet){
+        for (Author a: authorSetByID){
             AuthorWithData awd = (AuthorWithData) a;
             for (int p=0; p<=awd.numberPeriods; p++) {
                 System.out.println("Author "+awd+" period "+p);
@@ -328,7 +341,7 @@ public class ProcessAllAuthorFile {
         if (infoLevel>-2) System.out.println("Starting to read list Authors and ID numbers from " + fullFileName);
         ArrayList<String> words = new ArrayList();
         Comparator compareID = new AuthorComparatorByID();
-        TreeSet<Author> authorSetSimple = new TreeSet(compareID);
+        TreeSet<Author> authorSetByIDSimple = new TreeSet(compareID);
 
         String [] labelList ={FULLNAMELABEL,IDLABEL};
         int rowNumber=0;
@@ -367,12 +380,12 @@ public class ProcessAllAuthorFile {
                 catch(RuntimeException e){
                     System.err.println("!!! Warning at row "+rowNumber+" author "+name+" has no id");
                 }
-                Author allFileAuthor = authorSetSimple.floor(author); // nearest existing author
+                Author allFileAuthor = authorSetByIDSimple.floor(author); // nearest existing author
                 boolean newAuthor=true;
                 //if (allFileAuthor!=null && allFileAuthor.getID()==author.getID() ) newAuthor=false;
-                if (authorSetSimple.contains(author)) newAuthor=false;
+                if (authorSetByIDSimple.contains(author)) newAuthor=false;
                 if (newAuthor){// new author
-                    authorSetSimple.add(author);
+                    authorSetByIDSimple.add(author);
                     if (infoLevel>1) {
                         System.out.println("--- "+rowNumber+": new author "+authorID+" "+name);
                     }
@@ -383,19 +396,48 @@ public class ProcessAllAuthorFile {
                 }
             }
             if (infoLevel>-1) System.out.println("Finished reading authors from file "
-                    + fullFileName+" found "+authorSetSimple.size()+" authors");
+                    + fullFileName+" found "+authorSetByIDSimple.size()+" authors");
         }//eo try
         catch (TextReader.Error e) {
             // Some problem reading the noNamedata from the input file.
             throw new RuntimeException("*** Input Error: readJournalData failed after "
-                    +authorSetSimple.size()+" journals, row "+rowNumber+", "
+                    +authorSetByIDSimple.size()+" journals, row "+rowNumber+", "
                     + e.getMessage());
         } finally {
             tr.close();
         }
-        return authorSetSimple;
+        return authorSetByIDSimple;
     }
 
+    /**
+     * Finds nearest author.
+     * Returns the author closest to the otherAuthor parameter as stored
+     * in the internal sets.  Generally uses the floor function of 
+     * the internal ordered sets (TreeSets) available.
+     * Tests for ID and uses ID string if possible, 
+     * otherwise uses generic Author
+     * ordering.
+     * @param otherAuthor search for this author
+     * @return nearest author to one given
+     */
+    public Author findNearestAuthor(Author otherAuthor){
+        Author nearestAuthor;
+        if (otherAuthor.hasID()) 
+                { 
+                    nearestAuthor = authorSetByID.floor(otherAuthor);
+//                    // slow but only needed sometimes
+//                    System.out.println("!!! Individual file author "
+//                        +indAuthor.toStringWithTitlesAndID()+" has ID");
+//                    for (Author aaa: paaf.authorSet)
+//                        if (aaa.equalsByID(indAuthor)){
+//                            allFileAuthor = aaa;
+//                            break;
+//                        }
+                    //throw new RuntimeException("!!!HELP JONES");
+                }
+                else {nearestAuthor = authorSet.floor(otherAuthor);}
+         return nearestAuthor;
+    }   
         /**
      * Tests row to see if contains labels.
      * Given array of strings for entries in one row,

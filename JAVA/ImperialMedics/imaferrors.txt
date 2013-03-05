@@ -267,7 +267,6 @@
 ---  52
 ---  55
 ---  75 ---
-!!! Individual file author Jones, M.D. is not exactly equal to all file author Dr Jones, M. (51)
 !!! Individual file author Keun, H.C. is not exactly equal to all file author Dr Keun, H. (52)
 --- Repeated surnames Kneebone found on following rows:-
 ---  65

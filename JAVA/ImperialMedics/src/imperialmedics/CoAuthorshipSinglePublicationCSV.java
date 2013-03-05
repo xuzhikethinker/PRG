@@ -76,7 +76,7 @@ public class CoAuthorshipSinglePublicationCSV extends ProcessSinglePublicationCS
             boolean includeOrdinaryAuthors,
             boolean infoOn){
             //ArrayList<Integer> numberAuthors= new ArrayList();
-            int numberPeriods=yearBoundary.length+1;
+            int numberPeriods= PeriodBoundary.getNumberOfPeriods();
             if (cg==null) { // do period stats
                 periodStats= new PeriodData[numberPeriods];
                 for (int p=0; p<numberPeriods; p++) periodStats[p] = new PeriodData();
@@ -353,14 +353,14 @@ public class CoAuthorshipSinglePublicationCSV extends ProcessSinglePublicationCS
 //                    if (period==0) {
 //                        if (infoOn) System.out.println("*** Row "+rowNumber+
 //                                " has year "+year+
-//                                " which is below lower boundary "+yearBoundary[0]+", , title is "+shortTitle);
+//                                " which is below lower boundary "+PeriodBoundary.yearBoundary[0]+", , title is "+shortTitle);
 //                        //continue;
 //                    }
-//                    if (period==yearBoundary.length) {
+//                    if (period==PeriodBoundary.yearBoundary.length) {
 //                        if (infoOn) System.out.println("*** Row "+rowNumber+
 //                                " has year "+year+
 //                                " which is above upper boundary "+
-//                                yearBoundary[yearBoundary.length-1]
+//                                PeriodBoundary.yearBoundary[PeriodBoundary.yearBoundary.length-1]
 //                                +", , title is "+shortTitle);
 //                        //continue;
 //                    }

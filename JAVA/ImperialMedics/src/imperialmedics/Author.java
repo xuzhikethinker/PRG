@@ -57,7 +57,8 @@ public class Author implements Comparable<Author> {
    public static void main(String[] args) {
        String s="Aggarwal R., Crochet P., Dias A., Ziprin P., Darzi A.";
        System.out.println(s);
-       ArrayList<Author> aArray = Author.authorList(s,",",' ');
+       int id=-10;
+       ArrayList<Author> aArray = Author.authorList(s,",",' ',id);
        for (int an=0; an<aArray.size(); an++){
            Author a= aArray.get(an);
            String initialString =a.getInitials(" ");
@@ -973,11 +974,13 @@ public class Author implements Comparable<Author> {
      * @param s input string
      * @param separatorNames string giving the separator between different names (comma in example)
      * @param separatorSurnameInitials character which indicates the end of surname and start of initials (space in this example)
+     * @param authorID sets author ID to this number if non-negative
      * @return arrayList of type Author, null if none found
      */
     public static ArrayList<Author> authorList(String s,
                                                String separatorNames,
-                                               char separatorSurnameInitials){
+                                               char separatorSurnameInitials,
+                                               int authorID){
        String s2=AsciiUtils.convertNonAscii(s); // removes accents
        String regex = separatorNames+"+";
        String[]  alist = s2.split(regex);
@@ -986,6 +989,7 @@ public class Author implements Comparable<Author> {
            String al = alist[an];
            if (al.length()==0) continue;
            Author a= new Author(al, separatorSurnameInitials);
+           if (authorID>=0) a.setID(authorID);
            authorList.add(a);
        }
        if (authorList.isEmpty()) return null;

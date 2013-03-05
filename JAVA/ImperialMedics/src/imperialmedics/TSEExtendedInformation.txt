@@ -4,7 +4,7 @@ Basically I group papers by each author, each time period.
 
 Period:-
 
-[defined in ProcessSinglePublicationCSVList#yearBoundary = {1999.5, 2002.5, 2005.5, 2008.5}
+[defined in ProcessSinglePublicationCSVList#PeriodBoundary.yearBoundary = {1999.5, 2002.5, 2005.5, 2008.5}
 Time periods 1,2,3 should be as defined by Vanash
 
 Time period 0 year<= 1999

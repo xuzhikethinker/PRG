@@ -96,7 +96,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
 
         public void authorshipStatisticsXLS(boolean infoOn){
             //ArrayList<Integer> numberAuthors= new ArrayList();
-            int numberPeriods=yearBoundary.length+1;
+            int numberPeriods=PeriodBoundary.yearBoundary.length+1;
             periodStats= new PeriodData[numberPeriods];
             for (int p=0; p<numberPeriods; p++) periodStats[p] = new PeriodData();
             int numberErrors=0;
@@ -111,7 +111,8 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
                     int l=Math.min(20, titleCellValue.length());
                     String shortTitle = String.format("%10s",titleCellValue.substring(0, l));
 
-
+                    // find any authorID
+                    int authorID = setPrimaryAuthorID(dataHolderCSV);
                     // process authorOnPaper
                     HSSFCell authorCell = (HSSFCell) cellLineVector.elementAt(authorColumn);
                     String authorCellValue = authorCell.toString();
@@ -122,7 +123,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
 //                    for (int a=0; a<authorList.length; a++) authorOnPaper[a] = new Author(authorList[a]);
                     // example format fo authorOnPaper cell is
                     //Gurusamy K.S., Aggarwal R., Palanivelu L., Davidson B.R.
-                    ArrayList<Author> authorOnPaper=Author.authorList(authorCellValue, ",",' ');
+                    ArrayList<Author> authorOnPaper=Author.authorList(authorCellValue, ",",' ',authorID);
 
                     HSSFCell yearCell = (HSSFCell) cellLineVector.elementAt(yearColumn);
 
@@ -148,14 +149,14 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
                     if (period==0) {
                         if (infoOn) System.out.println("*** Row "+rowNumber+
                                 " has year "+year+
-                                " which is below lower boundary "+yearBoundary[0]+", , title is "+shortTitle);
+                                " which is below lower boundary "+PeriodBoundary.yearBoundary[0]+", , title is "+shortTitle);
                         //continue;
                     }
-                    if (period==yearBoundary.length) {
+                    if (period==PeriodBoundary.yearBoundary.length) {
                         if (infoOn) System.out.println("*** Row "+rowNumber+
                                 " has year "+year+
                                 " which is above upper boundary "+
-                                yearBoundary[yearBoundary.length-1]
+                                PeriodBoundary.yearBoundary[PeriodBoundary.yearBoundary.length-1]
                                 +", , title is "+shortTitle);
                         //continue;
                     }
@@ -200,6 +201,9 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
         {
             Vector cellLineVector = (Vector) dataHolder.elementAt(rowNumber);
 
+            // find any authorID
+            int authorID = setPrimaryAuthorID(dataHolder);
+       
             // find cell with common authorOnPaper name for this sheet
             String authorCellValue=SUNSET;
             int column=0;
@@ -210,7 +214,8 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
                 }
             if (column< cellLineVector.size()) {
                 String allVersionsAuthor= authorCellValue.substring(authorLabel.length());
-                primaryAuthorList = Author.authorList(allVersionsAuthor,separatorNames, separatorSurnameInitials);
+                primaryAuthorList = Author.authorList(allVersionsAuthor,
+                        separatorNames, separatorSurnameInitials, authorID);
                 return;
             }
         }

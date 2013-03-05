@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- *
+ * Stores data on papers from for one time period.
  * @author time
  */
 class PeriodData{
