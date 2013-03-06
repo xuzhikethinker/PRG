@@ -5048,6 +5048,120 @@ public String networkCompleteFileName(String ending, boolean colourOn){
               this.setOutputFileName();
               siteSet.setWeights();
               calcNetworkStats();
+    }// eo doRW
+   /**
+    * Implements Alonso model.
+    * @see #doAlonso(int, boolean)
+    */
+    public void doAlonso(){doAlonso(1000,false);}
+   /**
+    * Implements Alonso model.
+    * <p>Flow along edge from i to j is
+    * <code>F_ij = A_i O_i B_j D_j V_{ij}= A_i^(1-alpha) S_i B_j^(1-beta) S_j D_j V_{ij}</code>
+    * where <code>S_i=O_i</code> is fixed site size, playing the role of both
+    * input and output (=destination) source terms. The
+    * site values play no role and are set to be 1.0.
+    * We set edge weights <code>F_ij = S_i e_ij</code> to be the flows so
+    * edge values are <code>e_ij = A_i^(1-alpha) B_j^(1-beta) S_j V_ij</code>
+    * The lambda value is set to 1.0.
+    * @param maxIterations maximum number of iterations to make (say 1000).
+    * @param initialInValuesRandom true if want random initial <code>W_t</code> else <code>S_t</code> used
+    */
+    public void doAlonso(int maxIterations, boolean initialInValuesRandom){
+        // initialise
+        double alonsoAlpha =Hamiltonian.edgeSource ;
+        double alonsoBeta = betaInitial ;
+        double alonsoOneMinusAlpha = 1-alonsoAlpha;
+        double alonsoOneMinusBeta = 1-alonsoBeta;
+        siteSet.setValues(1.0);
+        siteSet.setWeights();
+        Hamiltonian.lambda=1.0;
+        edgeSet.setEdgePotential1(Hamiltonian);
+        final double maxValue = 1e10; //1.0/vertexMode.maximumValue;
+        final double maxInverseValue = 1.0/maxValue; //1.0/vertexMode.maximumValue;
+        final int CMAX=maxIterations;
+        boolean messagesOn=message.testInformationLevel(1);
+        final double finalFraction=1e-6; // final value of cosine required
+        TimCounting tc = new TimCounting(CMAX,messagesOn);
+        double aconv=1.0;
+        double bconv=1.0;
+        double newL=0;
+        double newAOneMinusAlpha = maxValue;
+        double newBOneMinusBeta = maxValue;
+        double [] aOneMinusAlphaVec = new double[numberSites];
+        double [] bOneMinusBetaVec = new double[numberSites];
+        // set initial w vector to be site size
+        for (int s=0; s<numberSites; s++) bOneMinusBetaVec[s]=(initialInValuesRandom?rnd.nextDouble():1)*siteSet.getSize(s);
+        message.println(-1, "\n--- Starting Alonso model with "
+                +(initialInValuesRandom?"random":"fixed")
+                +" initial in flow and max iterations "+maxIterations
+                +", alpha = " + alonsoAlpha
+                +", beta = "  + alonsoBeta );
+        for (; !tc.isFinished(); tc.increment()){
+          // 1st find self consistent out flow
+          aconv=0;
+          newL=0;
+          newAOneMinusAlpha = maxValue;
+          for (int s=0; s<numberSites; s++) {
+            double output=0;
+            for (int t=0; t<numberSites; t++) {
+                if (s!=t) output+= siteSet.getSize(t)*bOneMinusBetaVec[t]*edgeSet.getEdgePotential1(s, t);
+            }
+            if (output > maxInverseValue) newAOneMinusAlpha = Math.pow(output,-alonsoOneMinusAlpha);
+            else newAOneMinusAlpha = maxValue;
+            aconv+=Math.abs(newAOneMinusAlpha-aOneMinusAlphaVec[s]);
+            newL+=Math.abs(newAOneMinusAlpha);
+            aOneMinusAlphaVec[s]=newAOneMinusAlpha;
+          }// finished finding self consistent out flow
+          if ((newL>1e-6)) aconv = aconv/newL;
+
+
+          // now do in flow and u_t = in site value
+          bconv=0;
+          newL=0;
+          newBOneMinusBeta = maxValue;
+          for (int t=0; t<numberSites; t++) {
+            double input=0;
+            for (int s=0; s<numberSites; s++) if (s!=t) input+= siteSet.getSize(s)*aOneMinusAlphaVec[s]*edgeSet.getEdgePotential1(s, t);
+            if (input > maxInverseValue) newBOneMinusBeta = Math.pow(input,-alonsoOneMinusBeta);
+            else newBOneMinusBeta = maxValue;
+            bconv+=Math.abs(newBOneMinusBeta-bOneMinusBetaVec[t]);
+            newL+=Math.abs(newBOneMinusBeta);
+            bOneMinusBetaVec[t]=newBOneMinusBeta;
+          }// finished finding self consistent out flow
+          if ((newL>1e-6)) bconv = bconv/newL;
+
+//          if (tc.isEndOfLine()) message.println(-1,tc.getCount()+": "+String.format("%12.6g", aconv)+" "+String.format("%12.6g", bconv));
+//          for (int s=0; s<numberSites; s++) { System.out.print(avec[s]+" ");}
+//          System.out.println();
+//          for (int s=0; s<numberSites; s++) { System.out.print(bvec[s]+" ");}
+//          System.out.println();
+
+          if (messagesOn){
+              if (tc.isEndOfLine()) System.out.println(": "+String.format("%12.6g", aconv)+" "+String.format("%12.6g", bconv));
+          }
+
+          if ((aconv<finalFraction) &&(bconv<finalFraction)) break;
+
+
+        }//eo for c
+        message.println(-1, "\n Finished Gravity model using "+tc.getCount()+" iterations, convergence factors "+String.format("%12.6g", aconv)+" "+String.format("%12.6g", bconv));
+
+        // Now set flows to be edge WEIGHTS so edge values are 
+        // <code>e_ij = A_i B_j S_j V_ij</code>
+        for (int s=0; s<numberSites; s++){
+            for (int t=0; t<numberSites; t++){
+                if (s==t) edgeSet.setEdgeValueNoBounds(s, t, 0.0);
+                else  {
+                    double ev = aOneMinusAlphaVec[s]*bOneMinusBetaVec[t]* siteSet.getSize(t)*edgeSet.getEdgePotential1(s, t);
+                    edgeSet.setEdgeValueNoBounds(s, t, ev);
+                }
+            }
+        }
+
+              //calcEnergy();
+              this.setOutputFileName();
+              calcNetworkStats();
     }// eo doGravityModel
 
       /**

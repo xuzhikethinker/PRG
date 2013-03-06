@@ -25,6 +25,7 @@ import java.util.logging.Logger;
 import ebrp.ASJCclasses;
 import java.util.Comparator;
 import java.util.Set;
+import org.apache.poi.hssf.usermodel.HSSFCell;
 
 /**
  *
@@ -141,7 +142,7 @@ public class ProcessSinglePublicationCSVList {
     String outputDirectory = "output\\individuals\\";
           
 
-    List dataHolderCSV;
+    List<String[]> dataHolderCSV;
 
     /**
      * Holds all versions of name of primary author.
@@ -917,12 +918,12 @@ public class ProcessSinglePublicationCSVList {
      * @param labelList list of strings with labels
      * @return null if not found, an array of {column of label 0, ... column of last label, row number}
      */
-    public static int [] findLabelRow(List dataHolder, String [] labelList){
+    public static int [] findLabelRow(List<String[]>  dataHolder, String [] labelList){
         int [] column=new int[labelList.length+1];
         for (int rowNumber = 0; rowNumber< dataHolder.size(); rowNumber++)
         {
             boolean foundLabelRow=true;
-            String [] cellLineVector = (String []) dataHolder.get(rowNumber);
+            String[] cellLineVector = dataHolder.get(rowNumber);
             for(int l=0; l<labelList.length; l++){
                 column[l] =ProcessSinglePublicationCSVList.findColumn(cellLineVector, labelList[l], false);
                 if (column[l]<0) {foundLabelRow=false; break;}
@@ -934,7 +935,26 @@ public class ProcessSinglePublicationCSVList {
         }
         return null;
     }
-
+    /**
+     * Finds which column has specified label.
+     * Operates on header row.
+     * @param cellRowArray array of strings for row of column labels
+     * @return column (numbered from 0) with label, negative if non found.
+     */
+    public static int findColumn(ArrayList<HSSFCell> cellRowArray, String label, boolean infoOn){
+                int labelColumn=-1;
+                String stringCellValue;
+                for (int j = 0; j < cellRowArray.size(); j++) {
+                                stringCellValue = cellRowArray.get(j).toString();
+                                if (stringCellValue.startsWith(label)) {labelColumn=j;}
+                        }
+                if (labelColumn<0) {
+                    if (infoOn) System.err.println("*** No column starts with "+label);
+                }
+                else if (infoOn) System.out.println("column "+labelColumn+ " is labelled with "+label);
+                return labelColumn;
+    }
+    
     /**
      * Finds which column has specified label.
      * Operates on header row.
@@ -953,7 +973,7 @@ public class ProcessSinglePublicationCSVList {
                 else if (infoOn) System.out.println("column "+labelColumn+ " is labelled with "+label);
                 return labelColumn;
     }
-
+    
 
         /**
          * Finds which period year falls into.

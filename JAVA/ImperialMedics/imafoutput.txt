@@ -6,9 +6,15 @@ Starting to read list of strings from input\journals\SCOPUS_Journal_Classificati
 Finished reading journals from file input\journals\SCOPUS_Journal_Classification_title_list_Simple.txt found 29608 journals
 Created list of 29608 unique medical ISSN numbers
 ********************
-Processing all author data XLS file input\Stata10networkspreadsheetfinalTSE.xls
+Processing all author data XLS file input\Stata10networkspreadsheetfinalNoPW.xls
 *** Number of data rows was 1584, of which 1584 were correct
 No errors found
+This is P.G.Bain (250)
+********************
+Processing all author data XLS file input\Stata10networkspreadsheetfinalNoPW.xls
+*** Number of data rows was 1584, of which 1584 were correct
+No errors found
+This is P.G.Bain (250)
 All author set are all distinct
 !!!
 !!! Found 512 individual publication files to process
@@ -96,7 +102,8 @@ Processing CSV file input\individuals\Alberti, Professor K G M M A (George).csv
 ... No errors found for author Alberti, K.G.M.M.A.
 ... Gene=0% Life=11% Soci=0% Phys=0% Heal=46% Unkn=42% 
 ... Uniformity =  40%
-Individual file author Alberti, K.G.M.M.A. is equal to all file author Professor Alberti, K.G.M.M.A. (316)
+!!! Individual file author Alberti, G. is not exactly equal to all file author Professor Alberti, G.G.M.M.A. (316)
+Individual file author Alberti, G. is equal to all file author Professor Alberti, G.G.M.M.A. (316)
 
 $$$$$$$$$$$$$$$$$
 $$$ file    8 $$$
@@ -302,6 +309,7 @@ Processing CSV file input\individuals\Bain, Dr Peter George.csv
 ... Gene=0% Life=29% Soci=11% Phys=3% Heal=57% Unkn=0% 
 ... Uniformity =  43%
 Individual file author Dr Bain, P.G. is equal to all file author Dr Bain, P.G. (250)
+This is P.G.Bain (250)
 
 $$$$$$$$$$$$$$$$$
 $$$ file   27 $$$
@@ -7046,11 +7054,11 @@ Author Professor Adcock, I.M. period 1
 Author Professor Adcock, I.M. period 2
 Author Professor Adcock, I.M. period 3
 Author Professor Adcock, I.M. period 4
-Author Professor Alberti, K.G.M.M.A. period 0
-Author Professor Alberti, K.G.M.M.A. period 1
-Author Professor Alberti, K.G.M.M.A. period 2
-Author Professor Alberti, K.G.M.M.A. period 3
-Author Professor Alberti, K.G.M.M.A. period 4
+Author Professor Alberti, G.G.M.M.A. period 0
+Author Professor Alberti, G.G.M.M.A. period 1
+Author Professor Alberti, G.G.M.M.A. period 2
+Author Professor Alberti, G.G.M.M.A. period 3
+Author Professor Alberti, G.G.M.M.A. period 4
 Author Professor Ali, S. period 0
 Author Professor Ali, S. period 1
 Author Professor Ali, S. period 2

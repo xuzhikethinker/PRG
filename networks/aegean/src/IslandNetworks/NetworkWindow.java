@@ -88,6 +88,13 @@ button when you need to know it, using the isSelected() method.
        
  }// eo constructor NetworkWindow(int ns, islandNetwork islnet)
 
+ // Dummy Constructor for development
+ public NetworkWindow(NewIslandNetwork islnetinput)
+ {
+    System.out.println("NetworkWindow dummy constructor");
+     System.exit(1); 
+ }// eo constructor NetworkWindow(int ns, islandNetwork islnet)
+
  
 // ---     drawNetworkWindow
      public void drawNetworkWindow() {

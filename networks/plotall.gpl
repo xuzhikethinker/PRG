@@ -1,0 +1,73 @@
+# GNUplot command file, use load 'walkn1000000s0k2v2r_logbin_av.dat' to plot this
+set nomultiplot
+set terminal windows
+set output 
+
+cd "c:/prg/networks/walk/daniel"
+set terminal postscript eps color
+
+set output 'walkn1000000sallk2v2v3r_logbin_av.eps'
+#set multiplot
+plot 'walkn1000000s0k2v2r/walkn1000000s0k2v2r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "walk n1e6 k2 v2 s0" with errorbars lt 8,\
+     'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "v3 s0" with errorbars  lt 0,\
+     'walkn1000000s1k2v3r/walkn1000000s1k2v3rlb100tot.Jddlb.txt' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "v3 s1" with errorbars  lt 1,\
+     'walkn1000000s2k2v3r/walkn1000000s2k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s2" with errorbars lt 2,\
+     'walkn1000000s3k2v3r/walkn1000000s3k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s3" with errorbars lt 3,\
+     'walkn1000000s4k2v3r/walkn1000000s4k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s4" with errorbars lt 4,\
+     'walkn1000000s5k2v3r/walkn1000000s5k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s5" with errorbars lt 5,\
+     'walkn1000000s6k2v3r/walkn1000000s6k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s6" with errorbars lt 6,\
+     'walkn1000000s7k2v3r/walkn1000000s7k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s7" with errorbars lt 7
+#set nomultiplot
+
+set output 'walkn1000000ssomek2v2v3r_logbin_av.eps'
+#set multiplot
+plot 'walkn1000000s0k2v2r/walkn1000000s0k2v2r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "walk n1e6 k2 v2 s0" with errorbars lt 1,\
+     'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "v3 s0" with errorbars lt 0,\
+     'walkn1000000s7k2v3r/walkn1000000s7k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s7" with errorbars lt 7
+#set nomultiplot
+
+set output 'walkn1000000s0k2v3r_logbin_av_semilog.eps'
+#set multiplot
+plot 'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using 1:(log10($2)):(log10($3+$2)):(log10($2-$3)) title "walk n1e6 k2 v3 s0" with errorbars lt 0
+#set nomultiplot
+
+set output 'walkn1000000sallk2v3r_logbin_av.eps'
+plot 'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "walk n1e6 k2 v3 s0" with errorbars lt 0,\
+     'walkn1000000s1k2v3r/walkn1000000s1k2v3rlb100tot.Jddlb.txt' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "v3 s1" with errorbars  lt 1,\
+     'walkn1000000s2k2v3r/walkn1000000s2k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s2" with errorbars lt 2,\
+     'walkn1000000s3k2v3r/walkn1000000s3k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s3" with errorbars lt 3,\
+     'walkn1000000s4k2v3r/walkn1000000s4k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s4" with errorbars lt 4,\
+     'walkn1000000s5k2v3r/walkn1000000s5k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s5" with errorbars lt 5,\
+     'walkn1000000s6k2v3r/walkn1000000s6k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s6" with errorbars lt 6,\
+     'walkn1000000s7k2v3r/walkn1000000s7k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s7" with errorbars lt 7
+
+set output 'walkn1000000soddk2v3r_logbin_av.eps'
+plot 'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "walk n1e6 k2 v3 s0" with errorbars lt 0,\
+     'walkn1000000s1k2v3r/walkn1000000s1k2v3rlb100tot.Jddlb.txt' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "v3 s1" with errorbars  lt 1,\
+     'walkn1000000s3k2v3r/walkn1000000s3k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s3" with errorbars lt 3,\
+     'walkn1000000s5k2v3r/walkn1000000s5k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s5" with errorbars lt 5,\
+     'walkn1000000s7k2v3r/walkn1000000s7k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s7" with errorbars lt 7
+
+set output 'walkn1000000sevenk2v3r_logbin_av.eps'
+plot 'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "walk n1e6 k2 v3 s0" with errorbars lt 0,\
+     'walkn1000000s2k2v3r/walkn1000000s2k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s2" with errorbars lt 2,\
+     'walkn1000000s4k2v3r/walkn1000000s4k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s4" with errorbars lt 4,\
+     'walkn1000000s6k2v3r/walkn1000000s6k2v3r_logbin_av.dat' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "s6" with errorbars lt 6
+
+set output 'walkn1000000sallk2v2v3r_logbin_av_peak.eps'
+set data style linespoints
+plot [1:2.2] [1:4] 'walkn1000000s0k2v2r/walkn1000000s0k2v2r_logbin_av.dat' using (log10($1)):(log10($2)) title "walk n1e6 k2 v2 s0" with linespoints lt 8,\
+     'walkn1000000s0k2v3r/walkn1000000s0k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title "v3 s0" with linespoints lt 0,\
+     'walkn1000000s1k2v3r/walkn1000000s1k2v3rlb100tot.Jddlb.txt' using (log10($1)):(log10($2)):(log10($3+$2)):(log10($2-$3)) title "v3 s1" with errorbars  lt 1,\
+     'walkn1000000s2k2v3r/walkn1000000s2k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title    "s2" with linespoints  lt 2,\
+     'walkn1000000s3k2v3r/walkn1000000s3k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title    "s3" with linespoints  lt 3,\
+     'walkn1000000s4k2v3r/walkn1000000s4k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title    "s4" with linespoints  lt 4,\
+     'walkn1000000s5k2v3r/walkn1000000s5k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title    "s5" with linespoints  lt 5,\
+     'walkn1000000s6k2v3r/walkn1000000s6k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title    "s6" with linespoints  lt 6,\
+     'walkn1000000s7k2v3r/walkn1000000s7k2v3r_logbin_av.dat' using (log10($1)):(log10($2))  title    "s7" with linespoints  lt 7
+
+set data style points
+
+set nomultiplot
+set terminal windows
+set output 

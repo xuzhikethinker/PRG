@@ -68,9 +68,13 @@ import IslandNetworks.Vertex.VertexTypeSelection;
     private static final double betaInitialMCnew =3.0;
     private static final double betaInitialRWGM =1.1;
     private static final double betaInitialPPA = 3;
+    private static final double betaInitialAlonso = 1.1;
     private String betaInitialText = "UNSET";
     private String betaInitialTextTip = "NOT YET SET";
     private double betaInitialValue = betaInitialMCnew;
+    private String muText = "UNSET";
+    private String muTextTip = "NOT YET SET";
+    private double muValueNumber = 1.0;
 
     
     public InputParameterFrame(islandNetwork inetinput) {
@@ -235,16 +239,17 @@ import IslandNetworks.Vertex.VertexTypeSelection;
                 majorModelNumberValue.setEnabled(inet.updateMode.isMC());
                 minorModelNumberValue.setEnabled(inet.updateMode.isMC());
                 jValue.setEnabled(inet.updateMode.isMC());
-                muValue.setEnabled(inet.updateMode.isMC());
+                //muValue.setEnabled(inet.updateMode.isMC());
+                setMuStuff(inet);
                 kappaValue.setEnabled(inet.updateMode.isMC());
                 lambdaValue.setEnabled(inet.updateMode.isMC());
                 distScaleValue.setEnabled(!inet.updateMode.isPPA());
                 reldistScaleValue.setEnabled(inet.updateMode.isMC());
                 setBetaStuff(inet);
-                betaValue.setText(""+betaInitialValue);
-                betaMessage.setText(betaInitialText);
-                betaValue.setToolTipText(betaInitialTextTip);
-                betaMessage.setToolTipText(betaInitialTextTip);
+//                betaValue.setText(""+betaInitialValue);
+//                betaMessage.setText(betaInitialText);
+//                betaValue.setToolTipText(betaInitialTextTip);
+//                betaMessage.setToolTipText(betaInitialTextTip);
             }
         });
         calcModeChooser.setSelectedIndex(i.updateMode.getNumber());
@@ -303,21 +308,6 @@ import IslandNetworks.Vertex.VertexTypeSelection;
         inputPanel.add(reldistScaleValue);
         
         if (inet.updateMode.isPPA()) i.Hamiltonian.beta=3.0;
-//        else i.Hamiltonian.beta=1.0;
-//        String betaInitial = "-97531";
-//        if (inet.updateMode.isMC()) {
-//            betaInitialText="Initial beta ";
-//            betaInitialTextTip="Initial value of inverse temperature for Monte Carlo";
-//           if (inet.monteCarloStartMode.isCurrentMode("Old")) i.betaInitial = i.Hamiltonian.beta;
-//        }
-//        else {
-//            i.betaInitial=betaInitialMCnew;
-//        }
-//        if (inet.updateMode.isRWGM()) {
-//            i.betaInitial=betaInitialRWGM;
-//            betaInitialText="power of W ";
-//            betaInitialTextTip="Power to raise W (site inputs)";
-//        }
         setBetaStuff(i);
         inputPanel.add(betaMessage);
         inputPanel.add(betaValue);
@@ -410,13 +400,6 @@ import IslandNetworks.Vertex.VertexTypeSelection;
         displayPanel.add(DVTMessage);
         displayPanel.add(edgeTypeChooser);
        
-        //
-        //NewNetworkStyleCB = new JCheckBox("New style network display");
-        //NewNetworkStyleCB.setSelected(newNetworkDisplaySyle);
-        //NewNetworkStyleCB.addActionListener(modeListener);
-        //displayPanel.add(new JLabel(" "));
-        //displayPanel.add(NewNetworkStyleCB);
-        
         SWMGroup = new ButtonGroup();
         JRadioButton numMode = new JRadioButton("Num.");
         numMode.setActionCommand("SWNum");
@@ -466,17 +449,6 @@ import IslandNetworks.Vertex.VertexTypeSelection;
         rankMode.addActionListener(modeListener);
         rankOverWeightMode.addActionListener(modeListener);
 
-        
-        /*  modelNumber.major = 1;
-             modelNumber.minor = 0;
-             message.getInformationLevel() = 0;
-             updateMode = 1; // Sweep
-             edgeModeBinary = false;
-          */   
-        //Add the widgets to the container.
-        
-//        messageLabel.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
-//        jLabel.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
     } // eo addWidgets
 
 
@@ -484,7 +456,6 @@ import IslandNetworks.Vertex.VertexTypeSelection;
         tf.setToolTipText(ttt);
         jl.setToolTipText(ttt);
     }
-
 
 
     /**
@@ -512,6 +483,12 @@ import IslandNetworks.Vertex.VertexTypeSelection;
             betaInitialText="Power of W ";
             betaInitialTextTip="Power to raise W (site inputs)";
         }
+        if (inet.updateMode.isAlonso()) {
+            betaValue.setEnabled(true);
+            betaInitialValue=betaInitialAlonso;
+            betaInitialText="Power of I ";
+            betaInitialTextTip="Power to raise I (site inputs)";
+        }
         if (inet.updateMode.isPPA()) {
             betaValue.setEnabled(true);
             betaInitialValue=betaInitialPPA;
@@ -526,6 +503,37 @@ import IslandNetworks.Vertex.VertexTypeSelection;
         betaMessage.setText(betaInitialText);
         betaValue.setToolTipText(betaInitialTextTip);
         betaMessage.setToolTipText(betaInitialTextTip);
+//                betaValue.setText(""+betaInitialValue);
+//                betaMessage.setText(betaInitialText);
+//                betaValue.setToolTipText(betaInitialTextTip);
+//                betaMessage.setToolTipText(betaInitialTextTip);
+    }
+
+    /**
+     * Sets the initial beta global parameters
+     * @param i previous island network used for MC old setting.
+     */
+    private void setMuStuff(islandNetwork i){
+        muValue.setEnabled(false);
+        muText=" ";
+        muTextTip="Unused in this mode";
+        muValueNumber=i.Hamiltonian.edgeSource;
+
+       if (inet.updateMode.isMC()) {
+            if (inet.monteCarloStartMode.isCurrentMode("Old")) betaInitialValue = i.Hamiltonian.beta;
+            muValue.setEnabled(true);
+            muText="mu ";
+            muTextTip="Initial value of inverse temperature for Monte Carlo";
+       }
+       if (inet.updateMode.isAlonso()) {
+            muValue.setEnabled(true);
+            muText="Power of O ";
+            muTextTip="Power to raise O (site outputs)";
+        }
+        muValue.setText(Double.toString(muValueNumber));
+        muMessage.setText(muText);
+        muValue.setToolTipText(muTextTip);
+        muMessage.setToolTipText(muTextTip);
 
     }
 

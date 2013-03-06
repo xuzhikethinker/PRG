@@ -7,7 +7,9 @@ package imperialmedics;
 
 
 
-import java.util.Vector;
+import java.util.ArrayList;
+//import java.util.Vector;
+import org.apache.poi.hssf.usermodel.HSSFCell;
 
 /**
  *
@@ -28,7 +30,7 @@ public class AuthorWithData  extends Author {
      * Row in Stata10... excel file this author and period.
      * Entry [p] is for period (p)
      */
-    Vector [] excelRow;
+    ArrayList<ArrayList<HSSFCell>> excelRow;
 
 
     /**
@@ -44,7 +46,8 @@ public class AuthorWithData  extends Author {
         int r = splitFullName(a, separatorSurnameInitials);
         this.numberPeriods=numberPeriods;
         periodData = new PeriodData[numberPeriods];
-        excelRow = new Vector[numberPeriods];
+        excelRow = new ArrayList();
+        for (int p=0; p<numberPeriods;p++) {excelRow.add(new ArrayList());}
     }
 
     /**
@@ -57,7 +60,9 @@ public class AuthorWithData  extends Author {
         deepCopyBasicAuthorData(a);
         this.numberPeriods=numberPeriods;
         periodData = new PeriodData[numberPeriods];
-        excelRow = new Vector[numberPeriods];
+        //excelRow = new Vector[numberPeriods];
+        excelRow = new ArrayList();
+        for (int p=0; p<numberPeriods;p++) {excelRow.add(new ArrayList());}
     }
 
 
@@ -78,9 +83,14 @@ public class AuthorWithData  extends Author {
     * @param row Vector of cells representing line from Stata10 file
     * @return 0 if OK, negative if problem
     */
-   public int addExcelRow(int period, Vector row){
+   public int addExcelRow(int period, ArrayList<HSSFCell> row){
        if (!isPeriodOK(period) ) return -1;
-       excelRow[period]=row;
+//       HSSFCell idCell = row.get(1);
+//       int idvalue = ExcelXLSFile.cellToInteger(idCell);
+//       if (getID()!=idvalue){
+//           System.err.println("Failure to match "+this.toString()+" to "+idvalue);
+//       }                    
+       excelRow.set(period,row);
        return 0;
    }
 
@@ -93,7 +103,7 @@ public class AuthorWithData  extends Author {
     */
    public String excelRowString(String sep, int period, int numberColumns){
        //if (!hasExcelRow(period) ) return "";
-       return ReadExcelXLSFile.cellRowToString(sep, excelRow[period], numberColumns, " ");
+       return ExcelXLSFile.cellRowToString(sep, excelRow.get(period), numberColumns, " ");
    }
 
    /**
@@ -127,7 +137,7 @@ public class AuthorWithData  extends Author {
     * @return true if excel row exists for given period.
     */
    public boolean hasExcelRow(int period){
-       if (isPeriodOK(period) && this.excelRow[period]!=null && (!this.excelRow[period].isEmpty())) return true;
+       if (isPeriodOK(period) && this.excelRow.get(period)!=null && (!this.excelRow.get(period).isEmpty())) return true;
        return false;
     }
 

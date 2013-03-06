@@ -47,13 +47,24 @@ public class ProcessAllFiles {
            
         // next process the existing statistics on all authors
         ProcessAllAuthorFile paaf = new ProcessAllAuthorFile();
-        //paaf.rootFileName = "Stata10networkspreadsheetfinalNoPW";
-        paaf.rootFileName = "Stata10networkspreadsheetfinalTSE";
+        paaf.rootFileName = "Stata10networkspreadsheetfinalNoPW";
+        //paaf.rootFileName = "Stata10networkspreadsheetfinalTSE";
         //paaf.rootFileName = Stata10test";
         paaf.inputDirectory ="input\\";
         paaf.outputDirectory ="output\\";
         infoOn=false;
         paaf.processXLSFile(infoOn);
+//        for (Author a:paaf.authorSetByID){
+//            if (a.getID()==250){
+//                System.out.println("This is P.G.Bain (250)");
+//            }
+//        }
+        paaf.processXLSFile(infoOn);
+//        for (Author a:paaf.authorSet){
+//            if (a.getID()==250){
+//                System.out.println("This is P.G.Bain (250)");
+//            }
+//        }
         //String outputFullFileName = paaf.outputDirectory+paaf.rootFileName+" PeriodStats.dat";
         //System.out.println("Periods "+pa.periodStats.length);
         //writePeriodStatsData(outputFullFileName,  pa.periodStats, infoOn);
@@ -139,6 +150,9 @@ public class ProcessAllFiles {
                 continue;
             }
 
+//            if (allFileAuthor.getID()==250){
+//                System.out.println("This is P.G.Bain (250)");
+//            }
             AuthorWithData awd = (AuthorWithData) allFileAuthor;
             awd.setPeriodData(pspl.periodStats); // update with info for this period
 

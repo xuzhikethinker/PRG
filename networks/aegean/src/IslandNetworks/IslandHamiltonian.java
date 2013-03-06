@@ -13,21 +13,27 @@ import java.io.PrintStream;
 import TimUtilities.NumbersToString;
 
 /**
- * Characteristcis of the Hamiltonians for Island Networks.
+ * Characteristics of the Hamiltonians for Island Networks.
  * @author time
  */
 public class IslandHamiltonian {
     
         final static String IHVERSION = "iN060727";
         /**
-         * Defines the short distance potential value once used in MC updates to exlcude short distance edges.
+         * Defines the short distance potential value once used in MC updates to exclude short distance edges.
          * Value = {@value}
          */
         public final static double SHORTDISTANCEPOTENTIAL = -918273645;
         static NumbersToString n2s = new NumbersToString();
              
     
+        /**
+         * mu parameter (source for edges) 
+         */
         double edgeSource;
+        /**
+         * j parameter (source for vertices)
+         */
         double vertexSource;
         double alpha ;
         double beta ;

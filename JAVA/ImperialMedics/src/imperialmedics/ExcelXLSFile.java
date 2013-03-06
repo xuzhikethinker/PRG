@@ -9,7 +9,7 @@ package imperialmedics;
 import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Vector;
+//import java.util.Vector;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -22,18 +22,21 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem;
  * This reads and XLS file
  * @author time
  */
-public class ReadExcelXLSFile {
+public class ExcelXLSFile {
 
 
+       ArrayList<ArrayList<HSSFCell>> rowList = new ArrayList();
+    
         public static void main(String[] args) {
 
                 String fileName = "input\\test.xls";
-                Vector dataHolder = ReadXLSFile(fileName);
+                ArrayList<ArrayList<HSSFCell>> dataHolder = ReadXLSFile(fileName);
                 printCellDataToConsole(dataHolder);
         }
 
+        
         /**
-         * Reads and XLS Excel file.
+         * Reads and stores XLS Excel file.
          * The routine returns a vector, each entry of which represents one row.
          * Each row is a vector of type HSSFCell.
          * Note that empty cells seem not to be be added to vector. Will have to use
@@ -44,8 +47,23 @@ public class ReadExcelXLSFile {
          * @param fileName full name of file
          * @return a vector of vectors of HSSFCell
          */
-        public static Vector ReadXLSFile(String fileName) {
-                Vector cellVectorHolder = new Vector();
+        public void ReadAndStoreXLSFile(String fileName) {
+            rowList = ReadXLSFile(fileName);
+        }
+        /**
+         * Reads an XLS Excel file.
+         * The routine returns a vector, each entry of which represents one row.
+         * Each row is a vector of type HSSFCell.
+         * Note that empty cells seem not to be be added to vector. Will have to use
+         * row number of cell to determine position.
+         * <b>WARNING</B> This does not use the cell and row numbers stored in the
+         * HSSFCell representation.  In particular empty cells in model or at end of line
+         * are not represented.  So a square table can have a sparse representation.
+         * @param fileName full name of file
+         * @return a vector of vectors of HSSFCell
+         */
+        public static ArrayList<ArrayList<HSSFCell>> ReadXLSFile(String fileName) {
+                ArrayList<ArrayList<HSSFCell>> cellVectorHolder = new ArrayList();
 
                 try {
                         FileInputStream myInput = new FileInputStream(fileName);
@@ -66,13 +84,13 @@ public class ReadExcelXLSFile {
 //                                n=myRow.getPhysicalNumberOfCells();
 //                                m=myRow.getLastCellNum();
                                 Iterator cellIter = myRow.cellIterator();
-                                Vector cellStoreVector = new Vector();
+                                ArrayList<HSSFCell> cellStoreVector = new ArrayList();
                                 while (cellIter.hasNext()) {
                                         HSSFCell myCell = (HSSFCell) cellIter.next();
                                         //myCellString = myCell.toString();
-                                        cellStoreVector.addElement(myCell);
+                                        cellStoreVector.add(myCell);
                                 }
-                                cellVectorHolder.addElement(cellStoreVector);
+                                cellVectorHolder.add(cellStoreVector);
                         }
                 } catch (Exception e) {
                         e.printStackTrace();
@@ -127,12 +145,12 @@ public class ReadExcelXLSFile {
 //                return cellVectorHolder;
 //        }
 
-        private static void printCellDataToConsole(Vector dataHolder) {
+        private static void printCellDataToConsole(ArrayList<ArrayList<HSSFCell>> dataHolder) {
 
                 for (int i = 0; i < dataHolder.size(); i++) {
-                        Vector cellStoreVector = (Vector) dataHolder.elementAt(i);
+                        ArrayList<HSSFCell> cellStoreVector = dataHolder.get(i);
                         for (int j = 0; j < cellStoreVector.size(); j++) {
-                                HSSFCell myCell = (HSSFCell) cellStoreVector.elementAt(j);
+                                HSSFCell myCell = (HSSFCell) cellStoreVector.get(j);
                                 String stringCellValue = myCell.toString();
                                 System.out.print(stringCellValue + "\t");
                         }
@@ -164,12 +182,12 @@ public class ReadExcelXLSFile {
  * Will not use columns beyond numberColumns.
  * Null or empty excel row data produces a row of blanks or correct length.
  * @param sep used to separate cells
- * @param cellLineVector Vector of HSSFCells cells
+ * @param cellLineVector ArrayList of HSSFCells cells
  * @param numberColumns number of columns to use 
  * @param emptyCellString used for empty cells
  * @return string representation of row
  */
-     public static String cellRowToString(String sep, Vector cellLineVector, 
+     public static String cellRowToString(String sep, ArrayList<HSSFCell> cellLineVector, 
              int numberColumns, String emptyCellString){
         //if ((cellLineVector == null ) || cellLineVector.isEmpty()) return "";
         String [] rowAsString= new String[numberColumns];
@@ -177,7 +195,7 @@ public class ReadExcelXLSFile {
         String myCellString= "";
         if ((cellLineVector != null ) ) {
             for (int j = 0; j < cellLineVector.size(); j++) {
-                    HSSFCell myCell = (HSSFCell) cellLineVector.elementAt(j);
+                    HSSFCell myCell = (HSSFCell) cellLineVector.get(j);
                     col = myCell.getColumnIndex();
                     myCellString= myCell.toString();
                     if ((col>=0) && (col<numberColumns)) rowAsString[col]=myCellString;

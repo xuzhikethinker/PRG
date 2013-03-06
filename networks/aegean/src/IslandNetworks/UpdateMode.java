@@ -14,9 +14,9 @@ import java.io.PrintStream;
  */
 public class UpdateMode extends GeneralMode {
     
-      final static String[] shortDescription={"PPA","DPPA","MDN","MC","VP","DCGM","RWGM","SGM"}; //,"DP","XTent"};
-      final static boolean[] weighted={false,false,false,true, true, true, true}; //,"DP","XTent"};
-      final static boolean[] directed={false, true, false,true,false,true,true,true}; //,"DP","XTent"};
+      final static String[] shortDescription={"PPA","DPPA","MDN","MC","VP","DCGM","RWGM","SGM","ALN"}; //,"DP","XTent"};
+      final static boolean[] weighted={false,false,false,true, true, true, true, true}; //,"DP","XTent"};
+      final static boolean[] directed={false, true, false,true,false,true,true,true, true}; //,"DP","XTent"};
       final  static String[] longDescription={"Proximal Point Analysis - Undirected",
                                           "Directed Proximal Point Analysis",
                                           "Maximum Distance Network",
@@ -24,7 +24,8 @@ public class UpdateMode extends GeneralMode {
                                           "Hamiltonian Edge Potential",
                                           "Doubly Constrained Gravity Model",
                                           "Rihll-Wilson Gravity Model",
-                                          "Simple Gravity Model"}; //"Distance Probability", "XTent"};
+                                          "Simple Gravity Model",
+                                          "Alonso Model"}; //"Distance Probability", "XTent"};
       final static int DEFAULTMODE =0;
 
 
@@ -144,6 +145,12 @@ public class UpdateMode extends GeneralMode {
      * @return true if SGM mode, false otherwise
      */
     public boolean isSGM() { return (isCurrentMode("SGM"));}
-    //"VP","DCGM","RWGM","SGM"
+
+    /**
+     * Tests if we have ALN (Alonso model).
+     * @return true if ALN mode, false otherwise
+     */
+    public boolean isAlonso() { return (isCurrentMode("ALN"));}
+    
 
 }

@@ -1,0 +1,17 @@
+#cd "c:/doc/research/networks/rw"
+cd "c:/prg/networks/rw"
+set terminal postscript eps color
+set output "WSn100rw200r100WSmr.eps"
+#plot "WSn100rw200r100WSmr.dat" using 1:2 title "av dist", "WSn100rw200r100WSmr.dat" using 1:4 title "cc"
+#plot "WSn100rw200r100WSmr.dat" using 1:4 title "cc"
+#plot "WSn100rw200r100WSmr.dat" every ::::10 using 1:2:3 title "av dist" with errorbars      # selects the first 11 blocks
+#plot "WSn100rw200r100WSmr.dat" every ::::10 using 1:6:7 title "av dist" with errorbars      # selects the first 11 blocks
+#plot "WSn100rw200r100WSmr.dat" every ::::10 using 1:4:5 title "av cc" with errorbars      # selects the first 11 blocks
+#plot "WSn100rw200r100WSmr.dat" every ::::10 using 1:8:9 title "av cc" with errorbars      # selects the first 11 blocks
+#plot [0:100] [0:1] "WSn100rw200r100WSmr.dat" using 1:6
+plot [0:100] [0:1] "WSn100rw200r100WSmr.dat" using 1:6:7 title "av dist" with errorbars,\
+     "WSn100rw200r100WSmr.dat" using 1:8:9 title "av cc" with errorbars  
+#plot [0:100] [0:1] "WSn100rw200r100WSmr.dat" every ::::10 using 1:6:7 title "av dist" with errorbars,\
+ #    "WSn100rw200r100WSmr.dat" every ::::10 using 1:8:9 title "av cc" with errorbars  
+set terminal windows
+set output

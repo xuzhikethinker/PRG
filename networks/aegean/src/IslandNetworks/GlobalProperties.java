@@ -107,6 +107,35 @@ public class GlobalProperties {
         calcEntropies(inet);
      }
     /**
+     * Sets all values.
+     * @param inet island network 
+     * @deprecate needed only for development
+     */
+    public void calculateAll(NewIslandNetwork inet)
+    {
+//        calcEnergy(inet);
+//        calcEntropies(inet);
+        System.exit(1);
+     }
+        /**
+     * Sets mutual information and in/out site strength entropy.
+     * <p>Assumes edge weights and site strengths already calculated.
+     * @deprecate needed only for development
+     * @param inet island network 
+     */
+    public void calcEntropies(NewIslandNetwork inet)
+    {
+        System.exit(1);
+    }
+    /**
+     * Sets energy to be current value of Hamiltonian.
+     * @param inet island network 
+     * @deprecate needed only for development
+     */
+    public void calcEnergy(NewIslandNetwork inet)
+    {System.exit(1);
+    }
+    /**
      * Sets energy to be current value of Hamiltonian.
      * @param inet island network 
      */

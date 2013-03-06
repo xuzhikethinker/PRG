@@ -81,7 +81,7 @@ public class ProcessAllAuthorFile {
      */
     String outputDirectory = "output\\";
 
-    Vector dataHolderXLS;
+    ArrayList<ArrayList<HSSFCell>> dataHolderXLS;
 
 
    public static void main(String[] args) {
@@ -123,13 +123,13 @@ public class ProcessAllAuthorFile {
      * {@value imperialmedics.ProcessAllAuthorFile#FULLNAMELABEL}, and
      * {@value imperialmedics.ProcessAllAuthorFile#IDLABEL}, and
      * {@value imperialmedics.ProcessAllAuthorFile#PERIODLABEL}.
-* @param infoOn true if want info on screen
+     * @param infoOn true if want info on screen
      */
     public void processXLSFile(boolean infoOn){
         String inputFullFileName = inputDirectory+rootFileName+".xls";
         System.out.println("********************\nProcessing all author data XLS file "+inputFullFileName);
 
-        dataHolderXLS =  ReadExcelXLSFile.ReadXLSFile(inputFullFileName);
+        dataHolderXLS =  ExcelXLSFile.ReadXLSFile(inputFullFileName);
 
         // now find the label row
         String [] labelList = {FULLNAMELABEL,IDLABEL,PERIODLABEL};
@@ -139,8 +139,8 @@ public class ProcessAllAuthorFile {
         idColumn=labelRowInfo[1];
         periodColumn=labelRowInfo[2];
         labelRow=labelRowInfo[3];
-        Vector labelRowVector = (Vector) dataHolderXLS.elementAt(labelRow);
-        HSSFCell firstLabelCell = (HSSFCell) labelRowVector.firstElement();
+        ArrayList<HSSFCell> labelRowVector = dataHolderXLS.get(labelRow);
+        HSSFCell firstLabelCell = (HSSFCell) labelRowVector.get(0);
         numberDataColumns = firstLabelCell.getRow().getPhysicalNumberOfCells();
         if (infoOn) System.out.println("Label row "+labelRow
                 +", full name column "+fullNameColumn
@@ -153,7 +153,6 @@ public class ProcessAllAuthorFile {
     public void processAuthorPeriodData(boolean infoOn){
             int numberPeriods=PeriodBoundary.yearBoundary.length-1;
             //authorSet = new TreeSet(new AuthorComparatorByID());
-            authorSet = new TreeSet();
             //TreeMap<Author,Author> AuthorToAuthor= new TreeMap();
             Comparator compareID = new AuthorComparatorByID();
             authorSetByID = new TreeSet(compareID);
@@ -168,7 +167,7 @@ public class ProcessAllAuthorFile {
                     warningNumber=-1;
                 }
                     //if (rowNumber > labelRow+3) break;
-                    Vector cellLineVector = (Vector) dataHolderXLS.elementAt(rowNumber);
+                    ArrayList<HSSFCell> cellLineVector = dataHolderXLS.get(rowNumber);
 
                     // Full Name
                     // example format of full name cell is
@@ -178,24 +177,26 @@ public class ProcessAllAuthorFile {
                     // Harris, Ms Jessica Mary
                     // Hooper, Dr Richard
                     // Horwood, Dr Nicole (Nikki)
-                    HSSFCell fullNameCell = (HSSFCell) cellLineVector.elementAt(fullNameColumn);                    String titleCellValue = fullNameCell.toString();
+                    HSSFCell fullNameCell = cellLineVector.get(fullNameColumn);                    String titleCellValue = fullNameCell.toString();
                     String fullNameCellValue = fullNameCell.toString();
                     
                     // id
-                    HSSFCell idCell = (HSSFCell) cellLineVector.elementAt(idColumn);
-                    int id = ReadExcelXLSFile.cellToInteger(idCell);
+                    HSSFCell idCell = cellLineVector.get(idColumn);
+                    int id = ExcelXLSFile.cellToInteger(idCell);
                     if (id<1 ) {
-                        if (infoOn && warningNumber>0) System.out.println("!!! Row "+rowNumber+
-                                " has ID "+idCell.toString()+
-                                " which is not positive, author is "+fullNameCellValue);
+                        if (infoOn && warningNumber>0) {
+                            System.out.println("!!! Row "+rowNumber+
+                                    " has ID "+idCell.toString()+
+                                    " which is not positive, author is "+fullNameCellValue);
+                        }
                         warningNumber--;
                         continue;
                     }
 
                     // period: these can not be 0 or PeriodBoundary.yearBoundary.length which are used
                     // to store stats outside range specified by PeriodBoundary.yearBoundary.length
-                    HSSFCell periodCell = (HSSFCell) cellLineVector.elementAt(periodColumn);
-                    int period = ReadExcelXLSFile.cellToInteger(periodCell);
+                    HSSFCell periodCell =  cellLineVector.get(periodColumn);
+                    int period = ExcelXLSFile.cellToInteger(periodCell);
                     if (period<1 || period >numberPeriods) {
                         if (infoOn && warningNumber>0) System.out.println("!!! Row "+rowNumber+
                                 " has period "+periodCell.toString()+
@@ -213,16 +214,15 @@ public class ProcessAllAuthorFile {
                     author.setID(id);
                     Author allFileAuthor = authorSetByID.floor(author); // nearest existing author
                     boolean newAuthor=false;
-//                    if (allFileAuthor==null ||  (allFileAuthor.getID()!=id)){  newAuthor=true;}
-//                    else {newAuthor=false;}
-                    if ((numberDataRows%3)==1) newAuthor=true; else newAuthor=false;
+                    if (allFileAuthor==null ||  (allFileAuthor.getID()!=id)){  newAuthor=true;}
+                    else {newAuthor=false;}
+                    //if ((numberDataRows%3)==1) newAuthor=true; else newAuthor=false;
 
                     if (newAuthor){// new author
                         AuthorWithData awd = new AuthorWithData(author,numberPeriods+1); // copies author name
                         awd.setID(id);
                         awd.addExcelRow(period,cellLineVector);
                         authorSetByID.add(awd);
-                        authorSet.add(awd);
                         if ((numberDataRows%3)!=1) {
                             System.err.println("### row="+numberDataRows+", id="+id+", "+fullNameCellValue+", period "+period+", id conflict with "+allFileAuthor.getID());
                         }
@@ -231,6 +231,10 @@ public class ProcessAllAuthorFile {
                         }
                     } else { // author already exists in set
                         AuthorWithData awd = (AuthorWithData) allFileAuthor;
+                        int idnew=awd.getID();
+                        if (idnew!=id){
+                            System.err.println("### Error id do not match "+id+" != "+idnew);
+                        }
                         awd.addExcelRow(period,cellLineVector);
                         if (infoOn) {
                             System.out.println(".   "+numberDataRows+" existing author "+awd.getID()+" "+awd+", period "+period);
@@ -245,6 +249,10 @@ public class ProcessAllAuthorFile {
             System.out.println("*** Number of data rows was "+(dataHolderXLS.size()-labelRow-1)+", of which "+numberDataRows+" were correct");
             if (numberErrors>0) System.out.println("*** Number of errors were "+numberErrors);
             else  System.out.println("No errors found");
+            
+            authorSet = new TreeSet();
+            for (Author a:authorSetByID){authorSet.add(a);}
+                        
         }
 
     /**
@@ -320,8 +328,8 @@ public class ProcessAllAuthorFile {
      * @return string representing the row
      */
         public String cellRowToString(String sep, int rowNumber, int numberColumns){
-         Vector cellLineVector = (Vector) dataHolderXLS.elementAt(rowNumber);
-         return ReadExcelXLSFile.cellRowToString(sep, cellLineVector, numberColumns, " ");
+         ArrayList<HSSFCell> cellLineVector = dataHolderXLS.get(rowNumber);
+         return ExcelXLSFile.cellRowToString(sep, cellLineVector, numberColumns, " ");
         }
 
 

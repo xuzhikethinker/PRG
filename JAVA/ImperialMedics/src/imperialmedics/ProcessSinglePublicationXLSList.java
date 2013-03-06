@@ -12,7 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.Vector;
+//import java.util.Vector;
 /**
  * Apache POI for MS Office files
  * @see  http://poi.apache.org/spreadsheet/quick-guide.html
@@ -27,7 +27,7 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSVList {
 
           
-    Vector dataHolderXLS;
+    ArrayList<ArrayList<HSSFCell>> dataHolderXLS;
 
 
     public static void main(String[] args) {
@@ -52,7 +52,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
         String inputFullFileName = inputDirectory+rootFileName+".xls";
         System.out.println("Processing XLS file "+inputFullFileName);
 
-        dataHolderXLS =  ReadExcelXLSFile.ReadXLSFile(inputFullFileName);
+        dataHolderXLS =  ExcelXLSFile.ReadXLSFile(inputFullFileName);
 
         // find the primary authorOnPaper names
         setPrimaryAuthorXLS(dataHolderXLS);
@@ -103,10 +103,10 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
             numberPapers=0;
             for (int rowNumber = labelRow+1; rowNumber< dataHolderXLS.size(); rowNumber++) {
                     //if (rowNumber > labelRow+3) break;
-                    Vector cellLineVector = (Vector) dataHolderXLS.elementAt(rowNumber);
+                    ArrayList<HSSFCell>  cellLineVector = dataHolderXLS.get(rowNumber);
 
                     // title
-                    HSSFCell titleCell = (HSSFCell) cellLineVector.elementAt(titleColumn);
+                    HSSFCell titleCell = (HSSFCell) cellLineVector.get(titleColumn);
                     String titleCellValue = titleCell.toString();
                     int l=Math.min(20, titleCellValue.length());
                     String shortTitle = String.format("%10s",titleCellValue.substring(0, l));
@@ -114,7 +114,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
                     // find any authorID
                     int authorID = setPrimaryAuthorID(dataHolderCSV);
                     // process authorOnPaper
-                    HSSFCell authorCell = (HSSFCell) cellLineVector.elementAt(authorColumn);
+                    HSSFCell authorCell = (HSSFCell) cellLineVector.get(authorColumn);
                     String authorCellValue = authorCell.toString();
                     // This next line splits cell at commas,
                     // but does so multiple times  (the plus sign)
@@ -125,7 +125,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
                     //Gurusamy K.S., Aggarwal R., Palanivelu L., Davidson B.R.
                     ArrayList<Author> authorOnPaper=Author.authorList(authorCellValue, ",",' ',authorID);
 
-                    HSSFCell yearCell = (HSSFCell) cellLineVector.elementAt(yearColumn);
+                    HSSFCell yearCell = (HSSFCell) cellLineVector.get(yearColumn);
 
                     int primaryAuthorPosition = findPrimaryAuthor(authorOnPaper);
                     if (primaryAuthorPosition<0){
@@ -193,13 +193,13 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
      * @param dataHolderXLS vector of vectors of cells
      * @return array of different versions of primary authorOnPaper names, null if non found
      */
-    public void setPrimaryAuthorXLS(Vector dataHolder){
+    public void setPrimaryAuthorXLS(ArrayList<ArrayList<HSSFCell>>  dataHolder){
         final String authorLabel = "Authors:";
         String separatorNames=";";
         char separatorSurnameInitials=',';
         for (int rowNumber = 0; rowNumber< dataHolder.size(); rowNumber++)
         {
-            Vector cellLineVector = (Vector) dataHolder.elementAt(rowNumber);
+            ArrayList<HSSFCell> cellLineVector = dataHolder.get(rowNumber);
 
             // find any authorID
             int authorID = setPrimaryAuthorID(dataHolder);
@@ -208,7 +208,7 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
             String authorCellValue=SUNSET;
             int column=0;
             for (column = 0; column < cellLineVector.size(); column++) {
-                HSSFCell authorCell = (HSSFCell) cellLineVector.elementAt(column);
+                HSSFCell authorCell = (HSSFCell) cellLineVector.get(column);
                 authorCellValue = authorCell.toString();
                 if (authorCellValue.startsWith(authorLabel)) break;
                 }
@@ -254,7 +254,34 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
 
    
 
-    
+         /**
+     * Finds row of column labels.
+     * Looks for a row containing given labels.  Must match exactly.
+      * The list returned is a list of the column numbers (first column is column 0)
+      * for each of the labels in the list given, in the same order.  The last entry
+      * is the number of the row with these labels.
+     * @param dataHolder list of string arrays, each array representing one row
+     * @param labelList list of strings with labels
+     * @return null if not found, an array of {column of label 0, ... column of last label, row number}
+     */
+    public static int [] findLabelRow(ArrayList<ArrayList<HSSFCell>>  dataHolder, String [] labelList){
+        int [] column=new int[labelList.length+1];
+        for (int rowNumber = 0; rowNumber< dataHolder.size(); rowNumber++)
+        {
+            boolean foundLabelRow=true;
+            ArrayList<HSSFCell> cellLineVector = dataHolder.get(rowNumber);
+            for(int l=0; l<labelList.length; l++){
+                column[l] =ProcessSinglePublicationCSVList.findColumn(cellLineVector, labelList[l], false);
+                if (column[l]<0) {foundLabelRow=false; break;}
+            }
+            if (foundLabelRow) {
+                column[labelList.length]=rowNumber;
+                return column;
+            }
+        }
+        return null;
+    }
+
 
      /**
      * Finds row of column labels.
@@ -266,12 +293,12 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
      * @param labelList list of strings with labels
      * @return null if not found, an array of {column of label 0, ... column of last label, row number}
      */
-    public static int [] findLabelRow(Vector dataHolderXLS, String [] labelList){
+    public static int [] findLabelRowOLD(ArrayList<ArrayList<HSSFCell>> dataHolderXLS, String [] labelList){
         int [] column=new int[labelList.length+1];
         for (int rowNumber = 0; rowNumber< dataHolderXLS.size(); rowNumber++)
         {
             boolean foundLabelRow=true;
-            Vector cellLineVector = (Vector) dataHolderXLS.elementAt(rowNumber);
+            ArrayList<HSSFCell> cellLineVector = dataHolderXLS.get(rowNumber);
             for(int l=0; l<labelList.length; l++){
                 column[l] =ProcessSinglePublicationXLSList.findColumn(cellLineVector, labelList[l], false);
                 if (column[l]<0) {foundLabelRow=false; break;}
@@ -290,10 +317,10 @@ public class ProcessSinglePublicationXLSList extends ProcessSinglePublicationCSV
      * @param cellLineOneVector vector of HSSFCell values for row of column labels
      * @return column (numbered from 0) with label, negative if non found.
      */
-    public static int findColumn(Vector cellLineOneVector, String label, boolean infoOn){
+    public static int findColumn(ArrayList<HSSFCell> cellLineOneVector, String label, boolean infoOn){
                 int labelColumn=-1;
                 for (int j = 0; j < cellLineOneVector.size(); j++) {
-                                HSSFCell myCell = (HSSFCell) cellLineOneVector.elementAt(j);
+                                HSSFCell myCell = (HSSFCell) cellLineOneVector.get(j);
                                 String stringCellValue = myCell.toString();
                                 if (stringCellValue.startsWith(label)) labelColumn=j;
                         }

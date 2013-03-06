@@ -1,0 +1,4 @@
+cd "d:/doc/research/networks/ws"
+plot "WSn1000rw2000r10WSmr.dat" using 1:2 title "av dist", "WSn1000rw2000r10WSmr.dat" using 1:4 title "cc"
+plot "WSn1000rw2000r10WSmr.dat" using 1:4 title "cc"
+plot "WSn1000rw2000r10WSmr.dat" using 1:2 title "av dist"
