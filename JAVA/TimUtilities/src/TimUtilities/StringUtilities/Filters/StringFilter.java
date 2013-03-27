@@ -154,7 +154,7 @@ public class StringFilter {
    }
 
    /**
-    * Returns remaining part of string after last occurance of given string.
+    * Returns remaining part of string after last occurence of given string.
     * <p>If substring f is not found whole s string is returned.
     * If f is at end of string a null string is returned.
     * @param s input string

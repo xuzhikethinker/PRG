@@ -29,7 +29,7 @@ public class TextFilterAndStemmer {
  
      
 
-         /**
+     /**
       * Reads in list of strings from filefilename.
       * <p>Each line has entries separated by whitespace. Recommend that a TreeMap is used.
       * @param inputFileName full file name including directory of file with input data

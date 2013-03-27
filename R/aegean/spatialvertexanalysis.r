@@ -2,6 +2,8 @@
 # Needs ariadne style "inputDir"+"rootName"+"typeName"+"_sitesdata.dat" with names column
 # Needs ariadne style distance matrix "inputDir"+"rootName"+"typeName"+"_sitesdata.dat" with names column
 
+# uses hclust routine in standard R statistics package
+
 #source("readData.r")
 source("Dendrogram.r")
 
@@ -39,10 +41,12 @@ sitedf <- read.table(siteFileName, header=TRUE, sep="\t", fill=TRUE);
 distanceFileName<-paste(inputDir,rootName,typeName,"_distancematrix.dat",sep="")
 cat(paste("--- Distance file:",distanceFileName),"\n")
 distanceVector <- scan(distanceFileName,0);
+
+# create a matrix of distances
 distanceMatrix <- matrix(distanceVector,nrow=numberRows);
 distanceList<-distanceVector[distanceVector>0] # this removed all zero entries including the diagonal matrix entries
 
-
+# the names of different clustering methods
 hclustMethod <- c("single", "complete", "ward", "average", "mcquitty", "median", "centroid");
 dendmainTitleOn=TRUE
 dendscreenPlotOn=TRUE
@@ -53,9 +57,11 @@ maxClusterheight = rep(-1,length=length(methodNumberList))
 clusterMethodName= rep("XXX",length=length(methodNumberList))
 for (nnn  in 1:length(methodNumberList)){
  methodNumber=methodNumberList[nnn]
+ # ordinary matrix needs to be converted to a distance object (?)
  distanceDist <- as.dist(distanceMatrix)
  methodName=hclustMethod[methodNumber]
  clusterMethodName[nnn]=methodName;
+ # now create the heirarchical clustering
  distanceHclust[[nnn]] <- hclust(distanceDist, method=methodName) #, members=NULL
  maxClusterheight[nnn] <- distanceHclust[[nnn]]$height[numberRows-1]
  cat(paste("--- Hierarchical Cluster Method:",methodName," Min distance",maxClusterheight[nnn] ,"\n"))

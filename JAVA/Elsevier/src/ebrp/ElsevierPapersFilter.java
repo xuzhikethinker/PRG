@@ -20,11 +20,20 @@ public class ElsevierPapersFilter extends StringFilter{
     public final int minLength;
     public final int minLetters;
     public final boolean keepRejectList;
+    /**
+     * Set of words to be removed.
+     */
     public String [] stopWordList;
+    /**
+     * Set of stems to be removed.
+     */
+    public TreeSet<String> stopStemSet;
+    
     
     
     /**
      * Sets up filter with edited list of MySQL stop words.
+     * stopStemSet is empty
      * @param minChar minimum number of characters for acceptance
      * @param minL minimum number of letters for acceptance
      * @param keepRejectList true iif want to keep a list of rejected words
@@ -36,6 +45,7 @@ public class ElsevierPapersFilter extends StringFilter{
         this.keepRejectList=keepRejectList;
         if (this.keepRejectList) rejectedList= new TreeSet();
         stopWordList = StopWords.MySQL_STOP_WORDS_EDITED;
+        stopStemSet = new TreeSet();
     }
 
     /**
@@ -43,17 +53,31 @@ public class ElsevierPapersFilter extends StringFilter{
      * @param minChar minimum number of characters for acceptance
      * @param minL minimum number of letters for acceptance
      * @param stopWords array of stop words.
+     * @param stopStemArray array of stems acting as stop words (automatically put to lower case)
      * @param keepRejectList true iif want to keep a list of rejected words
      */
     public ElsevierPapersFilter(int minChar, int minL, 
-            String [] stopWords, boolean keepRejectList){
+            String [] stopWords, String [] stopStemArray, boolean keepRejectList){
         minLength=minChar;
         minLetters=minL;
         this.keepRejectList=keepRejectList;
         if (this.keepRejectList) rejectedList= new TreeSet();
         stopWordList = stopWords;
+        makeStopStemSet(stopStemArray);
     }
 
+    /**
+     * Adds the list of stop stems.
+     * ReInitialises stop stem set.
+     * @param stopStemArray array of stems to be excluded
+     */
+    public void makeStopStemSet(String [] stopStemArray){
+        stopStemSet = new TreeSet();
+        for (int stem=0; stem<stopStemSet.size(); stem++) {
+            stopStemSet.add(stopStemArray[stem].toLowerCase());
+        }
+    }
+     
     
 //    static public void main(String [] args){
 //        String s="'bed-side'";
@@ -182,6 +206,30 @@ public class ElsevierPapersFilter extends StringFilter{
      for (int w=0; w<this.stopWordList.length;w++) 
          if (stopWordList[w].equalsIgnoreCase(s)) return true;
      return false;
+    }
+    
+     /**
+     * Test to see if in stop stem list.
+     * Stem must have been cleaned up.
+     * @param stem string containing cleaned up stem to test
+     * @return true if given string is exactly equal to a stem in <tt>stopStemList</tt>, ignoring case.
+     */
+    public  boolean isStopStem(String stem){
+     return stopStemSet.contains(stem);
+    }
+     /**
+     * Test to see if acceptable stem.
+     * Returns true if stem given not in <tt>stopStemSet</tt>.
+     * Stem must have been cleaned up. If rejected then added to rejected list.
+     * @param stem string containing cleaned up stem to test
+     * @return true stem is not in <tt>stopStemSet</tt>.
+     */
+    public  boolean isAcceptableStemElseRemember(String stem){
+     if (isStopStem(stem))   {
+         if (hasRejectedList()) {rejectedList.add(stem); }
+         return false;
+     }
+     return true;
     }
     
            /**

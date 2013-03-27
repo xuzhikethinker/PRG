@@ -234,11 +234,81 @@ public class Projections {
         EdgeValue ew;
         for (int e = 0; e < intg.getNumberStubs(); e++) {
                 ew = intg.getEdgeWeightAll(e);
-                if (ew.getWeight()<minWeight) continue;
-                s=intg.getVertexFromStub(e++);
+                s=intg.getVertexFromStub(e++); // must be exectuted to move e
                 t=intg.getVertexFromStub(e);
+                if (ew.getWeight()<minWeight) continue;
                 if (makeWeighted) tg.addEdge(s,t, ew);
                 else tg.addEdge(s,t);
+        }
+
+   return tg;
+    } // eo weight cut projection
+
+   /**
+     * Projects onto a graph where all links have a minimum weight and vertices minimum degree.
+     * <br>Each edge of input graph is retained in the output graph
+     * only if its weight is above a critical value specified and if source 
+     * (target) vertex has degree at least equal to minium in (out) degree 
+     * specified.
+     * <br>All vertices are retained, even if they have no edges after the projection.
+     * <br>If this is a directed graph and an undirected graph is being made
+     * then the new link has the sum of the weight in both directions.
+     * If input is an unweighted graph then minWeight is ignored.
+     * Multiedges (multiple edges between same vertex pairs) are not
+     * consolidated, use  <tt>makeConsolidated</tt>.
+     * minimum weight specified in weighted graph.
+     * No changes made to directionality of graph.
+     * @param intg input tiimgraph
+     * @param minDegreeIn  minimum in degree required for edge to be retained
+     * @param minDegreeOut minimum out degree required for edge to be retained
+     * @param minWeight minimum weight in input graph needed for an edge to be copied to output graph..
+     * @param makeLabelled true (false) if want (un)labelled graph
+     * @param makeWeighted true (false) if want (un)weighted graph
+     * @param makeVertexEdgeList true (false) if (don't) want vertexEdgeList to be made.
+     */
+    static public timgraph minimumDegreeOrWeight(timgraph intg, 
+            int minDegreeIn, int minDegreeOut, double minWeight,  
+            boolean makeLabelled, boolean makeWeighted, boolean makeVertexEdgeList)   {
+        boolean inputIsWeighted=intg.isWeighted();
+        boolean inputIsDirected=intg.isDirected();
+        timgraph tg = new timgraph();
+        tg.infoLevel = intg.infoLevel;
+        tg.setVertexEdgeList(makeVertexEdgeList);
+        tg.setDirectedGraph(intg.isDirected());
+        tg.setWeightedEdges(makeWeighted);
+        tg.setVertexlabels(makeLabelled);
+
+        tg.inputName = new FileNameSequence(intg.inputName);
+        tg.outputName = new FileNameSequence(intg.outputName);
+
+        tg.setMaximumVertices(intg.getNumberVertices());
+
+        tg.setMaximumStubs(intg.getNumberStubs());
+
+        tg.setNetwork();
+
+        // add vertices
+        for (int v = 0; v < tg.getMaximumVertices(); v++) {
+           if (tg.isVertexLabelled()) {
+               if (intg.isVertexLabelled()) tg.addVertex( intg.getVertexLabel(v));
+                       else tg.addVertex("v"+v, v);
+           }
+           else tg.addVertex();
+        }
+
+        // copy old edges if weight exceeds minimum
+        int s=-1;
+        int t=-1;
+        double ew=1.0;
+        for (int e = 0; e < intg.getNumberStubs(); e++) {
+                if (!inputIsWeighted) ew = intg.getEdgeWeightSlow(e);
+                s=intg.getVertexFromStub(e++); // must be executed to move e
+                t=intg.getVertexFromStub(e);
+                if (inputIsWeighted && ew<minWeight) {continue;}
+                if (intg.getVertexOutDegree(s)<minDegreeOut) {continue;}
+                if ( (inputIsDirected?intg.getVertexInDegree(t):intg.getVertexDegree(t)) < minDegreeIn) {continue;}
+                if (makeWeighted) {tg.addEdge(s,t, ew);}
+                else {tg.addEdge(s,t);}
         }
 
    return tg;

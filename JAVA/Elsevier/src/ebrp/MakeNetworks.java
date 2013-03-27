@@ -10,6 +10,7 @@ import TimGraph.algorithms.Projections;
 import TimGraph.run.BasicAnalysis;
 import TimGraph.timgraph;
 import TimUtilities.StringAsBoolean;
+import TimUtilities.StringUtilities.Filters.StopWords;
 import TimUtilities.StringUtilities.Filters.StringFilter;
 import TimUtilities.StringUtilities.Stemmers.Porter;
 import java.util.ArrayList;
@@ -117,7 +118,8 @@ public class MakeNetworks {
       final String fileSep=System.getProperty("file.separator");
       String dirBase=System.getProperty("user.dir")+fileSep;
       
-      String inputDirectory ="C:\\PRG\\JAVA\\Elsevier\\input\\";
+      //String inputDirectory ="C:\\PRG\\JAVA\\Elsevier\\input\\";
+      String inputDirectory ="C:\\DATA\\Elsevier\\input\\";
       ano++;
       if ( (args.length>ano ) && (timgraph.isOtherArgument(args[ano]) )) inputDirectory=args[ano].substring(1);  
       System.out.println("--- Input directory is "+inputDirectory);
@@ -133,6 +135,18 @@ public class MakeNetworks {
       if ( (args.length>ano ) && (timgraph.isOtherArgument(args[ano]) )) extractGCC=(StringAsBoolean.isTrue(args[ano].charAt(1))?true:false);  
       System.out.println("--- extracting GCC - "+(extractGCC?"yes":"no"));
         
+      int minDegreeIn=3;
+      int minDegreeOut=3;
+      double minWeight=0;
+      System.out.println("--- extracting simplified GCC with min in degree - "
+              +minDegreeIn+", min out degree - "+minDegreeOut+", and min weight "+minWeight);
+            
+      // set up filter
+      int minChar=2;
+        int minL=3;
+        boolean keepRejectList=true;
+        ElsevierPapersFilter ipf = new ElsevierPapersFilter(minChar, minL, keepRejectList);
+      
       
       if (rootFileName.equalsIgnoreCase("ALL")){
           //rootFileName = "ebrp_03_set_01_documentsHARDTEST"; 
@@ -152,7 +166,9 @@ public class MakeNetworks {
             yearSet, fieldnameSet,
             weightTypeSet,
             useWhatSet,
+            ipf,
             extractGCC,
+            minDegreeIn, minDegreeOut, minWeight,
             infoLevelAll);
           System.exit(0);
       }
@@ -199,11 +215,14 @@ public class MakeNetworks {
 
 //      if (args.length>ano ) if (timgraph.isOtherArgument(args[ano])) graphMLOutput=StringFilter.trueString(args[ano].charAt(1));
 
+
       process(rootFileName, inputDirectory, outputDirectory,
             yearSet, fieldnameSet,
             weightTypeSet,
             useWhatSet,
+            ipf,
             extractGCC,
+            minDegreeIn, minDegreeOut, minWeight,
             infoLevel);
     }
     /**
@@ -217,15 +236,21 @@ public class MakeNetworks {
      * @param yearSet set of years to use
      * @param weightTypeSet set of weights types to use (0=K1, 1=T1)
      * @param useWhatSet use titles (1,3) or keywords (2,3)
-     * @param extractGCC true if want GCC extracted as well - GCC added to file name
-     * @param infoLevel -1 for no info0 for normal, 1 or 2 for more debugging info
+     * @param ipf ElsevierPapersFilter with correct field dependent stop stems
+     * @param extractGCC true if want GCC to be extracted as well - files have GCC added to name
+     * @param minDegreeIn  minimum in degree required for edge to be retained
+     * @param minDegreeOut minimum out degree required for edge to be retained
+     * @param minWeight minimum weight in input graph needed for an edge to be copied to output graph..
+    * @param infoLevel -1 for no info0 for normal, 1 or 2 for more debugging info
      */
     public static void process(String rootFileName, 
             String inputDirectory, String outputDirectory, 
             Set<Integer> yearSet, Set<String> fieldnameSet,
             Set<Integer>  weightTypeSet,
             Set<Integer> useWhatSet, 
+            ElsevierPapersFilter ipf,
             boolean extractGCC,
+            int minDegreeIn, int minDegreeOut, double minWeight,
             int infoLevel){
         System.out.println("--- Processing papers from "+rootFileName);
         final String ext=".dat";
@@ -247,6 +272,12 @@ public class MakeNetworks {
             int pubNumber=0;
             TreeSet<ebrpPublication> pubSet = new TreeSet();
             for (String fieldname: fieldnameSet){
+                if (fieldname.startsWith("P")){                   
+                    ipf.makeStopStemSet(ElsevierStopStems.PHYSICS);
+                }
+                if (fieldname.startsWith("B")){                   
+                    ipf.makeStopStemSet(ElsevierStopStems.BUSINESS);
+                }
                 for (ebrpPublication p: fullPubSet){
                     if ((p.getYear()!=year) || (!p.fieldName.startsWith(fieldname))) continue;
                     if (((pubNumber++)%sampleFrequency==0)  ) pubSet.add(p);
@@ -265,7 +296,9 @@ public class MakeNetworks {
                   System.out.println("--- "+(useKeywords?"U":"Not u")+"sing keywords");
                   for (Integer weightType:weightTypeSet){
                     processOneYear(pubSet, rootFileName, outputDirectory, inputDirectory,
-                        year, fieldname, weightType, useTitle, useKeywords, extractGCC,
+                        year, fieldname, weightType, ipf,
+                        useTitle, useKeywords, extractGCC,
+                        minDegreeIn, minDegreeOut, minWeight,
                         infoLevel);
                   }
                 }
@@ -275,6 +308,11 @@ public class MakeNetworks {
     }
     /**
      * Process the data for a single year.
+     * If no gcc graph is produced or if 
+     * all of minDegreeIn, minDegreeOut and minWeight are zero or negative then
+     * no simple gcc graph is produced.  The simplification involves application 
+     * of all three conditions.  In and out degree limitations are enforced separately
+     * even for undirected graphs so best set them equal in that case.
      * @param pubSet
      * @param rootFileName
      * @param outputDirectory
@@ -282,9 +320,13 @@ public class MakeNetworks {
      * @param year
      * @param fieldname
      * @param weightType
+     * @param ipf ElsevierPapersFilter with correct field dependent stop stems
      * @param useTitle
      * @param useKeywords
      * @param extractGCC true if want GCC to be extracted as well - files have GCC added to name
+     * @param minDegreeIn  minimum in degree required for edge to be retained
+     * @param minDegreeOut minimum out degree required for edge to be retained
+     * @param minWeight minimum weight in input graph needed for an edge to be copied to output graph..
      * @param infoLevel 
      */
     public static void processOneYear(TreeSet<ebrpPublication> pubSet,
@@ -292,8 +334,10 @@ public class MakeNetworks {
             String outputDirectory, String inputDirectory,
             int year, String fieldname,
             int weightType,
+            ElsevierPapersFilter ipf,
             boolean useTitle, boolean useKeywords,
             boolean extractGCC,
+            int minDegreeIn, int minDegreeOut, double minWeight,  
             int infoLevel){
         // now process titles into keywords
         //boolean showProcess=false;
@@ -306,7 +350,11 @@ public class MakeNetworks {
         System.out.println("--- weight type "+weightTypeDescription[weightType]);
         boolean showProcess=(infoLevel>1?true:false);
         TreeMap<String,String> stemMap = new TreeMap();
-        ElsevierPapersFilter ipf = new ElsevierPapersFilter(2,3,true);
+//        int minChar=2;
+//        int minL=3;
+//        boolean keepRejectList=true;
+//        ElsevierPapersFilter ipf = new ElsevierPapersFilter(minChar, minL, 
+//                StopWords.MySQL_STOP_WORDS_EDITED, ElsevierStopStems.PHYSICS, keepRejectList);
         setUserKeywords(pubSet, stemMap, ipf, useTitle, useKeywords, showProcess);
         
         //String fileRootName="ebrp";
@@ -341,21 +389,34 @@ public class MakeNetworks {
         tg.outputControl.set("19");
         BasicAnalysis.analyse(tg);
         
-        // create list of degree zero or one vertices
-        TreeMap<Integer,Integer> oldToNewVertexMap = new TreeMap();
-        int nextVertex=0;
-        for (int v=0; v<tg.getNumberVertices(); v++){
-            oldToNewVertexMap.put(v,  (tg.getVertexDegree(v)<2)?-1:nextVertex++) ; // 0 partition to retain
-        }
+//        // create list of degree zero or one vertices
+//        TreeMap<Integer,Integer> oldToNewVertexMap = new TreeMap();
+//        int nextVertex=0;
+//        for (int v=0; v<tg.getNumberVertices(); v++){
+//            oldToNewVertexMap.put(v,  (tg.getVertexDegree(v)<2)?-1:nextVertex++) ; // 0 partition to retain
+//        }
 //        System.out.println("--- keeping "+" vertices, eliminating "+(tg.getNumberVertices()-nextVertex));
 //        // use Projections routine which makes copy of tg with given list of vertices
 //        timgraph rtg = Projections.eliminateVertexSet(tg, addToRoot, partition, numberPartitions, forceUndirected, makeUnweighted); 
     
         
         // now find and produce GCC
+        if (!extractGCC) {return;}
         timgraph gcc = GCC.extractGCC(tg);
         gcc.outputName.setDirectory(tg.outputName.getDirectoryFull());
         BasicAnalysis.analyse(gcc);
+        
+        // now simplify GCC
+        if (minDegreeIn<=0 && minDegreeOut<=0 &&  minWeight<=0) {return;}
+        boolean makeLabelled=gcc.isVertexLabelled();
+        boolean makeWeighted=gcc.isWeighted();
+        boolean makeVertexEdgeList=gcc.isVertexEdgeListOn();
+        timgraph gccsimple = TimGraph.algorithms.Projections.minimumDegreeOrWeight(gcc, 
+                minDegreeIn, minDegreeOut, minWeight, 
+                makeLabelled, makeWeighted, makeVertexEdgeList);
+        gccsimple.outputName.setDirectory(tg.outputName.getDirectoryFull());
+        gccsimple.outputName.appendToNameRoot("MINkin"+minDegreeIn+"kin"+minDegreeOut+"w"+String.format("%06.3f", minWeight));
+        BasicAnalysis.analyse(gccsimple);       
     }
 
 
@@ -429,7 +490,7 @@ public class MakeNetworks {
 
     /**
       * Takes list of publications and converts titles or keywords into user keywords for each publication.
-     * <p>If useKeywords is true then uses the keywords given with the publication.
+      * <p>If useKeywords is true then uses the keywords given with the publication.
       * @param pubSet set of publications
       * @param stemMap if not null, is returned with map from words altered to stemmed words
       * @param sf string filter to apply (does stopping and other jobs)
@@ -440,7 +501,7 @@ public class MakeNetworks {
       */
     static public void setUserKeywords(Set<ebrpPublication> pubSet,
             Map<String,String> stemMap,
-            StringFilter sf,
+            ElsevierPapersFilter sf,
             boolean useTitle,
             boolean useKeywords,
             boolean showProcess)
@@ -487,7 +548,7 @@ public class MakeNetworks {
      */
     static public ArrayList<String> simplifyString(String [] stringList,
             Map<String,String> stemMap, Porter stemmer,
-            StringFilter sf,
+            ElsevierPapersFilter epf,
             String showProcessPrefixString){
 //        String sep="\t";
 //        String [] stringList = inputString.split("\\s+"); // split at white space of any length
@@ -504,13 +565,14 @@ public class MakeNetworks {
                     w=sb.toString();
                     if (showProcess &&  (w.length()!=w0.length())) System.out.println(w0+" -> "+w);
                     if (showProcess) System.out.print(sep + w0+"->"+w);
-                    if(sf.isAcceptableElseRemember(w)) {
-                       String s = stemmer.stem(w);
-                       stemList.add(s);
-                       if ((showProcess) && (s.length() != w.length())) {
-                         System.out.print("->" + s);
+                    if(!epf.isAcceptableElseRemember(w)) continue;
+                    String stem = stemmer.stem(w);
+                    if(epf.isAcceptableStemElseRemember(stem)) {
+                       stemList.add(stem);
+                       if ((showProcess) && (stem.length() != w.length())) {
+                         System.out.print("->" + stem);
                        }
-                      if (makeMap && (s.length() != w.length())) stemMap.put(w, s);
+                      if (makeMap && (stem.length() != w.length())) stemMap.put(w, stem);
                    } // eo if acceptable
                    else if (showProcess) System.out.print(w + "<-### "+sep);
         }//eoln
